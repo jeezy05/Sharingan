@@ -44,7 +44,7 @@ def load_registry(registry_path: Path | None = None) -> dict[str, Any]:
         Parsed registry dict.
     """
     if registry_path is None:
-        registry_path = Path(__file__).parent.parent / "registry.json"
+        registry_path = Path(__file__).parent / "data" / "registry.json"
     with open(registry_path, "r") as f:
         return json.load(f)
 

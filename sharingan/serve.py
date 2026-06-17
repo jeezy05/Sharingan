@@ -21,7 +21,7 @@ mcp = FastMCP("Sharingan")
 
 
 def _get_project_root() -> Path:
-    return Path(__file__).parent.parent
+    return Path(__file__).parent / "data"
 
 
 def _get_indexes_dir() -> Path:

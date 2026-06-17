@@ -35,7 +35,7 @@ console = Console()
 
 def _get_project_root() -> Path:
     """Get the project root directory."""
-    return Path(__file__).parent.parent
+    return Path(__file__).parent / "data"
 
 
 async def extract_library(

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "zod@3.24.4::cluster::0",
+    "library_id": "zod",
+    "version_id": "zod@3.24.4",
+    "name": "Cluster (4 nodes)",
+    "summary": "",
+    "node_count": 4,
+    "nodes": [
+      "zod@3.24.4::MySchemaIn",
+      "zod@3.24.4::MySchemaOut",
+      "zod@3.24.4::guides/packages/zod/README.md",
+      "zod@3.24.4::Player"
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "type": "HAS_VERSION",
+    "confidence": "EXTRACTED",
+    "source": "zod",
+    "target": "zod@3.24.4"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "zod@3.24.4",
+    "target": "zod@3.24.4::Player"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "zod@3.24.4",
+    "target": "zod@3.24.4::MySchemaIn"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "zod@3.24.4",
+    "target": "zod@3.24.4::MySchemaOut"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "zod@3.24.4",
+    "target": "zod@3.24.4::guides/packages/zod/README.md"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "zod@3.24.4::guides/packages/zod/README.md",
+    "target": "zod@3.24.4::Player"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "zod@3.24.4::guides/packages/zod/README.md",
+    "target": "zod@3.24.4::MySchemaIn"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "zod@3.24.4::guides/packages/zod/README.md",
+    "target": "zod@3.24.4::MySchemaOut"
+  }
+]

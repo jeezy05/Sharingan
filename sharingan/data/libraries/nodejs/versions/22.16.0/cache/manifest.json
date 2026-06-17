@@ -1,0 +1,422 @@
+{
+  "doc/api/addons.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659223+00:00",
+    "node_count": 1,
+    "sha256": "ed568d7d328543f928b781f309540d7119d4b42b73c82f01650c602eb87d1e90"
+  },
+  "doc/api/assert.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659261+00:00",
+    "node_count": 2,
+    "sha256": "46e463b1a8ab2124e2210e035a428efffd27e98a4983171ecce62dcb251ed468"
+  },
+  "doc/api/async_context.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659274+00:00",
+    "node_count": 1,
+    "sha256": "70b4633b4d19f7c6e8e925f0ede792baea3f879045cb3904dfbc30e6327d767d"
+  },
+  "doc/api/async_hooks.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659295+00:00",
+    "node_count": 2,
+    "sha256": "dbb6e1ee21f02838c97e04aa7fa35c5b10d971f3cfe17adf83cae03d28d0deb0"
+  },
+  "doc/api/buffer.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659383+00:00",
+    "node_count": 1,
+    "sha256": "70bbee26fc59781d7f560b74f5718e619bf47a3ad5306e65e1eebb5f6c045746"
+  },
+  "doc/api/child_process.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659433+00:00",
+    "node_count": 1,
+    "sha256": "cc0a4ab2baa2bd2a3516359550fc57069f1648828c3b45c6370b1540db72d977"
+  },
+  "doc/api/cli.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659500+00:00",
+    "node_count": 1,
+    "sha256": "b9fec500ab42254fb888980b1ef50bfa0e6c8b8150e7a98e219641d8285a8203"
+  },
+  "doc/api/cluster.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659518+00:00",
+    "node_count": 2,
+    "sha256": "d6bc0c19dc8eae4def791d76a3be3f9a12087fa7a5824b4017c8a1afd9f30190"
+  },
+  "doc/api/console.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659530+00:00",
+    "node_count": 1,
+    "sha256": "bc2e0cd59d0d6e9a62ca26e1417cef8ca60f5ef6adf24646cf98917e8ce33e1f"
+  },
+  "doc/api/crypto.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659654+00:00",
+    "node_count": 1,
+    "sha256": "397e9db4a9a3314a6a3c25c017925a9fe3339ce1308583c53a223a5c54b84b52"
+  },
+  "doc/api/debugger.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659663+00:00",
+    "node_count": 1,
+    "sha256": "e6c9ae2cc9812753ebd051f45363d0b6db6952f1de4750d9b4b4a4183690e06f"
+  },
+  "doc/api/deprecations.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659737+00:00",
+    "node_count": 2,
+    "sha256": "cb03632fb9f3664979031387458c93c1f0e3df0386f66153c82ecb6196abadfa"
+  },
+  "doc/api/dgram.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659757+00:00",
+    "node_count": 1,
+    "sha256": "15cafb03c6d59da72981843bb81ae5eacff1f6663a92f1168b0823b0e84d6803"
+  },
+  "doc/api/diagnostics_channel.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659777+00:00",
+    "node_count": 1,
+    "sha256": "bd9ef60221daad18a704ffed71d695018688bee9f1fe3e2fa79bbaa442c6d101"
+  },
+  "doc/api/dns.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659812+00:00",
+    "node_count": 1,
+    "sha256": "75ab34c196cbf265b96aa80627086f60ae113e40948eb677cb86822037936bf8"
+  },
+  "doc/api/documentation.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659816+00:00",
+    "node_count": 1,
+    "sha256": "53eca316f9d6c384ac91866e033bf3c6e2a053efe155833eb69a2d1d781c086f"
+  },
+  "doc/api/domain.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659823+00:00",
+    "node_count": 3,
+    "sha256": "f33ffbd57f9005e9b0d4cc0949eedddd787d70ecfd9a31e12fbfbaff1ab94f89"
+  },
+  "doc/api/dtls.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659830+00:00",
+    "node_count": 1,
+    "sha256": "f32caf05f7db2d371ee50c91c86e60700857ec64b2f6b45c6f764f3176f73930"
+  },
+  "doc/api/embedding.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659837+00:00",
+    "node_count": 1,
+    "sha256": "3359539f52745b465a2638204de8f3a8c80bc773bc3581f6c14ffa9ef952d9ef"
+  },
+  "doc/api/environment_variables.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659840+00:00",
+    "node_count": 1,
+    "sha256": "4195864bb1eb7d08797d38828067d80493cb6cae09e35729c270141efe5c9dc4"
+  },
+  "doc/api/errors.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659905+00:00",
+    "node_count": 5,
+    "sha256": "8ba1fda2790980612bb4cf7586904c6485a0fd0d72764f0ce1e7842491558dcc"
+  },
+  "doc/api/esm.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659922+00:00",
+    "node_count": 3,
+    "sha256": "8f6a8d5357be3969e8867eda582f32046fcc0ac2c8eeeb041b800729b53a837b"
+  },
+  "doc/api/events.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659946+00:00",
+    "node_count": 2,
+    "sha256": "249899a519579a50e9cc15e2730b31088c278234ccc8d6bea6c0676abbf848c5"
+  },
+  "doc/api/ffi.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.659955+00:00",
+    "node_count": 1,
+    "sha256": "621558e5bbbf07936d908ab5d4b3d638f17c9987d7d353fa61278f7f47bcdb61"
+  },
+  "doc/api/fs.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660150+00:00",
+    "node_count": 1,
+    "sha256": "c3ee7c3599b903508a355b3e6b4c621414cdbf82d6b004d2bbb0aa688857b67b"
+  },
+  "doc/api/globals.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660163+00:00",
+    "node_count": 2,
+    "sha256": "f2db5694785c60503a978be16c94b5e9c5ea9b39e7ec0291a8e143d31034946b"
+  },
+  "doc/api/http.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660269+00:00",
+    "node_count": 4,
+    "sha256": "83c089dea6377f1ec990f07e93780feef43d257cef05b59ac4c155d2262076b0"
+  },
+  "doc/api/http2.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660353+00:00",
+    "node_count": 1,
+    "sha256": "775f28a5255072c217539fe66aae8ddcf14617d607e6e41a8b3a391ff87fa002"
+  },
+  "doc/api/https.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660362+00:00",
+    "node_count": 1,
+    "sha256": "b5da686ec22133d0acba37eb7d2aeba864ca1ebe9eaf712b7db813153189fce5"
+  },
+  "doc/api/index.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660365+00:00",
+    "node_count": 1,
+    "sha256": "4d52bbdbba189fc19e3ef3c9fe7365ab1ad8abe21e69d92589ab6bc678cf1fd3"
+  },
+  "doc/api/inspector.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660379+00:00",
+    "node_count": 2,
+    "sha256": "1a3df269af6145b6c757cef83a18a4c059b2f05c9aa366d756d4b7f1d9b1abf5"
+  },
+  "doc/api/intl.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660388+00:00",
+    "node_count": 1,
+    "sha256": "7a5a169a9e34026bf872bdcf6917221191a8530b37cd77df0a7967bac8b9ba54"
+  },
+  "doc/api/module.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660431+00:00",
+    "node_count": 2,
+    "sha256": "f18f0db7696ced54f422972edc1f87172cc6cca36d211465ed90c047697011dd"
+  },
+  "doc/api/modules.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660451+00:00",
+    "node_count": 3,
+    "sha256": "3346274a13c0f2e122881d5f3739afddeffe2265fbbd233eb62fd88e01b75f3f"
+  },
+  "doc/api/n-api.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660588+00:00",
+    "node_count": 1,
+    "sha256": "8e7c559be64ff0b8c8d399c5eedd417f7e7700ddb9033ecfd0f22890cbf74f92"
+  },
+  "doc/api/net.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660612+00:00",
+    "node_count": 1,
+    "sha256": "24bb915e3a2aff6a00ab8752584735adca75a59c54ca20b7d8863d832fde1ff3"
+  },
+  "doc/api/os.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660627+00:00",
+    "node_count": 1,
+    "sha256": "ceaf1853270f6344c1f376106cabe6d4d0c4c3c574cf16cd244b4dffad83f462"
+  },
+  "doc/api/packages.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660644+00:00",
+    "node_count": 1,
+    "sha256": "ed423ae145dd1890652cd798b3bdbfd1fbf31d9aebb8a3c352f7c194cc83bdd9"
+  },
+  "doc/api/path.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660657+00:00",
+    "node_count": 1,
+    "sha256": "f6e28a9cefcedcf35cbcf39f46c1da561e2880cfc358251632627b21c58703c6"
+  },
+  "doc/api/perf_hooks.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660680+00:00",
+    "node_count": 1,
+    "sha256": "fdba284d3f955f05ac96cd62921f2d484ece4ec4568dd8bee2e402fc00ee7e3b"
+  },
+  "doc/api/permissions.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660691+00:00",
+    "node_count": 1,
+    "sha256": "150f0a1678ff6dc9ac456b17e8220749f165eaf8e6d31fb79045bd092614621e"
+  },
+  "doc/api/process.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660767+00:00",
+    "node_count": 2,
+    "sha256": "4046d447829d0dab4a4910e7e0cdd12cc710890579b1c519307a6a3d8c9a2c1f"
+  },
+  "doc/api/punycode.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660772+00:00",
+    "node_count": 1,
+    "sha256": "125cdf0cd914d40363fd3f9ea0424ad28418a70254d494e0fab5653f4954c581"
+  },
+  "doc/api/querystring.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660778+00:00",
+    "node_count": 1,
+    "sha256": "be244b22c9801710b1b5be4a79366a5c69e0d486a32d0cc7291892623f483382"
+  },
+  "doc/api/quic.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660853+00:00",
+    "node_count": 1,
+    "sha256": "b2a0db4b5c15bde76286eae30add6ef4ea59c01a4432fd154b5da3b3de28e69a"
+  },
+  "doc/api/readline.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660870+00:00",
+    "node_count": 1,
+    "sha256": "de3be2b6cfc12fb372092d15fa58ba4b4a4c37b9d0070fc0c06612125bb99b02"
+  },
+  "doc/api/repl.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660883+00:00",
+    "node_count": 2,
+    "sha256": "be44a037521b30c079107a909355d9c0710ca22a5c8be235e0b1460489c98fbf"
+  },
+  "doc/api/report.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660893+00:00",
+    "node_count": 1,
+    "sha256": "e9d5150dad694eb8c12313a359bc7be8d684fef1f5696144a07a6f0d6b99d9f1"
+  },
+  "doc/api/single-executable-applications.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660903+00:00",
+    "node_count": 1,
+    "sha256": "9d96a5520ee488b1249659e729044f6f25b45a1fb16f1b2a882ce2faf6cd1b61"
+  },
+  "doc/api/sqlite.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.660926+00:00",
+    "node_count": 1,
+    "sha256": "2a870ac307d47307fa9a3d20f06864d326324cadb33f6e0d541e5b2d7832b17b"
+  },
+  "doc/api/stream.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661015+00:00",
+    "node_count": 19,
+    "sha256": "0ef89106d3da41deef6cfde3e9743fa8bac3caf2ba874f8a2c5953d0815b2e4c"
+  },
+  "doc/api/stream_iter.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661048+00:00",
+    "node_count": 1,
+    "sha256": "3f0e0225ff403ae49cc5fd9f94076dd2bb06f43bc307c4656eb9317ff1aa88dd"
+  },
+  "doc/api/string_decoder.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661053+00:00",
+    "node_count": 1,
+    "sha256": "16dc71931f8842da192d70c7bde34b6752c60eb83c7e87f8a333a285906ebe2f"
+  },
+  "doc/api/synopsis.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661055+00:00",
+    "node_count": 1,
+    "sha256": "13034ae41a4e85420b94d4e6730b92e65bb72594a4145cca6650cdc283c9d9bf"
+  },
+  "doc/api/test.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661142+00:00",
+    "node_count": 3,
+    "sha256": "274ec41a7e496aafafa5dd665cc856d054425f0c839a48ff6d3d8b6efb78733d"
+  },
+  "doc/api/timers.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661149+00:00",
+    "node_count": 1,
+    "sha256": "611c3c91e5689f457a22153ed1146674d19f906af9020be2d2c094f331d9f482"
+  },
+  "doc/api/tls.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661180+00:00",
+    "node_count": 1,
+    "sha256": "87063c0ed77cb0b177e9fe6b2b1846dea5b8686808938089ad47c91bd109bb16"
+  },
+  "doc/api/tracing.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661185+00:00",
+    "node_count": 1,
+    "sha256": "5001a811a338dd3e7394a357407ea4c16ea2910a8f67a4e5319e076ffe7c6784"
+  },
+  "doc/api/tty.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661190+00:00",
+    "node_count": 1,
+    "sha256": "c8b79adae6814c4d8a1a14d4ef5f44589c0f4a32a7f1b1d50891f54cba9409c2"
+  },
+  "doc/api/typescript.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661195+00:00",
+    "node_count": 2,
+    "sha256": "110bf9b96cb139d03d1c1d9f4c617241fa6f87448f418bb725d92186f9604368"
+  },
+  "doc/api/url.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661231+00:00",
+    "node_count": 3,
+    "sha256": "ee553300434ca8317af36665d7457007a80f07b0b79e4e7bca790d405e8fe4e5"
+  },
+  "doc/api/util.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661268+00:00",
+    "node_count": 6,
+    "sha256": "3654f0993dd06c927496b58fdc3231e59cc26106dad60e1db825ee26507f058a"
+  },
+  "doc/api/v8.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661297+00:00",
+    "node_count": 1,
+    "sha256": "6c650910d3cc2b8fbd0818f581c9be5ce34a5d5f12560b9478601d6332a79594"
+  },
+  "doc/api/vfs.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661302+00:00",
+    "node_count": 1,
+    "sha256": "cc6c6681704b1f02aeadee26f685d08b1f113e141f9bb7bf23da0e910cdf0073"
+  },
+  "doc/api/vm.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661333+00:00",
+    "node_count": 2,
+    "sha256": "87379dbc487c84b497e46b5108a171ca4cccda63e551a6e5d1117c4723da082d"
+  },
+  "doc/api/wasi.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661338+00:00",
+    "node_count": 1,
+    "sha256": "90f2b3244128e2d3c0f6a03908989d43d59f2eebbd7d64b75854e581bb482497"
+  },
+  "doc/api/webcrypto.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661387+00:00",
+    "node_count": 18,
+    "sha256": "48cff69ed1d764fcf818ad95b8271ab39c20d605f222bf3fa6c74f13340c6cec"
+  },
+  "doc/api/webstreams.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661407+00:00",
+    "node_count": 1,
+    "sha256": "2c5e33a282141ba42f77aee35e7e741e2cffe76687cbf42b2b5a1d5e1b660a0c"
+  },
+  "doc/api/worker_threads.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661447+00:00",
+    "node_count": 2,
+    "sha256": "deb18c0aee44652e835e82c1a8646e7b1f463fecf8316c12f2c08e49074fc511"
+  },
+  "doc/api/zlib.md": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T12:15:18.661482+00:00",
+    "node_count": 1,
+    "sha256": "90814915f2bcd1d0e3c81d1374aa5638d345ffe05394c48b4dd041775945286d"
+  }
+}

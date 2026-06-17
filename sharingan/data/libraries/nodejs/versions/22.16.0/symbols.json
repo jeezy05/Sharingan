@@ -1,0 +1,1431 @@
+[
+  {
+    "id": "nodejs@22.16.0::Bar",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "Bar",
+    "kind": "class",
+    "signature": "class Bar {}",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/util.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::MyAddedCallbacks",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "MyAddedCallbacks",
+    "kind": "class",
+    "signature": "class MyAddedCallbacks extends MyAsyncCallbacks {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/async_hooks.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::errorMsg",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "errorMsg",
+    "kind": "function",
+    "signature": "function errorMsg() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/cluster.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::openAndClose",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "openAndClose",
+    "kind": "function",
+    "signature": "async function openAndClose() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/deprecations.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::handleRequest",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "handleRequest",
+    "kind": "function",
+    "signature": "function handleRequest(req, res) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "req",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "res",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/domain.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::readSomeFile",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "readSomeFile",
+    "kind": "function",
+    "signature": "function readSomeFile(filename, cb) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "filename",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "cb",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/domain.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::b",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "b",
+    "kind": "function",
+    "signature": "function b() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/errors.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::c",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "c",
+    "kind": "function",
+    "signature": "function c() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/errors.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::makeFaster",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "makeFaster",
+    "kind": "function",
+    "signature": "function makeFaster() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/errors.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::speedy",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "speedy",
+    "kind": "function",
+    "signature": "cheetahify(function speedy() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/errors.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::addTwo",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "addTwo",
+    "kind": "function",
+    "signature": "function addTwo() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/test.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::main",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "main",
+    "kind": "function",
+    "signature": "function main() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/esm.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::handler2",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "handler2",
+    "kind": "function",
+    "signature": "async function handler2(event) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "event",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/events.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::load",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "load",
+    "kind": "function",
+    "signature": "DataHandler.prototype.load = async function load(key) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "key",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/globals.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::of",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "of",
+    "kind": "class",
+    "signature": "The `socket` argument can be an instance of {net.Socket}, a subclass of",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/http.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::to",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "to",
+    "kind": "interface",
+    "signature": "* `localAddress` {string} Local interface to bind for network connections",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/http.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::which",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "which",
+    "kind": "class",
+    "signature": "Overrides the `stream.pipe()` method inherited from the legacy `Stream` class",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/http.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::setNetworkResources",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "setNetworkResources",
+    "kind": "function",
+    "signature": "async function setNetworkResources() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/inspector.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::newAPI",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "newAPI",
+    "kind": "function",
+    "signature": "function newAPI() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/module.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::Square",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "Square",
+    "kind": "class",
+    "signature": "module.exports = class Square {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/modules.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::someFunc",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "someFunc",
+    "kind": "function",
+    "signature": "function someFunc() {}",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/modules.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::maybeSync",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "maybeSync",
+    "kind": "function",
+    "signature": "function maybeSync(arg, cb) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "arg",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "cb",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/process.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::isRecoverableError",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "isRecoverableError",
+    "kind": "function",
+    "signature": "function isRecoverableError(error) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "error",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/repl.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::run",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "run",
+    "kind": "function",
+    "signature": "async function run() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::writeOneMillionTimes",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "writeOneMillionTimes",
+    "kind": "function",
+    "signature": "function writeOneMillionTimes(writer, data, encoding, callback) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "writer",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "data",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "encoding",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "callback",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::write",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "write",
+    "kind": "function",
+    "signature": "function write() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::parseHeader",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "parseHeader",
+    "kind": "function",
+    "signature": "function parseHeader(stream, callback) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "stream",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "callback",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::onReadable",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "onReadable",
+    "kind": "function",
+    "signature": "function onReadable() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::print",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "print",
+    "kind": "function",
+    "signature": "async function print(readable) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "readable",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::printIterator",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "printIterator",
+    "kind": "function",
+    "signature": "async function printIterator(readable) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "readable",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::printSymbolAsyncIterator",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "printSymbolAsyncIterator",
+    "kind": "function",
+    "signature": "async function printSymbolAsyncIterator(readable) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "readable",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::showBoth",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "showBoth",
+    "kind": "function",
+    "signature": "async function showBoth() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::MyWritable",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "MyWritable",
+    "kind": "class",
+    "signature": "class MyWritable extends Writable {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::WriteStream",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "WriteStream",
+    "kind": "class",
+    "signature": "class WriteStream extends Writable {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::StringWritable",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "StringWritable",
+    "kind": "class",
+    "signature": "class StringWritable extends Writable {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::MyReadable",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "MyReadable",
+    "kind": "class",
+    "signature": "class MyReadable extends Readable {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::ReadStream",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "ReadStream",
+    "kind": "class",
+    "signature": "class ReadStream extends Readable {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::SourceWrapper",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "SourceWrapper",
+    "kind": "class",
+    "signature": "class SourceWrapper extends Readable {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::Counter",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "Counter",
+    "kind": "class",
+    "signature": "class Counter extends Readable {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::MyDuplex",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "MyDuplex",
+    "kind": "class",
+    "signature": "class MyDuplex extends Duplex {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::MyTransform",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "MyTransform",
+    "kind": "class",
+    "signature": "class MyTransform extends Transform {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/stream.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::addOne",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "addOne",
+    "kind": "function",
+    "signature": "function addOne() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/test.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::A",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "A",
+    "kind": "type",
+    "signature": "export type A = string;",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/typescript.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::is",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "is",
+    "kind": "class",
+    "signature": "description: The class is now available on the global object.",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/url.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::prototype",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "prototype",
+    "kind": "class",
+    "signature": "are implemented as getters and setters on the class prototype, rather than as",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/url.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::Foo",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "Foo",
+    "kind": "class",
+    "signature": "class Foo {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/worker_threads.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::MyStream",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "MyStream",
+    "kind": "component",
+    "signature": "function MyStream() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/util.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::Password",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "Password",
+    "kind": "class",
+    "signature": "class Password {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/util.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::foo",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "foo",
+    "kind": "function",
+    "signature": "util.types.isAsyncFunction(async function foo() {});  // Returns true",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/util.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::add",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "add",
+    "kind": "function",
+    "signature": "function add(a, b) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "a",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "b",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/vm.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::generateAesKey",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "generateAesKey",
+    "kind": "function",
+    "signature": "async function generateAesKey(length = 256) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "length = 256",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::generateEcKey",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "generateEcKey",
+    "kind": "function",
+    "signature": "async function generateEcKey(namedCurve = 'P-521') {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "namedCurve = 'P-521'",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::generateEd25519Key",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "generateEd25519Key",
+    "kind": "function",
+    "signature": "async function generateEd25519Key() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::generateX25519Key",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "generateX25519Key",
+    "kind": "function",
+    "signature": "async function generateX25519Key() {",
+    "description": "",
+    "parameters": [],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::generateHmacKey",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "generateHmacKey",
+    "kind": "function",
+    "signature": "async function generateHmacKey(hash = 'SHA-256') {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "hash = 'SHA-256'",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::generateRsaKey",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "generateRsaKey",
+    "kind": "function",
+    "signature": "async function generateRsaKey(modulusLength = 2048, hash = 'SHA-256') {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "modulusLength = 2048",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "hash = 'SHA-256'",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::aesEncrypt",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "aesEncrypt",
+    "kind": "function",
+    "signature": "async function aesEncrypt(plaintext) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "plaintext",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::aesDecrypt",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "aesDecrypt",
+    "kind": "function",
+    "signature": "async function aesDecrypt(ciphertext, key, iv) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "ciphertext",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "key",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "iv",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::generateAndExportHmacKey",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "generateAndExportHmacKey",
+    "kind": "function",
+    "signature": "async function generateAndExportHmacKey(format = 'jwk', hash = 'SHA-512') {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "format = 'jwk'",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "hash = 'SHA-512'",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::importHmacKey",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "importHmacKey",
+    "kind": "function",
+    "signature": "async function importHmacKey(keyData, format = 'jwk', hash = 'SHA-512') {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "keyData",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "format = 'jwk'",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "hash = 'SHA-512'",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::generateAndWrapHmacKey",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "generateAndWrapHmacKey",
+    "kind": "function",
+    "signature": "async function generateAndWrapHmacKey(format = 'jwk', hash = 'SHA-512') {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "format = 'jwk'",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "hash = 'SHA-512'",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::unwrapHmacKey",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "unwrapHmacKey",
+    "kind": "function",
+    "signature": "async function unwrapHmacKey(",
+    "description": "",
+    "parameters": [
+      {
+        "name": "wrappedKey",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "wrappingKey",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "format = 'jwk'",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "hash = 'SHA-512'",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::sign",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "sign",
+    "kind": "function",
+    "signature": "async function sign(key, data) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "key",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "data",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::verify",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "verify",
+    "kind": "function",
+    "signature": "async function verify(key, signature, data) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "key",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "signature",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "data",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::pbkdf2",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "pbkdf2",
+    "kind": "function",
+    "signature": "async function pbkdf2(pass, salt, iterations = 1000, length = 256) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "pass",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "salt",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "iterations = 1000",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "length = 256",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::pbkdf2Key",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "pbkdf2Key",
+    "kind": "function",
+    "signature": "async function pbkdf2Key(pass, salt, iterations = 1000, length = 256) {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "pass",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "salt",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "iterations = 1000",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "length = 256",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "nodejs@22.16.0::digest",
+    "version_id": "nodejs@22.16.0",
+    "module_path": "",
+    "name": "digest",
+    "kind": "function",
+    "signature": "async function digest(data, algorithm = 'SHA-512') {",
+    "description": "",
+    "parameters": [
+      {
+        "name": "data",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      },
+      {
+        "name": "algorithm = 'SHA-512'",
+        "type": "unknown",
+        "required": true,
+        "default": null
+      }
+    ],
+    "return_type": "",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/nodejs/node/main/doc/api/webcrypto.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  }
+]

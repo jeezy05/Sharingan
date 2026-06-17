@@ -1,0 +1,30 @@
+{
+  "id": "zod",
+  "name": "Zod",
+  "category": "validation",
+  "language": "typescript",
+  "repo_url": "https://github.com/colinhacks/zod",
+  "docs_url": "https://zod.dev",
+  "npm_package": "zod",
+  "pypi_package": null,
+  "latest_version": "3.24.4",
+  "tracked_versions": [
+    "3.24.4",
+    "3.23.0",
+    "3.22.0"
+  ],
+  "tags": [
+    "validation",
+    "typescript",
+    "schema",
+    "parsing"
+  ],
+  "node_type": "library",
+  "docs_config": {
+    "type": "github_markdown",
+    "repo": "colinhacks/zod",
+    "branch": "main",
+    "docs_path": "packages/zod/README.md",
+    "extra_paths": []
+  }
+}

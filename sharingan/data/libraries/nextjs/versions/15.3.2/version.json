@@ -1,0 +1,14 @@
+{
+  "id": "nextjs@15.3.2",
+  "library_id": "nextjs",
+  "semver": "15.3.2",
+  "is_latest": true,
+  "node_type": "version",
+  "stats": {
+    "total_nodes": 727,
+    "total_edges": 1693,
+    "symbols": 429,
+    "guides": 296,
+    "configs": 0
+  }
+}

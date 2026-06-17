@@ -1,0 +1,196 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sharingan-docs.github.io/schema/v1.json",
+  "title": "Sharingan Knowledge Graph Schema v1",
+  "description": "Schema for the Sharingan documentation knowledge graph",
+  "definitions": {
+    "confidence": {
+      "type": "string",
+      "enum": ["EXTRACTED", "INFERRED", "AMBIGUOUS"]
+    },
+    "parameter": {
+      "type": "object",
+      "required": ["name", "type", "required"],
+      "properties": {
+        "name": { "type": "string" },
+        "type": { "type": "string" },
+        "required": { "type": "boolean" },
+        "default": { "type": ["string", "null"] },
+        "description": { "type": "string" }
+      }
+    },
+    "code_example": {
+      "type": "object",
+      "required": ["code", "language"],
+      "properties": {
+        "code": { "type": "string" },
+        "language": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" }
+      }
+    },
+    "library": {
+      "type": "object",
+      "required": ["id", "name", "category", "language", "docs_url", "latest_version", "node_type"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "type": "string" },
+        "category": {
+          "type": "string",
+          "enum": [
+            "frontend", "meta-framework", "language", "runtime",
+            "backend", "database", "styling", "orm", "validation",
+            "build-tool", "component-lib", "api-layer", "baas",
+            "devops", "ai-framework", "payments", "cloud", "cache"
+          ]
+        },
+        "language": { "type": "string" },
+        "repo_url": { "type": "string", "format": "uri" },
+        "docs_url": { "type": "string", "format": "uri" },
+        "npm_package": { "type": ["string", "null"] },
+        "pypi_package": { "type": ["string", "null"] },
+        "latest_version": { "type": "string" },
+        "tracked_versions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Last 3 major versions tracked"
+        },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "node_type": { "const": "library" }
+      }
+    },
+    "version": {
+      "type": "object",
+      "required": ["id", "library_id", "semver", "is_latest", "node_type"],
+      "properties": {
+        "id": { "type": "string" },
+        "library_id": { "type": "string" },
+        "semver": { "type": "string" },
+        "release_date": { "type": ["string", "null"], "format": "date" },
+        "is_latest": { "type": "boolean" },
+        "changelog_url": { "type": ["string", "null"], "format": "uri" },
+        "breaking_changes": { "type": "array", "items": { "type": "string" } },
+        "node_type": { "const": "version" }
+      }
+    },
+    "symbol": {
+      "type": "object",
+      "required": ["id", "version_id", "name", "kind", "node_type"],
+      "properties": {
+        "id": { "type": "string" },
+        "version_id": { "type": "string" },
+        "module_path": { "type": "string" },
+        "name": { "type": "string" },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "function", "class", "type", "interface", "hook",
+            "component", "constant", "decorator", "method", "property",
+            "enum", "namespace", "module"
+          ]
+        },
+        "signature": { "type": ["string", "null"] },
+        "description": { "type": "string" },
+        "parameters": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/parameter" }
+        },
+        "return_type": { "type": ["string", "null"] },
+        "code_examples": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/code_example" }
+        },
+        "deprecated": { "type": "boolean", "default": false },
+        "deprecated_by": { "type": ["string", "null"] },
+        "source_url": { "type": ["string", "null"], "format": "uri" },
+        "confidence": { "$ref": "#/definitions/confidence" },
+        "node_type": { "const": "symbol" }
+      }
+    },
+    "guide": {
+      "type": "object",
+      "required": ["id", "version_id", "title", "node_type"],
+      "properties": {
+        "id": { "type": "string" },
+        "version_id": { "type": "string" },
+        "title": { "type": "string" },
+        "slug": { "type": "string" },
+        "content_summary": { "type": "string" },
+        "code_examples": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/code_example" }
+        },
+        "related_symbols": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "source_url": { "type": ["string", "null"], "format": "uri" },
+        "community": { "type": ["string", "null"] },
+        "node_type": { "const": "guide" }
+      }
+    },
+    "config_option": {
+      "type": "object",
+      "required": ["id", "version_id", "key", "node_type"],
+      "properties": {
+        "id": { "type": "string" },
+        "version_id": { "type": "string" },
+        "key": { "type": "string" },
+        "type": { "type": "string" },
+        "default": { "type": ["string", "null"] },
+        "description": { "type": "string" },
+        "example": { "type": ["string", "null"] },
+        "node_type": { "const": "config" }
+      }
+    },
+    "community": {
+      "type": "object",
+      "required": ["id", "version_id", "label", "member_count", "node_type"],
+      "properties": {
+        "id": { "type": "string" },
+        "version_id": { "type": "string" },
+        "label": { "type": "string" },
+        "member_count": { "type": "integer", "minimum": 1 },
+        "summary": { "type": "string" },
+        "member_ids": { "type": "array", "items": { "type": "string" } },
+        "node_type": { "const": "community" }
+      }
+    },
+    "edge": {
+      "type": "object",
+      "required": ["source", "target", "type", "confidence"],
+      "properties": {
+        "source": { "type": "string" },
+        "target": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": [
+            "HAS_VERSION", "EXPORTS", "HAS_GUIDE", "HAS_CONFIG",
+            "BELONGS_TO", "REFERENCES", "DEPENDS_ON",
+            "RELATED_TO", "DEPRECATED_BY", "REPLACES",
+            "EXTENDS", "IMPLEMENTS", "INTEROPERATES_WITH"
+          ]
+        },
+        "confidence": { "$ref": "#/definitions/confidence" },
+        "confidence_score": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+        "description": { "type": "string" }
+      }
+    },
+    "cache_entry": {
+      "type": "object",
+      "required": ["sha256", "last_extracted"],
+      "properties": {
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "last_extracted": { "type": "string", "format": "date-time" },
+        "node_count": { "type": "integer", "minimum": 0 },
+        "edge_count": { "type": "integer", "minimum": 0 }
+      }
+    }
+  },
+  "type": "object",
+  "description": "Top-level schema reference. Individual files use specific definitions."
+}

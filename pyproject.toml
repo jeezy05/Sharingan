@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sharingan-ai"
-version = "0.1.0"
+version = "0.1.1"
 description = "Open-source knowledge graph for latest documentation of popular tech stacks. AI coding assistant plugin for Claude Code, Codex, Cursor, and more."
 readme = "README.md"
 license = "MIT"
@@ -57,11 +57,11 @@ leiden = ["leidenalg>=0.10", "igraph>=0.11"]
 mcp = ["mcp>=1.0"]
 # All extras
 all = [
-    "sharingan[anthropic]",
-    "sharingan[openai]",
-    "sharingan[ollama]",
-    "sharingan[leiden]",
-    "sharingan[mcp]",
+    "sharingan-ai[anthropic]",
+    "sharingan-ai[openai]",
+    "sharingan-ai[ollama]",
+    "sharingan-ai[leiden]",
+    "sharingan-ai[mcp]",
 ]
 # Dev
 dev = [

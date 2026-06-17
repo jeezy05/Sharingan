@@ -1,0 +1,2606 @@
+{
+  "docs/01-app/01-getting-started/01-installation.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111274+00:00",
+    "node_count": 5,
+    "sha256": "c6c31339f817c98dea0c87fd2685015e70c053c4ad6f93b705462f369d39c830"
+  },
+  "docs/01-app/01-getting-started/02-project-structure.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111317+00:00",
+    "node_count": 1,
+    "sha256": "dd7e9628c8de721e4fbe6dd6d3ce147194afd637a41e419f6ff1dc89eceb3d3f"
+  },
+  "docs/01-app/01-getting-started/03-layouts-and-pages.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111333+00:00",
+    "node_count": 8,
+    "sha256": "c8e7eee39d1c9747f69b5cefb6372805dde977bb38b83df58f7058f58d6a2281"
+  },
+  "docs/01-app/01-getting-started/04-linking-and-navigating.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111348+00:00",
+    "node_count": 15,
+    "sha256": "63f6c6ed65c300a796db10acf39b1a6b1ae117eafcf3ce910594c8b38ceef4d3"
+  },
+  "docs/01-app/01-getting-started/05-server-and-client-components.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111372+00:00",
+    "node_count": 12,
+    "sha256": "4faabd4bb7f52f6acfc73420b4fbdcca741695ab476413c1d6ee4d5ba4b1d3c9"
+  },
+  "docs/01-app/01-getting-started/06-fetching-data.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111389+00:00",
+    "node_count": 15,
+    "sha256": "59967158ee1855098e0c4a0576421843de3ac9824021ad3fdcbb6f4b23daa478"
+  },
+  "docs/01-app/01-getting-started/07-mutating-data.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111403+00:00",
+    "node_count": 15,
+    "sha256": "5a84bb90ed627fc94bcab0ed5ea214e8b27ada76d4ecb228de579412feac1b4f"
+  },
+  "docs/01-app/01-getting-started/08-caching.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111444+00:00",
+    "node_count": 17,
+    "sha256": "765f7401ae3419af94bd3f466f8d6ff37e5be19d16c1f3c7bea403a945f8dc7c"
+  },
+  "docs/01-app/01-getting-started/09-revalidating.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111462+00:00",
+    "node_count": 4,
+    "sha256": "3a4eb66d236216a3d4870aaeff639399186d3c65dd06e34a1a074470d201b92e"
+  },
+  "docs/01-app/01-getting-started/10-error-handling.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111479+00:00",
+    "node_count": 14,
+    "sha256": "c8b6a034f078db4c35907e04bae47a7878b247671f58ccad252b88b3f50c3c37"
+  },
+  "docs/01-app/01-getting-started/11-css.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111497+00:00",
+    "node_count": 8,
+    "sha256": "586cfa7f79e9c7a217908a00a00f36e1a325ac5cce47ce32e49c478ea4ced528"
+  },
+  "docs/01-app/01-getting-started/12-images.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111515+00:00",
+    "node_count": 3,
+    "sha256": "f7d5576fd4ef10597b72e2d9d8064408593abc3b9631783c108d5810572194ad"
+  },
+  "docs/01-app/01-getting-started/13-fonts.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111527+00:00",
+    "node_count": 4,
+    "sha256": "31841f92ea277df1ff74493fcd2f4d7c5ebff598e71a88a19eef1de326913dfc"
+  },
+  "docs/01-app/01-getting-started/14-metadata-and-og-images.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111543+00:00",
+    "node_count": 6,
+    "sha256": "dfc11ea773b78d75df361a78a3b7384d82dca5feaf4349a434a4afc5146524bb"
+  },
+  "docs/01-app/01-getting-started/15-route-handlers.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111554+00:00",
+    "node_count": 5,
+    "sha256": "b2cffc8116b25978f5ec03ea18577550b2a6dc11a49b9dc68892bfa42464cfd0"
+  },
+  "docs/01-app/01-getting-started/16-proxy.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111563+00:00",
+    "node_count": 2,
+    "sha256": "22d5b466f0215aa116b4a72d5f475fd501faf9e5cc4763f4a0e53138b8469ee5"
+  },
+  "docs/01-app/01-getting-started/17-deploying.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111575+00:00",
+    "node_count": 1,
+    "sha256": "10abc60d22b30c7570f9fc2811ced56db8441a0a4e8263088285ccddac9e0ee8"
+  },
+  "docs/01-app/01-getting-started/18-upgrading.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111584+00:00",
+    "node_count": 1,
+    "sha256": "2766e6f39f16b9167013b18e95773190b8947ec9caa0bc88482a189b0010db05"
+  },
+  "docs/01-app/01-getting-started/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111592+00:00",
+    "node_count": 0,
+    "sha256": "0f042cec3080eed568ade7f740aa930ac2d6c7cbeae20e8dd515c039dfdc56ba"
+  },
+  "docs/01-app/02-guides/adopting-partial-prefetching.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111601+00:00",
+    "node_count": 2,
+    "sha256": "fb681c6660e43679348c1d1e1a9008d384363eebaca69c1dba130c07e93fa0c5"
+  },
+  "docs/01-app/02-guides/ai-agents.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111612+00:00",
+    "node_count": 1,
+    "sha256": "2ceb5dd29720d1155636e554249577da9e93e099f8405dc557a2c25c12aac4fb"
+  },
+  "docs/01-app/02-guides/analytics.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111622+00:00",
+    "node_count": 5,
+    "sha256": "7e357c23a3b042190e51f0a4ffb8e011d3290576d186e19a45e2b53ee6cc907c"
+  },
+  "docs/01-app/02-guides/authentication.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111704+00:00",
+    "node_count": 28,
+    "sha256": "e853a2a91118c713c99c56da7907e8a4b21283db8af7721cb575d7f3798461c2"
+  },
+  "docs/01-app/02-guides/backend-for-frontend.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111737+00:00",
+    "node_count": 5,
+    "sha256": "df9b6f6310a817d1004968eeabf8e7e16d1e41ff4ba0aa0b6475c03b6688ac70"
+  },
+  "docs/01-app/02-guides/caching-without-cache-components.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111751+00:00",
+    "node_count": 5,
+    "sha256": "b0f85be1223c51909c3f6316a5221135eb31ff1ef0bc251faf335340f2a96a0f"
+  },
+  "docs/01-app/02-guides/cdn-caching.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111765+00:00",
+    "node_count": 1,
+    "sha256": "2c0b8968c5099dd7824f8fffc9fbacdceda3626898d49e11ccb07532dc63fbf3"
+  },
+  "docs/01-app/02-guides/ci-build-caching.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111774+00:00",
+    "node_count": 1,
+    "sha256": "ee9052c3222d16db39247580feae0e471868b33d91c26fd1ca3b4c194299d16c"
+  },
+  "docs/01-app/02-guides/content-security-policy.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111798+00:00",
+    "node_count": 8,
+    "sha256": "c5de325cbd9f711cd7fac87e36781c132c7b86def73aab7516c3e107b0ed21e8"
+  },
+  "docs/01-app/02-guides/css-in-js.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111811+00:00",
+    "node_count": 6,
+    "sha256": "6cec131a4b8867f7a97587276e56c4efc917514f8655d44824a51eea10979358"
+  },
+  "docs/01-app/02-guides/custom-server.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111820+00:00",
+    "node_count": 1,
+    "sha256": "a57019b4ac12ac84885949fa385c7ca042270bc209cdb534eb0be7c8f76f010c"
+  },
+  "docs/01-app/02-guides/data-security.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111845+00:00",
+    "node_count": 16,
+    "sha256": "dd1636f9809dc68235e162399ceb8fde126d5ae38f6487c9b53f857c718e3e8b"
+  },
+  "docs/01-app/02-guides/debugging.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111857+00:00",
+    "node_count": 1,
+    "sha256": "330d02aa5c8fa0bcf3e98d40b4df6db1abf56f1a13cfeff8b789ceb018887cb1"
+  },
+  "docs/01-app/02-guides/deploying-to-platforms.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111872+00:00",
+    "node_count": 1,
+    "sha256": "b4484e687861ac1154351b5e44172e131c630e544c0a13a14eb1c1ae6142f497"
+  },
+  "docs/01-app/02-guides/draft-mode.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111883+00:00",
+    "node_count": 7,
+    "sha256": "a163ae964d4a5d212e04ed9ef4572f43a30290249732a37fc76c073386698653"
+  },
+  "docs/01-app/02-guides/environment-variables.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111893+00:00",
+    "node_count": 5,
+    "sha256": "bf33d9fa113f800d5fa40cd638b25b20db52e53772eb09d205386e2ad4cab9aa"
+  },
+  "docs/01-app/02-guides/forms.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111913+00:00",
+    "node_count": 14,
+    "sha256": "a8c83624f6cfdc228b4bc65fd631eb46ee41037d080c7f3c72b76fca280f5c61"
+  },
+  "docs/01-app/02-guides/how-revalidation-works.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111922+00:00",
+    "node_count": 1,
+    "sha256": "2804d52758106772e5f58b811eb0550d9ed848d3ccc9b303ac6178c89f92bba4"
+  },
+  "docs/01-app/02-guides/incremental-static-regeneration-cache-components.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111934+00:00",
+    "node_count": 10,
+    "sha256": "7548774ccf9ccddb6a5bd8599586ae647ff7229617659b2620b13e6f4fc09883"
+  },
+  "docs/01-app/02-guides/incremental-static-regeneration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111950+00:00",
+    "node_count": 9,
+    "sha256": "f45de5a69b508900fe16d1b7e9fe1ad707725f9706889bc11772680c6cca3265"
+  },
+  "docs/01-app/02-guides/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111956+00:00",
+    "node_count": 0,
+    "sha256": "060f6e32179a5ffad68405a4163a8469b216a7227851f8c536f70fcf7c62153f"
+  },
+  "docs/01-app/02-guides/instant-navigation.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111982+00:00",
+    "node_count": 7,
+    "sha256": "1b2f2a49ffa94e3ae693a0398188d445e21626c2402a70899721f0473c00f322"
+  },
+  "docs/01-app/02-guides/instrumentation.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.111990+00:00",
+    "node_count": 2,
+    "sha256": "48611dbde3b32b008af52eb1e2472c0ce79767096f22d45211ab590618b143a6"
+  },
+  "docs/01-app/02-guides/internationalization.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112006+00:00",
+    "node_count": 7,
+    "sha256": "1982a5b21ede0ade4ba9ca9285925320ef08f17497b43c0bcda98327b9bbb1a8"
+  },
+  "docs/01-app/02-guides/json-ld.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112014+00:00",
+    "node_count": 2,
+    "sha256": "a187a9ac8a9598f240819ec650af142477cb4b76df05923c8120bc7f1fca733a"
+  },
+  "docs/01-app/02-guides/lazy-loading.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112025+00:00",
+    "node_count": 8,
+    "sha256": "0a8f49a0cd5e2cff43d8e29b7aa4d1a75e3b0ccf6d98789bddcfb01d4a554d1b"
+  },
+  "docs/01-app/02-guides/local-development.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112036+00:00",
+    "node_count": 1,
+    "sha256": "c3a5e1c793e2bf228bdc7e0e53d53cd39644d83e0f1cea9e05db6a3f6954b024"
+  },
+  "docs/01-app/02-guides/mcp.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112047+00:00",
+    "node_count": 1,
+    "sha256": "0a419c207283594bfd764b901732446d69e3b1b1d85fe02d43f5780fa2cef82e"
+  },
+  "docs/01-app/02-guides/mdx.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112073+00:00",
+    "node_count": 7,
+    "sha256": "53b93dd788d2da5708f5a5a2f1a9400a4ef9397c01377dde1d597494d97bb298"
+  },
+  "docs/01-app/02-guides/memory-usage.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112083+00:00",
+    "node_count": 1,
+    "sha256": "11d31cb1485bb69f2c48b77e85a4dfdc66a6cd179d8de139b6b9316cd688bfd2"
+  },
+  "docs/01-app/02-guides/migrating-to-cache-components.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112115+00:00",
+    "node_count": 14,
+    "sha256": "7d6c8a0ba75089fadbc9215828cf61633009f0b562d6c4d1b39e80761ddb1795"
+  },
+  "docs/01-app/02-guides/migrating/app-router-migration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112170+00:00",
+    "node_count": 23,
+    "sha256": "5e6ac4813ced553bb5ae454acb328317d51d16f8f7d011ba08cb7ab53ea3f9f4"
+  },
+  "docs/01-app/02-guides/migrating/from-create-react-app.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112195+00:00",
+    "node_count": 6,
+    "sha256": "092cc778b757c24f30fb5be6fc523b8ffd212f7c2c1233519e66d089a9f46251"
+  },
+  "docs/01-app/02-guides/migrating/from-vite.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112220+00:00",
+    "node_count": 6,
+    "sha256": "ccdf27e920557a3c4969f62514b895238061c1b8522d6f891cd832bcb4afde42"
+  },
+  "docs/01-app/02-guides/migrating/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112226+00:00",
+    "node_count": 0,
+    "sha256": "b3a332f3d75eccc8ecf76ade66c9ec9a9e8097a96ed15b3bc501f3ef75c7edab"
+  },
+  "docs/01-app/02-guides/multi-tenant.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112233+00:00",
+    "node_count": 0,
+    "sha256": "b0e0a42f633c3b29c408a989cb7de597f64d41a0ce4519b0e97d4fd7647f442a"
+  },
+  "docs/01-app/02-guides/multi-zones.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112243+00:00",
+    "node_count": 2,
+    "sha256": "990eeb72add06b08fb47268d352e02bf6c5e813d4d58ee3c885d8fe4389c0ef2"
+  },
+  "docs/01-app/02-guides/open-telemetry.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112255+00:00",
+    "node_count": 3,
+    "sha256": "395a704c5d3b4437f4e76070754fcd96455ef8eef8f2ba5dff60c1990486c698"
+  },
+  "docs/01-app/02-guides/package-bundling.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112270+00:00",
+    "node_count": 3,
+    "sha256": "7c47f260c5fb120dacbc247a5880e0b35d397aa1c90b5079039c56966abab093"
+  },
+  "docs/01-app/02-guides/ppr-platform-guide.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112278+00:00",
+    "node_count": 1,
+    "sha256": "3b8bed730fc64bb72040458b6c71474f708fb0de23f28d020b4f8d627122bf84"
+  },
+  "docs/01-app/02-guides/prefetching.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112293+00:00",
+    "node_count": 11,
+    "sha256": "eda608066d5db121531e63802563ac91eeead740756a87728123a867a496c5e4"
+  },
+  "docs/01-app/02-guides/preserving-ui-state.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112316+00:00",
+    "node_count": 23,
+    "sha256": "14fc85ef6b72b7224e4daaddc9ef17e5b0e6e654245248124511401ea474ce75"
+  },
+  "docs/01-app/02-guides/preventing-flash-before-hydration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112332+00:00",
+    "node_count": 10,
+    "sha256": "a24948645e269fa331757865c91e334b90e3bfd3693de25399b64ed9144a4dc1"
+  },
+  "docs/01-app/02-guides/production-checklist.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112343+00:00",
+    "node_count": 1,
+    "sha256": "e107a49e3894b84732ad9a164fff87697caf483cbf3ae99a2ff607dd4ae2eccd"
+  },
+  "docs/01-app/02-guides/progressive-web-apps.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112367+00:00",
+    "node_count": 15,
+    "sha256": "9b559f61b855cb660e9d2bd376a693b45cfe869c3c7ec8e719bcef459c77695f"
+  },
+  "docs/01-app/02-guides/public-static-pages.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112380+00:00",
+    "node_count": 5,
+    "sha256": "1598bab5daf55653fbc4e29253a0663a2c6c5c6245c9ed313a54437d5023e9ac"
+  },
+  "docs/01-app/02-guides/redirecting.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112395+00:00",
+    "node_count": 9,
+    "sha256": "9bad1d6d64a82a39c062b8543e07cfc5fad51c0dc9ec6cd228db79487673efef"
+  },
+  "docs/01-app/02-guides/rendering-philosophy.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112405+00:00",
+    "node_count": 1,
+    "sha256": "b3027a333c7e9ae3c797a03a45940fff0642bcd3b6daac3da3e430e270e9f648"
+  },
+  "docs/01-app/02-guides/runtime-prefetching.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112416+00:00",
+    "node_count": 7,
+    "sha256": "c6efb7ba48e5d7a798ada90121b5456f4c9fa0347b37fad48bcb613e839886af"
+  },
+  "docs/01-app/02-guides/sass.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112424+00:00",
+    "node_count": 3,
+    "sha256": "d89eff1d851a2e4fe500045605139abdba96de16f19bd7a52e4631e7c21ec750"
+  },
+  "docs/01-app/02-guides/scripts.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112435+00:00",
+    "node_count": 7,
+    "sha256": "ec0a9e978238101365dec8e51503023f4b3b2b10d6ffb958ebc78a36bda1b2b5"
+  },
+  "docs/01-app/02-guides/self-hosting.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112465+00:00",
+    "node_count": 3,
+    "sha256": "d284b158ba485eee25f2a7c448d6f23e5139b666267ce22e92730c5984a9f67e"
+  },
+  "docs/01-app/02-guides/single-page-applications.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112483+00:00",
+    "node_count": 14,
+    "sha256": "ca1ea96f07dd3a87c2d155b0258fd4af873df41d279ec1263fb928f115356295"
+  },
+  "docs/01-app/02-guides/static-exports.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112495+00:00",
+    "node_count": 7,
+    "sha256": "f6c3dd9741097bb1ac6be044cade071e025f3c6c84224c118dfed1ac053b7248"
+  },
+  "docs/01-app/02-guides/streaming.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112519+00:00",
+    "node_count": 13,
+    "sha256": "e34c9a3aaec0f2ea5c1bb9424194fe70cafa78e1b00288050015f1279086be17"
+  },
+  "docs/01-app/02-guides/tailwind-v3-css.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112529+00:00",
+    "node_count": 4,
+    "sha256": "3936e53118f745fd121ea145b9e09ffde6d91fa40cae126fd4cb2163bf00d153"
+  },
+  "docs/01-app/02-guides/testing/cypress.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112539+00:00",
+    "node_count": 4,
+    "sha256": "3917f7a3bee30955709ee795118a2680ca0d9577e7ed83fe33e6cd3eb50e357f"
+  },
+  "docs/01-app/02-guides/testing/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112547+00:00",
+    "node_count": 1,
+    "sha256": "b37c5e75a29822b99527cd03ecaa7324f0451b958759bffe9c2547f3477300e0"
+  },
+  "docs/01-app/02-guides/testing/jest.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112558+00:00",
+    "node_count": 4,
+    "sha256": "40b4869840fe24fbd728cba1b5848e068bc4ba2d169e6775646e8b8ae7b9acc1"
+  },
+  "docs/01-app/02-guides/testing/playwright.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112567+00:00",
+    "node_count": 4,
+    "sha256": "42d64c112c4b42aa5720596b94dd7535fe2d2dd4d68f51daa44ae1ca67a95384"
+  },
+  "docs/01-app/02-guides/testing/vitest.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112577+00:00",
+    "node_count": 2,
+    "sha256": "bf7cab03d8b5a38fbb83a2a161fea07a5611dc05a311b0967529c2f5dc799e75"
+  },
+  "docs/01-app/02-guides/third-party-libraries.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112599+00:00",
+    "node_count": 5,
+    "sha256": "0f1d0024cd9edb675fe40ba8ba75c1096a07fb4bf6a1afc68a686b0a30967bf9"
+  },
+  "docs/01-app/02-guides/upgrading/codemods.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112616+00:00",
+    "node_count": 11,
+    "sha256": "4aa5fa59605c454c1bfe2f16d4cf0073abc05d52b61f7a159ed43b3de49b4995"
+  },
+  "docs/01-app/02-guides/upgrading/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112623+00:00",
+    "node_count": 0,
+    "sha256": "7ec5fe70010464d343dbe681743253bafdf75a2c95cef28eb563c7e90342c8bc"
+  },
+  "docs/01-app/02-guides/upgrading/version-14.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112632+00:00",
+    "node_count": 1,
+    "sha256": "b86848b031374764f0ed87e2a2480b18f553c77c9bab925755384df7be4c16eb"
+  },
+  "docs/01-app/02-guides/upgrading/version-15.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112646+00:00",
+    "node_count": 9,
+    "sha256": "e3285868eee8d7cca50f70d7fc1e5851a2d6a4437a406692b4924304f1629795"
+  },
+  "docs/01-app/02-guides/upgrading/version-16.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112672+00:00",
+    "node_count": 14,
+    "sha256": "6eb409be8827f57a20c995c3d4d59626e3578ce21ed4ba67be12c3cee714a714"
+  },
+  "docs/01-app/02-guides/videos.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112688+00:00",
+    "node_count": 4,
+    "sha256": "5bb1965cf04eb2f3c8af5f6debc30959704d05ffaec611b33b1fb5593b508995"
+  },
+  "docs/01-app/02-guides/view-transitions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112710+00:00",
+    "node_count": 5,
+    "sha256": "47cd7a2cccc3cd75c6300d7e248334c2daf83bde1029ec549a888820f350bdc7"
+  },
+  "docs/01-app/03-api-reference/01-directives/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112716+00:00",
+    "node_count": 0,
+    "sha256": "bf64a9394b7042677e397e6cb942fcc6c64337c6eb2c30897ab24a8d8b970af3"
+  },
+  "docs/01-app/03-api-reference/01-directives/use-cache-private.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112725+00:00",
+    "node_count": 5,
+    "sha256": "6b495c288f63095054996bd8798de69f4ca254aaa40be5e9cf72126593dc9967"
+  },
+  "docs/01-app/03-api-reference/01-directives/use-cache-remote.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112744+00:00",
+    "node_count": 31,
+    "sha256": "6fc9a9a94d08a10a2259b2ce5c7b94e9bcf0ca68c5564d99e62af3b79dc14398"
+  },
+  "docs/01-app/03-api-reference/01-directives/use-cache.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112762+00:00",
+    "node_count": 25,
+    "sha256": "38c0317c4ea0b150f2c64257ced922fc675c0c306840cb877544f61a96a8d29c"
+  },
+  "docs/01-app/03-api-reference/01-directives/use-client.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112772+00:00",
+    "node_count": 4,
+    "sha256": "1897d9d6d0ea4db4604d54fd68c799cbb73a741d70106f0c2459125f9a03e346"
+  },
+  "docs/01-app/03-api-reference/01-directives/use-server.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112782+00:00",
+    "node_count": 6,
+    "sha256": "2b871a7a18a927a3b1f30fa722eb6b6e60c735b9b078a528417ea2b4dcd56f70"
+  },
+  "docs/01-app/03-api-reference/02-components/font.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112827+00:00",
+    "node_count": 6,
+    "sha256": "175bc67f1539db7e5db76ccaa4f1df350e747f9e60426ab2197322037f3e016c"
+  },
+  "docs/01-app/03-api-reference/02-components/form.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112839+00:00",
+    "node_count": 9,
+    "sha256": "ca7910b509b578113fc73537880e506b224bf436b995e145d0741145c354a8de"
+  },
+  "docs/01-app/03-api-reference/02-components/image.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112898+00:00",
+    "node_count": 14,
+    "sha256": "5696e7cbfaa0926f0193f412b354311effcc013345f20a8009993e984429bbc8"
+  },
+  "docs/01-app/03-api-reference/02-components/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112905+00:00",
+    "node_count": 0,
+    "sha256": "e8c37a832f5ef119300fd93768e404185dd68112a380c3aa9083ce4227323b43"
+  },
+  "docs/01-app/03-api-reference/02-components/link.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112932+00:00",
+    "node_count": 21,
+    "sha256": "1b74c5492d14d95453ab64dcd109508294750999d6f6085aa93a969b27a421ed"
+  },
+  "docs/01-app/03-api-reference/02-components/script.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112949+00:00",
+    "node_count": 7,
+    "sha256": "389e1d73785e413bbd53d38a7ba83c04fced9245bdcf1e75368925d48e205020"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/01-metadata/app-icons.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112959+00:00",
+    "node_count": 2,
+    "sha256": "0f3b7b862f4c4bec9da16ab39df1d8b800194fb0346efeeee1eb4f5575c381cb"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/01-metadata/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112968+00:00",
+    "node_count": 1,
+    "sha256": "fb00034fe3cc6ac73d580e2a67bcb4db06c849428eac5d8ce6b871610d6efdf1"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/01-metadata/manifest.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112976+00:00",
+    "node_count": 2,
+    "sha256": "a4842e4d553204ebda72bd025fc279cc2d5882795d6e73168ccb91a0e13a6e95"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/01-metadata/opengraph-image.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112991+00:00",
+    "node_count": 2,
+    "sha256": "f133b042e5954eaa1f2bb31472c1d6a4c4b694531d0ac98bcc1ab1a0b26a26a2"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/01-metadata/robots.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.112999+00:00",
+    "node_count": 2,
+    "sha256": "e8003da970452a059001ea1817f82b7744059a00396fb99c2be68684454a17cd"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/01-metadata/sitemap.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113010+00:00",
+    "node_count": 3,
+    "sha256": "8a1672bbe29967552b872f703b059e643aa80fb92733ef5bcb139e97c3586aa9"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config/dynamicParams.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113018+00:00",
+    "node_count": 1,
+    "sha256": "2807b629d4d5119fce4891023fe60167089bc2cc29c2492de7a5f2cb3e052165"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113026+00:00",
+    "node_count": 1,
+    "sha256": "30eede0d859c2fb895ea6d94f65a3f6dcafab1b430c50efe2bdba11f89944186"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config/instant.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113038+00:00",
+    "node_count": 3,
+    "sha256": "96c0d4b7f0452b7d3be5acc218670f63b5487acb4e5cd47bdfd720b061790a6f"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config/maxDuration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113047+00:00",
+    "node_count": 1,
+    "sha256": "8dc352abbb9718d27c800bbee04adbf13bfbc4c4d25737b9b571e4acc1952bfd"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config/preferredRegion.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113054+00:00",
+    "node_count": 1,
+    "sha256": "07f85f82b8e7a5ec2ae15e890b55508106b2e06bc3dfe5ac057b3fc3c5e80093"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config/prefetch.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113065+00:00",
+    "node_count": 2,
+    "sha256": "2774fc381b894529045cf64daaec03958f03afaeefc350dd471db73e3c100239"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config/runtime.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113072+00:00",
+    "node_count": 1,
+    "sha256": "a8aaf46a3ad0074f966d11b9d5cebcbb0a805c0a477182d28e4c6e9887c3d065"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/default.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113080+00:00",
+    "node_count": 2,
+    "sha256": "42cd5f6c5b7fb94c390bf9345dd898b355781c9149b9956af0f972ca6468369e"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/dynamic-routes.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113099+00:00",
+    "node_count": 9,
+    "sha256": "387f5dfd9a0400c38ed4ee143df7917abf1ef2a3c258c9eca2aa41bf02249130"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/error.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113113+00:00",
+    "node_count": 7,
+    "sha256": "cffaf97b7cafd4189ec3813b445b8bd3b60c2a99fc5d80d59cdde2caf1dc887f"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/forbidden.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113121+00:00",
+    "node_count": 2,
+    "sha256": "ec499e3b12d9be229a24f2b8a0ce339ece68d3ff74540851ab92457441dbeb90"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113127+00:00",
+    "node_count": 0,
+    "sha256": "c2d6b6819b377c0dec52d95dbcac07098326a74f06ddfd416885c4b45b13a3d8"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/instrumentation-client.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113140+00:00",
+    "node_count": 2,
+    "sha256": "c0b18027acc69de6b78f6bce7710b29fbe8b3210e42314af9c8803c100ac8b09"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/instrumentation.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113149+00:00",
+    "node_count": 3,
+    "sha256": "6f93844115bbb591d17d22612cbc90b1a2659bb76cdbb8243646bfeaa95fbcf8"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/intercepting-routes.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113160+00:00",
+    "node_count": 1,
+    "sha256": "bbdb0c44e487c3caa9f9bbef548a92e7e0e4e211b7ab1a944fa8cc38040cd235"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/layout.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113177+00:00",
+    "node_count": 14,
+    "sha256": "d55bc17f7925ed4088accbeb69ff1baf309a73ba6f15138e49e2a22840efc967"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/loading.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113194+00:00",
+    "node_count": 3,
+    "sha256": "c31c6853b412763ab11d3f0fdbe480b0bd6dcb3f7d32c646a48040cd23151d8f"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/mdx-components.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113201+00:00",
+    "node_count": 2,
+    "sha256": "d5b53495414e56fd956152db53be8a38d2b6f6f211bcc9014eee751c85a9e302"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/middleware.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113208+00:00",
+    "node_count": 1,
+    "sha256": "10418779f6d770c7bd606a771ba7ddb7d7461603e17d6a5cf279f24081689823"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/not-found.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113217+00:00",
+    "node_count": 3,
+    "sha256": "c5556b45cc2c9ecd67796dafd8f9e2f8a6e9d320d73dbd521c434b869adfaa45"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/page.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113229+00:00",
+    "node_count": 2,
+    "sha256": "63cbb7aa79f3c375ce838bf35ac317f6a26749cf9ddf547eb841f04b986e607b"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/parallel-routes.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113241+00:00",
+    "node_count": 8,
+    "sha256": "1f081b6da03f7bcaa225549ee17b122fe870e68618d027054705c262e5ad40ea"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/proxy.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113273+00:00",
+    "node_count": 2,
+    "sha256": "93651ef86b21a4d44ebac90f88a530645350386661e45b7ac8dbe4bab72a8c69"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/public-folder.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113279+00:00",
+    "node_count": 3,
+    "sha256": "0fe9e444b26e8b80767d49285722f6469bb592ec6d44f893a1fb918bf2e1c618"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/route-groups.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113286+00:00",
+    "node_count": 1,
+    "sha256": "8c926fb6917138bfd3b0f922cdb91f47d8946decd493f81335518061fe70626b"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/route.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113302+00:00",
+    "node_count": 10,
+    "sha256": "aa1f5391ab94df15292a00acae5ced04ef4d41a5ef66ceb2d8e1465387578231"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/src-folder.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113309+00:00",
+    "node_count": 1,
+    "sha256": "831a58369287d4ab12ff2040d3494bf7d8a6c4d774d6cbf98a020f7c75497bc4"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/template.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113321+00:00",
+    "node_count": 2,
+    "sha256": "a50a9809bff735f77e58c2810caa5a76ae37591c761566fe224abf1f8833802a"
+  },
+  "docs/01-app/03-api-reference/03-file-conventions/unauthorized.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113331+00:00",
+    "node_count": 4,
+    "sha256": "d8e16cc4011d91ae6bbe81c43bc8e1b031ff0f94f4e7bec65748d41c60257e54"
+  },
+  "docs/01-app/03-api-reference/04-functions/after.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113348+00:00",
+    "node_count": 6,
+    "sha256": "6cc26debbaff0d88f5b883ef987017d600b2511f06e5367cde3f1403f2dcc643"
+  },
+  "docs/01-app/03-api-reference/04-functions/cacheLife.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113372+00:00",
+    "node_count": 14,
+    "sha256": "46d3f1d0f7f210674c84ea06488dca9abdd34dc6864407fb0d7b648299ecedf8"
+  },
+  "docs/01-app/03-api-reference/04-functions/cacheTag.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113380+00:00",
+    "node_count": 7,
+    "sha256": "d93b2c6ea0bbbaeac31a123e90001430afcd5cc8244e440a3c0712863fdfbd77"
+  },
+  "docs/01-app/03-api-reference/04-functions/catchError.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113392+00:00",
+    "node_count": 3,
+    "sha256": "d705d0aa4826d85d13f6ef3bb6b7b16653f71f97611a5a6848882edc96ca9d46"
+  },
+  "docs/01-app/03-api-reference/04-functions/connection.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113401+00:00",
+    "node_count": 4,
+    "sha256": "8f0cfd31039e9484836d22d58857319a9d28ed89f99d623eec31423f487cc138"
+  },
+  "docs/01-app/03-api-reference/04-functions/cookies.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113419+00:00",
+    "node_count": 4,
+    "sha256": "f474ad3776772829116dd50c752dff267e1f29e38244071f461bb2a8c9a1da9b"
+  },
+  "docs/01-app/03-api-reference/04-functions/draft-mode.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113431+00:00",
+    "node_count": 3,
+    "sha256": "9871c55531a8e87919da9d688f9bad68e4ce7c13e84911d19714ff332ca990b6"
+  },
+  "docs/01-app/03-api-reference/04-functions/fetch.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113441+00:00",
+    "node_count": 2,
+    "sha256": "827d0cf55b3cd34c992684bb153dfacba9320693b4142fa9e7e9506c4035f50d"
+  },
+  "docs/01-app/03-api-reference/04-functions/forbidden.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113448+00:00",
+    "node_count": 3,
+    "sha256": "5c6dd2633a84994330c6ac79abbbcc7bc2a75a55eb5d9607613d61fc46dfbb3e"
+  },
+  "docs/01-app/03-api-reference/04-functions/generate-image-metadata.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113457+00:00",
+    "node_count": 4,
+    "sha256": "d365ad571603a1d942d10b0d026c2b9816d6f3f5a1535144e515a8b946d6fb47"
+  },
+  "docs/01-app/03-api-reference/04-functions/generate-metadata.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113528+00:00",
+    "node_count": 7,
+    "sha256": "ab8638fb72e5220a8ed0195b7f813975311b5c71f66eb9dcbac96fdd2c2ce818"
+  },
+  "docs/01-app/03-api-reference/04-functions/generate-sitemaps.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113546+00:00",
+    "node_count": 3,
+    "sha256": "32700d4ece85a08da976c8b697a1908402c3ad9cda58c40843eb626252538d9a"
+  },
+  "docs/01-app/03-api-reference/04-functions/generate-static-params.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113562+00:00",
+    "node_count": 6,
+    "sha256": "7c253e9a1b77fae5ee3a807bced694033dbecceebeac6d0687d3ce5d64a3cf33"
+  },
+  "docs/01-app/03-api-reference/04-functions/generate-viewport.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113577+00:00",
+    "node_count": 6,
+    "sha256": "71e48552d71f26dc117859afdd044625d5275729e29f8c6916862011b16aa818"
+  },
+  "docs/01-app/03-api-reference/04-functions/headers.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113586+00:00",
+    "node_count": 2,
+    "sha256": "2512b0ee174877876c8e2a8d9fd8fb71e2afb82957e1ddd8267b506ee68df8c7"
+  },
+  "docs/01-app/03-api-reference/04-functions/image-response.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113597+00:00",
+    "node_count": 3,
+    "sha256": "b360f19ec2c254e8bb7cbe87077a3d51156ec06f9e1de4b7180f9b42a6e2f909"
+  },
+  "docs/01-app/03-api-reference/04-functions/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113679+00:00",
+    "node_count": 0,
+    "sha256": "6d709b6b25e09c8fb68a1258d3aded9321e9891a889a350a2286e0ef49b7cf3c"
+  },
+  "docs/01-app/03-api-reference/04-functions/io.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113731+00:00",
+    "node_count": 3,
+    "sha256": "8bca5940d8c7a454cb5276b24efd3ed14006113cc9211cad99568f549ccaad09"
+  },
+  "docs/01-app/03-api-reference/04-functions/next-request.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113744+00:00",
+    "node_count": 1,
+    "sha256": "5703ad6d9fbba8b40c0d42256e110406e241b4ff2e392f939c553b1798159474"
+  },
+  "docs/01-app/03-api-reference/04-functions/next-response.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113754+00:00",
+    "node_count": 3,
+    "sha256": "e81511b6a34d05b2e410b1c22c39db9931f408d6903bfd5fd65253b9c35f3631"
+  },
+  "docs/01-app/03-api-reference/04-functions/next-root-params.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113775+00:00",
+    "node_count": 13,
+    "sha256": "814ccc77192a93cb2c81ffc0e93257acc58509963a7e7e3a0aa3d90c6d5d8423"
+  },
+  "docs/01-app/03-api-reference/04-functions/not-found.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113782+00:00",
+    "node_count": 3,
+    "sha256": "bbe3bfafff9041c8dc414c765258347bc4d76466aa6ce3115c5b4079aff4160c"
+  },
+  "docs/01-app/03-api-reference/04-functions/permanentRedirect.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113790+00:00",
+    "node_count": 3,
+    "sha256": "0576a660db351632db8170990a958d91b4db3d4f6efd08801c215392752bc20c"
+  },
+  "docs/01-app/03-api-reference/04-functions/redirect.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113800+00:00",
+    "node_count": 6,
+    "sha256": "fa40ee0eb7b5e532450bbcfb4242c87d38a328d4c03b0543d65c8b9e7a870f51"
+  },
+  "docs/01-app/03-api-reference/04-functions/refresh.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113807+00:00",
+    "node_count": 3,
+    "sha256": "30fa4b489af5d98059c0a1cbc6f0fc4b056d3f17dadf98142b2aa413e26cb27d"
+  },
+  "docs/01-app/03-api-reference/04-functions/revalidatePath.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113817+00:00",
+    "node_count": 4,
+    "sha256": "dd3cd494e8de242d8444456c47ab6dcfffdbd0990f38b781e8ab0094f1beadf3"
+  },
+  "docs/01-app/03-api-reference/04-functions/revalidateTag.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113826+00:00",
+    "node_count": 4,
+    "sha256": "b7b95a54f2a423175a499a8853f4bb507286158d0877d7d759004fda804b3145"
+  },
+  "docs/01-app/03-api-reference/04-functions/unauthorized.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113835+00:00",
+    "node_count": 5,
+    "sha256": "bfdf9680467aba6e2444e7f4bc2ae184fbb51c72b6585f51af00f5a2b8af024c"
+  },
+  "docs/01-app/03-api-reference/04-functions/unstable_cache.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113843+00:00",
+    "node_count": 3,
+    "sha256": "cd7d525151fb6186c42f731fca8ae0e027cfb03cc5b28961aa5b16d46a7aab47"
+  },
+  "docs/01-app/03-api-reference/04-functions/unstable_noStore.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113851+00:00",
+    "node_count": 2,
+    "sha256": "cf7ac7fbef7d107146458418f84db16dc6128a631a9ae455281e321e196a835f"
+  },
+  "docs/01-app/03-api-reference/04-functions/unstable_rethrow.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113859+00:00",
+    "node_count": 2,
+    "sha256": "ca49203054c8090dca639731630d732847ab6191f6acfba7aec7863bcae3359e"
+  },
+  "docs/01-app/03-api-reference/04-functions/updateTag.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113867+00:00",
+    "node_count": 4,
+    "sha256": "9088b5f5b393ac97381f646c0d427c018f82e25635ececdbe4e07d36e5952453"
+  },
+  "docs/01-app/03-api-reference/04-functions/use-link-status.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113879+00:00",
+    "node_count": 7,
+    "sha256": "3942c543d6826db9ce1e38b5b3cecf8b6e8b362ad5c519f580ea26f9a98b18c1"
+  },
+  "docs/01-app/03-api-reference/04-functions/use-params.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113887+00:00",
+    "node_count": 3,
+    "sha256": "069e1cf28d2f8701efd6ee85e80396f182a956641720a4bb74765a0b79d0559f"
+  },
+  "docs/01-app/03-api-reference/04-functions/use-pathname.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113897+00:00",
+    "node_count": 7,
+    "sha256": "b319f3ef319a721764ae4ba22ca247bf2fc7313c47bec79a040baa089ef2f99e"
+  },
+  "docs/01-app/03-api-reference/04-functions/use-report-web-vitals.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113906+00:00",
+    "node_count": 7,
+    "sha256": "5627da1d7d1c5e32ea93a8604fbc7dff4cfd70e3a32f39b0a24947d5fe02f8c9"
+  },
+  "docs/01-app/03-api-reference/04-functions/use-router.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113919+00:00",
+    "node_count": 8,
+    "sha256": "24c391a4c6c069b5df9f7304efec05a877c188419993135ae9c2b7995eea47d1"
+  },
+  "docs/01-app/03-api-reference/04-functions/use-search-params.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113932+00:00",
+    "node_count": 9,
+    "sha256": "563eb91be1c8ef4fa302a23558a509b5d4a577972878bf0b4111f6a6c78871c2"
+  },
+  "docs/01-app/03-api-reference/04-functions/use-selected-layout-segment.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113942+00:00",
+    "node_count": 5,
+    "sha256": "f428b2373bce05dd3eaa15a82b239f2c328542f42fb9f2ab505cd3787eb1f61f"
+  },
+  "docs/01-app/03-api-reference/04-functions/use-selected-layout-segments.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113951+00:00",
+    "node_count": 3,
+    "sha256": "7d4f654aa9ccddaa0101da579b427e10d82edaa4a70bf26f1b6b2178d176551e"
+  },
+  "docs/01-app/03-api-reference/04-functions/userAgent.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113958+00:00",
+    "node_count": 2,
+    "sha256": "8e66df6a6f4016f381f027163675c2b61cc31203534f5c8d226524ed9ae7cb37"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/adapterPath.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113965+00:00",
+    "node_count": 1,
+    "sha256": "0eced621ed575474bfb99f21ff765a9189132793161073a675e44f8770d840b5"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/allowedDevOrigins.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113971+00:00",
+    "node_count": 1,
+    "sha256": "a2dd5f23d522859967603cd50b0fc0e4f2c808c5730484e6e315dc8641b2308b"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/appDir.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113978+00:00",
+    "node_count": 0,
+    "sha256": "eb0fb158c8508bd47a49bfd207a9cb638dec5bd4d6b85ba98ab35c09082fdba0"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/assetPrefix.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113986+00:00",
+    "node_count": 1,
+    "sha256": "55d9338864ca7ba57e5adcefde772292ceaa0ed3362877b5bb6357add757dca8"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/authInterrupts.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.113994+00:00",
+    "node_count": 1,
+    "sha256": "ba5c966a8e32f057aceb4efb33c4ac80e208b61d9200ada15097b7a8985e5c8f"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/basePath.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114001+00:00",
+    "node_count": 1,
+    "sha256": "083c853ad4fd8cfbdca1bda686037da145ef5880102d38e69647419953416d2e"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/cacheComponents.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114008+00:00",
+    "node_count": 1,
+    "sha256": "fafa5ee529fdb1884cbb6a3c0bc4ff799e83487dfb1167e34dc68df53c68e7ba"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/cacheHandlers.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114024+00:00",
+    "node_count": 1,
+    "sha256": "f65e3855124250c0ddabf5d9066353dc5700fd057ced0fa4bc4db3469ce69262"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/cacheLife.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114032+00:00",
+    "node_count": 2,
+    "sha256": "9854d9c8f88c3848b42e7ad055f727444958aaf6c73eb1547e2e5fe42902c472"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/compress.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114039+00:00",
+    "node_count": 1,
+    "sha256": "d58690e03460b8c5c3921127ebff34d1c4da0e1fad45309a40dcca008d26966f"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/crossOrigin.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114047+00:00",
+    "node_count": 1,
+    "sha256": "2bf4727fd6c1f3562d659c855a9fc56a79922c186f5d784e5d0a072d4b2a921a"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/cssChunking.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114055+00:00",
+    "node_count": 1,
+    "sha256": "20ca1ab2a56af77eff3b198100bde9f1aa2c30a16fac5b0894632a63f08c8981"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/deploymentId.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114063+00:00",
+    "node_count": 1,
+    "sha256": "a07802c76d4947391c2c66c44a761f08ed66f00b6a0dc2d84d0c33aee36599dd"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/devIndicators.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114074+00:00",
+    "node_count": 1,
+    "sha256": "ed3ba6042be0ab58ba89437f5dd9422fbb173a2aa61868d9afea490671c5f958"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/distDir.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114080+00:00",
+    "node_count": 1,
+    "sha256": "6cf560d999a9ee4e0305c50a55a86330e3261f6d66cd8d09e80b653a5ce14dc8"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/env.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114087+00:00",
+    "node_count": 1,
+    "sha256": "0cab75fd6cf6961051b9de06de2d5c9243d01438da98474fb8577d1ee1ec3f88"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/expireTime.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114094+00:00",
+    "node_count": 1,
+    "sha256": "c5ad35d419024528bd2ff5364234d77ec036f0c393616c40b02bfaa2ef846ec3"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/exportPathMap.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114101+00:00",
+    "node_count": 1,
+    "sha256": "5bbdf408cd0f645662b46a6eea9dfb89f07e29219a982903a484692a90c31cad"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/generateBuildId.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114107+00:00",
+    "node_count": 1,
+    "sha256": "d1f09e564d2e847bf4b48d87e63240ac1ac2b87bc28b564859c9cb094b08b8e2"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/generateEtags.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114114+00:00",
+    "node_count": 1,
+    "sha256": "a44bb9b0c542664594f320cda236935682b60aa869957b2092a1cfc0ea7f65dc"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/headers.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114126+00:00",
+    "node_count": 4,
+    "sha256": "dfd07368f482400d02b22d3b4ff5332090d4a60aea0146c9a044375b2060b827"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/htmlLimitedBots.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114133+00:00",
+    "node_count": 1,
+    "sha256": "14f3e8eb9ba0bb09af6b0bc10e8a93bd21561e235a40d097acae7f44272d7588"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/httpAgentOptions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114139+00:00",
+    "node_count": 1,
+    "sha256": "ac4e712801ed11cc6af054bf1e718793b7abc502fcba3d7e42eac1afefa8a4e7"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/images.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114148+00:00",
+    "node_count": 18,
+    "sha256": "83273b688fbe2fb3f7867907753ff0fa9d59621e489d2624acd38188f1eaf5dd"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/incrementalCacheHandlerPath.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114157+00:00",
+    "node_count": 1,
+    "sha256": "8e18d39e331b7406fda6702a69d437859c655b8ed247264b552df9158476199e"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114165+00:00",
+    "node_count": 1,
+    "sha256": "8e59695965aa5e631f2eea55a36a3a09095e800ab61952a1386feeb8c71c16ce"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/inlineCss.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114174+00:00",
+    "node_count": 1,
+    "sha256": "562704ea32419b342eacee3832cf854af1b434f90411bc01bd3219f365f60288"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/instrumentationClientInject.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114184+00:00",
+    "node_count": 3,
+    "sha256": "16ffa1c48a9bb7050d26fab3b5d519679c36a27107a52b59f75d09ba98e36325"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/logging.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114195+00:00",
+    "node_count": 2,
+    "sha256": "cc490ec696f5021e46d54a7462d32c3aca9777213563bfafafaa02172ac18452"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/mdxRs.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114202+00:00",
+    "node_count": 1,
+    "sha256": "10df4d1bf13a879a4a9c0e196eccc592d258d14baf1a51b330b0b73f4e362d2b"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/onDemandEntries.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114209+00:00",
+    "node_count": 1,
+    "sha256": "a2ae74ffcfb18d3b2acfdb351e44d390a6d6764e8b1d76335820e398501c1c02"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/optimizePackageImports.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114215+00:00",
+    "node_count": 1,
+    "sha256": "c93fc1c9205326ccdcdbd47f1e7a9aaad2d070f3be4dd9d75331cc2a6359c7b1"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/output.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114225+00:00",
+    "node_count": 1,
+    "sha256": "c686a8c8eed9f1c4458d1d4e71221aa44fb5286cad081d38a65b38a6cd024571"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/outputHashSalt.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114234+00:00",
+    "node_count": 1,
+    "sha256": "0f58950c8af0dadddd60f5bc9790f9bead69aed401b626f1fa7ed5005db28f7e"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/pageExtensions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114243+00:00",
+    "node_count": 1,
+    "sha256": "2a6db806b295ffcffcc4a621120ef29f583b9fa4af935a56a2dd50727d6e83dd"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/partialPrefetching.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114250+00:00",
+    "node_count": 1,
+    "sha256": "4567f8a90309fb6aa2914f684d462636ab53d444bd4bc999ac5191374aa0a729"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/poweredByHeader.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114257+00:00",
+    "node_count": 1,
+    "sha256": "ed5c76ef7877e99c03aa0ac7a647a6228c0f7d04235e81c94ce2ebe662da9530"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/prefetchInlining.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114264+00:00",
+    "node_count": 1,
+    "sha256": "53d03df55948aa02e28b0961705af50f7fb0d9e363a70d008574bf0dfcfba2ab"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/productionBrowserSourceMaps.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114271+00:00",
+    "node_count": 1,
+    "sha256": "52d649a21db01d6d684e1c2129d747d6eb8ffcafc724916ffbd0ab9edac53185"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/proxyClientMaxBodySize.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114278+00:00",
+    "node_count": 3,
+    "sha256": "3c7bc59018e979fad44201b237a54749ba77ba91951608f4637c5c3dedd33bd5"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/reactCompiler.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114287+00:00",
+    "node_count": 2,
+    "sha256": "ea7ada942efc22b5c26866dac734142b9efcac3257eed9534d8b4fb3293940cc"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/reactMaxHeadersLength.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114294+00:00",
+    "node_count": 1,
+    "sha256": "c95af197ac2a57edef8706e92a55dcd7f4f91a3d01b24136a969531112de620e"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/reactStrictMode.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114300+00:00",
+    "node_count": 1,
+    "sha256": "53e7de9101dfeb6f2b78914f6a5bad5e1ab40c2751e523e9563b23f404487380"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/redirects.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114312+00:00",
+    "node_count": 1,
+    "sha256": "879cccb86c43113c4dd06e941538b4f85fa63fdfa07f4a8bba246c5479648fb8"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/rewrites.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114325+00:00",
+    "node_count": 1,
+    "sha256": "8c458066edc10380ce1f7d51c3ae861390f83e42ece2eb71e9c5c06255102403"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/sassOptions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114332+00:00",
+    "node_count": 1,
+    "sha256": "f85317efcf08051e12f9cfc096fd6e6d2baa2982c2463666c40638c54498aaf7"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/serverActions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114340+00:00",
+    "node_count": 1,
+    "sha256": "cd885007d48deff5901afd034056d9afc3759f460cdf5bddf630f8b0c1d357d3"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/serverComponentsHmrCache.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114346+00:00",
+    "node_count": 1,
+    "sha256": "9bcae25f83fc345915936731f4e246f84cc868b6c04d3a8db3da71086b4f08a9"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/serverExternalPackages.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114354+00:00",
+    "node_count": 1,
+    "sha256": "25de4f010b10654324b0217e705c84b0e58fb977459d033120559542220b3311"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/staleTimes.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114361+00:00",
+    "node_count": 1,
+    "sha256": "551e4c00c74750e572ba69a6896140603674beecfa29385d076ead1a7772cb25"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/staticGeneration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114368+00:00",
+    "node_count": 1,
+    "sha256": "70948bb4bf81455eded57f6191e7f2233aa5b6095d230be4ea42ee000581c57b"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/taint.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114378+00:00",
+    "node_count": 4,
+    "sha256": "7776c95ba8501e9b1299a709d9f31977533046c60927c5f1859fc085d9363ac8"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/trailingSlash.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114385+00:00",
+    "node_count": 1,
+    "sha256": "03fbfdc2e37d84c253ba366938712011314257cfbad4812befab3af857c65167"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/transpilePackages.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114392+00:00",
+    "node_count": 1,
+    "sha256": "991f36305b9fe8c37e23c0297cb04d48c78130dcb3da8e91dec8bcb8a1a193ca"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/turbopack.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114406+00:00",
+    "node_count": 2,
+    "sha256": "4e8fbcc95ec51c0c38d0ed9a4d49917ed1fc9102b4094269b6d7455d3e3e8374"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/turbopackFileSystemCache.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114413+00:00",
+    "node_count": 1,
+    "sha256": "4279d33dfce21e535802bec22e15057f36931383d7dc70b6952412a68617fdce"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/turbopackIgnoreIssue.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114422+00:00",
+    "node_count": 1,
+    "sha256": "be2577b76fa602f51ca0305b19a47782e91308da23af77577ac31a80dd2d93a3"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/turbopackLocalPostcssConfig.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114429+00:00",
+    "node_count": 1,
+    "sha256": "1b56c6501839e38d5ec8f5ae00078c1a7681c8d65e0779446224f11cacdc7397"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/turbopackMemoryEviction.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114436+00:00",
+    "node_count": 1,
+    "sha256": "7971d6aa6b05183e11c69f9a9fda706417abb29724fed11d46a930f87d272e0f"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/typedRoutes.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114442+00:00",
+    "node_count": 1,
+    "sha256": "79729b1497363fbc8414fd8820ac76c7c9c7410f6ade87c5a0b670cbba1936df"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/typescript.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114449+00:00",
+    "node_count": 1,
+    "sha256": "9916d4fa3208615dc1442ee7759493c1c15cd679c6ce7d02bbeaea49373da398"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/urlImports.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114457+00:00",
+    "node_count": 2,
+    "sha256": "64b61f09d75f865cc663f9c322c2da2bc3844e6b1ea34007166f46a822bd3bca"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/useLightningcss.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114467+00:00",
+    "node_count": 1,
+    "sha256": "a98c9e846454781909603bf3532671f75ab34bd2c2ebd05e8f83b5d342e3658c"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/viewTransition.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114473+00:00",
+    "node_count": 1,
+    "sha256": "32a8d695116bee44179d834a9f756c6a04d81fe312e9e6010fb8f2b10ba08b8a"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/webVitalsAttribution.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114480+00:00",
+    "node_count": 1,
+    "sha256": "b8a340fcc4ecf0edd18c07fb55be642d2c91254e0462d690391cc37126e12080"
+  },
+  "docs/01-app/03-api-reference/05-config/01-next-config-js/webpack.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114487+00:00",
+    "node_count": 1,
+    "sha256": "41302b7c328a2aac0f74cb2582e848772ba19c37b94f61c42314a42a4b4c0154"
+  },
+  "docs/01-app/03-api-reference/05-config/02-typescript.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114524+00:00",
+    "node_count": 12,
+    "sha256": "f115d7588273c6286806efe3bc23fa1763c88f265e6e338f716ec9a95ba345f3"
+  },
+  "docs/01-app/03-api-reference/05-config/03-eslint.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114537+00:00",
+    "node_count": 1,
+    "sha256": "68eb89e974438be0d7a95d155624b42e3108446328ac52d7b72cf3314ae4a219"
+  },
+  "docs/01-app/03-api-reference/05-config/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114543+00:00",
+    "node_count": 0,
+    "sha256": "811e14d0ad9c7f5d0295b9d8ffdfbe09bc30da20de0a217b9dfb181a34a441ef"
+  },
+  "docs/01-app/03-api-reference/06-cli/create-next-app.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114552+00:00",
+    "node_count": 1,
+    "sha256": "46b51162b714b5ff665b3e21f04c30429127d4dc861a7fa40f17690913a5473c"
+  },
+  "docs/01-app/03-api-reference/06-cli/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114558+00:00",
+    "node_count": 0,
+    "sha256": "676539bbaa6bb334648e084efdff364672906925df4d9818040a363a84f1f38c"
+  },
+  "docs/01-app/03-api-reference/06-cli/next.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114591+00:00",
+    "node_count": 1,
+    "sha256": "48b1df5105b30581091bd071f4afac2ce006bcd9e8e32cd0a98d9c020ee8a495"
+  },
+  "docs/01-app/03-api-reference/07-adapters/01-configuration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114599+00:00",
+    "node_count": 1,
+    "sha256": "1a9082afd0c6494c4e81e8f54b0c8a710014f67f94ca50cffc356a457443db32"
+  },
+  "docs/01-app/03-api-reference/07-adapters/02-creating-an-adapter.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114607+00:00",
+    "node_count": 5,
+    "sha256": "3c5c2b6c8c0a363e92d233496795166bc3a9f8e6cab6b3cdd676a4c6167e2e80"
+  },
+  "docs/01-app/03-api-reference/07-adapters/03-api-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114613+00:00",
+    "node_count": 1,
+    "sha256": "72632042b98f369a9f8ccb452f6b94a9d0daa514ff53637af3c7adb1f5d3e57c"
+  },
+  "docs/01-app/03-api-reference/07-adapters/04-testing-adapters.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114622+00:00",
+    "node_count": 1,
+    "sha256": "b2c3714b44c8f5eef3e4de09cf2d8b52d530d1ba8c8b1bc92bebf0e799b08db8"
+  },
+  "docs/01-app/03-api-reference/07-adapters/05-routing-with-next-routing.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114629+00:00",
+    "node_count": 1,
+    "sha256": "e1c58f4416d7648154f6c832ac5abad68e7b2fbc29cff2688abd498003cd23e5"
+  },
+  "docs/01-app/03-api-reference/07-adapters/06-implementing-ppr-in-an-adapter.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114636+00:00",
+    "node_count": 2,
+    "sha256": "49e08e10b5910ccb0c1c81328bf8ad3b912ce7f0097630dc061931b604c970a2"
+  },
+  "docs/01-app/03-api-reference/07-adapters/07-runtime-integration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114643+00:00",
+    "node_count": 1,
+    "sha256": "6ed932b608f0c277877635bc7980c7cb7e3fed90e905028711753d151e90dbed"
+  },
+  "docs/01-app/03-api-reference/07-adapters/08-invoking-entrypoints.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114652+00:00",
+    "node_count": 1,
+    "sha256": "c5fa178820b2d364e61f37896da81059d49fdb614f23143a300f4b783de175e5"
+  },
+  "docs/01-app/03-api-reference/07-adapters/09-output-types.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114664+00:00",
+    "node_count": 1,
+    "sha256": "425feb9512cbd86683cd39888c6243c03fbdc6e6cc6ebf5bea6c99925309017f"
+  },
+  "docs/01-app/03-api-reference/07-adapters/10-routing-information.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114671+00:00",
+    "node_count": 1,
+    "sha256": "d390da7ef26b1add1a616208513de40d1dbaeb3cca42fd8d57aaf43e153d9bae"
+  },
+  "docs/01-app/03-api-reference/07-adapters/11-use-cases.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114677+00:00",
+    "node_count": 0,
+    "sha256": "f712e9895528922ee67cf617cbacadd286183af95425e000986be70156c2c092"
+  },
+  "docs/01-app/03-api-reference/07-adapters/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114683+00:00",
+    "node_count": 0,
+    "sha256": "97982742ab108658ced55a14d1f37a31dce8f71d7e5c55d8a09d6696bfde7810"
+  },
+  "docs/01-app/03-api-reference/07-edge.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114702+00:00",
+    "node_count": 1,
+    "sha256": "a1e8386a4b3c9e789ca9a409a8c618853f4afba98fcbb1be451aa91a17c8b3d4"
+  },
+  "docs/01-app/03-api-reference/08-turbopack.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114738+00:00",
+    "node_count": 2,
+    "sha256": "8a6757edc6051844703616e1f698cd938f5e315113eabf9c31076d96b08ef596"
+  },
+  "docs/01-app/03-api-reference/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114744+00:00",
+    "node_count": 0,
+    "sha256": "2d82c97665404bc9ecdfbfc14b6ec132bdeb538d2f8ccf1d4d01bee495fc5c3c"
+  },
+  "docs/01-app/04-glossary.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114769+00:00",
+    "node_count": 1,
+    "sha256": "5bd32ee621ee16fa43f51eef41d7b281e2693d00eee6c78d96e66f484cb0c573"
+  },
+  "docs/01-app/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114775+00:00",
+    "node_count": 0,
+    "sha256": "c80a70fc5f6920d4981a799a7cee4134f4866b070742f69727b69c51fe58e680"
+  },
+  "docs/02-pages/01-getting-started/01-installation.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114781+00:00",
+    "node_count": 0,
+    "sha256": "a3aaf586c567d3bf0a94852a47dba8dec7b870de48a5fa2a2ce38621aecbb138"
+  },
+  "docs/02-pages/01-getting-started/02-project-structure.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114787+00:00",
+    "node_count": 0,
+    "sha256": "6328e92bc88f84a4db7b5180b9b57a5a4590476748cbcb126551bc81050e9d21"
+  },
+  "docs/02-pages/01-getting-started/04-images.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114793+00:00",
+    "node_count": 0,
+    "sha256": "3426e30d0f6c6273e4fc4e9f4934223679ad2b63aa4344341588cad607a10bc2"
+  },
+  "docs/02-pages/01-getting-started/05-fonts.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114799+00:00",
+    "node_count": 0,
+    "sha256": "db1eda122fedf27a1ab5dd5b6c3887d8bf722258e64918ef36b827c29f8f97fc"
+  },
+  "docs/02-pages/01-getting-started/06-css.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114805+00:00",
+    "node_count": 0,
+    "sha256": "0da4c6aec1154c9fb081326f2385f2109191dd7968e1ec212053d270e159a88e"
+  },
+  "docs/02-pages/01-getting-started/11-deploying.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114811+00:00",
+    "node_count": 0,
+    "sha256": "9ce9c26a39f6e4b81b7685090ce444f7746a1480e8b2ead86e2a3d617e28bfb1"
+  },
+  "docs/02-pages/01-getting-started/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114817+00:00",
+    "node_count": 0,
+    "sha256": "2c4eec72ed3283c94f25f4f7eaf9f6cc7acf1bd360533c50900f0e7199b9608d"
+  },
+  "docs/02-pages/02-guides/analytics.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114823+00:00",
+    "node_count": 0,
+    "sha256": "fcd1a22f680d1f51324d382bb02e0a304a81e402e63f47246ef952c566357838"
+  },
+  "docs/02-pages/02-guides/authentication.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114829+00:00",
+    "node_count": 0,
+    "sha256": "c644c29c9f6b142ed8e6f1d49ba525ad9304c05b875836d4ded9c807224186df"
+  },
+  "docs/02-pages/02-guides/babel.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114835+00:00",
+    "node_count": 1,
+    "sha256": "0b5bd881037764373296e9d5ca3439e14ec00b3e4dd136e93f1b876f7a5ee25b"
+  },
+  "docs/02-pages/02-guides/ci-build-caching.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114841+00:00",
+    "node_count": 0,
+    "sha256": "c7eff40798128085c4e0f30f263c6376a5468bac6cfc8f1d8999d8fc2ddb631a"
+  },
+  "docs/02-pages/02-guides/content-security-policy.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114847+00:00",
+    "node_count": 0,
+    "sha256": "2bf82ce06f0276b298100e2f2d4dd67ca103325373e9398d68e51187c647cda8"
+  },
+  "docs/02-pages/02-guides/css-in-js.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114853+00:00",
+    "node_count": 0,
+    "sha256": "a721827f43f7e93fc9d1f748e94bcfb81be5b068e2563adf84dbf7cae94723d3"
+  },
+  "docs/02-pages/02-guides/custom-server.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114860+00:00",
+    "node_count": 0,
+    "sha256": "7a26d8998a7d681a114430bc5d0a22bd986c7db3ef4dd807d0b10198744f555f"
+  },
+  "docs/02-pages/02-guides/debugging.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114867+00:00",
+    "node_count": 0,
+    "sha256": "9495ada6cb0b705654aa1120b3dc2bf806e1dd2d8658fbd5289623eb1f5792b9"
+  },
+  "docs/02-pages/02-guides/draft-mode.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114881+00:00",
+    "node_count": 2,
+    "sha256": "c2287e7593916c6289958795607e0fc8bbc54af30d9ae12a112bca4cfb4dc70c"
+  },
+  "docs/02-pages/02-guides/environment-variables.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114887+00:00",
+    "node_count": 0,
+    "sha256": "ff493eef1baadcbba024819f6b468b5807d4fefece111ed6cd5cb7fab7c0ce60"
+  },
+  "docs/02-pages/02-guides/forms.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114897+00:00",
+    "node_count": 5,
+    "sha256": "c2648bc88c54d372960d16d4309a036a2e7b13143e46b97e49418f5ed7f72c7c"
+  },
+  "docs/02-pages/02-guides/incremental-static-regeneration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114903+00:00",
+    "node_count": 0,
+    "sha256": "1e9eda23d9d2e092849a229b54e9c9961294544a7bbba5e5a8680e87a71124b1"
+  },
+  "docs/02-pages/02-guides/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114909+00:00",
+    "node_count": 0,
+    "sha256": "e6ebdb79730d79e9d97e0c6fb0b2b71b45d7585b5f2dcbc44d242339b40fc415"
+  },
+  "docs/02-pages/02-guides/instrumentation.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114915+00:00",
+    "node_count": 0,
+    "sha256": "38f2de216e6b1fff42a518353ab55d9685bca4029d0088693710d3a3e7ee7c00"
+  },
+  "docs/02-pages/02-guides/internationalization.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114927+00:00",
+    "node_count": 4,
+    "sha256": "97230f21b5cc46f59a62b57c5e677fca73f72b8de5244e50f428dd97033bf22b"
+  },
+  "docs/02-pages/02-guides/lazy-loading.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114933+00:00",
+    "node_count": 0,
+    "sha256": "a2e1e0190d19d8b7d5c6e8e351ac3c891e484047307314d4a0e9ad1a9c04e818"
+  },
+  "docs/02-pages/02-guides/mdx.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114939+00:00",
+    "node_count": 0,
+    "sha256": "5f34797f636b6db424e8c4bd053a4aa5379f26b61fa1d24523721249aa6ab955"
+  },
+  "docs/02-pages/02-guides/migrating/app-router-migration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114945+00:00",
+    "node_count": 0,
+    "sha256": "ab4a47fb8825ca7560de941534c7abbd5cef5e63165102646b08c1375246af5a"
+  },
+  "docs/02-pages/02-guides/migrating/from-create-react-app.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114951+00:00",
+    "node_count": 0,
+    "sha256": "483a019458d6a9e2dc6fb149c6f258d8aecb8aaf8f9c44c17912a3e4ffb85ee1"
+  },
+  "docs/02-pages/02-guides/migrating/from-vite.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114957+00:00",
+    "node_count": 0,
+    "sha256": "6152789932cf8fd662c66bf9f5654aec1df7ed0eeab252567d20b3171dcb3efb"
+  },
+  "docs/02-pages/02-guides/migrating/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114962+00:00",
+    "node_count": 0,
+    "sha256": "b3a332f3d75eccc8ecf76ade66c9ec9a9e8097a96ed15b3bc501f3ef75c7edab"
+  },
+  "docs/02-pages/02-guides/multi-zones.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114968+00:00",
+    "node_count": 0,
+    "sha256": "4ca59bbfd56eb39cf4d36f44a7c1e8e72fe5da8824103cc351076bc3c39716dc"
+  },
+  "docs/02-pages/02-guides/open-telemetry.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114974+00:00",
+    "node_count": 0,
+    "sha256": "6c1439f1783139db17fb05fe7d53d7541988a594238b67170ff62e6f1349dbb3"
+  },
+  "docs/02-pages/02-guides/package-bundling.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114980+00:00",
+    "node_count": 0,
+    "sha256": "47b368656c6f74ac9c41049d6a0cc0287d1868f2d55181140c231687fe9cee33"
+  },
+  "docs/02-pages/02-guides/post-css.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.114988+00:00",
+    "node_count": 1,
+    "sha256": "d74e3b76467f99ee9316f3989aa3b42409b17628a6c6a87233935d776752c985"
+  },
+  "docs/02-pages/02-guides/preview-mode.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115005+00:00",
+    "node_count": 2,
+    "sha256": "68e81745e429f95a6e67992abe11dda671251066bf186ead632ac3842917a0e8"
+  },
+  "docs/02-pages/02-guides/production-checklist.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115013+00:00",
+    "node_count": 0,
+    "sha256": "bb4cee74f53701b42ec54bb3fe8e193ee05436105e44b531720fe2a4bf8b6e0d"
+  },
+  "docs/02-pages/02-guides/redirecting.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115020+00:00",
+    "node_count": 0,
+    "sha256": "1be8cda36c6d4060866a9181544f09b44efbc74f76d6c6cefb22da92e7f14ef5"
+  },
+  "docs/02-pages/02-guides/sass.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115027+00:00",
+    "node_count": 0,
+    "sha256": "cff15ebfadd44ffb8fafe3743eee44054a8fbb9db836e948b6bd3f4911bc8671"
+  },
+  "docs/02-pages/02-guides/scripts.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115034+00:00",
+    "node_count": 0,
+    "sha256": "8feefb06b77aad82e38b4a5aebe94df397ca5e569813a98983cb83bfb11de3b8"
+  },
+  "docs/02-pages/02-guides/self-hosting.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115040+00:00",
+    "node_count": 0,
+    "sha256": "42b3b412f8c79c65f0492c4796de276f921c3796240f63685872cc8b3dad2d51"
+  },
+  "docs/02-pages/02-guides/static-exports.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115046+00:00",
+    "node_count": 0,
+    "sha256": "dbb149547eef830f33e20f4654dd0ea6286793657efb4ff12c7d26053ab4ad1a"
+  },
+  "docs/02-pages/02-guides/tailwind-v3-css.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115052+00:00",
+    "node_count": 0,
+    "sha256": "aab8bbc142a348e4aac57e2af3c394e4a7cd7fd950b722cfa7eef11c1e34b7dd"
+  },
+  "docs/02-pages/02-guides/testing/cypress.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115058+00:00",
+    "node_count": 0,
+    "sha256": "680ae3ff0bbbb1703c0057a1cba0f78a98486bf85ec24dedd473a04141003b52"
+  },
+  "docs/02-pages/02-guides/testing/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115065+00:00",
+    "node_count": 0,
+    "sha256": "0526881bd4d82b62c0b4b11586d220cbd69907bfeedfef7b94ea9a05b6990c6c"
+  },
+  "docs/02-pages/02-guides/testing/jest.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115073+00:00",
+    "node_count": 0,
+    "sha256": "44e3a1565ec416ad859ef074fc3f2c22f3980d19695fed469702dcb3b87c8a12"
+  },
+  "docs/02-pages/02-guides/testing/playwright.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115080+00:00",
+    "node_count": 0,
+    "sha256": "77f8851d266341a0d2f7204ff43f10317f2ac2d8a91314a21920228c517c2f0c"
+  },
+  "docs/02-pages/02-guides/testing/vitest.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115087+00:00",
+    "node_count": 0,
+    "sha256": "1fd6cd15596108191e98df324269db5071fb4653de637242af8b7ef671590437"
+  },
+  "docs/02-pages/02-guides/third-party-libraries.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115093+00:00",
+    "node_count": 0,
+    "sha256": "87b63a0030a55134e9042481b18a742264eb3fa1c1b653c5bb6a95628308d290"
+  },
+  "docs/02-pages/02-guides/upgrading/codemods.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115100+00:00",
+    "node_count": 0,
+    "sha256": "278fc888315449f3d7f4cfc4a39caf144bc5e7697643500cf783d44ebe57994f"
+  },
+  "docs/02-pages/02-guides/upgrading/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115106+00:00",
+    "node_count": 0,
+    "sha256": "ef64f8b31da796c429c7c77fe08b8d1af924b7d617560b5de98eb946b9b716ab"
+  },
+  "docs/02-pages/02-guides/upgrading/version-10.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115113+00:00",
+    "node_count": 1,
+    "sha256": "8dd01051cd5e38a45e5f56bdbca957f055ff5956164bc5140c25b660df7f64ba"
+  },
+  "docs/02-pages/02-guides/upgrading/version-11.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115122+00:00",
+    "node_count": 1,
+    "sha256": "1da6c3ac15dfb8c597147af8ab43174d4a13ab6b812397b760176a2b8346cc3a"
+  },
+  "docs/02-pages/02-guides/upgrading/version-12.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115131+00:00",
+    "node_count": 1,
+    "sha256": "6508f2bf1d8e199a11f9d2a7b8cda2f5e18ed653da201cca820d87e3fca7fba4"
+  },
+  "docs/02-pages/02-guides/upgrading/version-13.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115139+00:00",
+    "node_count": 1,
+    "sha256": "f0a0acfb6629c4fd88ad875cd57830db005b7c39b9b9bd2faedb3c9b3d2176d0"
+  },
+  "docs/02-pages/02-guides/upgrading/version-14.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115146+00:00",
+    "node_count": 0,
+    "sha256": "9fe190312b8854487f277f66d3750480f3461d57f037c0daa19cfb6168b5c571"
+  },
+  "docs/02-pages/02-guides/upgrading/version-9.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115155+00:00",
+    "node_count": 4,
+    "sha256": "2564d4b3fcefbe1509711a5eaf4b9febc9a6ae9be2e817d0bfc2da050ea4f5fa"
+  },
+  "docs/02-pages/03-building-your-application/01-routing/01-pages-and-layouts.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115167+00:00",
+    "node_count": 8,
+    "sha256": "dbbc791257e8feaa97485e4e24ba3fc569224033b184e2d85a54379c0383fb9d"
+  },
+  "docs/02-pages/03-building-your-application/01-routing/02-dynamic-routes.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115175+00:00",
+    "node_count": 3,
+    "sha256": "2d8e9a82d7eb0843065e7e96a1ce6ac5c177f574557942994852fadbf3be8ecc"
+  },
+  "docs/02-pages/03-building-your-application/01-routing/03-linking-and-navigating.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115187+00:00",
+    "node_count": 7,
+    "sha256": "f68ca11f1ee522a3ff90334a83794cbf3a825bbc3e9edf2c131275e4198b43e3"
+  },
+  "docs/02-pages/03-building-your-application/01-routing/05-custom-app.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115196+00:00",
+    "node_count": 3,
+    "sha256": "8e5bef6622f352e9b187d8b89ca280a70ceebb4b448d3eeff327a3bcc60e48f6"
+  },
+  "docs/02-pages/03-building-your-application/01-routing/06-custom-document.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115205+00:00",
+    "node_count": 3,
+    "sha256": "9e61e23467f30426844c35515fda87f71d8cc0e27850c4afa5f66a65d728071f"
+  },
+  "docs/02-pages/03-building-your-application/01-routing/07-api-routes.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115217+00:00",
+    "node_count": 3,
+    "sha256": "f090c446f5ea226697994796efa5c73c69ea5f633ccd211ee44d02574698ca47"
+  },
+  "docs/02-pages/03-building-your-application/01-routing/08-custom-error.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115227+00:00",
+    "node_count": 5,
+    "sha256": "a3db35cb97e5b56a1221c9cc4619a38694d1499b2cc25a54054962d86c84d716"
+  },
+  "docs/02-pages/03-building-your-application/01-routing/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115234+00:00",
+    "node_count": 0,
+    "sha256": "e96789760d49007ae5bff049daae1a3c55cc67d959343b081bc366e56c4d5ad3"
+  },
+  "docs/02-pages/03-building-your-application/02-rendering/01-server-side-rendering.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115240+00:00",
+    "node_count": 2,
+    "sha256": "3647d5f62ddc4de4e4ab718a7daf6bc6c92df6fd5f48814e26b1a92cd47ddcea"
+  },
+  "docs/02-pages/03-building-your-application/02-rendering/02-static-site-generation.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115250+00:00",
+    "node_count": 4,
+    "sha256": "a1406c9622a699d608428baf3fb5f858f62ce4c218b7c0c850dd8159b76bb36c"
+  },
+  "docs/02-pages/03-building-your-application/02-rendering/04-automatic-static-optimization.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115257+00:00",
+    "node_count": 1,
+    "sha256": "15c44ea2da8a2bb161d3b5a1da5c882d620d36315d664080c5de46b525387866"
+  },
+  "docs/02-pages/03-building-your-application/02-rendering/05-client-side-rendering.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115265+00:00",
+    "node_count": 5,
+    "sha256": "0e05a5ae4c2e259cd0bcc9bc918b833e51b6c4c3da4361042be1318780f4c41a"
+  },
+  "docs/02-pages/03-building-your-application/02-rendering/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115272+00:00",
+    "node_count": 1,
+    "sha256": "71d0542062ad400a899e316f31e1ef595d13c4c6be298b11455396ea07e1128d"
+  },
+  "docs/02-pages/03-building-your-application/03-data-fetching/01-get-static-props.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115287+00:00",
+    "node_count": 6,
+    "sha256": "0a40562ab2f88b41297d80b0e328df066c6664adb518bef8c420707979f4d1aa"
+  },
+  "docs/02-pages/03-building-your-application/03-data-fetching/02-get-static-paths.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115298+00:00",
+    "node_count": 5,
+    "sha256": "f6c6c0502cebcd015de1a2e127fc616da4bbe5ddd611166defa3d58c18deb0eb"
+  },
+  "docs/02-pages/03-building-your-application/03-data-fetching/03-get-server-side-props.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115307+00:00",
+    "node_count": 4,
+    "sha256": "f42c7f9c006d5c227e035fd2bf06019e38cb2bc61b6865d750cc1b6a1f614fb5"
+  },
+  "docs/02-pages/03-building-your-application/03-data-fetching/05-client-side.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115315+00:00",
+    "node_count": 5,
+    "sha256": "fc87e6007947e854e542150f7f86de02408967ec2960e2dd812fc7e681354c32"
+  },
+  "docs/02-pages/03-building-your-application/03-data-fetching/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115323+00:00",
+    "node_count": 1,
+    "sha256": "231ff18074d884c85d2c4439c07d511ee6fa34f9f284d9fc3505c5f837eed7f2"
+  },
+  "docs/02-pages/03-building-your-application/06-configuring/12-error-handling.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115330+00:00",
+    "node_count": 2,
+    "sha256": "93b115255a64c6abd1d112568d45e055a39bddb12b9aa3ef04e2404e1e2e1b2e"
+  },
+  "docs/02-pages/03-building-your-application/06-configuring/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115336+00:00",
+    "node_count": 0,
+    "sha256": "eeba358b6bef5e82207d9f00a896cffc5feac955101ea38d3707db925ea41688"
+  },
+  "docs/02-pages/03-building-your-application/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115343+00:00",
+    "node_count": 0,
+    "sha256": "92f92a8d9c7a1b67c60051638cc4ef38f69e86451a11314aa390b792bd9d618c"
+  },
+  "docs/02-pages/04-api-reference/01-components/font.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115349+00:00",
+    "node_count": 0,
+    "sha256": "cb790abcd63406739d571e7e46183811aec40f731794fab5fc44b12ae3236e16"
+  },
+  "docs/02-pages/04-api-reference/01-components/form.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115354+00:00",
+    "node_count": 0,
+    "sha256": "72f6371cd7c6c21a58c44cee0ee33e2bbeb46708197f6d3b9c53c89182768f22"
+  },
+  "docs/02-pages/04-api-reference/01-components/head.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115363+00:00",
+    "node_count": 2,
+    "sha256": "09695f07abda181ad2fd438a35228326eed9129f0bffc9a01f93e63aa2a3830f"
+  },
+  "docs/02-pages/04-api-reference/01-components/image-legacy.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115384+00:00",
+    "node_count": 5,
+    "sha256": "5354bb77c02cf0346a923412cf80326b72ae70acaf366aa3dc06ace0a73e40b7"
+  },
+  "docs/02-pages/04-api-reference/01-components/image.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115390+00:00",
+    "node_count": 0,
+    "sha256": "b11cf284cd87129463a6344cb62fa4020f550a0f28c4d96a33a21a38035f82d5"
+  },
+  "docs/02-pages/04-api-reference/01-components/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115396+00:00",
+    "node_count": 0,
+    "sha256": "1a64604db8b632bcd7df17bd76d4d9f87b737e8099a8168f5f1c1ff75cb54829"
+  },
+  "docs/02-pages/04-api-reference/01-components/link.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115403+00:00",
+    "node_count": 0,
+    "sha256": "27fc286c61d610b90700eff5277b5d5ce6b5cc17c6fe4c1c784dcc5d916fa2dd"
+  },
+  "docs/02-pages/04-api-reference/01-components/script.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115410+00:00",
+    "node_count": 0,
+    "sha256": "233530ad6c91fc9fbb55911964648c2f8fe41e60159b1c350a3d54d4aa21a55b"
+  },
+  "docs/02-pages/04-api-reference/02-file-conventions/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115416+00:00",
+    "node_count": 0,
+    "sha256": "c2d6b6819b377c0dec52d95dbcac07098326a74f06ddfd416885c4b45b13a3d8"
+  },
+  "docs/02-pages/04-api-reference/02-file-conventions/instrumentation.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115422+00:00",
+    "node_count": 0,
+    "sha256": "1e2e0382a8bd0086c128874ce4dcc4d9b1037d9abb67ad882f513acb6324c858"
+  },
+  "docs/02-pages/04-api-reference/02-file-conventions/proxy.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115429+00:00",
+    "node_count": 0,
+    "sha256": "b4cd8d04c7a804a56ca002fb99663fd9e4958be440ea84224c20a14c7093ab9a"
+  },
+  "docs/02-pages/04-api-reference/02-file-conventions/public-folder.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115436+00:00",
+    "node_count": 0,
+    "sha256": "9452925899afc6892a2246069ea53171de528f1d1985173d90f4ee3b20b49415"
+  },
+  "docs/02-pages/04-api-reference/02-file-conventions/src-folder.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115444+00:00",
+    "node_count": 0,
+    "sha256": "d5d43940a72d2ec8b81fe843097826df293ad53a58f7c3744ad2cfcf74c3eb8a"
+  },
+  "docs/02-pages/04-api-reference/03-functions/get-initial-props.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115469+00:00",
+    "node_count": 2,
+    "sha256": "57d7cca525a1a6c348116f576274c5987bc1e2f0b9f7479f84c986cdc92cc6ae"
+  },
+  "docs/02-pages/04-api-reference/03-functions/get-server-side-props.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115479+00:00",
+    "node_count": 4,
+    "sha256": "7392d943462a6111361a9c0774b50390f9901fef23807ae09bba88d2b54f1214"
+  },
+  "docs/02-pages/04-api-reference/03-functions/get-static-paths.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115497+00:00",
+    "node_count": 7,
+    "sha256": "775e80454274e72d3380f8b162d5d9e24d3e89e9e07cd423e7467ab00762907a"
+  },
+  "docs/02-pages/04-api-reference/03-functions/get-static-props.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115509+00:00",
+    "node_count": 5,
+    "sha256": "5f2fdecbed74ade8048a6b7ba7eba630bf165b8880bc7391201e45da9cfc920d"
+  },
+  "docs/02-pages/04-api-reference/03-functions/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115515+00:00",
+    "node_count": 0,
+    "sha256": "e11f1b335c47652e534289de97a91b283f31cf2c47fbb3fa90a1dec101c9672a"
+  },
+  "docs/02-pages/04-api-reference/03-functions/next-request.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115522+00:00",
+    "node_count": 0,
+    "sha256": "4fa926816d6a1732c58a35d22210e6f4c9110213b6f778df4ed33256dca966f3"
+  },
+  "docs/02-pages/04-api-reference/03-functions/next-response.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115529+00:00",
+    "node_count": 0,
+    "sha256": "9ddab78f01e93aca6d8ac0eed2924d0dfdb3bf5308e791b0bc6ba6a0e7e563f1"
+  },
+  "docs/02-pages/04-api-reference/03-functions/use-params.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115538+00:00",
+    "node_count": 6,
+    "sha256": "e1dd698054dd1f8bfbff8e07967344bc931852ea35c3bd571237a65f6603c9b1"
+  },
+  "docs/02-pages/04-api-reference/03-functions/use-report-web-vitals.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115544+00:00",
+    "node_count": 0,
+    "sha256": "47c8cbf9bf030606a77a1809b2c88d85f0d5c0a8c11622ca822bebe5e737b7b6"
+  },
+  "docs/02-pages/04-api-reference/03-functions/use-router.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115572+00:00",
+    "node_count": 17,
+    "sha256": "8741bdfcbe0b2a24a403b82b95f255aff980c531d6aeef2d2928364a4e1cf656"
+  },
+  "docs/02-pages/04-api-reference/03-functions/use-search-params.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115584+00:00",
+    "node_count": 8,
+    "sha256": "230173d11714e42c72e5e66a13f48c892301831ac4d4ee6212ac379eddf3402a"
+  },
+  "docs/02-pages/04-api-reference/03-functions/userAgent.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115590+00:00",
+    "node_count": 0,
+    "sha256": "7a72c1d4999ad7434712306aebc3629c7164d66a7ed05c5832e8b1253a55e236"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/adapterPath.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115597+00:00",
+    "node_count": 0,
+    "sha256": "d492a2b2fb39af5a88524750905c1b4d61b15b1cf123d52cc37ad0d42ff283ee"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/allowedDevOrigins.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115603+00:00",
+    "node_count": 0,
+    "sha256": "004a62b2643968252f73ee8abbc6c56a1aafca6226f07ef67af9b053f31989b2"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/assetPrefix.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115610+00:00",
+    "node_count": 0,
+    "sha256": "c2e0f6de46dff82d3152d8b762ea3c11a9b53036096956e069c520173398dc3f"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/basePath.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115616+00:00",
+    "node_count": 0,
+    "sha256": "24088b71a38f5017584533c7a28b80c07b825d1c6dfdb94a68d477a647e152a5"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/bundlePagesRouterDependencies.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115622+00:00",
+    "node_count": 1,
+    "sha256": "2d99a62aad421e6bf78306a2b4aa7d57c9cafeeab942ce6eb4bab63ecbf480b5"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/compress.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115628+00:00",
+    "node_count": 0,
+    "sha256": "61afb50f0d1698e2fd215559f5fcbc60b3dbbc868a92954666cca987c05bdcc7"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/crossOrigin.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115634+00:00",
+    "node_count": 0,
+    "sha256": "4a4c018521114d913f33ac56880be4a04cc5340f5de7380c96f9bf17b48e51b6"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/deploymentId.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115640+00:00",
+    "node_count": 0,
+    "sha256": "ca9f4906a049c877a0576502058bc0b7c536d9029759dfdead7886efb342c436"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/devIndicators.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115647+00:00",
+    "node_count": 0,
+    "sha256": "ca90a3655f1422c68424153b12fd8372716977e889ed1f4d111db67382616d59"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/distDir.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115652+00:00",
+    "node_count": 0,
+    "sha256": "4077150ab8d151ead7c21c1eeef5009511aa9e0985b62f1c9a0dd0166cc3b9f0"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/env.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115658+00:00",
+    "node_count": 0,
+    "sha256": "8a20fbac52f4529a588f4b9029c25d651bd7bc969d9c24f2193c79e0ad225df2"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/exportPathMap.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115664+00:00",
+    "node_count": 0,
+    "sha256": "f6398c4e7f1e15179e9723c75120eea16413c16f5a3fb5b155e2e6c50a3a0d7d"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/generateBuildId.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115670+00:00",
+    "node_count": 0,
+    "sha256": "d8a03018dc1e85b61ef1913ad6ae61660d770eb28846799199f36bb272c7cf29"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/generateEtags.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115676+00:00",
+    "node_count": 0,
+    "sha256": "3c8464eb69215f080eca68278ca032f7e291b09400a3be082f7231a053590a6c"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/headers.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115682+00:00",
+    "node_count": 0,
+    "sha256": "9351a414ad23215ad73715a228d202ed976deec0da70de6a8d80dc1683dc99b8"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/httpAgentOptions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115690+00:00",
+    "node_count": 0,
+    "sha256": "dcf72426b4034e6672245f4c8e25c9fb00c0ad84e7baf9978e7a1f7cc3294373"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/images.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115697+00:00",
+    "node_count": 0,
+    "sha256": "7fe5732a106a232e99c74e4640e2d2f2265b5ccfc7d585a0525967a42387fb76"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115703+00:00",
+    "node_count": 0,
+    "sha256": "c56338f39f603503fe9b44c3b4e4b4a515262d162b224a88be38b12f9d24799f"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/logging.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115709+00:00",
+    "node_count": 0,
+    "sha256": "61a858d42d596dfd6187d39ead22c823aa5c5f689701e3c525a467fcc7b2b011"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/onDemandEntries.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115715+00:00",
+    "node_count": 0,
+    "sha256": "585e8db941a40845031aa71a471b74483c407601b623a76b0bc20dbc41872e66"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/optimizePackageImports.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115721+00:00",
+    "node_count": 0,
+    "sha256": "a100c7b4c4fe217a8b140cddfa593dc2c94afbcd89f80ab2ab079bbf90f68e7e"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/output.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115727+00:00",
+    "node_count": 0,
+    "sha256": "5af5bac3be11a18f14f154a5a113eb04b990faf485276e719223eb97cd37917f"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/pageExtensions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115733+00:00",
+    "node_count": 0,
+    "sha256": "f99acb0c7f50255a430d91f7cfe5d6bd13781bc7fd14bda1177e03596ca414b0"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/poweredByHeader.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115738+00:00",
+    "node_count": 0,
+    "sha256": "854c3096b875409cf3c005538ba13f2b6726d5f26c4980a4bddcf38d1ffd9edf"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/productionBrowserSourceMaps.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115744+00:00",
+    "node_count": 0,
+    "sha256": "7b6554828591cd3bac139bdfb87f3b0d3bcf97b076349f756e5772b9c1852df9"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/proxyClientMaxBodySize.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115749+00:00",
+    "node_count": 0,
+    "sha256": "4dc6e442ad731fd597d80c3425545bce179355d933f9cb3518cdae71189aeb72"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/reactStrictMode.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115755+00:00",
+    "node_count": 0,
+    "sha256": "a4ee4912b5e481428a3999e3c485d8f53e1dd67163ecd78252314b9d7b80092f"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/redirects.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115761+00:00",
+    "node_count": 0,
+    "sha256": "359c5e05e11ca16a8d365f5ebfb86f398acc304a09af7e10d2545d65e08332a0"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/rewrites.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115766+00:00",
+    "node_count": 0,
+    "sha256": "0f4b59a33fa911e6385ca8a5a88adb0cfacce9583dc532378d481dee32055830"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/serverExternalPackages.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115773+00:00",
+    "node_count": 1,
+    "sha256": "55492b832f620c8021179875f442de508b7ae95b28a2884fd77c3f41fedf41e5"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/trailingSlash.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115781+00:00",
+    "node_count": 0,
+    "sha256": "a2a3735ca03ce1ebe527b717e84754100774ca36a97b510fd4c6feebfbd39087"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/transpilePackages.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115788+00:00",
+    "node_count": 0,
+    "sha256": "1a9d1ed33d42c67da1a0aea4ecadace382e704b76f149a5de1ad314125399281"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/turbopack.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115793+00:00",
+    "node_count": 0,
+    "sha256": "553b49580d6ae0ffa26a5a543496ce082176b4940d2f2bb072009855ea7a2543"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/typescript.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115825+00:00",
+    "node_count": 0,
+    "sha256": "af71700cdc638eccc4b884b46dca1430dc8bc3299a2bbc7750076ea829df2ae0"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/urlImports.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115841+00:00",
+    "node_count": 0,
+    "sha256": "b491b6df08dbf2e0368cbcf1b507bdd74020acdd7f10fad079e47469052b48b4"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/useLightningcss.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115859+00:00",
+    "node_count": 0,
+    "sha256": "55701a573adcf2c713bb0486b2e473ec15f76f4f9905d117875387976f2cf37c"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/webVitalsAttribution.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115876+00:00",
+    "node_count": 0,
+    "sha256": "e9ff370c072ee1ad8f5e87eb6b94cd2895d8cdc53fa2b67e67402e00be24c454"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-next-config-js/webpack.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115884+00:00",
+    "node_count": 0,
+    "sha256": "4f074e3904badf5d87f0703de904e7a8b1abdf3b501302b0e410d69a86c79a6b"
+  },
+  "docs/02-pages/04-api-reference/04-config/01-typescript.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115890+00:00",
+    "node_count": 0,
+    "sha256": "f52fab30deb27e672134bfa676e7bb8ff779bba8408d699d95b61c3c15ab2c1d"
+  },
+  "docs/02-pages/04-api-reference/04-config/02-eslint.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115897+00:00",
+    "node_count": 0,
+    "sha256": "adb031cb8d637b6ded76e4edd312544ab9f09007868211943a3630e7d0f50bc7"
+  },
+  "docs/02-pages/04-api-reference/04-config/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115903+00:00",
+    "node_count": 0,
+    "sha256": "5edb01d8fc8fad837fce3eb3b66dd5c5ef0196393de7c26f670070c6c3ca8028"
+  },
+  "docs/02-pages/04-api-reference/05-cli/create-next-app.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115909+00:00",
+    "node_count": 0,
+    "sha256": "0e26f455ed58b4830894c0da920bb45d99f901355881dd4859c08968c6a56a21"
+  },
+  "docs/02-pages/04-api-reference/05-cli/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115915+00:00",
+    "node_count": 0,
+    "sha256": "ee83d09126ed7e2fce76676af0b5f6208a5340e759a4e6a09e7926eda7d67a4a"
+  },
+  "docs/02-pages/04-api-reference/05-cli/next.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115921+00:00",
+    "node_count": 0,
+    "sha256": "19b2e0577bea3914cada1d21831d38e47ae859296cdfec83a38a350d6191e82d"
+  },
+  "docs/02-pages/04-api-reference/06-adapters/01-configuration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.115986+00:00",
+    "node_count": 0,
+    "sha256": "d27ba5a14522ddbddcb113c3c18cbb6ceb4570a04f379d682dc775d8b739ad96"
+  },
+  "docs/02-pages/04-api-reference/06-adapters/02-creating-an-adapter.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116008+00:00",
+    "node_count": 0,
+    "sha256": "cdf52b436fbe1f98018b4cd82227c7fe9048aebf6844996910e6d61f121ea6e2"
+  },
+  "docs/02-pages/04-api-reference/06-adapters/03-api-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116034+00:00",
+    "node_count": 0,
+    "sha256": "cee9c2d2fdf079c2b3a1b4b8b20401dbaded439469eac166be113d2a03c2da77"
+  },
+  "docs/02-pages/04-api-reference/06-adapters/04-testing-adapters.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116044+00:00",
+    "node_count": 0,
+    "sha256": "ce2b3d8f24e46867fb6e84654029d158c8a10670240f1459781480729b78196d"
+  },
+  "docs/02-pages/04-api-reference/06-adapters/05-routing-with-next-routing.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116050+00:00",
+    "node_count": 0,
+    "sha256": "3b4c836a2b8843307345483c3086414bb837cfb5d4ed888ee9fd04dc6ae75e7b"
+  },
+  "docs/02-pages/04-api-reference/06-adapters/06-implementing-ppr-in-an-adapter.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116056+00:00",
+    "node_count": 0,
+    "sha256": "d3c25dd32e4df50b7b23bebffff53bbbf08660b8c1a0b7cbe02ca72102aba41e"
+  },
+  "docs/02-pages/04-api-reference/06-adapters/07-runtime-integration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116063+00:00",
+    "node_count": 0,
+    "sha256": "23c28bcec8b062293c74a1afca6a1f8d11fa09a8ebb54e66980079c41484284f"
+  },
+  "docs/02-pages/04-api-reference/06-adapters/08-invoking-entrypoints.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116069+00:00",
+    "node_count": 0,
+    "sha256": "add0a215eafd01ee15cd6ad0dfd93fc6a56a5ddb4593f07c6beabc96efe06efd"
+  },
+  "docs/02-pages/04-api-reference/06-adapters/09-output-types.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116075+00:00",
+    "node_count": 0,
+    "sha256": "9aa0b32da5a3f7ee01312ab53ef0ad90ec23906024b66117589efb3e6a869a58"
+  },
+  "docs/02-pages/04-api-reference/06-adapters/10-routing-information.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116080+00:00",
+    "node_count": 0,
+    "sha256": "10c35aa057b3a4222972bc7488dbaa44efae9aaed8d1eae1d5d87f6da32c50a5"
+  },
+  "docs/02-pages/04-api-reference/06-adapters/11-use-cases.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116086+00:00",
+    "node_count": 0,
+    "sha256": "0cb0f9a2a3a4489fe6bebfbaedad3ddbf746786313f624a3cbd951062d64f778"
+  },
+  "docs/02-pages/04-api-reference/06-adapters/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116091+00:00",
+    "node_count": 0,
+    "sha256": "6f7b0cd98f86f40bb6c319e7bd32242719743842cd55adffa6280091b9c9ee2e"
+  },
+  "docs/02-pages/04-api-reference/06-edge.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116097+00:00",
+    "node_count": 0,
+    "sha256": "523af92d63089008a367a351d531cd4dfcb40054d24e9f3776c95ede2ef8ab88"
+  },
+  "docs/02-pages/04-api-reference/08-turbopack.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116103+00:00",
+    "node_count": 0,
+    "sha256": "5696f6a89f4a0ded0d82a372957253bed74b6448b206bbf4421f730df25ae43c"
+  },
+  "docs/02-pages/04-api-reference/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116108+00:00",
+    "node_count": 0,
+    "sha256": "6be19f8b92cddc3f324d572555d37fa2841fb3e805e5c133bcaf2658e18f98a0"
+  },
+  "docs/02-pages/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116114+00:00",
+    "node_count": 0,
+    "sha256": "79855e15a6cf5b0fb896e874b87a993a3fd27561668b9d4be5408395d7e2dc07"
+  },
+  "docs/03-architecture/accessibility.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116121+00:00",
+    "node_count": 1,
+    "sha256": "4e7ec466f1384524976f122c9ddd3c325f59e649d56333ef99c26884d2f3a5f8"
+  },
+  "docs/03-architecture/fast-refresh.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116133+00:00",
+    "node_count": 1,
+    "sha256": "c43bec497874611dbbfa657df233f2293a5037783edd981d90124f48b54069ad"
+  },
+  "docs/03-architecture/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116139+00:00",
+    "node_count": 0,
+    "sha256": "b8012b503ecfd6de571d401ea78169fa19469ea908e3a21417a2b97472c94194"
+  },
+  "docs/03-architecture/nextjs-compiler.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116159+00:00",
+    "node_count": 1,
+    "sha256": "541836568f4935fc4a045f067c33ab302f21ce6dd11566be0201285e6d886016"
+  },
+  "docs/03-architecture/supported-browsers.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116168+00:00",
+    "node_count": 3,
+    "sha256": "6d81303406d6fe46831a81b7b2bf8b8153b530b23d38ff6c50596c269c8a5df0"
+  },
+  "docs/04-community/01-contribution-guide.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116195+00:00",
+    "node_count": 2,
+    "sha256": "8f43c8a0aa59dbaa71773f1895c25a3c549113bb05e31916a7f8064aeb7945cf"
+  },
+  "docs/04-community/02-rspack.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116202+00:00",
+    "node_count": 0,
+    "sha256": "00751625307e47cd16aaaf0354c446395cb9420a6510a01e712b42c68fb756f4"
+  },
+  "docs/04-community/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116209+00:00",
+    "node_count": 1,
+    "sha256": "769d8acd16cc115b8f2d61f70d959ed5b4bdbd42112fac80a99f889637c1b921"
+  },
+  "docs/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-16T13:22:57.116217+00:00",
+    "node_count": 1,
+    "sha256": "d222c8bfb9c47e2e4474a33a6804f5286db993814439ef33cc788f00c4580864"
+  }
+}

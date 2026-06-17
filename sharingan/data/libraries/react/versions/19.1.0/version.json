@@ -1,0 +1,14 @@
+{
+  "id": "react@19.1.0",
+  "library_id": "react",
+  "semver": "19.1.0",
+  "is_latest": true,
+  "node_type": "version",
+  "stats": {
+    "total_nodes": 844,
+    "total_edges": 2369,
+    "symbols": 627,
+    "guides": 215,
+    "configs": 0
+  }
+}

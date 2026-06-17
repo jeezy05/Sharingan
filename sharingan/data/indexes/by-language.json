@@ -1,0 +1,16 @@
+{
+  "css": [
+    "tailwindcss"
+  ],
+  "javascript": [
+    "nodejs"
+  ],
+  "python": [
+    "fastapi"
+  ],
+  "typescript": [
+    "nextjs",
+    "react",
+    "zod"
+  ]
+}

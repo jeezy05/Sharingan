@@ -1,0 +1,30 @@
+{
+  "id": "nextjs",
+  "name": "Next.js",
+  "category": "meta-framework",
+  "language": "typescript",
+  "repo_url": "https://github.com/vercel/next.js",
+  "docs_url": "https://nextjs.org/docs",
+  "npm_package": "next",
+  "pypi_package": null,
+  "latest_version": "15.3.2",
+  "tracked_versions": [
+    "15.3.2",
+    "14.2.0",
+    "13.5.0"
+  ],
+  "tags": [
+    "fullstack",
+    "ssr",
+    "react",
+    "app-router"
+  ],
+  "node_type": "library",
+  "docs_config": {
+    "type": "github_markdown",
+    "repo": "vercel/next.js",
+    "branch": "canary",
+    "docs_path": "docs",
+    "extra_paths": []
+  }
+}

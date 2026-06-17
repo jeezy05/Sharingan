@@ -128,7 +128,7 @@ def info(library: str) -> None:
     console.print(f"  Tags:      {', '.join(source.tags)}")
 
     # Check if already extracted
-    project_root = Path(__file__).parent.parent
+    project_root = Path(__file__).parent / "data"
     lib_dir = project_root / "libraries" / source.library_id
     if lib_dir.exists():
         versions = []
@@ -158,7 +158,7 @@ def query(question: str, lib: str | None, version: str | None) -> None:
         sharingan query "server components" --lib react
         sharingan query "z.string methods" --lib zod
     """
-    project_root = Path(__file__).parent.parent
+    project_root = Path(__file__).parent / "data"
     indexes_dir = project_root / "indexes"
 
     # Simple keyword search across symbol names
@@ -277,7 +277,7 @@ def cluster(library: str, version: str | None, backend: str | None) -> None:
 @main.command()
 def status() -> None:
     """Show Sharingan status — extracted libraries, graph stats."""
-    project_root = Path(__file__).parent.parent
+    project_root = Path(__file__).parent / "data"
     libraries_dir = project_root / "libraries"
 
     if not libraries_dir.exists():

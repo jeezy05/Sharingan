@@ -5,7 +5,7 @@ from typing import Dict, List, Optional, Tuple
 
 def get_registry() -> dict:
     """Load the Sharingan registry.json file."""
-    registry_path = Path(__file__).parent.parent / "registry.json"
+    registry_path = Path(__file__).parent / "data" / "registry.json"
     if not registry_path.exists():
         return {}
     with open(registry_path, "r") as f:

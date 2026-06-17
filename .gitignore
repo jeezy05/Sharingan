@@ -29,3 +29,6 @@ libraries/*/versions/*/cache/
 
 # Test artifacts
 tests/output/
+
+#token
+token.txt

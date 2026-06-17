@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "sharingan"
+name = "sharingan-ai"
 version = "0.1.0"
 description = "Open-source knowledge graph for latest documentation of popular tech stacks. AI coding assistant plugin for Claude Code, Codex, Cursor, and more."
 readme = "README.md"

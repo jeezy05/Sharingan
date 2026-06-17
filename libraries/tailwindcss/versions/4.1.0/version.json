@@ -1,0 +1,14 @@
+{
+  "id": "tailwindcss@4.1.0",
+  "library_id": "tailwindcss",
+  "semver": "4.1.0",
+  "is_latest": true,
+  "node_type": "version",
+  "stats": {
+    "total_nodes": 203,
+    "total_edges": 207,
+    "symbols": 4,
+    "guides": 197,
+    "configs": 0
+  }
+}

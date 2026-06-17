@@ -1,0 +1,30 @@
+{
+  "id": "react",
+  "name": "React",
+  "category": "frontend",
+  "language": "typescript",
+  "repo_url": "https://github.com/facebook/react",
+  "docs_url": "https://react.dev",
+  "npm_package": "react",
+  "pypi_package": null,
+  "latest_version": "19.1.0",
+  "tracked_versions": [
+    "19.1.0",
+    "18.3.1",
+    "17.0.2"
+  ],
+  "tags": [
+    "ui",
+    "frontend",
+    "components",
+    "hooks"
+  ],
+  "node_type": "library",
+  "docs_config": {
+    "type": "github_markdown",
+    "repo": "reactjs/react.dev",
+    "branch": "main",
+    "docs_path": "src/content",
+    "extra_paths": []
+  }
+}

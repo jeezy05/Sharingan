@@ -1,4 +1,7 @@
 {
+  "css": [
+    "tailwindcss"
+  ],
   "javascript": [
     "nodejs"
   ],
@@ -7,6 +10,7 @@
   ],
   "typescript": [
     "nextjs",
+    "react",
     "zod"
   ]
 }

@@ -2,11 +2,21 @@
   "A": [
     "nodejs@22.16.0::A"
   ],
+  "AbortError": [
+    "react@19.1.0::AbortError"
+  ],
   "About": [
     "nextjs@15.3.2::About"
   ],
+  "AboutPage": [
+    "react@19.1.0::AboutPage"
+  ],
+  "AboutTab": [
+    "react@19.1.0::AboutTab"
+  ],
   "Accordion": [
-    "nextjs@15.3.2::Accordion"
+    "nextjs@15.3.2::Accordion",
+    "react@19.1.0::Accordion"
   ],
   "ActiveLink": [
     "nextjs@15.3.2::ActiveLink"
@@ -14,17 +24,54 @@
   "AdapterOutputs": [
     "nextjs@15.3.2::AdapterOutputs"
   ],
+  "AddComment": [
+    "react@19.1.0::AddComment"
+  ],
+  "AddCommentButton": [
+    "react@19.1.0::AddCommentButton"
+  ],
+  "AddCommentContainer": [
+    "react@19.1.0::AddCommentContainer"
+  ],
+  "AddItem": [
+    "react@19.1.0::AddItem"
+  ],
+  "AddTask": [
+    "react@19.1.0::AddTask"
+  ],
+  "AddToCart": [
+    "react@19.1.0::AddToCart"
+  ],
+  "AddTodo": [
+    "react@19.1.0::AddTodo"
+  ],
   "AdminActions": [
     "nextjs@15.3.2::AdminActions"
   ],
   "AdminPage": [
     "nextjs@15.3.2::AdminPage"
   ],
+  "Albums": [
+    "react@19.1.0::Albums"
+  ],
+  "AlbumsGlimmer": [
+    "react@19.1.0::AlbumsGlimmer"
+  ],
+  "AlertButton": [
+    "react@19.1.0::AlertButton"
+  ],
+  "AllPosts": [
+    "react@19.1.0::AllPosts"
+  ],
   "AnalyticsTracker": [
     "nextjs@15.3.2::AnalyticsTracker"
   ],
+  "AnimatedWeatherCard": [
+    "react@19.1.0::AnimatedWeatherCard"
+  ],
   "App": [
-    "nextjs@15.3.2::App"
+    "nextjs@15.3.2::App",
+    "react@19.1.0::App"
   ],
   "AppOwnProps": [
     "nextjs@15.3.2::AppOwnProps"
@@ -32,14 +79,31 @@
   "AppPropsWithLayout": [
     "nextjs@15.3.2::AppPropsWithLayout"
   ],
+  "AppRoot": [
+    "react@19.1.0::AppRoot"
+  ],
+  "AppWithCallbackAfterRender": [
+    "react@19.1.0::AppWithCallbackAfterRender"
+  ],
+  "ArtistPage": [
+    "react@19.1.0::ArtistPage"
+  ],
+  "Author": [
+    "react@19.1.0::Author"
+  ],
+  "AutoselectingInput": [
+    "react@19.1.0::AutoselectingInput"
+  ],
   "Avatar": [
-    "nextjs@15.3.2::Avatar"
+    "nextjs@15.3.2::Avatar",
+    "react@19.1.0::Avatar"
   ],
   "AvatarOfMe": [
     "nextjs@15.3.2::AvatarOfMe"
   ],
   "Background": [
-    "nextjs@15.3.2::Background"
+    "nextjs@15.3.2::Background",
+    "react@19.1.0::Background"
   ],
   "Bar": [
     "nodejs@22.16.0::Bar"
@@ -47,8 +111,15 @@
   "BaseButton": [
     "nextjs@15.3.2::BaseButton"
   ],
+  "BigSpinner": [
+    "react@19.1.0::BigSpinner"
+  ],
+  "Biography": [
+    "react@19.1.0::Biography"
+  ],
   "Blog": [
-    "nextjs@15.3.2::Blog"
+    "nextjs@15.3.2::Blog",
+    "react@19.1.0::Blog"
   ],
   "BlogLayout": [
     "nextjs@15.3.2::BlogLayout"
@@ -57,10 +128,12 @@
     "nextjs@15.3.2::BlogNavLink"
   ],
   "BlogPage": [
-    "nextjs@15.3.2::BlogPage"
+    "nextjs@15.3.2::BlogPage",
+    "react@19.1.0::BlogPage"
   ],
   "BlogPost": [
-    "nextjs@15.3.2::BlogPost"
+    "nextjs@15.3.2::BlogPost",
+    "react@19.1.0::BlogPost"
   ],
   "BlogPostPage": [
     "nextjs@15.3.2::BlogPostPage"
@@ -68,11 +141,23 @@
   "BlogPosts": [
     "nextjs@15.3.2::BlogPosts"
   ],
+  "Board": [
+    "react@19.1.0::Board"
+  ],
   "Bookings": [
     "nextjs@15.3.2::Bookings"
   ],
   "BookingsProps": [
     "nextjs@15.3.2::BookingsProps"
+  ],
+  "Boom": [
+    "react@19.1.0::Boom"
+  ],
+  "Box": [
+    "react@19.1.0::Box"
+  ],
+  "BrandedButton": [
+    "tailwindcss@4.1.0::BrandedButton"
   ],
   "Breadcrumb": [
     "nextjs@15.3.2::Breadcrumb"
@@ -80,8 +165,28 @@
   "Breadcrumbs": [
     "nextjs@15.3.2::Breadcrumbs"
   ],
+  "BucketList": [
+    "react@19.1.0::BucketList"
+  ],
   "Button": [
-    "nextjs@15.3.2::Button"
+    "nextjs@15.3.2::Button",
+    "react@19.1.0::Button",
+    "tailwindcss@4.1.0::Button"
+  ],
+  "ButtonComponent": [
+    "react@19.1.0::ButtonComponent"
+  ],
+  "ButtonGroup": [
+    "react@19.1.0::ButtonGroup"
+  ],
+  "ButtonWithTooltip": [
+    "react@19.1.0::ButtonWithTooltip"
+  ],
+  "Button_optimized": [
+    "react@19.1.0::Button_optimized"
+  ],
+  "Button_original": [
+    "react@19.1.0::Button_original"
   ],
   "CacheComponent": [
     "nextjs@15.3.2::CacheComponent"
@@ -107,8 +212,21 @@
   "CachedWrapper": [
     "nextjs@15.3.2::CachedWrapper"
   ],
+  "Calculator": [
+    "react@19.1.0::Calculator"
+  ],
+  "CallToAction": [
+    "react@19.1.0::CallToAction"
+  ],
+  "Canvas": [
+    "react@19.1.0::Canvas"
+  ],
   "Card": [
-    "nextjs@15.3.2::Card"
+    "nextjs@15.3.2::Card",
+    "react@19.1.0::Card"
+  ],
+  "CatFriends": [
+    "react@19.1.0::CatFriends"
   ],
   "CatchAll": [
     "nextjs@15.3.2::CatchAll"
@@ -119,8 +237,45 @@
   "CategoryLayout": [
     "nextjs@15.3.2::CategoryLayout"
   ],
+  "ChangeName": [
+    "react@19.1.0::ChangeName"
+  ],
+  "Chart": [
+    "react@19.1.0::Chart"
+  ],
+  "Chat": [
+    "react@19.1.0::Chat"
+  ],
+  "ChatIndicator": [
+    "react@19.1.0::ChatIndicator"
+  ],
+  "ChatInput": [
+    "react@19.1.0::ChatInput"
+  ],
+  "ChatRoom": [
+    "react@19.1.0::ChatRoom"
+  ],
+  "Checkout": [
+    "react@19.1.0::Checkout"
+  ],
+  "CheckoutForm": [
+    "react@19.1.0::CheckoutForm"
+  ],
+  "ChevronLeft": [
+    "react@19.1.0::ChevronLeft"
+  ],
   "Child": [
-    "nextjs@15.3.2::Child"
+    "nextjs@15.3.2::Child",
+    "react@19.1.0::Child"
+  ],
+  "ChildComponent": [
+    "react@19.1.0::ChildComponent"
+  ],
+  "Circle": [
+    "react@19.1.0::Circle"
+  ],
+  "ClickableFragment": [
+    "react@19.1.0::ClickableFragment"
   ],
   "ClientComponent": [
     "nextjs@15.3.2::ClientComponent"
@@ -134,14 +289,28 @@
   "ClientRedirect": [
     "nextjs@15.3.2::ClientRedirect"
   ],
+  "Clock": [
+    "react@19.1.0::Clock"
+  ],
   "CollectionPage": [
     "nextjs@15.3.2::CollectionPage"
   ],
+  "Color": [
+    "react@19.1.0::Color"
+  ],
+  "ColorSwitch": [
+    "react@19.1.0::ColorSwitch"
+  ],
   "Comment": [
-    "nextjs@15.3.2::Comment"
+    "nextjs@15.3.2::Comment",
+    "react@19.1.0::Comment"
+  ],
+  "CommentList": [
+    "react@19.1.0::CommentList"
   ],
   "Comments": [
-    "nextjs@15.3.2::Comments"
+    "nextjs@15.3.2::Comments",
+    "react@19.1.0::Comments"
   ],
   "CommentsSkeleton": [
     "nextjs@15.3.2::CommentsSkeleton"
@@ -149,17 +318,54 @@
   "CommonHeaders": [
     "fastapi@0.115.0::CommonHeaders"
   ],
+  "ComplexDashboard": [
+    "react@19.1.0::ComplexDashboard"
+  ],
+  "ComplexObject": [
+    "react@19.1.0::ComplexObject"
+  ],
   "Component": [
-    "nextjs@15.3.2::Component"
+    "nextjs@15.3.2::Component",
+    "react@19.1.0::Component"
+  ],
+  "Component1": [
+    "react@19.1.0::Component1"
+  ],
+  "Component2": [
+    "react@19.1.0::Component2"
+  ],
+  "Component3": [
+    "react@19.1.0::Component3"
+  ],
+  "ComponentOne": [
+    "react@19.1.0::ComponentOne"
+  ],
+  "ComponentTwo": [
+    "react@19.1.0::ComponentTwo"
   ],
   "Connection": [
     "nextjs@15.3.2::Connection"
   ],
+  "Contact": [
+    "react@19.1.0::Contact"
+  ],
   "ContactForm": [
     "nextjs@15.3.2::ContactForm"
   ],
+  "ContactList": [
+    "react@19.1.0::ContactList"
+  ],
+  "ContactManager": [
+    "react@19.1.0::ContactManager"
+  ],
   "ContactPage": [
     "nextjs@15.3.2::ContactPage"
+  ],
+  "ContactTab": [
+    "react@19.1.0::ContactTab"
+  ],
+  "ContactUsPage": [
+    "react@19.1.0::ContactUsPage"
   ],
   "Content": [
     "nextjs@15.3.2::Content"
@@ -167,12 +373,28 @@
   "Cookies": [
     "fastapi@0.115.0::Cookies"
   ],
+  "Copyright": [
+    "react@19.1.0::Copyright"
+  ],
+  "CountLabel": [
+    "react@19.1.0::CountLabel"
+  ],
   "Counter": [
     "nextjs@15.3.2::Counter",
-    "nodejs@22.16.0::Counter"
+    "nodejs@22.16.0::Counter",
+    "react@19.1.0::Counter"
+  ],
+  "CounterAction": [
+    "react@19.1.0::CounterAction"
+  ],
+  "CounterContainer": [
+    "react@19.1.0::CounterContainer"
   ],
   "CoursesPage": [
     "nextjs@15.3.2::CoursesPage"
+  ],
+  "Cup": [
+    "react@19.1.0::Cup"
   ],
   "Custom404": [
     "nextjs@15.3.2::Custom404"
@@ -193,7 +415,8 @@
     "nextjs@15.3.2::DELETE"
   ],
   "Dashboard": [
-    "nextjs@15.3.2::Dashboard"
+    "nextjs@15.3.2::Dashboard",
+    "react@19.1.0::Dashboard"
   ],
   "DashboardLayout": [
     "nextjs@15.3.2::DashboardLayout"
@@ -207,14 +430,47 @@
   "Data": [
     "nextjs@15.3.2::Data"
   ],
+  "DataGrid": [
+    "react@19.1.0::DataGrid"
+  ],
+  "DataProcessor": [
+    "react@19.1.0::DataProcessor"
+  ],
+  "DataViewer": [
+    "react@19.1.0::DataViewer"
+  ],
+  "DebouncedButton": [
+    "react@19.1.0::DebouncedButton"
+  ],
   "Default": [
     "nextjs@15.3.2::Default"
+  ],
+  "DemoProfile": [
+    "react@19.1.0::DemoProfile"
+  ],
+  "DesignButton": [
+    "react@19.1.0::DesignButton"
+  ],
+  "Details": [
+    "react@19.1.0::Details"
   ],
   "DocsLayout": [
     "nextjs@15.3.2::DocsLayout"
   ],
   "Document": [
     "nextjs@15.3.2::Document"
+  ],
+  "Dot": [
+    "react@19.1.0::Dot"
+  ],
+  "Drink": [
+    "react@19.1.0::Drink"
+  ],
+  "DrinkList": [
+    "react@19.1.0::DrinkList"
+  ],
+  "Dropdown": [
+    "react@19.1.0::Dropdown"
   ],
   "Dynamic": [
     "nextjs@15.3.2::Dynamic"
@@ -228,14 +484,32 @@
   "DynamicMarker": [
     "nextjs@15.3.2::DynamicMarker"
   ],
+  "EditContact": [
+    "react@19.1.0::EditContact"
+  ],
+  "EditForm": [
+    "react@19.1.0::EditForm"
+  ],
+  "EditName": [
+    "react@19.1.0::EditName"
+  ],
+  "Editor": [
+    "react@19.1.0::Editor"
+  ],
   "EditorialPage": [
     "nextjs@15.3.2::EditorialPage"
+  ],
+  "EmptyNote": [
+    "react@19.1.0::EmptyNote"
   ],
   "Entry": [
     "nextjs@15.3.2::Entry"
   ],
   "Error": [
     "nextjs@15.3.2::Error"
+  ],
+  "ErrorBoundary": [
+    "react@19.1.0::ErrorBoundary"
   ],
   "ErrorBoundaryProps": [
     "nextjs@15.3.2::ErrorBoundaryProps"
@@ -256,7 +530,8 @@
     "nextjs@15.3.2::EventDate"
   ],
   "Example": [
-    "nextjs@15.3.2::Example"
+    "nextjs@15.3.2::Example",
+    "tailwindcss@4.1.0::Example"
   ],
   "ExampleClientComponent": [
     "nextjs@15.3.2::ExampleClientComponent"
@@ -264,11 +539,35 @@
   "ExampleDialog": [
     "nextjs@15.3.2::ExampleDialog"
   ],
+  "Expandable": [
+    "react@19.1.0::Expandable"
+  ],
   "ExpandableComments": [
     "nextjs@15.3.2::ExpandableComments"
   ],
+  "ExpenseForm": [
+    "react@19.1.0::ExpenseForm"
+  ],
+  "ExpensiveChild": [
+    "react@19.1.0::ExpensiveChild"
+  ],
+  "ExpensiveComponent": [
+    "react@19.1.0::ExpensiveComponent"
+  ],
+  "ExpensiveList": [
+    "react@19.1.0::ExpensiveList"
+  ],
   "ExtendedDocumentProps": [
     "nextjs@15.3.2::ExtendedDocumentProps"
+  ],
+  "FactoryComponent": [
+    "react@19.1.0::FactoryComponent"
+  ],
+  "FadeInAnimation": [
+    "react@19.1.0::FadeInAnimation"
+  ],
+  "FancyText": [
+    "react@19.1.0::FancyText"
   ],
   "FeedItems": [
     "nextjs@15.3.2::FeedItems"
@@ -276,26 +575,60 @@
   "FeedPage": [
     "nextjs@15.3.2::FeedPage"
   ],
+  "FeedbackForm": [
+    "react@19.1.0::FeedbackForm"
+  ],
   "Fill": [
     "nextjs@15.3.2::Fill"
   ],
   "FilterParams": [
     "fastapi@0.115.0::FilterParams"
   ],
+  "FilterableList": [
+    "react@19.1.0::FilterableList"
+  ],
+  "FilterableProductTable": [
+    "react@19.1.0::FilterableProductTable"
+  ],
+  "FirstComponent": [
+    "react@19.1.0::FirstComponent"
+  ],
+  "FocusFragment": [
+    "react@19.1.0::FocusFragment"
+  ],
+  "FollowButton": [
+    "react@19.1.0::FollowButton"
+  ],
   "Foo": [
     "nodejs@22.16.0::Foo"
+  ],
+  "Footer": [
+    "react@19.1.0::Footer"
   ],
   "Forbidden": [
     "nextjs@15.3.2::Forbidden"
   ],
   "Form": [
-    "nextjs@15.3.2::Form"
+    "nextjs@15.3.2::Form",
+    "react@19.1.0::Form"
   ],
   "FormData": [
     "fastapi@0.115.0::FormData"
   ],
+  "FormField": [
+    "react@19.1.0::FormField"
+  ],
   "FormState": [
     "nextjs@15.3.2::FormState"
+  ],
+  "FriendList": [
+    "react@19.1.0::FriendList"
+  ],
+  "FruitPicker": [
+    "react@19.1.0::FruitPicker"
+  ],
+  "FullscreenVideo": [
+    "react@19.1.0::FullscreenVideo"
   ],
   "Fuse": [
     "nextjs@15.3.2::Fuse"
@@ -304,7 +637,11 @@
     "nextjs@15.3.2::GET"
   ],
   "Gallery": [
-    "nextjs@15.3.2::Gallery"
+    "nextjs@15.3.2::Gallery",
+    "react@19.1.0::Gallery"
+  ],
+  "Game": [
+    "react@19.1.0::Game"
   ],
   "GlobalError": [
     "nextjs@15.3.2::GlobalError"
@@ -315,11 +652,27 @@
   "GracefullyDegradingErrorBoundary": [
     "nextjs@15.3.2::GracefullyDegradingErrorBoundary"
   ],
+  "Greeting": [
+    "react@19.1.0::Greeting"
+  ],
+  "GreetingSelector": [
+    "react@19.1.0::GreetingSelector"
+  ],
+  "GroupsLanding": [
+    "react@19.1.0::GroupsLanding"
+  ],
   "HEAD": [
     "nextjs@15.3.2::HEAD"
   ],
   "Header": [
-    "nextjs@15.3.2::Header"
+    "nextjs@15.3.2::Header",
+    "react@19.1.0::Header"
+  ],
+  "Heading": [
+    "react@19.1.0::Heading"
+  ],
+  "Heart": [
+    "react@19.1.0::Heart"
   ],
   "Hello": [
     "nextjs@15.3.2::Hello"
@@ -331,10 +684,15 @@
     "nextjs@15.3.2::Hint"
   ],
   "Home": [
-    "nextjs@15.3.2::Home"
+    "nextjs@15.3.2::Home",
+    "react@19.1.0::Home"
   ],
   "HomePage": [
-    "nextjs@15.3.2::HomePage"
+    "nextjs@15.3.2::HomePage",
+    "react@19.1.0::HomePage"
+  ],
+  "HorizontalRule": [
+    "react@19.1.0::HorizontalRule"
   ],
   "HoverPrefetchLink": [
     "nextjs@15.3.2::HoverPrefetchLink"
@@ -342,8 +700,12 @@
   "Icon": [
     "nextjs@15.3.2::Icon"
   ],
+  "IconSearch": [
+    "react@19.1.0::IconSearch"
+  ],
   "Image": [
-    "nextjs@15.3.2::Image"
+    "nextjs@15.3.2::Image",
+    "react@19.1.0::Image"
   ],
   "ImageWithCaption": [
     "nextjs@15.3.2::ImageWithCaption"
@@ -352,10 +714,20 @@
     "nextjs@15.3.2::Index"
   ],
   "IndexPage": [
-    "nextjs@15.3.2::IndexPage"
+    "nextjs@15.3.2::IndexPage",
+    "react@19.1.0::IndexPage"
+  ],
+  "InfoCard": [
+    "react@19.1.0::InfoCard"
   ],
   "InlineScript": [
     "nextjs@15.3.2::InlineScript"
+  ],
+  "Input": [
+    "react@19.1.0::Input"
+  ],
+  "InspirationGenerator": [
+    "react@19.1.0::InspirationGenerator"
   ],
   "InstallPrompt": [
     "nextjs@15.3.2::InstallPrompt"
@@ -371,7 +743,11 @@
   ],
   "Item": [
     "fastapi@0.115.0::Item",
-    "nextjs@15.3.2::Item"
+    "nextjs@15.3.2::Item",
+    "react@19.1.0::Item"
+  ],
+  "ItemList": [
+    "react@19.1.0::ItemList"
   ],
   "ItemV2": [
     "fastapi@0.115.0::ItemV2"
@@ -380,19 +756,34 @@
     "nextjs@15.3.2::LatestPosts"
   ],
   "Layout": [
-    "nextjs@15.3.2::Layout"
+    "nextjs@15.3.2::Layout",
+    "react@19.1.0::Layout"
+  ],
+  "LazyVideo": [
+    "react@19.1.0::LazyVideo"
+  ],
+  "Letter": [
+    "react@19.1.0::Letter"
   ],
   "LikeButton": [
-    "nextjs@15.3.2::LikeButton"
+    "nextjs@15.3.2::LikeButton",
+    "react@19.1.0::LikeButton"
   ],
   "Links": [
     "nextjs@15.3.2::Links"
+  ],
+  "List": [
+    "react@19.1.0::List"
+  ],
+  "ListSection": [
+    "react@19.1.0::ListSection"
   ],
   "LiveTimer": [
     "nextjs@15.3.2::LiveTimer"
   ],
   "Loading": [
-    "nextjs@15.3.2::Loading"
+    "nextjs@15.3.2::Loading",
+    "react@19.1.0::Loading"
   ],
   "LoadingIndicator": [
     "nextjs@15.3.2::LoadingIndicator"
@@ -409,35 +800,108 @@
   "Login": [
     "nextjs@15.3.2::Login"
   ],
+  "LoginButton": [
+    "react@19.1.0::LoginButton"
+  ],
+  "LoginForm": [
+    "react@19.1.0::LoginForm"
+  ],
   "LoginPage": [
     "nextjs@15.3.2::LoginPage"
+  ],
+  "LongSection": [
+    "react@19.1.0::LongSection"
+  ],
+  "MailClient": [
+    "react@19.1.0::MailClient"
+  ],
+  "Main": [
+    "react@19.1.0::Main"
+  ],
+  "MainContent": [
+    "react@19.1.0::MainContent"
   ],
   "ManualPrefetchLink": [
     "nextjs@15.3.2::ManualPrefetchLink"
   ],
+  "Map": [
+    "react@19.1.0::Map"
+  ],
+  "MapMarker": [
+    "react@19.1.0::MapMarker"
+  ],
+  "MapWidget": [
+    "react@19.1.0::MapWidget"
+  ],
+  "MarkdownEditor": [
+    "react@19.1.0::MarkdownEditor"
+  ],
+  "MarkdownPreview": [
+    "react@19.1.0::MarkdownPreview"
+  ],
   "MdxLayout": [
     "nextjs@15.3.2::MdxLayout"
+  ],
+  "Menu": [
+    "react@19.1.0::Menu"
   ],
   "Menubar": [
     "nextjs@15.3.2::Menubar"
   ],
   "Message": [
-    "nextjs@15.3.2::Message"
+    "nextjs@15.3.2::Message",
+    "react@19.1.0::Message"
+  ],
+  "MessageComponent": [
+    "react@19.1.0::MessageComponent"
+  ],
+  "MessageContainer": [
+    "react@19.1.0::MessageContainer"
+  ],
+  "Messenger": [
+    "react@19.1.0::Messenger"
+  ],
+  "MinimalWeatherCard": [
+    "react@19.1.0::MinimalWeatherCard"
   ],
   "Modal": [
     "nextjs@15.3.2::Modal"
+  ],
+  "ModalContent": [
+    "react@19.1.0::ModalContent"
+  ],
+  "ModalDialog": [
+    "react@19.1.0::ModalDialog"
+  ],
+  "MoreRows": [
+    "react@19.1.0::MoreRows"
+  ],
+  "MovingDot": [
+    "react@19.1.0::MovingDot"
   ],
   "MyAddedCallbacks": [
     "nodejs@22.16.0::MyAddedCallbacks"
   ],
   "MyApp": [
-    "nextjs@15.3.2::MyApp"
+    "nextjs@15.3.2::MyApp",
+    "react@19.1.0::MyApp"
   ],
   "MyButton": [
-    "nextjs@15.3.2::MyButton"
+    "nextjs@15.3.2::MyButton",
+    "react@19.1.0::MyButton"
+  ],
+  "MyButtonProps": [
+    "react@19.1.0::MyButtonProps"
+  ],
+  "MyCart": [
+    "react@19.1.0::MyCart"
+  ],
+  "MyCheckbox": [
+    "react@19.1.0::MyCheckbox"
   ],
   "MyComponent": [
-    "nextjs@15.3.2::MyComponent"
+    "nextjs@15.3.2::MyComponent",
+    "react@19.1.0::MyComponent"
   ],
   "MyComponentProps": [
     "nextjs@15.3.2::MyComponentProps"
@@ -448,8 +912,23 @@
   "MyDuplex": [
     "nodejs@22.16.0::MyDuplex"
   ],
+  "MyElement": [
+    "react@19.1.0::MyElement"
+  ],
+  "MyForm": [
+    "react@19.1.0::MyForm"
+  ],
   "MyImage": [
     "nextjs@15.3.2::MyImage"
+  ],
+  "MyInput": [
+    "react@19.1.0::MyInput"
+  ],
+  "MyPage": [
+    "react@19.1.0::MyPage"
+  ],
+  "MyProviders": [
+    "react@19.1.0::MyProviders"
   ],
   "MyReadable": [
     "nodejs@22.16.0::MyReadable"
@@ -463,11 +942,17 @@
   "MyStream": [
     "nodejs@22.16.0::MyStream"
   ],
+  "MyTextField": [
+    "react@19.1.0::MyTextField"
+  ],
   "MyTransform": [
     "nodejs@22.16.0::MyTransform"
   ],
   "MyWritable": [
     "nodejs@22.16.0::MyWritable"
+  ],
+  "Mystery": [
+    "react@19.1.0::Mystery"
   ],
   "Nav": [
     "nextjs@15.3.2::Nav"
@@ -476,10 +961,17 @@
     "nextjs@15.3.2::NavItem"
   ],
   "NavLink": [
-    "nextjs@15.3.2::NavLink"
+    "nextjs@15.3.2::NavLink",
+    "react@19.1.0::NavLink"
   ],
   "NavLinks": [
     "nextjs@15.3.2::NavLinks"
+  ],
+  "Navigation": [
+    "react@19.1.0::Navigation"
+  ],
+  "NavigationBar": [
+    "react@19.1.0::NavigationBar"
   ],
   "NavigationBlockerContextType": [
     "nextjs@15.3.2::NavigationBlockerContextType"
@@ -493,6 +985,12 @@
   "NewItemPage": [
     "nextjs@15.3.2::NewItemPage"
   ],
+  "NewPost": [
+    "react@19.1.0::NewPost"
+  ],
+  "NewTodo": [
+    "react@19.1.0::NewTodo"
+  ],
   "NextAdapter": [
     "nextjs@15.3.2::NextAdapter"
   ],
@@ -502,14 +1000,35 @@
   "NextRequestContextValue": [
     "nextjs@15.3.2::NextRequestContextValue"
   ],
+  "NoPortalExample": [
+    "react@19.1.0::NoPortalExample"
+  ],
   "NoPrefetchLink": [
     "nextjs@15.3.2::NoPrefetchLink"
+  ],
+  "NormalComponent": [
+    "react@19.1.0::NormalComponent"
   ],
   "NotFound": [
     "nextjs@15.3.2::NotFound"
   ],
+  "Note": [
+    "react@19.1.0::Note"
+  ],
+  "Notes": [
+    "react@19.1.0::Notes"
+  ],
   "OPTIONS": [
     "nextjs@15.3.2::OPTIONS"
+  ],
+  "OptimizedComponent": [
+    "react@19.1.0::OptimizedComponent"
+  ],
+  "OptimizedList": [
+    "react@19.1.0::OptimizedList"
+  ],
+  "Overview": [
+    "react@19.1.0::Overview"
   ],
   "OwnerError": [
     "fastapi@0.115.0::OwnerError"
@@ -523,23 +1042,37 @@
   "PUT": [
     "nextjs@15.3.2::PUT"
   ],
+  "PackingList": [
+    "react@19.1.0::PackingList"
+  ],
   "Page": [
-    "nextjs@15.3.2::Page"
+    "nextjs@15.3.2::Page",
+    "react@19.1.0::Page"
   ],
   "PageWithStyles": [
     "nextjs@15.3.2::PageWithStyles"
+  ],
+  "Panel": [
+    "react@19.1.0::Panel"
   ],
   "Params": [
     "nextjs@15.3.2::Params"
   ],
   "Parent": [
-    "nextjs@15.3.2::Parent"
+    "nextjs@15.3.2::Parent",
+    "react@19.1.0::Parent"
   ],
   "Password": [
     "nodejs@22.16.0::Password"
   ],
+  "PasswordField": [
+    "react@19.1.0::PasswordField"
+  ],
   "PathnameBadge": [
     "nextjs@15.3.2::PathnameBadge"
+  ],
+  "PauseIcon": [
+    "react@19.1.0::PauseIcon"
   ],
   "PhotoContent": [
     "nextjs@15.3.2::PhotoContent"
@@ -550,14 +1083,45 @@
   "PhotoPage": [
     "nextjs@15.3.2::PhotoPage"
   ],
+  "Picture": [
+    "react@19.1.0::Picture"
+  ],
+  "PieChart": [
+    "react@19.1.0::PieChart"
+  ],
+  "Place": [
+    "react@19.1.0::Place"
+  ],
+  "PlaceImage": [
+    "react@19.1.0::PlaceImage"
+  ],
+  "PlaceTree": [
+    "react@19.1.0::PlaceTree"
+  ],
+  "PlayIcon": [
+    "react@19.1.0::PlayIcon"
+  ],
   "Player": [
     "zod@3.24.4::Player"
+  ],
+  "Playground": [
+    "react@19.1.0::Playground"
   ],
   "Playlists": [
     "nextjs@15.3.2::Playlists"
   ],
+  "Poem": [
+    "react@19.1.0::Poem"
+  ],
+  "PortalExample": [
+    "react@19.1.0::PortalExample"
+  ],
   "Post": [
-    "nextjs@15.3.2::Post"
+    "nextjs@15.3.2::Post",
+    "react@19.1.0::Post"
+  ],
+  "PostBody": [
+    "react@19.1.0::PostBody"
   ],
   "PostImage": [
     "nextjs@15.3.2::PostImage"
@@ -568,8 +1132,21 @@
   "PostPage": [
     "nextjs@15.3.2::PostPage"
   ],
+  "PostTitle": [
+    "react@19.1.0::PostTitle"
+  ],
+  "Postponed": [
+    "react@19.1.0::Postponed"
+  ],
   "Posts": [
-    "nextjs@15.3.2::Posts"
+    "nextjs@15.3.2::Posts",
+    "react@19.1.0::Posts"
+  ],
+  "PostsTab": [
+    "react@19.1.0::PostsTab"
+  ],
+  "Precipitation": [
+    "react@19.1.0::Precipitation"
   ],
   "PreloadResources": [
     "nextjs@15.3.2::PreloadResources"
@@ -583,8 +1160,23 @@
   "PricingCard": [
     "nextjs@15.3.2::PricingCard"
   ],
+  "PrintApp": [
+    "react@19.1.0::PrintApp"
+  ],
   "PrivatePost": [
     "nextjs@15.3.2::PrivatePost"
+  ],
+  "ProblematicComponent": [
+    "react@19.1.0::ProblematicComponent"
+  ],
+  "ProductCard": [
+    "react@19.1.0::ProductCard"
+  ],
+  "ProductCategoryRow": [
+    "react@19.1.0::ProductCategoryRow"
+  ],
+  "ProductDetailPage": [
+    "react@19.1.0::ProductDetailPage"
   ],
   "ProductDetails": [
     "nextjs@15.3.2::ProductDetails"
@@ -593,10 +1185,12 @@
     "nextjs@15.3.2::ProductInfo"
   ],
   "ProductList": [
-    "nextjs@15.3.2::ProductList"
+    "nextjs@15.3.2::ProductList",
+    "react@19.1.0::ProductList"
   ],
   "ProductPage": [
-    "nextjs@15.3.2::ProductPage"
+    "nextjs@15.3.2::ProductPage",
+    "react@19.1.0::ProductPage"
   ],
   "ProductPrice": [
     "nextjs@15.3.2::ProductPrice"
@@ -607,14 +1201,21 @@
   "ProductRecommendations": [
     "nextjs@15.3.2::ProductRecommendations"
   ],
+  "ProductRow": [
+    "react@19.1.0::ProductRow"
+  ],
   "ProductTab": [
     "nextjs@15.3.2::ProductTab"
+  ],
+  "ProductTable": [
+    "react@19.1.0::ProductTable"
   ],
   "ProductsPage": [
     "nextjs@15.3.2::ProductsPage"
   ],
   "Profile": [
-    "nextjs@15.3.2::Profile"
+    "nextjs@15.3.2::Profile",
+    "react@19.1.0::Profile"
   ],
   "ProfileContent": [
     "nextjs@15.3.2::ProfileContent"
@@ -622,20 +1223,36 @@
   "ProfileImage": [
     "nextjs@15.3.2::ProfileImage"
   ],
+  "ProfilePage": [
+    "react@19.1.0::ProfilePage"
+  ],
   "PromotionContent": [
     "nextjs@15.3.2::PromotionContent"
   ],
   "Props": [
-    "nextjs@15.3.2::Props"
+    "nextjs@15.3.2::Props",
+    "react@19.1.0::Props"
   ],
   "PushNotificationManager": [
     "nextjs@15.3.2::PushNotificationManager"
+  ],
+  "QuantityStepper": [
+    "react@19.1.0::QuantityStepper"
   ],
   "ReadMore": [
     "nextjs@15.3.2::ReadMore"
   ],
   "ReadStream": [
     "nodejs@22.16.0::ReadStream"
+  ],
+  "RecentPosts": [
+    "react@19.1.0::RecentPosts"
+  ],
+  "Recipe": [
+    "react@19.1.0::Recipe"
+  ],
+  "RecipeList": [
+    "react@19.1.0::RecipeList"
   ],
   "Recommendations": [
     "nextjs@15.3.2::Recommendations"
@@ -646,17 +1263,29 @@
   "RecommendationsSkeleton": [
     "nextjs@15.3.2::RecommendationsSkeleton"
   ],
+  "Rectangle": [
+    "react@19.1.0::Rectangle"
+  ],
   "RedirectEntry": [
     "nextjs@15.3.2::RedirectEntry"
   ],
   "Repo": [
     "nextjs@15.3.2::Repo"
   ],
+  "Report": [
+    "react@19.1.0::Report"
+  ],
+  "ReportList": [
+    "react@19.1.0::ReportList"
+  ],
   "ReportWebVitalsCallback": [
     "nextjs@15.3.2::ReportWebVitalsCallback"
   ],
   "ReportsPage": [
     "nextjs@15.3.2::ReportsPage"
+  ],
+  "RequestTracker": [
+    "react@19.1.0::RequestTracker"
   ],
   "ResponseData": [
     "nextjs@15.3.2::ResponseData"
@@ -667,29 +1296,75 @@
   "Results": [
     "nextjs@15.3.2::Results"
   ],
+  "ReversedList": [
+    "react@19.1.0::ReversedList"
+  ],
+  "RichTextEditor": [
+    "react@19.1.0::RichTextEditor"
+  ],
   "RootLayout": [
     "nextjs@15.3.2::RootLayout"
   ],
   "Route": [
     "nextjs@15.3.2::Route"
   ],
+  "Router": [
+    "react@19.1.0::Router"
+  ],
+  "Row": [
+    "react@19.1.0::Row"
+  ],
+  "RowList": [
+    "react@19.1.0::RowList"
+  ],
+  "SaveButton": [
+    "react@19.1.0::SaveButton"
+  ],
+  "Scoreboard": [
+    "react@19.1.0::Scoreboard"
+  ],
+  "ScrollingList": [
+    "react@19.1.0::ScrollingList"
+  ],
   "Search": [
-    "nextjs@15.3.2::Search"
+    "nextjs@15.3.2::Search",
+    "react@19.1.0::Search"
   ],
   "SearchBar": [
-    "nextjs@15.3.2::SearchBar"
+    "nextjs@15.3.2::SearchBar",
+    "react@19.1.0::SearchBar"
   ],
   "SearchBarFallback": [
     "nextjs@15.3.2::SearchBarFallback"
   ],
   "SearchButton": [
-    "nextjs@15.3.2::SearchButton"
+    "nextjs@15.3.2::SearchButton",
+    "react@19.1.0::SearchButton"
+  ],
+  "SearchInput": [
+    "react@19.1.0::SearchInput"
+  ],
+  "SearchList": [
+    "react@19.1.0::SearchList"
   ],
   "SearchPage": [
-    "nextjs@15.3.2::SearchPage"
+    "nextjs@15.3.2::SearchPage",
+    "react@19.1.0::SearchPage"
   ],
   "SearchParams": [
     "nextjs@15.3.2::SearchParams"
+  ],
+  "SearchResults": [
+    "react@19.1.0::SearchResults"
+  ],
+  "SecondComponent": [
+    "react@19.1.0::SecondComponent"
+  ],
+  "Section": [
+    "react@19.1.0::Section"
+  ],
+  "SeparatorList": [
+    "react@19.1.0::SeparatorList"
   ],
   "ServerComponent": [
     "nextjs@15.3.2::ServerComponent"
@@ -700,17 +1375,60 @@
   "SettingsDropdown": [
     "nextjs@15.3.2::SettingsDropdown"
   ],
+  "ShapeEditor": [
+    "react@19.1.0::ShapeEditor"
+  ],
+  "Shell": [
+    "react@19.1.0::Shell"
+  ],
+  "ShippingForm": [
+    "react@19.1.0::ShippingForm"
+  ],
   "ShopPage": [
     "nextjs@15.3.2::ShopPage"
   ],
+  "ShoppingCart": [
+    "react@19.1.0::ShoppingCart"
+  ],
+  "ShoppingList": [
+    "react@19.1.0::ShoppingList"
+  ],
   "ShortLivedWidget": [
     "nextjs@15.3.2::ShortLivedWidget"
+  ],
+  "Sidebar": [
+    "react@19.1.0::Sidebar"
+  ],
+  "SidebarContent": [
+    "react@19.1.0::SidebarContent"
   ],
   "Signup": [
     "nextjs@15.3.2::Signup"
   ],
   "SignupForm": [
-    "nextjs@15.3.2::SignupForm"
+    "nextjs@15.3.2::SignupForm",
+    "react@19.1.0::SignupForm"
+  ],
+  "SimpleWrapper": [
+    "react@19.1.0::SimpleWrapper"
+  ],
+  "SiteMapPage": [
+    "react@19.1.0::SiteMapPage"
+  ],
+  "SlowData": [
+    "react@19.1.0::SlowData"
+  ],
+  "SlowItem": [
+    "react@19.1.0::SlowItem"
+  ],
+  "SlowList": [
+    "react@19.1.0::SlowList"
+  ],
+  "SlowParent": [
+    "react@19.1.0::SlowParent"
+  ],
+  "SlowPost": [
+    "react@19.1.0::SlowPost"
   ],
   "SlugHeading": [
     "nextjs@15.3.2::SlugHeading"
@@ -721,14 +1439,33 @@
   "SourceWrapper": [
     "nodejs@22.16.0::SourceWrapper"
   ],
+  "SpecialCase": [
+    "react@19.1.0::SpecialCase"
+  ],
   "Square": [
-    "nodejs@22.16.0::Square"
+    "nodejs@22.16.0::Square",
+    "react@19.1.0::Square"
+  ],
+  "StableComponent": [
+    "react@19.1.0::StableComponent"
+  ],
+  "State": [
+    "react@19.1.0::State"
   ],
   "Stats": [
     "nextjs@15.3.2::Stats"
   ],
   "StatsChart": [
     "nextjs@15.3.2::StatsChart"
+  ],
+  "StatusBar": [
+    "react@19.1.0::StatusBar"
+  ],
+  "Stopwatch": [
+    "react@19.1.0::Stopwatch"
+  ],
+  "StoryTray": [
+    "react@19.1.0::StoryTray"
   ],
   "StringWritable": [
     "nodejs@22.16.0::StringWritable"
@@ -739,23 +1476,128 @@
   "StyledJsxRegistry": [
     "nextjs@15.3.2::StyledJsxRegistry"
   ],
+  "SubComponent": [
+    "react@19.1.0::SubComponent"
+  ],
+  "Submit": [
+    "react@19.1.0::Submit"
+  ],
   "SubmitButton": [
-    "nextjs@15.3.2::SubmitButton"
+    "nextjs@15.3.2::SubmitButton",
+    "react@19.1.0::SubmitButton"
+  ],
+  "SyncedInputs": [
+    "react@19.1.0::SyncedInputs"
+  ],
+  "TabButton": [
+    "react@19.1.0::TabButton"
+  ],
+  "TabContainer": [
+    "react@19.1.0::TabContainer"
+  ],
+  "TabSwitcher": [
+    "react@19.1.0::TabSwitcher"
+  ],
+  "TableContainer": [
+    "react@19.1.0::TableContainer"
+  ],
+  "Talks": [
+    "react@19.1.0::Talks"
+  ],
+  "Task": [
+    "react@19.1.0::Task"
+  ],
+  "TaskApp": [
+    "react@19.1.0::TaskApp"
+  ],
+  "TaskList": [
+    "react@19.1.0::TaskList"
+  ],
+  "TasksProvider": [
+    "react@19.1.0::TasksProvider"
+  ],
+  "TeaGathering": [
+    "react@19.1.0::TeaGathering"
+  ],
+  "TeaSet": [
+    "react@19.1.0::TeaSet"
+  ],
+  "TeamReport": [
+    "react@19.1.0::TeamReport"
+  ],
+  "Temperature": [
+    "react@19.1.0::Temperature"
   ],
   "Template": [
     "nextjs@15.3.2::Template"
+  ],
+  "TestButton": [
+    "react@19.1.0::TestButton"
+  ],
+  "TestCase": [
+    "react@19.1.0::TestCase"
+  ],
+  "TextComponent": [
+    "react@19.1.0::TextComponent"
+  ],
+  "Theme": [
+    "react@19.1.0::Theme"
   ],
   "ThemeImage": [
     "nextjs@15.3.2::ThemeImage"
   ],
   "ThemeProvider": [
-    "nextjs@15.3.2::ThemeProvider"
+    "nextjs@15.3.2::ThemeProvider",
+    "react@19.1.0::ThemeProvider"
+  ],
+  "ThemedButton": [
+    "react@19.1.0::ThemedButton"
+  ],
+  "ThirdComponent": [
+    "react@19.1.0::ThirdComponent"
   ],
   "Thread": [
-    "nextjs@15.3.2::Thread"
+    "nextjs@15.3.2::Thread",
+    "react@19.1.0::Thread"
+  ],
+  "Thumbnail": [
+    "react@19.1.0::Thumbnail"
+  ],
+  "Timer": [
+    "react@19.1.0::Timer"
+  ],
+  "Timestamp": [
+    "react@19.1.0::Timestamp"
+  ],
+  "TodoList": [
+    "react@19.1.0::TodoList"
+  ],
+  "TodosApp": [
+    "react@19.1.0::TodosApp"
+  ],
+  "Toggle": [
+    "react@19.1.0::Toggle"
+  ],
+  "Toolbar": [
+    "react@19.1.0::Toolbar"
+  ],
+  "Tooltip": [
+    "react@19.1.0::Tooltip"
+  ],
+  "TooltipContainer": [
+    "react@19.1.0::TooltipContainer"
+  ],
+  "Total": [
+    "react@19.1.0::Total"
   ],
   "TrackedComponent": [
     "nextjs@15.3.2::TrackedComponent"
+  ],
+  "Tracking": [
+    "react@19.1.0::Tracking"
+  ],
+  "TravelPlan": [
+    "react@19.1.0::TravelPlan"
   ],
   "Unauthorized": [
     "nextjs@15.3.2::Unauthorized"
@@ -766,15 +1608,22 @@
   "UniqueContent": [
     "nextjs@15.3.2::UniqueContent"
   ],
+  "UnoptimizedComponent": [
+    "react@19.1.0::UnoptimizedComponent"
+  ],
   "UnoptimizedImage": [
     "nextjs@15.3.2::UnoptimizedImage"
+  ],
+  "UpdateName": [
+    "react@19.1.0::UpdateName"
   ],
   "User": [
     "fastapi@0.115.0::User",
     "nextjs@15.3.2::User"
   ],
   "UserCard": [
-    "nextjs@15.3.2::UserCard"
+    "nextjs@15.3.2::UserCard",
+    "react@19.1.0::UserCard"
   ],
   "UserContextType": [
     "nextjs@15.3.2::UserContextType"
@@ -789,7 +1638,8 @@
     "nextjs@15.3.2::UserPreferences"
   ],
   "UserProfile": [
-    "nextjs@15.3.2::UserProfile"
+    "nextjs@15.3.2::UserProfile",
+    "react@19.1.0::UserProfile"
   ],
   "UserProvider": [
     "nextjs@15.3.2::UserProvider"
@@ -797,26 +1647,61 @@
   "UserScopedForm": [
     "nextjs@15.3.2::UserScopedForm"
   ],
+  "UsernameForm": [
+    "react@19.1.0::UsernameForm"
+  ],
   "Users": [
     "nextjs@15.3.2::Users"
   ],
+  "VacationCard": [
+    "tailwindcss@4.1.0::VacationCard"
+  ],
   "Video": [
-    "nextjs@15.3.2::Video"
+    "nextjs@15.3.2::Video",
+    "react@19.1.0::Video"
   ],
   "VideoComponent": [
     "nextjs@15.3.2::VideoComponent"
   ],
+  "VideoControls": [
+    "react@19.1.0::VideoControls"
+  ],
+  "VideoDetails": [
+    "react@19.1.0::VideoDetails"
+  ],
+  "VideoInfo": [
+    "react@19.1.0::VideoInfo"
+  ],
+  "VideoInfoFallback": [
+    "react@19.1.0::VideoInfoFallback"
+  ],
   "VideoPlayer": [
-    "nextjs@15.3.2::VideoPlayer"
+    "nextjs@15.3.2::VideoPlayer",
+    "react@19.1.0::VideoPlayer"
+  ],
+  "VideoTab": [
+    "react@19.1.0::VideoTab"
   ],
   "ViewCount": [
     "nextjs@15.3.2::ViewCount"
   ],
+  "VisibilityObserverFragment": [
+    "react@19.1.0::VisibilityObserverFragment"
+  ],
+  "WeatherReport": [
+    "react@19.1.0::WeatherReport"
+  ],
   "WebVitals": [
     "nextjs@15.3.2::WebVitals"
   ],
+  "Welcome": [
+    "react@19.1.0::Welcome"
+  ],
   "WelcomeMessage": [
     "nextjs@15.3.2::WelcomeMessage"
+  ],
+  "WelcomePanel": [
+    "react@19.1.0::WelcomePanel"
   ],
   "WithRouterProps": [
     "nextjs@15.3.2::WithRouterProps"
@@ -824,11 +1709,38 @@
   "WriteStream": [
     "nodejs@22.16.0::WriteStream"
   ],
+  "action": [
+    "react@19.1.0::action"
+  ],
   "add": [
     "nodejs@22.16.0::add"
   ],
+  "addAction": [
+    "react@19.1.0::addAction"
+  ],
+  "addComment": [
+    "react@19.1.0::addComment"
+  ],
+  "addLike": [
+    "react@19.1.0::addLike"
+  ],
   "addOne": [
     "nodejs@22.16.0::addOne"
+  ],
+  "addPopupToMapWidget": [
+    "react@19.1.0::addPopupToMapWidget"
+  ],
+  "addToCart": [
+    "react@19.1.0::addToCart"
+  ],
+  "addToCartAction": [
+    "react@19.1.0::addToCartAction"
+  ],
+  "addTodo": [
+    "react@19.1.0::addTodo"
+  ],
+  "addTodoAction": [
+    "react@19.1.0::addTodoAction"
   ],
   "addTwo": [
     "nodejs@22.16.0::addTwo"
@@ -845,6 +1757,9 @@
   "akamaiLoader": [
     "nextjs@15.3.2::akamaiLoader"
   ],
+  "arePropsEqual": [
+    "react@19.1.0::arePropsEqual"
+  ],
   "assertValidLocale": [
     "nextjs@15.3.2::assertValidLocale"
   ],
@@ -854,11 +1769,26 @@
   "b": [
     "nodejs@22.16.0::b"
   ],
+  "bar": [
+    "react@19.1.0::bar"
+  ],
   "because": [
     "nextjs@15.3.2::because"
   ],
+  "button": [
+    "react@19.1.0::button"
+  ],
+  "buyProduct": [
+    "react@19.1.0::buyProduct"
+  ],
   "c": [
     "nodejs@22.16.0::c"
+  ],
+  "calculateTotal": [
+    "react@19.1.0::calculateTotal"
+  ],
+  "calculateWinner": [
+    "react@19.1.0::calculateWinner"
   ],
   "canSeePhoneNumber": [
     "nextjs@15.3.2::canSeePhoneNumber"
@@ -884,14 +1814,53 @@
   "create": [
     "nextjs@15.3.2::create"
   ],
+  "createComponent": [
+    "react@19.1.0::createComponent"
+  ],
+  "createConnection": [
+    "react@19.1.0::createConnection"
+  ],
+  "createCustomHook": [
+    "react@19.1.0::createCustomHook"
+  ],
+  "createEncryptedConnection": [
+    "react@19.1.0::createEncryptedConnection"
+  ],
+  "createInitialState": [
+    "react@19.1.0::createInitialState"
+  ],
+  "createInitialTodos": [
+    "react@19.1.0::createInitialTodos"
+  ],
   "createInvoice": [
     "nextjs@15.3.2::createInvoice"
+  ],
+  "createMapWidget": [
+    "react@19.1.0::createMapWidget"
+  ],
+  "createNote": [
+    "react@19.1.0::createNote"
+  ],
+  "createNoteAction": [
+    "react@19.1.0::createNoteAction"
+  ],
+  "createOptions": [
+    "react@19.1.0::createOptions"
   ],
   "createPost": [
     "nextjs@15.3.2::createPost"
   ],
   "createSession": [
     "nextjs@15.3.2::createSession"
+  ],
+  "createTodo": [
+    "react@19.1.0::createTodo"
+  ],
+  "createTodos": [
+    "react@19.1.0::createTodos"
+  ],
+  "createUnencryptedConnection": [
+    "react@19.1.0::createUnencryptedConnection"
   ],
   "createUser": [
     "nextjs@15.3.2::createUser"
@@ -902,8 +1871,20 @@
   "decrypt": [
     "nextjs@15.3.2::decrypt"
   ],
+  "delay": [
+    "react@19.1.0::delay"
+  ],
+  "delayForDemo": [
+    "react@19.1.0::delayForDemo"
+  ],
+  "deleteAction": [
+    "react@19.1.0::deleteAction"
+  ],
   "deleteCookie": [
     "nextjs@15.3.2::deleteCookie"
+  ],
+  "deleteItem": [
+    "react@19.1.0::deleteItem"
   ],
   "deletePost": [
     "nextjs@15.3.2::deletePost"
@@ -920,8 +1901,26 @@
   "delete_item": [
     "fastapi@0.115.0::delete_item"
   ],
+  "deliverMessage": [
+    "react@19.1.0::deliverMessage"
+  ],
   "digest": [
     "nodejs@22.16.0::digest"
+  ],
+  "disable": [
+    "react@19.1.0::disable"
+  ],
+  "dispatch": [
+    "react@19.1.0::dispatch"
+  ],
+  "download": [
+    "react@19.1.0::download"
+  ],
+  "emitChange": [
+    "react@19.1.0::emitChange"
+  ],
+  "enable": [
+    "react@19.1.0::enable"
   ],
   "encrypt": [
     "nextjs@15.3.2::encrypt"
@@ -935,6 +1934,12 @@
   "exitPreview": [
     "nextjs@15.3.2::exitPreview"
   ],
+  "expensiveCalculation": [
+    "react@19.1.0::expensiveCalculation"
+  ],
+  "expensivelyProcessAReallyLargeArrayOfObjects": [
+    "react@19.1.0::expensivelyProcessAReallyLargeArrayOfObjects"
+  ],
   "extends": [
     "nextjs@15.3.2::extends"
   ],
@@ -944,23 +1949,79 @@
   "fastlyLoader": [
     "nextjs@15.3.2::fastlyLoader"
   ],
+  "fetchAPI": [
+    "react@19.1.0::fetchAPI"
+  ],
+  "fetchAlbums": [
+    "react@19.1.0::fetchAlbums"
+  ],
+  "fetchBio": [
+    "react@19.1.0::fetchBio"
+  ],
   "fetchData": [
-    "nextjs@15.3.2::fetchData"
+    "nextjs@15.3.2::fetchData",
+    "react@19.1.0::fetchData"
   ],
   "fetchGithubStars": [
     "nextjs@15.3.2::fetchGithubStars"
+  ],
+  "fetchMessage": [
+    "react@19.1.0::fetchMessage"
+  ],
+  "fetchPlaces": [
+    "react@19.1.0::fetchPlaces"
+  ],
+  "fetchPlanets": [
+    "react@19.1.0::fetchPlanets"
   ],
   "fetchTeam": [
     "nextjs@15.3.2::fetchTeam"
   ],
   "fetchUser": [
-    "nextjs@15.3.2::fetchUser"
+    "nextjs@15.3.2::fetchUser",
+    "react@19.1.0::fetchUser"
   ],
   "fetchUsers": [
     "nextjs@15.3.2::fetchUsers"
   ],
+  "fetchVideo": [
+    "react@19.1.0::fetchVideo"
+  ],
+  "fetchVideoDetails": [
+    "react@19.1.0::fetchVideoDetails"
+  ],
+  "fetchVideos": [
+    "react@19.1.0::fetchVideos"
+  ],
+  "filterItems": [
+    "react@19.1.0::filterItems"
+  ],
+  "filterTodos": [
+    "react@19.1.0::filterTodos"
+  ],
+  "filterVideos": [
+    "react@19.1.0::filterVideos"
+  ],
+  "flushReadableStreamToFrame": [
+    "react@19.1.0::flushReadableStreamToFrame"
+  ],
+  "followAction": [
+    "react@19.1.0::followAction"
+  ],
+  "followUser": [
+    "react@19.1.0::followUser"
+  ],
   "foo": [
     "nodejs@22.16.0::foo"
+  ],
+  "for": [
+    "react@19.1.0::for"
+  ],
+  "formAction": [
+    "react@19.1.0::formAction"
+  ],
+  "formatDate": [
+    "react@19.1.0::formatDate"
   ],
   "generateAesKey": [
     "nodejs@22.16.0::generateAesKey"
@@ -1005,13 +2066,17 @@
     "nodejs@22.16.0::generateX25519Key"
   ],
   "getAlbums": [
-    "nextjs@15.3.2::getAlbums"
+    "nextjs@15.3.2::getAlbums",
+    "react@19.1.0::getAlbums"
   ],
   "getArtist": [
     "nextjs@15.3.2::getArtist"
   ],
   "getBackgroundImage": [
     "nextjs@15.3.2::getBackgroundImage"
+  ],
+  "getBio": [
+    "react@19.1.0::getBio"
   ],
   "getBookingsData": [
     "nextjs@15.3.2::getBookingsData"
@@ -1029,7 +2094,8 @@
     "nextjs@15.3.2::getCommentsData"
   ],
   "getData": [
-    "nextjs@15.3.2::getData"
+    "nextjs@15.3.2::getData",
+    "react@19.1.0::getData"
   ],
   "getDataWithParams": [
     "nextjs@15.3.2::getDataWithParams"
@@ -1040,14 +2106,23 @@
   "getFeedItems": [
     "nextjs@15.3.2::getFeedItems"
   ],
+  "getFinalState": [
+    "react@19.1.0::getFinalState"
+  ],
   "getGlobalStats": [
     "nextjs@15.3.2::getGlobalStats"
   ],
   "getHeader": [
     "nextjs@15.3.2::getHeader"
   ],
+  "getImageUrl": [
+    "react@19.1.0::getImageUrl"
+  ],
   "getLayout": [
     "nextjs@15.3.2::getLayout"
+  ],
+  "getLikeCount": [
+    "react@19.1.0::getLikeCount"
   ],
   "getLimitedOffer": [
     "nextjs@15.3.2::getLimitedOffer"
@@ -1055,8 +2130,14 @@
   "getLocale": [
     "nextjs@15.3.2::getLocale"
   ],
+  "getMap": [
+    "react@19.1.0::getMap"
+  ],
   "getNavigation": [
     "nextjs@15.3.2::getNavigation"
+  ],
+  "getPlayer": [
+    "react@19.1.0::getPlayer"
   ],
   "getPopularProducts": [
     "nextjs@15.3.2::getPopularProducts"
@@ -1068,7 +2149,8 @@
     "nextjs@15.3.2::getPostContent"
   ],
   "getPosts": [
-    "nextjs@15.3.2::getPosts"
+    "nextjs@15.3.2::getPosts",
+    "react@19.1.0::getPosts"
   ],
   "getProduct": [
     "nextjs@15.3.2::getProduct"
@@ -1088,17 +2170,35 @@
   "getProjects": [
     "nextjs@15.3.2::getProjects"
   ],
+  "getRandomLightColor": [
+    "react@19.1.0::getRandomLightColor"
+  ],
   "getRealtimeStats": [
     "nextjs@15.3.2::getRealtimeStats"
   ],
   "getRecommendations": [
     "nextjs@15.3.2::getRecommendations"
   ],
+  "getResults": [
+    "react@19.1.0::getResults"
+  ],
+  "getSearchResults": [
+    "react@19.1.0::getSearchResults"
+  ],
   "getServerSideProps": [
     "nextjs@15.3.2::getServerSideProps"
   ],
+  "getServerSnapshot": [
+    "react@19.1.0::getServerSnapshot"
+  ],
   "getSettings": [
     "nextjs@15.3.2::getSettings"
+  ],
+  "getSnapshot": [
+    "react@19.1.0::getSnapshot"
+  ],
+  "getSorted": [
+    "react@19.1.0::getSorted"
   ],
   "getStaticPaths": [
     "nextjs@15.3.2::getStaticPaths"
@@ -1109,8 +2209,14 @@
   "getStats": [
     "nextjs@15.3.2::getStats"
   ],
+  "getStatusCode": [
+    "react@19.1.0::getStatusCode"
+  ],
   "getSystemConfig": [
     "nextjs@15.3.2::getSystemConfig"
+  ],
+  "getTodos": [
+    "react@19.1.0::getTodos"
   ],
   "getTopCategories": [
     "nextjs@15.3.2::getTopCategories"
@@ -1122,7 +2228,8 @@
     "nextjs@15.3.2::getTranslations"
   ],
   "getUser": [
-    "nextjs@15.3.2::getUser"
+    "nextjs@15.3.2::getUser",
+    "react@19.1.0::getUser"
   ],
   "getUserById": [
     "nextjs@15.3.2::getUserById"
@@ -1132,6 +2239,9 @@
   ],
   "getUsers": [
     "nextjs@15.3.2::getUsers"
+  ],
+  "getVisibleTodos": [
+    "react@19.1.0::getVisibleTodos"
   ],
   "getVisitorCount": [
     "nextjs@15.3.2::getVisitorCount"
@@ -1157,29 +2267,262 @@
   "getter": [
     "nextjs@15.3.2::getter"
   ],
+  "go": [
+    "react@19.1.0::go"
+  ],
   "gumletLoader": [
     "nextjs@15.3.2::gumletLoader"
+  ],
+  "handleAdd": [
+    "react@19.1.0::handleAdd"
+  ],
+  "handleAddClick": [
+    "react@19.1.0::handleAddClick"
+  ],
+  "handleAddItem": [
+    "react@19.1.0::handleAddItem"
+  ],
+  "handleAddTask": [
+    "react@19.1.0::handleAddTask"
+  ],
+  "handleAddTodo": [
+    "react@19.1.0::handleAddTodo"
+  ],
+  "handleAfterPrint": [
+    "react@19.1.0::handleAfterPrint"
+  ],
+  "handleAgeChange": [
+    "react@19.1.0::handleAgeChange"
+  ],
+  "handleBeforePrint": [
+    "react@19.1.0::handleBeforePrint"
+  ],
+  "handleButtonClick": [
+    "react@19.1.0::handleButtonClick"
+  ],
+  "handleBuyClick": [
+    "react@19.1.0::handleBuyClick"
+  ],
+  "handleChange": [
+    "react@19.1.0::handleChange"
+  ],
+  "handleChangeColor": [
+    "react@19.1.0::handleChangeColor"
+  ],
+  "handleChangeItem": [
+    "react@19.1.0::handleChangeItem"
+  ],
+  "handleChangeTask": [
+    "react@19.1.0::handleChangeTask"
+  ],
+  "handleChangeTodo": [
+    "react@19.1.0::handleChangeTodo"
+  ],
+  "handleCheckoutClick": [
+    "react@19.1.0::handleCheckoutClick"
+  ],
+  "handleCityChange": [
+    "react@19.1.0::handleCityChange"
+  ],
+  "handleClick": [
+    "react@19.1.0::handleClick"
+  ],
+  "handleClickOutside": [
+    "react@19.1.0::handleClickOutside"
+  ],
+  "handleColorChange": [
+    "react@19.1.0::handleColorChange"
+  ],
+  "handleComplete": [
+    "react@19.1.0::handleComplete"
   ],
   "handleCustomMetrics": [
     "nextjs@15.3.2::handleCustomMetrics"
   ],
+  "handleDecrease": [
+    "react@19.1.0::handleDecrease"
+  ],
+  "handleDelete": [
+    "react@19.1.0::handleDelete"
+  ],
+  "handleDeleteItem": [
+    "react@19.1.0::handleDeleteItem"
+  ],
+  "handleDeleteTask": [
+    "react@19.1.0::handleDeleteTask"
+  ],
+  "handleDeleteTodo": [
+    "react@19.1.0::handleDeleteTodo"
+  ],
+  "handleDragEnd": [
+    "react@19.1.0::handleDragEnd"
+  ],
+  "handleEmailChange": [
+    "react@19.1.0::handleEmailChange"
+  ],
+  "handleEvent": [
+    "react@19.1.0::handleEvent"
+  ],
+  "handleFirstNameChange": [
+    "react@19.1.0::handleFirstNameChange"
+  ],
+  "handleFormSubmit": [
+    "react@19.1.0::handleFormSubmit"
+  ],
+  "handleHover": [
+    "react@19.1.0::handleHover"
+  ],
+  "handleImageChange": [
+    "react@19.1.0::handleImageChange"
+  ],
+  "handleIncrease": [
+    "react@19.1.0::handleIncrease"
+  ],
+  "handleIncreaseClick": [
+    "react@19.1.0::handleIncreaseClick"
+  ],
+  "handleInputChange": [
+    "react@19.1.0::handleInputChange"
+  ],
+  "handleLastNameChange": [
+    "react@19.1.0::handleLastNameChange"
+  ],
+  "handleMoreClick": [
+    "react@19.1.0::handleMoreClick"
+  ],
+  "handleMove": [
+    "react@19.1.0::handleMove"
+  ],
+  "handleNameChange": [
+    "react@19.1.0::handleNameChange"
+  ],
+  "handleNextClick": [
+    "react@19.1.0::handleNextClick"
+  ],
+  "handleNextPageClick": [
+    "react@19.1.0::handleNextPageClick"
+  ],
+  "handleOffline": [
+    "react@19.1.0::handleOffline"
+  ],
+  "handleOnline": [
+    "react@19.1.0::handleOnline"
+  ],
+  "handlePlaceCard": [
+    "react@19.1.0::handlePlaceCard"
+  ],
+  "handlePlay": [
+    "react@19.1.0::handlePlay"
+  ],
+  "handlePlusClick": [
+    "react@19.1.0::handlePlusClick"
+  ],
+  "handlePointerDown": [
+    "react@19.1.0::handlePointerDown"
+  ],
+  "handlePointerMove": [
+    "react@19.1.0::handlePointerMove"
+  ],
+  "handlePointerUp": [
+    "react@19.1.0::handlePointerUp"
+  ],
+  "handlePopState": [
+    "react@19.1.0::handlePopState"
+  ],
+  "handlePrevClick": [
+    "react@19.1.0::handlePrevClick"
+  ],
+  "handleRemove": [
+    "react@19.1.0::handleRemove"
+  ],
   "handleRequest": [
     "nodejs@22.16.0::handleRequest"
+  ],
+  "handleReset": [
+    "react@19.1.0::handleReset"
   ],
   "handleRouteChange": [
     "nextjs@15.3.2::handleRouteChange"
   ],
+  "handleSave": [
+    "react@19.1.0::handleSave"
+  ],
+  "handleSaveClick": [
+    "react@19.1.0::handleSaveClick"
+  ],
+  "handleScroll": [
+    "react@19.1.0::handleScroll"
+  ],
+  "handleScrollToFirstCat": [
+    "react@19.1.0::handleScrollToFirstCat"
+  ],
+  "handleScrollToSecondCat": [
+    "react@19.1.0::handleScrollToSecondCat"
+  ],
+  "handleScrollToThirdCat": [
+    "react@19.1.0::handleScrollToThirdCat"
+  ],
+  "handleSend": [
+    "react@19.1.0::handleSend"
+  ],
+  "handleSendClick": [
+    "react@19.1.0::handleSendClick"
+  ],
+  "handleStar": [
+    "react@19.1.0::handleStar"
+  ],
+  "handleStart": [
+    "react@19.1.0::handleStart"
+  ],
+  "handleStartClick": [
+    "react@19.1.0::handleStartClick"
+  ],
+  "handleStop": [
+    "react@19.1.0::handleStop"
+  ],
+  "handleStopClick": [
+    "react@19.1.0::handleStopClick"
+  ],
   "handleSubmit": [
-    "nextjs@15.3.2::handleSubmit"
+    "nextjs@15.3.2::handleSubmit",
+    "react@19.1.0::handleSubmit"
+  ],
+  "handleTextareaChange": [
+    "react@19.1.0::handleTextareaChange"
+  ],
+  "handleTitleChange": [
+    "react@19.1.0::handleTitleChange"
+  ],
+  "handleToggle": [
+    "react@19.1.0::handleToggle"
+  ],
+  "handleToggleMyList": [
+    "react@19.1.0::handleToggleMyList"
+  ],
+  "handleToggleYourList": [
+    "react@19.1.0::handleToggleYourList"
+  ],
+  "handleUndo": [
+    "react@19.1.0::handleUndo"
+  ],
+  "handleUpdateQuantity": [
+    "react@19.1.0::handleUpdateQuantity"
   ],
   "handler": [
-    "nextjs@15.3.2::handler"
+    "nextjs@15.3.2::handler",
+    "react@19.1.0::handler"
   ],
   "handler2": [
     "nodejs@22.16.0::handler2"
   ],
   "hello": [
     "nextjs@15.3.2::hello"
+  ],
+  "helper": [
+    "react@19.1.0::helper"
+  ],
+  "hide": [
+    "react@19.1.0::hide"
   ],
   "imageKitLoader": [
     "nextjs@15.3.2::imageKitLoader"
@@ -1195,6 +2538,12 @@
   ],
   "includes": [
     "nextjs@15.3.2::includes"
+  ],
+  "increment": [
+    "react@19.1.0::increment"
+  ],
+  "incrementLike": [
+    "react@19.1.0::incrementLike"
   ],
   "innerPrivate": [
     "nextjs@15.3.2::innerPrivate"
@@ -1212,11 +2561,17 @@
     "nextjs@15.3.2::is",
     "nodejs@22.16.0::is"
   ],
+  "isCompilerEnabled": [
+    "react@19.1.0::isCompilerEnabled"
+  ],
   "isRecoverableError": [
     "nodejs@22.16.0::isRecoverableError"
   ],
   "iteratorToStream": [
     "nextjs@15.3.2::iteratorToStream"
+  ],
+  "jumpTo": [
+    "react@19.1.0::jumpTo"
   ],
   "lifespan": [
     "fastapi@0.115.0::lifespan"
@@ -1228,7 +2583,8 @@
     "nextjs@15.3.2::loadPosts"
   ],
   "login": [
-    "fastapi@0.115.0::login"
+    "fastapi@0.115.0::login",
+    "react@19.1.0::login"
   ],
   "logout": [
     "nextjs@15.3.2::logout"
@@ -1236,7 +2592,11 @@
   "main": [
     "fastapi@0.115.0::main",
     "nextjs@15.3.2::main",
-    "nodejs@22.16.0::main"
+    "nodejs@22.16.0::main",
+    "react@19.1.0::main"
+  ],
+  "makeButton": [
+    "react@19.1.0::makeButton"
   ],
   "makeFaster": [
     "nodejs@22.16.0::makeFaster"
@@ -1250,14 +2610,24 @@
   "maybeSync": [
     "nodejs@22.16.0::maybeSync"
   ],
+  "messengerReducer": [
+    "react@19.1.0::messengerReducer"
+  ],
   "middleware": [
     "nextjs@15.3.2::middleware"
   ],
   "myImageLoader": [
     "nextjs@15.3.2::myImageLoader"
   ],
+  "name": [
+    "react@19.1.0::name"
+  ],
   "navigate": [
-    "nextjs@15.3.2::navigate"
+    "nextjs@15.3.2::navigate",
+    "react@19.1.0::navigate"
+  ],
+  "navigateBack": [
+    "react@19.1.0::navigateBack"
   ],
   "needy_dependency": [
     "fastapi@0.115.0::needy_dependency"
@@ -1265,11 +2635,35 @@
   "newAPI": [
     "nodejs@22.16.0::newAPI"
   ],
+  "now": [
+    "react@19.1.0::now"
+  ],
   "of": [
     "nodejs@22.16.0::of"
   ],
+  "onAgeChange": [
+    "react@19.1.0::onAgeChange"
+  ],
+  "onCaughtErrorProd": [
+    "react@19.1.0::onCaughtErrorProd"
+  ],
+  "onConsoleError": [
+    "react@19.1.0::onConsoleError"
+  ],
+  "onFrame": [
+    "react@19.1.0::onFrame"
+  ],
+  "onNext": [
+    "react@19.1.0::onNext"
+  ],
+  "onProgress": [
+    "react@19.1.0::onProgress"
+  ],
   "onReadable": [
     "nodejs@22.16.0::onReadable"
+  ],
+  "onRecoverableErrorProd": [
+    "react@19.1.0::onRecoverableErrorProd"
   ],
   "onRequestError": [
     "nextjs@15.3.2::onRequestError"
@@ -1278,7 +2672,17 @@
     "nextjs@15.3.2::onRouterTransitionStart"
   ],
   "onSubmit": [
-    "nextjs@15.3.2::onSubmit"
+    "nextjs@15.3.2::onSubmit",
+    "react@19.1.0::onSubmit"
+  ],
+  "onTick": [
+    "react@19.1.0::onTick"
+  ],
+  "onTimeout": [
+    "react@19.1.0::onTimeout"
+  ],
+  "onUncaughtErrorProd": [
+    "react@19.1.0::onUncaughtErrorProd"
   ],
   "openAndClose": [
     "nodejs@22.16.0::openAndClose"
@@ -1295,6 +2699,9 @@
   "parseHeader": [
     "nodejs@22.16.0::parseHeader"
   ],
+  "patchedConsoleError": [
+    "react@19.1.0::patchedConsoleError"
+  ],
   "pbkdf2": [
     "nodejs@22.16.0::pbkdf2"
   ],
@@ -1303,6 +2710,9 @@
   ],
   "pixelBinLoader": [
     "nextjs@15.3.2::pixelBinLoader"
+  ],
+  "post": [
+    "react@19.1.0::post"
   ],
   "predict": [
     "fastapi@0.115.0::predict"
@@ -1323,7 +2733,8 @@
     "nextjs@15.3.2::proxy"
   ],
   "publish": [
-    "nextjs@15.3.2::publish"
+    "nextjs@15.3.2::publish",
+    "react@19.1.0::publish"
   ],
   "readSomeFile": [
     "nodejs@22.16.0::readSomeFile"
@@ -1346,11 +2757,35 @@
   "read_url": [
     "fastapi@0.115.0::read_url"
   ],
+  "reducer": [
+    "react@19.1.0::reducer"
+  ],
+  "reducerAction": [
+    "react@19.1.0::reducerAction"
+  ],
   "register": [
     "nextjs@15.3.2::register"
   ],
   "registerServiceWorker": [
     "nextjs@15.3.2::registerServiceWorker"
+  ],
+  "removeAction": [
+    "react@19.1.0::removeAction"
+  ],
+  "removeFromCart": [
+    "react@19.1.0::removeFromCart"
+  ],
+  "renderMarkdownToHTML": [
+    "react@19.1.0::renderMarkdownToHTML"
+  ],
+  "renderToString": [
+    "react@19.1.0::renderToString"
+  ],
+  "reportError": [
+    "react@19.1.0::reportError"
+  ],
+  "requestUsername": [
+    "react@19.1.0::requestUsername"
   ],
   "results": [
     "fastapi@0.115.0::results"
@@ -1364,11 +2799,29 @@
   "sanityLoader": [
     "nextjs@15.3.2::sanityLoader"
   ],
+  "save": [
+    "react@19.1.0::save"
+  ],
   "say_hi": [
     "fastapi@0.115.0::say_hi"
   ],
+  "scrollToCat": [
+    "react@19.1.0::scrollToCat"
+  ],
+  "scrollToIndex": [
+    "react@19.1.0::scrollToIndex"
+  ],
+  "search": [
+    "react@19.1.0::search"
+  ],
   "seedPprEntries": [
     "nextjs@15.3.2::seedPprEntries"
+  ],
+  "selectTab": [
+    "react@19.1.0::selectTab"
+  ],
+  "sendMessage": [
+    "react@19.1.0::sendMessage"
   ],
   "sendNotification": [
     "nextjs@15.3.2::sendNotification"
@@ -1379,20 +2832,57 @@
   "serverAction": [
     "nextjs@15.3.2::serverAction"
   ],
+  "serverFunction": [
+    "react@19.1.0::serverFunction"
+  ],
+  "setFirstName": [
+    "react@19.1.0::setFirstName"
+  ],
+  "setIsEditing": [
+    "react@19.1.0::setIsEditing"
+  ],
+  "setLastName": [
+    "react@19.1.0::setLastName"
+  ],
   "setNetworkResources": [
     "nodejs@22.16.0::setNetworkResources"
+  ],
+  "setOnlineStatus": [
+    "react@19.1.0::setOnlineStatus"
+  ],
+  "setState": [
+    "react@19.1.0::setState"
   ],
   "set_up_request_state_dependency": [
     "fastapi@0.115.0::set_up_request_state_dependency"
   ],
+  "setupCatList": [
+    "react@19.1.0::setupCatList"
+  ],
+  "shouldUseCompiler": [
+    "react@19.1.0::shouldUseCompiler"
+  ],
+  "show": [
+    "react@19.1.0::show"
+  ],
   "showBoth": [
     "nodejs@22.16.0::showBoth"
+  ],
+  "showNotification": [
+    "react@19.1.0::showNotification"
   ],
   "sign": [
     "nodejs@22.16.0::sign"
   ],
+  "signUpNewUser": [
+    "react@19.1.0::signUpNewUser"
+  ],
   "signup": [
-    "nextjs@15.3.2::signup"
+    "nextjs@15.3.2::signup",
+    "react@19.1.0::signup"
+  ],
+  "simpleDisplay": [
+    "react@19.1.0::simpleDisplay"
   ],
   "sirvLoader": [
     "nextjs@15.3.2::sirvLoader"
@@ -1401,7 +2891,8 @@
     "nextjs@15.3.2::sitemap"
   ],
   "sleep": [
-    "nextjs@15.3.2::sleep"
+    "nextjs@15.3.2::sleep",
+    "react@19.1.0::sleep"
   ],
   "someFunc": [
     "nodejs@22.16.0::someFunc"
@@ -1415,11 +2906,33 @@
   "speedy": [
     "nodejs@22.16.0::speedy"
   ],
+  "start": [
+    "react@19.1.0::start"
+  ],
+  "startFetching": [
+    "react@19.1.0::startFetching"
+  ],
+  "startTransition": [
+    "react@19.1.0::startTransition"
+  ],
+  "stateReducer": [
+    "react@19.1.0::stateReducer"
+  ],
+  "stop": [
+    "react@19.1.0::stop"
+  ],
   "submit": [
     "nextjs@15.3.2::submit"
   ],
+  "submitAction": [
+    "react@19.1.0::submitAction"
+  ],
   "submitForm": [
-    "nextjs@15.3.2::submitForm"
+    "nextjs@15.3.2::submitForm",
+    "react@19.1.0::submitForm"
+  ],
+  "subscribe": [
+    "react@19.1.0::subscribe"
   ],
   "subscribeToPush": [
     "nextjs@15.3.2::subscribeToPush"
@@ -1433,11 +2946,26 @@
   "switchLocale": [
     "nextjs@15.3.2::switchLocale"
   ],
+  "tasksReducer": [
+    "react@19.1.0::tasksReducer"
+  ],
+  "testTypes": [
+    "react@19.1.0::testTypes"
+  ],
   "thumborLoader": [
     "nextjs@15.3.2::thumborLoader"
   ],
+  "tick": [
+    "react@19.1.0::tick"
+  ],
   "to": [
     "nodejs@22.16.0::to"
+  ],
+  "toggleLike": [
+    "react@19.1.0::toggleLike"
+  ],
+  "unfollowUser": [
+    "react@19.1.0::unfollowUser"
   ],
   "unsubscribeFromPush": [
     "nextjs@15.3.2::unsubscribeFromPush"
@@ -1454,6 +2982,15 @@
   "updateBookings": [
     "nextjs@15.3.2::updateBookings"
   ],
+  "updateCartAction": [
+    "react@19.1.0::updateCartAction"
+  ],
+  "updateDOM": [
+    "react@19.1.0::updateDOM"
+  ],
+  "updateName": [
+    "react@19.1.0::updateName"
+  ],
   "updatePost": [
     "nextjs@15.3.2::updatePost"
   ],
@@ -1463,6 +3000,9 @@
   "updateProfile": [
     "nextjs@15.3.2::updateProfile"
   ],
+  "updateQuantity": [
+    "react@19.1.0::updateQuantity"
+  ],
   "updateRole": [
     "nextjs@15.3.2::updateRole"
   ],
@@ -1471,6 +3011,12 @@
   ],
   "updateSorting": [
     "nextjs@15.3.2::updateSorting"
+  ],
+  "updateState": [
+    "react@19.1.0::updateState"
+  ],
+  "updateToggle": [
+    "react@19.1.0::updateToggle"
   ],
   "updateUser": [
     "nextjs@15.3.2::updateUser"
@@ -1491,40 +3037,162 @@
     "nextjs@15.3.2::urlBase64ToUint8Array"
   ],
   "useActionState": [
-    "nextjs@15.3.2::useActionState"
+    "nextjs@15.3.2::useActionState",
+    "react@19.1.0::useActionState"
+  ],
+  "useAnimationLoop": [
+    "react@19.1.0::useAnimationLoop"
+  ],
+  "useAuth": [
+    "react@19.1.0::useAuth"
+  ],
+  "useCSS": [
+    "react@19.1.0::useCSS"
   ],
   "useCallback": [
-    "nextjs@15.3.2::useCallback"
+    "nextjs@15.3.2::useCallback",
+    "react@19.1.0::useCallback"
+  ],
+  "useChatRoom": [
+    "react@19.1.0::useChatRoom"
   ],
   "useContext": [
-    "nextjs@15.3.2::useContext"
+    "nextjs@15.3.2::useContext",
+    "react@19.1.0::useContext"
+  ],
+  "useCounter": [
+    "react@19.1.0::useCounter"
+  ],
+  "useData": [
+    "react@19.1.0::useData"
+  ],
+  "useDataWithLogging": [
+    "react@19.1.0::useDataWithLogging"
+  ],
+  "useDebugValue": [
+    "react@19.1.0::useDebugValue"
+  ],
+  "useDeferredValue": [
+    "react@19.1.0::useDeferredValue"
+  ],
+  "useDelayedValue": [
+    "react@19.1.0::useDelayedValue"
+  ],
+  "useDown": [
+    "react@19.1.0::useDown"
   ],
   "useEffect": [
-    "nextjs@15.3.2::useEffect"
+    "nextjs@15.3.2::useEffect",
+    "react@19.1.0::useEffect"
+  ],
+  "useEffectEvent": [
+    "react@19.1.0::useEffectEvent"
+  ],
+  "useEnter": [
+    "react@19.1.0::useEnter"
+  ],
+  "useEvent": [
+    "react@19.1.0::useEvent"
+  ],
+  "useFadeIn": [
+    "react@19.1.0::useFadeIn"
+  ],
+  "useForm": [
+    "react@19.1.0::useForm"
+  ],
+  "useFormInput": [
+    "react@19.1.0::useFormInput"
   ],
   "useFormStatus": [
-    "nextjs@15.3.2::useFormStatus"
+    "nextjs@15.3.2::useFormStatus",
+    "react@19.1.0::useFormStatus"
+  ],
+  "useFriendOnlineCount": [
+    "react@19.1.0::useFriendOnlineCount"
+  ],
+  "useGetComplexObject": [
+    "react@19.1.0::useGetComplexObject"
+  ],
+  "useGetTheme": [
+    "react@19.1.0::useGetTheme"
+  ],
+  "useIcon": [
+    "react@19.1.0::useIcon"
+  ],
+  "useIconStyle": [
+    "react@19.1.0::useIconStyle"
   ],
   "useId": [
-    "nextjs@15.3.2::useId"
+    "nextjs@15.3.2::useId",
+    "react@19.1.0::useId"
+  ],
+  "useImmer": [
+    "react@19.1.0::useImmer"
+  ],
+  "useImmerReducer": [
+    "react@19.1.0::useImmerReducer"
+  ],
+  "useImperativeHandle": [
+    "react@19.1.0::useImperativeHandle"
+  ],
+  "useImpressionLog": [
+    "react@19.1.0::useImpressionLog"
+  ],
+  "useInsertionEffect": [
+    "react@19.1.0::useInsertionEffect"
+  ],
+  "useIntersectionObserver": [
+    "react@19.1.0::useIntersectionObserver"
+  ],
+  "useInterval": [
+    "react@19.1.0::useInterval"
   ],
   "useIsAuthed": [
     "nextjs@15.3.2::useIsAuthed"
   ],
+  "useIsNavPending": [
+    "react@19.1.0::useIsNavPending"
+  ],
   "useLayoutEffect": [
-    "nextjs@15.3.2::useLayoutEffect"
+    "nextjs@15.3.2::useLayoutEffect",
+    "react@19.1.0::useLayoutEffect"
+  ],
+  "useLazyVideoData": [
+    "react@19.1.0::useLazyVideoData"
+  ],
+  "useLeave": [
+    "react@19.1.0::useLeave"
+  ],
+  "useLibrary": [
+    "react@19.1.0::useLibrary"
   ],
   "useLinkStatus": [
     "nextjs@15.3.2::useLinkStatus"
   ],
+  "useList": [
+    "react@19.1.0::useList"
+  ],
   "useMDXComponents": [
     "nextjs@15.3.2::useMDXComponents"
+  ],
+  "useMemo": [
+    "react@19.1.0::useMemo"
+  ],
+  "useMount": [
+    "react@19.1.0::useMount"
   ],
   "useNavigationBlocker": [
     "nextjs@15.3.2::useNavigationBlocker"
   ],
+  "useOnlineStatus": [
+    "react@19.1.0::useOnlineStatus"
+  ],
   "useOptimistic": [
-    "nextjs@15.3.2::useOptimistic"
+    "nextjs@15.3.2::useOptimistic",
+    "react@19.1.0::useOptimistic"
+  ],
+  "useOver": [
+    "react@19.1.0::useOver"
   ],
   "useParams": [
     "nextjs@15.3.2::useParams"
@@ -1532,20 +3200,34 @@
   "usePathname": [
     "nextjs@15.3.2::usePathname"
   ],
+  "usePointerPosition": [
+    "react@19.1.0::usePointerPosition"
+  ],
+  "useReactTable": [
+    "react@19.1.0::useReactTable"
+  ],
+  "useReducer": [
+    "react@19.1.0::useReducer"
+  ],
   "useRef": [
-    "nextjs@15.3.2::useRef"
+    "nextjs@15.3.2::useRef",
+    "react@19.1.0::useRef"
   ],
   "useReportWebVitals": [
     "nextjs@15.3.2::useReportWebVitals"
   ],
   "useRouter": [
-    "nextjs@15.3.2::useRouter"
+    "nextjs@15.3.2::useRouter",
+    "react@19.1.0::useRouter"
   ],
   "useSWR": [
     "nextjs@15.3.2::useSWR"
   ],
   "useSearchParams": [
     "nextjs@15.3.2::useSearchParams"
+  ],
+  "useSelectOptions": [
+    "react@19.1.0::useSelectOptions"
   ],
   "useSelectedLayoutSegment": [
     "nextjs@15.3.2::useSelectedLayoutSegment"
@@ -1559,23 +3241,70 @@
   "useSession": [
     "nextjs@15.3.2::useSession"
   ],
+  "useSomeAPI": [
+    "react@19.1.0::useSomeAPI"
+  ],
+  "useSomeDataLibrary": [
+    "react@19.1.0::useSomeDataLibrary"
+  ],
+  "useSorted": [
+    "react@19.1.0::useSorted"
+  ],
+  "useSortedData": [
+    "react@19.1.0::useSortedData"
+  ],
   "useState": [
-    "nextjs@15.3.2::useState"
+    "nextjs@15.3.2::useState",
+    "react@19.1.0::useState"
+  ],
+  "useSyncExternalStore": [
+    "react@19.1.0::useSyncExternalStore"
+  ],
+  "useTasks": [
+    "react@19.1.0::useTasks"
+  ],
+  "useTasksDispatch": [
+    "react@19.1.0::useTasksDispatch"
+  ],
+  "useThirdPartyHook": [
+    "react@19.1.0::useThirdPartyHook"
+  ],
+  "useTime": [
+    "react@19.1.0::useTime"
+  ],
+  "useTimer": [
+    "react@19.1.0::useTimer"
   ],
   "useToken": [
     "nextjs@15.3.2::useToken"
   ],
   "useTransition": [
-    "nextjs@15.3.2::useTransition"
+    "nextjs@15.3.2::useTransition",
+    "react@19.1.0::useTransition"
+  ],
+  "useUp": [
+    "react@19.1.0::useUp"
   ],
   "useUser": [
     "nextjs@15.3.2::useUser"
+  ],
+  "useWatch": [
+    "react@19.1.0::useWatch"
+  ],
+  "useWindowListener": [
+    "react@19.1.0::useWindowListener"
+  ],
+  "using": [
+    "react@19.1.0::using"
   ],
   "verify": [
     "nodejs@22.16.0::verify"
   ],
   "which": [
     "nodejs@22.16.0::which"
+  ],
+  "with": [
+    "react@19.1.0::with"
   ],
   "withMyInstrumentation": [
     "nextjs@15.3.2::withMyInstrumentation"

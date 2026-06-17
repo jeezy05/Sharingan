@@ -2,11 +2,17 @@
   "backend": [
     "fastapi"
   ],
+  "frontend": [
+    "react"
+  ],
   "meta-framework": [
     "nextjs"
   ],
   "runtime": [
     "nodejs"
+  ],
+  "styling": [
+    "tailwindcss"
   ],
   "validation": [
     "zod"

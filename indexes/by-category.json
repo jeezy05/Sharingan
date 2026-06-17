@@ -1,0 +1,14 @@
+{
+  "backend": [
+    "fastapi"
+  ],
+  "meta-framework": [
+    "nextjs"
+  ],
+  "runtime": [
+    "nodejs"
+  ],
+  "validation": [
+    "zod"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "node_type": "library",
+      "id": "zod",
+      "name": "Zod",
+      "category": "validation",
+      "language": "typescript",
+      "repo_url": "https://github.com/colinhacks/zod",
+      "docs_url": "https://zod.dev",
+      "npm_package": "zod",
+      "pypi_package": null,
+      "latest_version": "3.24.4",
+      "tracked_versions": [
+        "3.24.4",
+        "3.23.0",
+        "3.22.0"
+      ],
+      "tags": [
+        "validation",
+        "typescript",
+        "schema",
+        "parsing"
+      ]
+    },
+    {
+      "node_type": "version",
+      "id": "zod@3.24.4",
+      "library_id": "zod",
+      "is_latest": true
+    },
+    {
+      "id": "zod@3.24.4::Player",
+      "version_id": "zod@3.24.4",
+      "module_path": "",
+      "name": "Player",
+      "kind": "type",
+      "signature": "type Player = z.infer<typeof Player>;",
+      "description": "This is an inferred type derived from a Zod schema, typically used for strongly-typed data.",
+      "parameters": [],
+      "return_type": "any",
+      "deprecated": false,
+      "deprecated_by": null,
+      "source_url": "https://raw.githubusercontent.com/colinhacks/zod/main/packages/zod/README.md",
+      "confidence": "EXTRACTED",
+      "node_type": "symbol"
+    },
+    {
+      "id": "zod@3.24.4::MySchemaIn",
+      "version_id": "zod@3.24.4",
+      "module_path": "",
+      "name": "MySchemaIn",
+      "kind": "type",
+      "signature": "type MySchemaIn = z.input<typeof mySchema>;",
+      "description": "This type represents the input type derived from a Zod schema.",
+      "parameters": [],
+      "return_type": "any",
+      "deprecated": false,
+      "deprecated_by": null,
+      "source_url": "https://raw.githubusercontent.com/colinhacks/zod/main/packages/zod/README.md",
+      "confidence": "EXTRACTED",
+      "node_type": "symbol"
+    },
+    {
+      "id": "zod@3.24.4::MySchemaOut",
+      "version_id": "zod@3.24.4",
+      "module_path": "",
+      "name": "MySchemaOut",
+      "kind": "type",
+      "signature": "type MySchemaOut = z.output<typeof mySchema>; // equivalent to z.infer<typeof mySchema>",
+      "description": "This type represents the output type derived from a Zod schema, equivalent to `z.infer<typeof mySchema>` in some contexts.",
+      "parameters": [],
+      "return_type": "any",
+      "deprecated": false,
+      "deprecated_by": null,
+      "source_url": "https://raw.githubusercontent.com/colinhacks/zod/main/packages/zod/README.md",
+      "confidence": "EXTRACTED",
+      "node_type": "symbol"
+    },
+    {
+      "id": "zod@3.24.4::guides/packages/zod/README.md",
+      "version_id": "zod@3.24.4",
+      "title": "[Read the docs \u2192](https://zod.dev/api)",
+      "slug": "packages/zod/README.md",
+      "content_summary": "Zod is presented as a TypeScript-first schema validation library designed to provide strongly-typed, validated results through static type inference. The core philosophy is to define a schema and then use it to parse data, receiving back a strongly-typed result. \n\nKey features highlighted include zero external dependencies, broad compatibility (Node.js and modern browsers), a small core bundle size, an immutable API, and support for both TypeScript and plain JavaScript. Zod includes built-in JSON Schema conversion and a rich ecosystem. \n\nPractical usage revolves around three main operations: parsing data, handling errors, and inferring types. \n\n1. **Parsing Data:** Users can use `.parse()` to validate input data. If successful, this method returns a deep clone of the input, strongly typed according to the schema. For asynchronous operations or transformations, `.parseAsync()` is recommended.\n2. **Handling Errors:** If validation fails using `.parse()`, a `ZodError` is thrown. To handle validation failures more gracefully without a `try/catch`, the `.safeParse()` method should be used, which returns a discriminated union containing either the successfully parsed data or a `ZodError`. \n3. **Inferring Types:** Zod allows developers to extract static types directly from schema definitions using the `z.infer<T>` utility. This feature is crucial for ensuring type safety across the application. The documentation also addresses scenarios where input and output types might diverge due to transformations, allowing independent extraction of input and output types.",
+      "code_examples": [
+        {
+          "code": "\nconst User = z.object({\n  name: z.string(),\n});\n\n// some untrusted data...\nconst input = {\n  /* stuff */\n};\n\n// the parsed result is validated and type safe!\nconst data = User.parse(input);\n\n// so you can use it with confidence :)\nconsole.log(data.name);",
+          "language": "typescript",
+          "title": "import * as z from \"zod\";"
+        },
+        {
+          "code": "```\n\n<br/>\n\n## Basic usage\n\nBefore you can do anything else, you need to define a schema. For the purposes of this guide, we'll use a simple object schema.\n\n```ts\nimport * as z from \"zod\";\n\nconst Player = z.object({\n  username: z.string(),\n  xp: z.number(),\n});",
+          "language": "bash",
+          "title": "npm install zod"
+        },
+        {
+          "code": "// => returns { username: \"billie\", xp: 100 }",
+          "language": "typescript",
+          "title": "Player.parse({ username: \"billie\", xp: 100 });"
+        },
+        {
+          "code": "\nawait schema.parseAsync(\"hello\");\n// => \"hello\"",
+          "language": "typescript",
+          "title": "const schema = z.string().refine(async (val) => val.length <= 8);"
+        },
+        {
+          "code": "  Player.parse({ username: 42, xp: \"100\" });\n} catch (err) {\n  if (err instanceof z.ZodError) {\n    err.issues;\n    /* [\n      {\n        expected: 'string',\n        code: 'invalid_type',\n        path: [ 'username' ],\n        message: 'Invalid input: expected string'\n      },\n      {\n        expected: 'number',\n        code: 'invalid_type',\n        path: [ 'xp' ],\n        message: 'Invalid input: expected number'\n      }\n    ] */\n  }\n}",
+          "language": "typescript",
+          "title": "try {"
+        }
+      ],
+      "related_symbols": [
+        "zod@3.24.4::Player",
+        "zod@3.24.4::MySchemaIn",
+        "zod@3.24.4::MySchemaOut"
+      ],
+      "source_url": "https://raw.githubusercontent.com/colinhacks/zod/main/packages/zod/README.md",
+      "node_type": "guide"
+    }
+  ],
+  "edges": [
+    {
+      "type": "HAS_VERSION",
+      "confidence": "EXTRACTED",
+      "source": "zod",
+      "target": "zod@3.24.4"
+    },
+    {
+      "type": "EXPORTS",
+      "confidence": "EXTRACTED",
+      "source": "zod@3.24.4",
+      "target": "zod@3.24.4::Player"
+    },
+    {
+      "type": "EXPORTS",
+      "confidence": "EXTRACTED",
+      "source": "zod@3.24.4",
+      "target": "zod@3.24.4::MySchemaIn"
+    },
+    {
+      "type": "EXPORTS",
+      "confidence": "EXTRACTED",
+      "source": "zod@3.24.4",
+      "target": "zod@3.24.4::MySchemaOut"
+    },
+    {
+      "type": "HAS_GUIDE",
+      "confidence": "EXTRACTED",
+      "source": "zod@3.24.4",
+      "target": "zod@3.24.4::guides/packages/zod/README.md"
+    },
+    {
+      "type": "RELATED_TO",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "description": "The input and output types derived from a schema are closely related, often used interchangeably when inferring data.",
+      "source": "zod@3.24.4::MySchemaIn",
+      "target": "zod@3.24.4::MySchemaOut"
+    },
+    {
+      "type": "REFERENCES",
+      "confidence": "EXTRACTED",
+      "source": "zod@3.24.4::guides/packages/zod/README.md",
+      "target": "zod@3.24.4::Player"
+    },
+    {
+      "type": "REFERENCES",
+      "confidence": "EXTRACTED",
+      "source": "zod@3.24.4::guides/packages/zod/README.md",
+      "target": "zod@3.24.4::MySchemaIn"
+    },
+    {
+      "type": "REFERENCES",
+      "confidence": "EXTRACTED",
+      "source": "zod@3.24.4::guides/packages/zod/README.md",
+      "target": "zod@3.24.4::MySchemaOut"
+    }
+  ],
+  "metadata": {
+    "node_count": 6,
+    "edge_count": 9,
+    "format": "sharingan_v1"
+  }
+}

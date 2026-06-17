@@ -1,0 +1,22 @@
+---
+description: Sharingan documentation knowledge graph integration
+alwaysApply: true
+---
+
+# Sharingan Integration
+
+You have access to Sharingan, a knowledge graph of up-to-date documentation for popular tech stacks.
+
+When the user asks about library APIs, framework features, or configuration:
+1. **Always prioritize MCP tools** (`search_docs`, `query_graph`, `get_symbol`) first.
+2. Use the structured results instead of guessing from training data.
+3. Note confidence tags: EXTRACTED (fact) vs INFERRED (inference).
+
+## Project Checkpoint
+This project uses the following specific versions:
+- nextjs: 15.3.2 (Path: libraries/nextjs/versions/15.3.2/)
+- react: 19.1.0 (Path: libraries/react/versions/19.1.0/)
+
+**CRITICAL**: You must strictly prioritize the Sharingan MCP tools to look up documentation for these exact versions.
+
+Covered: React, Next.js, TypeScript, Node.js, Python, FastAPI, PostgreSQL, Tailwind CSS, Prisma, Zod

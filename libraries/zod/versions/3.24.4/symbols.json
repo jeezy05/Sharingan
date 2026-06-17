@@ -1,0 +1,50 @@
+[
+  {
+    "id": "zod@3.24.4::Player",
+    "version_id": "zod@3.24.4",
+    "module_path": "",
+    "name": "Player",
+    "kind": "type",
+    "signature": "type Player = z.infer<typeof Player>;",
+    "description": "This is an inferred type derived from a Zod schema, typically used for strongly-typed data.",
+    "parameters": [],
+    "return_type": "any",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/colinhacks/zod/main/packages/zod/README.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "zod@3.24.4::MySchemaIn",
+    "version_id": "zod@3.24.4",
+    "module_path": "",
+    "name": "MySchemaIn",
+    "kind": "type",
+    "signature": "type MySchemaIn = z.input<typeof mySchema>;",
+    "description": "This type represents the input type derived from a Zod schema.",
+    "parameters": [],
+    "return_type": "any",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/colinhacks/zod/main/packages/zod/README.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  },
+  {
+    "id": "zod@3.24.4::MySchemaOut",
+    "version_id": "zod@3.24.4",
+    "module_path": "",
+    "name": "MySchemaOut",
+    "kind": "type",
+    "signature": "type MySchemaOut = z.output<typeof mySchema>; // equivalent to z.infer<typeof mySchema>",
+    "description": "This type represents the output type derived from a Zod schema, equivalent to `z.infer<typeof mySchema>` in some contexts.",
+    "parameters": [],
+    "return_type": "any",
+    "deprecated": false,
+    "deprecated_by": null,
+    "source_url": "https://raw.githubusercontent.com/colinhacks/zod/main/packages/zod/README.md",
+    "confidence": "EXTRACTED",
+    "node_type": "symbol"
+  }
+]

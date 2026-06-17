@@ -1,0 +1,93 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sharingan"
+version = "0.1.0"
+description = "Open-source knowledge graph for latest documentation of popular tech stacks. AI coding assistant plugin for Claude Code, Codex, Cursor, and more."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [
+    { name = "Sharingan Contributors" },
+]
+keywords = [
+    "knowledge-graph",
+    "documentation",
+    "ai-coding",
+    "claude-code",
+    "mcp",
+    "graphrag",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Documentation",
+]
+dependencies = [
+    # Graph
+    "networkx>=3.2",
+    # Parsing
+    "markdown-it-py>=3.0",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "pyyaml>=6.0",
+    # HTTP
+    "httpx>=0.27",
+    # CLI
+    "click>=8.1",
+    "rich>=13.0",
+    # Schema validation
+    "jsonschema>=4.20",
+]
+
+[project.optional-dependencies]
+# LLM backends
+anthropic = ["anthropic>=0.40"]
+openai = ["openai>=1.50"]
+ollama = ["ollama>=0.4"]
+# Community detection
+leiden = ["leidenalg>=0.10", "igraph>=0.11"]
+# MCP server
+mcp = ["mcp>=1.0"]
+# All extras
+all = [
+    "sharingan[anthropic]",
+    "sharingan[openai]",
+    "sharingan[ollama]",
+    "sharingan[leiden]",
+    "sharingan[mcp]",
+]
+# Dev
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.5",
+]
+
+[project.scripts]
+sharingan = "sharingan.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/sharingan-docs/sharingan"
+Repository = "https://github.com/sharingan-docs/sharingan"
+Issues = "https://github.com/sharingan-docs/sharingan/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["sharingan"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

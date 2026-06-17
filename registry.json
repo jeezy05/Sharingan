@@ -1,0 +1,218 @@
+{
+  "$schema": "./schema/v1.json",
+  "schema_version": "v1",
+  "name": "Sharingan Knowledge Graph Registry",
+  "description": "Open-source documentation knowledge graph for popular tech stacks",
+  "updated_at": "2026-06-16T00:00:00Z",
+  "libraries": {
+    "zod": {
+      "id": "zod",
+      "name": "Zod",
+      "category": "validation",
+      "language": "typescript",
+      "repo_url": "https://github.com/colinhacks/zod",
+      "docs_url": "https://zod.dev",
+      "npm_package": "zod",
+      "pypi_package": null,
+      "latest_version": "3.24.4",
+      "tracked_versions": ["3.24.4", "3.23.0", "3.22.0"],
+      "tags": ["validation", "typescript", "schema", "parsing"],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "colinhacks/zod",
+        "branch": "main",
+        "docs_path": "packages/zod/README.md",
+        "extra_paths": []
+      }
+    },
+    "react": {
+      "id": "react",
+      "name": "React",
+      "category": "frontend",
+      "language": "typescript",
+      "repo_url": "https://github.com/facebook/react",
+      "docs_url": "https://react.dev",
+      "npm_package": "react",
+      "pypi_package": null,
+      "latest_version": "19.1.0",
+      "tracked_versions": ["19.1.0", "18.3.1", "17.0.2"],
+      "tags": ["ui", "frontend", "components", "hooks"],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "reactjs/react.dev",
+        "branch": "main",
+        "docs_path": "src/content",
+        "extra_paths": []
+      }
+    },
+    "nextjs": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "category": "meta-framework",
+      "language": "typescript",
+      "repo_url": "https://github.com/vercel/next.js",
+      "docs_url": "https://nextjs.org/docs",
+      "npm_package": "next",
+      "pypi_package": null,
+      "latest_version": "15.3.2",
+      "tracked_versions": ["15.3.2", "14.2.0", "13.5.0"],
+      "tags": ["fullstack", "ssr", "react", "app-router"],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "vercel/next.js",
+        "branch": "canary",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
+    },
+    "typescript": {
+      "id": "typescript",
+      "name": "TypeScript",
+      "category": "language",
+      "language": "typescript",
+      "repo_url": "https://github.com/microsoft/TypeScript",
+      "docs_url": "https://www.typescriptlang.org/docs",
+      "npm_package": "typescript",
+      "pypi_package": null,
+      "latest_version": "5.8.3",
+      "tracked_versions": ["5.8.3", "5.5.0", "5.0.0"],
+      "tags": ["language", "types", "compiler"],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "microsoft/TypeScript-Website",
+        "branch": "v2",
+        "docs_path": "packages/documentation/copy/en",
+        "extra_paths": []
+      }
+    },
+    "nodejs": {
+      "id": "nodejs",
+      "name": "Node.js",
+      "category": "runtime",
+      "language": "javascript",
+      "repo_url": "https://github.com/nodejs/node",
+      "docs_url": "https://nodejs.org/docs/latest/api",
+      "npm_package": null,
+      "pypi_package": null,
+      "latest_version": "22.16.0",
+      "tracked_versions": ["22.16.0", "20.18.0", "18.20.0"],
+      "tags": ["runtime", "server", "javascript"],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "nodejs/node",
+        "branch": "main",
+        "docs_path": "doc/api",
+        "extra_paths": []
+      }
+    },
+    "fastapi": {
+      "id": "fastapi",
+      "name": "FastAPI",
+      "category": "backend",
+      "language": "python",
+      "repo_url": "https://github.com/fastapi/fastapi",
+      "docs_url": "https://fastapi.tiangolo.com",
+      "npm_package": null,
+      "pypi_package": "fastapi",
+      "latest_version": "0.115.0",
+      "tracked_versions": ["0.115.0", "0.110.0", "0.100.0"],
+      "tags": ["api", "python", "async", "rest"],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "fastapi/fastapi",
+        "branch": "master",
+        "docs_path": "docs/en/docs",
+        "extra_paths": []
+      }
+    },
+    "postgresql": {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "category": "database",
+      "language": "sql",
+      "repo_url": "https://github.com/postgres/postgres",
+      "docs_url": "https://www.postgresql.org/docs/current",
+      "npm_package": null,
+      "pypi_package": null,
+      "latest_version": "17.2",
+      "tracked_versions": ["17.2", "16.6", "15.10"],
+      "tags": ["database", "sql", "relational"],
+      "node_type": "library",
+      "docs_config": {
+        "type": "html",
+        "base_url": "https://www.postgresql.org/docs/current",
+        "docs_path": null,
+        "extra_paths": []
+      }
+    },
+    "tailwindcss": {
+      "id": "tailwindcss",
+      "name": "Tailwind CSS",
+      "category": "styling",
+      "language": "css",
+      "repo_url": "https://github.com/tailwindlabs/tailwindcss",
+      "docs_url": "https://tailwindcss.com/docs",
+      "npm_package": "tailwindcss",
+      "pypi_package": null,
+      "latest_version": "4.1.0",
+      "tracked_versions": ["4.1.0", "3.4.0", "3.3.0"],
+      "tags": ["css", "utility", "styling", "design"],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "tailwindlabs/tailwindcss.com",
+        "branch": "main",
+        "docs_path": "src/docs",
+        "extra_paths": []
+      }
+    },
+    "prisma": {
+      "id": "prisma",
+      "name": "Prisma",
+      "category": "orm",
+      "language": "typescript",
+      "repo_url": "https://github.com/prisma/prisma",
+      "docs_url": "https://www.prisma.io/docs",
+      "npm_package": "prisma",
+      "pypi_package": null,
+      "latest_version": "6.3.0",
+      "tracked_versions": ["6.3.0", "5.22.0", "4.16.0"],
+      "tags": ["orm", "database", "typescript", "schema"],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "prisma/docs",
+        "branch": "main",
+        "docs_path": "content",
+        "extra_paths": []
+      }
+    },
+    "python": {
+      "id": "python",
+      "name": "Python",
+      "category": "language",
+      "language": "python",
+      "repo_url": "https://github.com/python/cpython",
+      "docs_url": "https://docs.python.org/3",
+      "npm_package": null,
+      "pypi_package": null,
+      "latest_version": "3.13.2",
+      "tracked_versions": ["3.13.2", "3.12.8", "3.11.11"],
+      "tags": ["language", "scripting", "general-purpose"],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_rst",
+        "repo": "python/cpython",
+        "branch": "main",
+        "docs_path": "Doc/library",
+        "extra_paths": ["Doc/reference"]
+      }
+    }
+  }
+}

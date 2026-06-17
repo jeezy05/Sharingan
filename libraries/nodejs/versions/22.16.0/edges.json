@@ -1,0 +1,1250 @@
+[
+  {
+    "type": "HAS_VERSION",
+    "confidence": "EXTRACTED",
+    "source": "nodejs",
+    "target": "nodejs@22.16.0"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/addons.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::Bar"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/assert.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/async_context.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::MyAddedCallbacks"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/async_hooks.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/buffer.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/child_process.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/cli.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::errorMsg"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/cluster.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/console.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/crypto.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/debugger.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::openAndClose"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/deprecations.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/dgram.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/diagnostics_channel.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/dns.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/documentation.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::handleRequest"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::readSomeFile"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/domain.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/dtls.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/embedding.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/environment_variables.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::b"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::c"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::makeFaster"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::speedy"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/errors.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::addTwo"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::main"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/esm.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::handler2"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/events.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/ffi.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/fs.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::load"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/globals.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::of"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::to"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::which"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/http.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/http2.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/https.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/index.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::setNetworkResources"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/inspector.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/intl.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::newAPI"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/module.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::Square"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::someFunc"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/modules.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/n-api.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/net.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/os.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/packages.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/path.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/perf_hooks.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/permissions.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::maybeSync"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/process.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/punycode.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/querystring.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/quic.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/readline.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::isRecoverableError"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/repl.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/report.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/single-executable-applications.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/sqlite.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::run"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::writeOneMillionTimes"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::write"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::parseHeader"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::onReadable"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::print"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::printIterator"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::printSymbolAsyncIterator"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::showBoth"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::MyWritable"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::WriteStream"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::StringWritable"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::MyReadable"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::ReadStream"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::SourceWrapper"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::Counter"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::MyDuplex"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::MyTransform"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/stream.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/stream_iter.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/string_decoder.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/synopsis.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::addOne"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/test.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/timers.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/tls.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/tracing.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/tty.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::A"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/typescript.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::is"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::prototype"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/url.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::Foo"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::MyStream"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::Password"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::foo"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/util.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/v8.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/vfs.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::add"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/vm.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/wasi.md"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::generateAesKey"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::generateEcKey"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::generateEd25519Key"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::generateX25519Key"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::generateHmacKey"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::generateRsaKey"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::aesEncrypt"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::aesDecrypt"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::generateAndExportHmacKey"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::importHmacKey"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::generateAndWrapHmacKey"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::unwrapHmacKey"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::sign"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::verify"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::pbkdf2"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::pbkdf2Key"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::digest"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/webcrypto.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/webstreams.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/worker_threads.md"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0",
+    "target": "nodejs@22.16.0::guides/doc/api/zlib.md"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/assert.md",
+    "target": "nodejs@22.16.0::Bar"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/async_hooks.md",
+    "target": "nodejs@22.16.0::MyAddedCallbacks"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/cluster.md",
+    "target": "nodejs@22.16.0::errorMsg"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/deprecations.md",
+    "target": "nodejs@22.16.0::openAndClose"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/domain.md",
+    "target": "nodejs@22.16.0::handleRequest"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/domain.md",
+    "target": "nodejs@22.16.0::readSomeFile"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/errors.md",
+    "target": "nodejs@22.16.0::b"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/errors.md",
+    "target": "nodejs@22.16.0::c"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/errors.md",
+    "target": "nodejs@22.16.0::makeFaster"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/errors.md",
+    "target": "nodejs@22.16.0::speedy"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/esm.md",
+    "target": "nodejs@22.16.0::addTwo"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/esm.md",
+    "target": "nodejs@22.16.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/events.md",
+    "target": "nodejs@22.16.0::handler2"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/globals.md",
+    "target": "nodejs@22.16.0::load"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/http.md",
+    "target": "nodejs@22.16.0::of"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/http.md",
+    "target": "nodejs@22.16.0::to"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/http.md",
+    "target": "nodejs@22.16.0::which"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/inspector.md",
+    "target": "nodejs@22.16.0::setNetworkResources"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/module.md",
+    "target": "nodejs@22.16.0::newAPI"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/modules.md",
+    "target": "nodejs@22.16.0::Square"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/modules.md",
+    "target": "nodejs@22.16.0::someFunc"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/process.md",
+    "target": "nodejs@22.16.0::maybeSync"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/repl.md",
+    "target": "nodejs@22.16.0::isRecoverableError"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::run"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::writeOneMillionTimes"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::write"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::parseHeader"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::onReadable"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::print"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::printIterator"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::printSymbolAsyncIterator"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::showBoth"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::MyWritable"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::WriteStream"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::StringWritable"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::MyReadable"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::ReadStream"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::SourceWrapper"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::Counter"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::MyDuplex"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/stream.md",
+    "target": "nodejs@22.16.0::MyTransform"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/test.md",
+    "target": "nodejs@22.16.0::addOne"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/test.md",
+    "target": "nodejs@22.16.0::addTwo"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/typescript.md",
+    "target": "nodejs@22.16.0::A"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/url.md",
+    "target": "nodejs@22.16.0::is"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/url.md",
+    "target": "nodejs@22.16.0::prototype"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/util.md",
+    "target": "nodejs@22.16.0::Foo"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/util.md",
+    "target": "nodejs@22.16.0::MyStream"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/util.md",
+    "target": "nodejs@22.16.0::Bar"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/util.md",
+    "target": "nodejs@22.16.0::Password"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/util.md",
+    "target": "nodejs@22.16.0::foo"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/vm.md",
+    "target": "nodejs@22.16.0::add"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::generateAesKey"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::generateEcKey"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::generateEd25519Key"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::generateX25519Key"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::generateHmacKey"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::generateRsaKey"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::aesEncrypt"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::aesDecrypt"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::generateAndExportHmacKey"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::importHmacKey"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::generateAndWrapHmacKey"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::unwrapHmacKey"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::sign"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::verify"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::pbkdf2"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::pbkdf2Key"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/webcrypto.md",
+    "target": "nodejs@22.16.0::digest"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "nodejs@22.16.0::guides/doc/api/worker_threads.md",
+    "target": "nodejs@22.16.0::Foo"
+  }
+]

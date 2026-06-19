@@ -117,11 +117,13 @@ PRETOOLUSE_HOOK = {
 def _detect_platform() -> str | None:
     """Auto-detect the current platform."""
     checks = [
+        # Check project-local configurations first
+        ("cursor", Path.cwd() / ".cursor"),
+        ("antigravity", Path.cwd() / ".agents"),
+        # Fall back to global user configurations
         ("claude", Path.home() / ".claude"),
         ("codex", Path.home() / ".codex"),
-        ("cursor", Path.cwd() / ".cursor"),
         ("gemini", Path.home() / ".gemini"),
-        ("antigravity", Path.cwd() / ".agents"),
     ]
     for platform, path in checks:
         if path.exists():

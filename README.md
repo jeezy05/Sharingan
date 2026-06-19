@@ -24,9 +24,9 @@ AI coding assistants hallucinate outdated APIs. Their training data has a cutoff
 
 ```bash
 # Install
-pip install sharingan
+pip install sharingan-ai
 # or
-uv tool install sharingan
+uv tool install sharingan-ai
 
 # Extract documentation for a library
 sharingan extract zod
@@ -37,7 +37,7 @@ sharingan extract react --skip-llm  # Pass 1 only (free, no API key needed)
 sharingan query "useRouter" --lib nextjs
 sharingan query "z.string" --lib zod
 
-# Install into your AI assistant
+# Install into your AI assistant (run from your project root!)
 sharingan install --platform claude
 sharingan install --platform codex
 sharingan install --platform cursor
@@ -58,21 +58,37 @@ Sharingan uses a **two-pass extraction pipeline** (inspired by [Graphify](https:
 - Infers relationships between API symbols
 - Detects deprecation patterns
 - Scores confidence on inferred edges
-- **Auto-detects backend**: Anthropic → OpenAI → Ollama
+- **Auto-detects backend**: Anthropic → OpenAI → Ollama → None (self-healing fallback to Pass 1)
 
 ### Graph Building
 - Merges Pass 1 + Pass 2 into a **NetworkX** directed graph
-- Clusters related APIs into communities via **Leiden algorithm**
+- Clusters related APIs into communities via **Louvain community detection**
 - Exports to JSON files in a git-friendly structure
 - Every edge tagged with confidence: `EXTRACTED`, `INFERRED`, or `AMBIGUOUS`
+
+### Data Storage
+
+All extracted knowledge graphs are stored in `~/.sharingan/` (survives pip upgrades):
+```
+~/.sharingan/
+├── libraries/
+│   ├── nextjs/versions/15.3.2/
+│   │   ├── graph.json
+│   │   ├── symbols.json
+│   │   ├── edges.json
+│   │   └── ...
+│   └── react/versions/19.1.0/
+└── indexes/
+    └── by-symbol-name.json
+```
 
 ## Covered Libraries
 
 ### Tier 1 (Available Now)
-React, Next.js, TypeScript, Node.js, Python, FastAPI, PostgreSQL, Tailwind CSS, Prisma, Zod
+React, Next.js, TypeScript, Node.js, Python, FastAPI, Tailwind CSS, Prisma, Zod
 
 ### Tier 2 (Coming Soon)
-Vue.js, Svelte, Django, Express.js, Docker, Supabase, Drizzle ORM, tRPC, Vite, shadcn/ui
+PostgreSQL, Vue.js, Svelte, Django, Express.js, Docker, Supabase, Drizzle ORM, tRPC, Vite, shadcn/ui
 
 ### Tier 3 (Planned)
 Angular, Rust, Go, Flask, LangChain, Vercel AI SDK, MongoDB, Redis, Stripe, AWS SDK
@@ -86,6 +102,8 @@ sharingan info <library>        # Show library details
 sharingan query <question>      # Query the graph
 sharingan status                # Show extraction statistics
 sharingan install               # Install AI assistant skill
+sharingan serve                 # Start MCP server
+sharingan cluster <library>     # Detect API communities
 ```
 
 ## Model Context Protocol (MCP) Setup
@@ -146,7 +164,7 @@ Add to your `mcp_config.json` file inside the `.gemini/config` directory:
 
 ### 3. MCP Tools Available
 
-Once registered, your AI assistant will dynamically call these tools to parse documentation:
+Once registered, your AI assistant will dynamically call these tools to look up documentation:
 
 | Tool | Description |
 |:-----|:------------|
@@ -165,8 +183,8 @@ We welcome contributions! The most impactful ways to help:
 
 ```bash
 # Dev setup
-git clone https://github.com/sharingan-docs/sharingan
-cd sharingan
+git clone https://github.com/jeezy05/Sharingan
+cd Sharingan
 uv sync --all-extras
 uv run pytest tests/ -q
 ```

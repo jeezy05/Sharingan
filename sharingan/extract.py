@@ -72,15 +72,20 @@ def detect_backend() -> str:
     
     # Check if ollama is running locally and has at least one model
     base_url = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")
-    if os.environ.get("OLLAMA_MODEL"):
-        return "ollama"
-        
+    target_model = os.environ.get("OLLAMA_MODEL")
+    
     try:
         import httpx
         resp = httpx.get(f"{base_url}/api/tags", timeout=2.0)
         if resp.status_code == 200:
             models = resp.json().get("models", [])
-            if models:
+            model_names = [m.get("name", "") for m in models]
+            if target_model:
+                # Verify the specific model is actually pulled
+                if any(target_model in name for name in model_names):
+                    return "ollama"
+                # Model specified but not found — don't silently claim ollama
+            elif models:
                 return "ollama"
     except Exception:
         pass
@@ -315,7 +320,9 @@ def _parse_llm_response(
     try:
         # Try to extract JSON from the response
         text = response.strip()
-        print(f"[LLM RAW RESPONSE]\n{text}\n[/LLM RAW RESPONSE]")
+        # Debug output — only when SHARINGAN_DEBUG is set
+        if os.environ.get("SHARINGAN_DEBUG"):
+            console.print(f"[dim][LLM Response Preview] {text[:300]}...[/dim]")
         # Handle markdown-wrapped JSON
         if text.startswith("```"):
             text = text.split("\n", 1)[1]

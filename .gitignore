@@ -32,3 +32,6 @@ tests/output/
 
 #token
 token.txt
+
+# Draw.io Diagrams
+*.drawio

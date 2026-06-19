@@ -20,6 +20,13 @@ from rich.table import Table
 
 from sharingan.build import build_graph, export_graph, build_indexes
 from sharingan.cache import CacheManifest
+from sharingan.config import (
+    get_data_dir,
+    get_indexes_dir,
+    get_libraries_dir,
+    get_registry_path,
+    migrate_legacy_data,
+)
 from sharingan.discover import DocSource, discover_library, load_registry
 from sharingan.extract import (
     ExtractionResult,
@@ -34,8 +41,8 @@ console = Console()
 
 
 def _get_project_root() -> Path:
-    """Get the project root directory."""
-    return Path(__file__).parent / "data"
+    """Get the user-local data directory (deprecated — use config.py functions)."""
+    return get_data_dir()
 
 
 async def extract_library(
@@ -63,12 +70,14 @@ async def extract_library(
     Returns:
         Dict with extraction statistics.
     """
+    # Ensure legacy data is migrated on first run
+    migrate_legacy_data()
     project_root = _get_project_root()
 
     # ── Step 1: Discover ──────────────────────────────────────────────
     console.print(Panel(f"[bold cyan]Sharingan — Extracting {library_id}[/]"))
 
-    source = discover_library(library_id, version, registry_path)
+    source = discover_library(library_id, version, registry_path or get_registry_path())
     version_id = f"{source.library_id}@{source.version}"
 
     console.print(f"  Library: [bold]{source.library_name}[/] v{source.version}")
@@ -100,7 +109,7 @@ async def extract_library(
 
     # ── Step 3: Cache check ───────────────────────────────────────────
     if output_dir is None:
-        output_dir = project_root / "libraries" / source.library_id
+        output_dir = get_libraries_dir() / source.library_id
 
     version_dir = output_dir / "versions" / source.version
     cache_dir = version_dir / "cache"
@@ -197,7 +206,7 @@ async def extract_library(
     console.print("\n[bold]Step 4/4: Building knowledge graph...[/]")
 
     # Load library metadata for the root node
-    registry = load_registry(registry_path)
+    registry = load_registry(registry_path or get_registry_path())
     lib_meta = registry.get("libraries", {}).get(library_id, {})
 
     G = build_graph(extractions, source.library_id, version_id, lib_meta)
@@ -230,8 +239,8 @@ async def extract_library(
     cache.save()
 
     # Build global indexes
-    libraries_dir = project_root / "libraries"
-    indexes_dir = project_root / "indexes"
+    libraries_dir = get_libraries_dir()
+    indexes_dir = get_indexes_dir()
     if libraries_dir.exists():
         build_indexes(libraries_dir, indexes_dir)
 

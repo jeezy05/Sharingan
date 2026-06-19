@@ -14,22 +14,16 @@ from typing import Any
 from fastmcp import FastMCP
 from rich.console import Console
 
+from sharingan.config import get_indexes_dir, get_libraries_dir, migrate_legacy_data
+
 console = Console()
+
+# Ensure legacy data is migrated
+migrate_legacy_data()
 
 # Initialize FastMCP server
 mcp = FastMCP("Sharingan")
 
-
-def _get_project_root() -> Path:
-    return Path(__file__).parent / "data"
-
-
-def _get_indexes_dir() -> Path:
-    return _get_project_root() / "indexes"
-
-
-def _get_libraries_dir() -> Path:
-    return _get_project_root() / "libraries"
 
 
 def _load_json(path: Path) -> dict[str, Any] | list[Any] | None:
@@ -48,7 +42,7 @@ def list_libraries() -> str:
     
     Use this to see which libraries you can query.
     """
-    libraries_dir = _get_libraries_dir()
+    libraries_dir = get_libraries_dir()
     if not libraries_dir.exists():
         return "No libraries extracted yet. Please run 'sharingan extract <lib>' first."
     
@@ -75,7 +69,7 @@ def search_symbols(query: str, library_id: str | None = None) -> str:
         query: The symbol name or keyword to search for (e.g., 'useRouter', 'createServer').
         library_id: (Optional) Filter results to a specific library (e.g., 'nextjs', 'nodejs').
     """
-    indexes_dir = _get_indexes_dir()
+    indexes_dir = get_indexes_dir()
     symbol_index_path = indexes_dir / "by-symbol-name.json"
     
     symbol_index = _load_json(symbol_index_path)
@@ -96,7 +90,7 @@ def search_symbols(query: str, library_id: str | None = None) -> str:
         return f"No symbols found matching '{query}'{lib_filter}."
 
     # Load and format the top 10 matching symbols
-    libraries_dir = _get_libraries_dir()
+    libraries_dir = get_libraries_dir()
     results = []
     
     for match in matches[:10]:
@@ -144,7 +138,7 @@ def get_symbol_details(symbol_id: str) -> str:
     lib_id = lib_ver.split("@")[0] if "@" in lib_ver else lib_ver
     ver = lib_ver.split("@")[1] if "@" in lib_ver else ""
 
-    libraries_dir = _get_libraries_dir()
+    libraries_dir = get_libraries_dir()
     symbols_path = libraries_dir / lib_id / "versions" / ver / "symbols.json"
     symbols = _load_json(symbols_path)
     
@@ -199,7 +193,7 @@ def get_neighbors(node_id: str) -> str:
     lib_id = lib_ver.split("@")[0] if "@" in lib_ver else lib_ver
     ver = lib_ver.split("@")[1] if "@" in lib_ver else ""
 
-    libraries_dir = _get_libraries_dir()
+    libraries_dir = get_libraries_dir()
     edges_path = libraries_dir / lib_id / "versions" / ver / "edges.json"
     edges = _load_json(edges_path)
     

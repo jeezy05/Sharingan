@@ -20,11 +20,13 @@ import click
 from rich.console import Console
 from rich.table import Table
 
+from sharingan.config import get_data_dir, get_indexes_dir, get_libraries_dir
+
 console = Console()
 
 
 @click.group()
-@click.version_option(version="0.1.0", prog_name="sharingan")
+@click.version_option(version=None, prog_name="sharingan", package_name="sharingan-ai")
 def main() -> None:
     """Sharingan — Open-source documentation knowledge graph.
 
@@ -128,8 +130,7 @@ def info(library: str) -> None:
     console.print(f"  Tags:      {', '.join(source.tags)}")
 
     # Check if already extracted
-    project_root = Path(__file__).parent / "data"
-    lib_dir = project_root / "libraries" / source.library_id
+    lib_dir = get_libraries_dir() / source.library_id
     if lib_dir.exists():
         versions = []
         versions_dir = lib_dir / "versions"
@@ -158,8 +159,7 @@ def query(question: str, lib: str | None, version: str | None) -> None:
         sharingan query "server components" --lib react
         sharingan query "z.string methods" --lib zod
     """
-    project_root = Path(__file__).parent / "data"
-    indexes_dir = project_root / "indexes"
+    indexes_dir = get_indexes_dir()
 
     # Simple keyword search across symbol names
     symbol_index_path = indexes_dir / "by-symbol-name.json"
@@ -200,7 +200,7 @@ def query(question: str, lib: str | None, version: str | None) -> None:
         ver = lib_ver.split("@")[1] if "@" in lib_ver else ""
 
         symbols_path = (
-            project_root / "libraries" / lib_id / "versions" / ver / "symbols.json"
+            get_libraries_dir() / lib_id / "versions" / ver / "symbols.json"
         )
         if symbols_path.exists():
             with open(symbols_path) as f:
@@ -230,18 +230,20 @@ def query(question: str, lib: str | None, version: str | None) -> None:
     default=None,
     help="Target platform (auto-detect if not specified).",
 )
-@click.option("--project", is_flag=True, help="Install into current project (not user profile).")
+@click.option("--project", is_flag=True, hidden=True, help="Deprecated — all installs are project-scoped.")
 def install(platform: str | None, project: bool) -> None:
     """Install Sharingan skill into your AI coding assistant.
+
+    Installs into the current project directory. Run this from your project root.
 
     Examples:
         sharingan install
         sharingan install --platform claude
-        sharingan install --platform codex --project
+        sharingan install --platform cursor
     """
     from sharingan.skills import install_skill
 
-    install_skill(platform, project_scope=project)
+    install_skill(platform)
 
 
 @main.command()
@@ -277,8 +279,7 @@ def cluster(library: str, version: str | None, backend: str | None) -> None:
 @main.command()
 def status() -> None:
     """Show Sharingan status — extracted libraries, graph stats."""
-    project_root = Path(__file__).parent / "data"
-    libraries_dir = project_root / "libraries"
+    libraries_dir = get_libraries_dir()
 
     if not libraries_dir.exists():
         console.print("[yellow]No libraries extracted yet. Run 'sharingan extract <library>'.[/]")

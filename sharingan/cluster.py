@@ -118,12 +118,12 @@ async def cluster_library(
 ) -> None:
     """Run community detection and LLM labeling on an extracted library."""
     from sharingan.build import json_to_graph
+    from sharingan.config import get_libraries_dir
     
     lib_id = version_id.split("@")[0] if "@" in version_id else version_id
     ver = version_id.split("@")[1] if "@" in version_id else ""
     
-    libraries_dir = Path(__file__).parent / "data" / "libraries"
-    version_dir = libraries_dir / lib_id / "versions" / ver
+    version_dir = get_libraries_dir() / lib_id / "versions" / ver
     graph_path = version_dir / "graph.json"
     
     if not graph_path.exists():

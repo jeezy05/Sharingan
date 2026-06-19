@@ -38,13 +38,14 @@ def load_registry(registry_path: Path | None = None) -> dict[str, Any]:
     """Load the library registry.
 
     Args:
-        registry_path: Path to registry.json. Defaults to project root.
+        registry_path: Path to registry.json. Defaults to package-bundled registry.
 
     Returns:
         Parsed registry dict.
     """
     if registry_path is None:
-        registry_path = Path(__file__).parent / "data" / "registry.json"
+        from sharingan.config import get_registry_path
+        registry_path = get_registry_path()
     with open(registry_path, "r") as f:
         return json.load(f)
 

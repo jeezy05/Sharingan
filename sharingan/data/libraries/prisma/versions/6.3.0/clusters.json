@@ -1,0 +1,504 @@
+[
+  {
+    "id": "prisma@6.3.0::cluster::0",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (6 nodes)",
+    "summary": "",
+    "node_count": 6,
+    "nodes": [
+      "prisma@6.3.0::parseConnectionString",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/typeorm.mdx",
+      "prisma@6.3.0::Database",
+      "prisma@6.3.0::UsersTable",
+      "prisma@6.3.0::is",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/kysely.mdx"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::1",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (3 nodes)",
+    "summary": "",
+    "node_count": 3,
+    "nodes": [
+      "prisma@6.3.0::getPercentile",
+      "prisma@6.3.0::calculateStatistics",
+      "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/evaluating.mdx"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::2",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (3 nodes)",
+    "summary": "",
+    "node_count": 3,
+    "nodes": [
+      "prisma@6.3.0::SignOut",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/authjs/nextjs.mdx",
+      "prisma@6.3.0::SignIn"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::3",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (7 nodes)",
+    "summary": "",
+    "node_count": 7,
+    "nodes": [
+      "prisma@6.3.0::handleSubmit",
+      "prisma@6.3.0::SignUpPage",
+      "prisma@6.3.0::useSession",
+      "prisma@6.3.0::DashboardPage",
+      "prisma@6.3.0::SignInPage",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/better-auth/nextjs.mdx",
+      "prisma@6.3.0::useRouter"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::4",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (6 nodes)",
+    "summary": "",
+    "node_count": 6,
+    "nodes": [
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/prisma-config-reference.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/prisma-config-reference.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/deploy-to-cloudflare.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/no-rust-engine.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/deployment/cloudflare-workers.mdx",
+      "prisma@6.3.0::Env"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::5",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (10 nodes)",
+    "summary": "",
+    "node_count": 10,
+    "nodes": [
+      "prisma@6.3.0::UserWithPosts",
+      "prisma@6.3.0::ImportMetaEnv",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx",
+      "prisma@6.3.0::ImportMeta",
+      "prisma@6.3.0::UsersWithPosts",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/astro.mdx",
+      "prisma@6.3.0::UserPersonalData",
+      "prisma@6.3.0::ThenArg",
+      "prisma@6.3.0::getUsersWithPosts",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::6",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (3 nodes)",
+    "summary": "",
+    "node_count": 3,
+    "nodes": [
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/hono.mdx",
+      "prisma@6.3.0::withPrisma",
+      "prisma@6.3.0::ContextWithPrisma"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::7",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (5 nodes)",
+    "summary": "",
+    "node_count": 5,
+    "nodes": [
+      "prisma@6.3.0::PostService",
+      "prisma@6.3.0::AppController",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nestjs.mdx",
+      "prisma@6.3.0::AppModule",
+      "prisma@6.3.0::UserService"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::8",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (22 nodes)",
+    "summary": "",
+    "node_count": 22,
+    "nodes": [
+      "prisma@6.3.0::NewPost",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/comparisons/prisma-and-typeorm.mdx",
+      "prisma@6.3.0::createPost",
+      "prisma@6.3.0::Posts",
+      "prisma@6.3.0::loader",
+      "prisma@6.3.0::User",
+      "prisma@6.3.0::UserRefactoring1604448000",
+      "prisma@6.3.0::action",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/clerk/nextjs.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/react-router-7.mdx",
+      "prisma@6.3.0::Post",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/database/multiple-databases.mdx",
+      "prisma@6.3.0::Point",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/comparisons/prisma-and-typeorm.mdx",
+      "prisma@6.3.0::Navbar",
+      "prisma@6.3.0::guides/apps/docs/content/docs/postgres/database/serverless-driver.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/prisma-in-your-stack/is-prisma-an-orm.mdx",
+      "prisma@6.3.0::RootLayout",
+      "prisma@6.3.0::PostInputs",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nextjs.mdx",
+      "prisma@6.3.0::Home",
+      "prisma@6.3.0::meta"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::9",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (16 nodes)",
+    "summary": "",
+    "node_count": 16,
+    "nodes": [
+      "prisma@6.3.0::Chat",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/postgres/netlify.mdx",
+      "prisma@6.3.0::useState",
+      "prisma@6.3.0::saveChat",
+      "prisma@6.3.0::useEffect",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/edge/deploy-to-vercel.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/tabnine.mdx",
+      "prisma@6.3.0::useChat",
+      "prisma@6.3.0::DELETE",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/deploy-to-vercel.mdx",
+      "prisma@6.3.0::PUT",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/tabnine.mdx",
+      "prisma@6.3.0::GET",
+      "prisma@6.3.0::Page",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/ai-sdk.mdx",
+      "prisma@6.3.0::POST"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::10",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (13 nodes)",
+    "summary": "",
+    "node_count": 13,
+    "nodes": [
+      "prisma@6.3.0::CreateUser",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/testing/unit-testing.mdx",
+      "prisma@6.3.0::handler",
+      "prisma@6.3.0::createUser",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/index.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/deno.mdx",
+      "prisma@6.3.0::getAdminEmails",
+      "prisma@6.3.0::updateUsername",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/setup-and-configuration/databases-connections/index.mdx",
+      "prisma@6.3.0::UpdateUser",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/deploy-to-deno-deploy.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/testing/unit-testing.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/best-practices.mdx"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::11",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (19 nodes)",
+    "summary": "",
+    "node_count": 19,
+    "nodes": [
+      "prisma@6.3.0::ProductNotes",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/shopify.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/solid-start.mdx",
+      "prisma@6.3.0::useMemo",
+      "prisma@6.3.0::useAppBridge",
+      "prisma@6.3.0::selectProduct",
+      "prisma@6.3.0::useLoaderData",
+      "prisma@6.3.0::StudioLoading",
+      "prisma@6.3.0::useActionData",
+      "prisma@6.3.0::useRouteError",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/tanstack-start.mdx",
+      "prisma@6.3.0::useNavigate",
+      "prisma@6.3.0::guides/apps/docs/content/docs/studio/integrations/embedding.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/embed-studio.mdx",
+      "prisma@6.3.0::OPTIONS",
+      "prisma@6.3.0::ClientOnlyStudio",
+      "prisma@6.3.0::App",
+      "prisma@6.3.0::ProductNotesLayout",
+      "prisma@6.3.0::ErrorBoundary"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::12",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (3 nodes)",
+    "summary": "",
+    "node_count": 3,
+    "nodes": [
+      "prisma@6.3.0::deployApp",
+      "prisma@6.3.0::DeploymentService",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/vercel-deployment.mdx"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::13",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (3 nodes)",
+    "summary": "",
+    "node_count": 3,
+    "nodes": [
+      "prisma@6.3.0::getUser",
+      "prisma@6.3.0::login",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/upgrade-prisma-orm/v1.mdx"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::14",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (7 nodes)",
+    "summary": "",
+    "node_count": 7,
+    "nodes": [
+      "prisma@6.3.0::Project",
+      "prisma@6.3.0::Implement",
+      "prisma@6.3.0::Tokens",
+      "prisma@6.3.0::TokenStorage",
+      "prisma@6.3.0::Workspace",
+      "prisma@6.3.0::to",
+      "prisma@6.3.0::guides/apps/docs/content/docs/management-api/sdk.mdx"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::15",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (4 nodes)",
+    "summary": "",
+    "node_count": 4,
+    "nodes": [
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/troubleshooting/nextjs.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/troubleshooting/nextjs.mdx",
+      "prisma@6.3.0::createPrismaClient",
+      "prisma@6.3.0::TenantConfig"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::16",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (4 nodes)",
+    "summary": "",
+    "node_count": 4,
+    "nodes": [
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/index.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/index.mdx",
+      "prisma@6.3.0::ExtendedPrismaClient",
+      "prisma@6.3.0::ExtendedUser"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::17",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (55 nodes)",
+    "summary": "",
+    "node_count": 55,
+    "nodes": [
+      "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/windsurf.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/sqlite.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/datadog.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/mysql.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/sqlite.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/mysql.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/postgresql.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/drizzle-orm.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/runtimes/deno.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/crud.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/setup-and-configuration/databases-connections/connection-management.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/cursor.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/deployment/bun-workspaces.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/transactions.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/cockroachdb.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/windsurf.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/troubleshooting/check-constraints.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/sql-server.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/models.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/sveltekit.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/planetscale.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/prisma-postgres.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/workflows/seeding.mdx",
+      "prisma@6.3.0::main",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/seeding.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/upgrade-prisma-orm/v7.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/upgrade-prisma-orm/v6.mdx",
+      "prisma@6.3.0::rawSql",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/connection-management.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/management-api/getting-started.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/postgresql.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/type-utilities.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/sql-server.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/from-the-cli.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/database/data-migration.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/cursor.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/transactions.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/mongodb.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/mongodb.mdx",
+      "prisma@6.3.0::transfer",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/prisma-orm.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/client.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/planetscale.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/elysia.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/referential-actions/index.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/connection-pool.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/troubleshooting/check-constraints.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/guides/runtimes/bun.mdx",
+      "prisma@6.3.0::CacheStrategy",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/upgrades/to-v7.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/type-utilities.mdx",
+      "prisma@6.3.0::load",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/cockroachdb.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/prisma-postgres.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/client.mdx"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::18",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (5 nodes)",
+    "summary": "",
+    "node_count": 5,
+    "nodes": [
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/observability-and-logging/sql-comments.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/observability-and-logging/sql-comments.mdx",
+      "prisma@6.3.0::RequestContext",
+      "prisma@6.3.0::useGlobalInterceptors",
+      "prisma@6.3.0::QueryTagsInterceptor"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::19",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (4 nodes)",
+    "summary": "",
+    "node_count": 4,
+    "nodes": [
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/query-optimization-performance.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/advanced/query-optimization-performance.mdx",
+      "prisma@6.3.0::getUsers",
+      "prisma@6.3.0::getPosts"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::20",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (5 nodes)",
+    "summary": "",
+    "node_count": 5,
+    "nodes": [
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/type-safety/index.mdx",
+      "prisma@6.3.0::PostUncheckedCreateInput",
+      "prisma@6.3.0::UserCreateNestedOneWithoutPostsInput",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/type-safety/index.mdx",
+      "prisma@6.3.0::PostCreateInput"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::21",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (3 nodes)",
+    "summary": "",
+    "node_count": 3,
+    "nodes": [
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/externally-managed-tables.mdx",
+      "prisma@6.3.0::as",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/externally-managed-tables.mdx"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::22",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (8 nodes)",
+    "summary": "",
+    "node_count": 8,
+    "nodes": [
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/table-inheritance.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/table-inheritance.mdx",
+      "prisma@6.3.0::Video",
+      "prisma@6.3.0::Activity",
+      "prisma@6.3.0::VideoWithActivity",
+      "prisma@6.3.0::Article",
+      "prisma@6.3.0::activityToArticle",
+      "prisma@6.3.0::toVideo"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::23",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (5 nodes)",
+    "summary": "",
+    "node_count": 5,
+    "nodes": [
+      "prisma@6.3.0::LogEvent",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/prisma-client-reference.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/prisma-client-reference.mdx",
+      "prisma@6.3.0::updateTwo",
+      "prisma@6.3.0::QueryEvent"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::24",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (4 nodes)",
+    "summary": "",
+    "node_count": 4,
+    "nodes": [
+      "prisma@6.3.0::FirstLastName",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/computed-fields.mdx",
+      "prisma@6.3.0::WithFullName",
+      "prisma@6.3.0::computeFullName"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::25",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (5 nodes)",
+    "summary": "",
+    "node_count": 5,
+    "nodes": [
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/custom-validation.mdx",
+      "prisma@6.3.0::signup",
+      "prisma@6.3.0::Signup",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/custom-models.mdx",
+      "prisma@6.3.0::Users"
+    ]
+  },
+  {
+    "id": "prisma@6.3.0::cluster::26",
+    "library_id": "prisma",
+    "version_id": "prisma@6.3.0",
+    "name": "Cluster (4 nodes)",
+    "summary": "",
+    "node_count": 4,
+    "nodes": [
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/using-raw-sql/safeql.mdx",
+      "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/using-raw-sql/safeql.mdx",
+      "prisma@6.3.0::st_distancesphere",
+      "prisma@6.3.0::MyPointOfInterest"
+    ]
+  }
+]

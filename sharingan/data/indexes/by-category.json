@@ -8,13 +8,13 @@
   "meta-framework": [
     "nextjs"
   ],
+  "orm": [
+    "prisma"
+  ],
   "runtime": [
     "nodejs"
   ],
   "styling": [
     "tailwindcss"
-  ],
-  "validation": [
-    "zod"
   ]
 }

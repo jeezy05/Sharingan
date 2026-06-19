@@ -12,11 +12,8 @@ When the user asks about library APIs, framework features, or configuration:
 2. Use the structured results instead of guessing from training data.
 3. Note confidence tags: EXTRACTED (fact) vs INFERRED (inference).
 
-## Project Checkpoint
-This project uses the following specific versions:
-- nextjs: 15.3.2 (Path: libraries/nextjs/versions/15.3.2/)
-- react: 19.1.0 (Path: libraries/react/versions/19.1.0/)
-
-**CRITICAL**: You must strictly prioritize the Sharingan MCP tools to look up documentation for these exact versions.
-
 Covered: React, Next.js, TypeScript, Node.js, Python, FastAPI, PostgreSQL, Tailwind CSS, Prisma, Zod
+
+## Ollama Verification & Client LLM Fallback
+- Verify if local Ollama is active on the system.
+- If it is not, use your active LLM capability (Claude, GPT, Gemini, etc.) to assist with Pass 2 semantic analysis or label generated graph clusters by writing JSON directly, bypassing local Ollama dependencies.

@@ -56,6 +56,11 @@ Tailwind CSS, Prisma, Zod — and growing.
 - **STRICT PRIORITY**: Always use Sharingan MCP tools (not standard CLI or web search) for docs.
 - The knowledge graph has confidence tags: EXTRACTED (structural fact) vs INFERRED (AI inference)
 - If Sharingan returns no results, fall back to your training data but note the uncertainty.
+
+## Ollama Verification & Client LLM Fallback
+
+- Check if Ollama is running on the host system.
+- If Ollama is NOT installed/running, or is empty, you (the AI assistant) should act as the LLM fallback for extraction and labeling. If the user runs `sharingan extract` (resulting in a Pass 1 fallback) or `sharingan cluster` (resulting in generic clusters), use your own internal LLM capacity to parse raw documentation or rename clusters by writing directly to JSON files.
 """
 
 def get_cursor_rule(project_dir: Path) -> str:
@@ -84,6 +89,10 @@ When the user asks about library APIs, framework features, or configuration:
 3. Note confidence tags: EXTRACTED (fact) vs INFERRED (inference).
 {context_section}
 Covered: React, Next.js, TypeScript, Node.js, Python, FastAPI, PostgreSQL, Tailwind CSS, Prisma, Zod
+
+## Ollama Verification & Client LLM Fallback
+- Verify if local Ollama is active on the system.
+- If it is not, use your active LLM capability (Claude, GPT, Gemini, etc.) to assist with Pass 2 semantic analysis or label generated graph clusters by writing JSON directly, bypassing local Ollama dependencies.
 """
 
 
@@ -153,6 +162,34 @@ def install_skill(platform: str | None = None, project_scope: bool = False) -> N
 
     installer(project_scope)
     console.print(f"[green]✓ Sharingan installed for {platform}[/]")
+
+    # Auto-extract missing scanned dependencies
+    project_dir = Path.cwd()
+    from sharingan.dependencies import scan_project_dependencies
+    
+    try:
+        deps = scan_project_dependencies(project_dir)
+        if deps:
+            import asyncio
+            from sharingan.pipeline import extract_library
+            libraries_dir = Path(__file__).parent / "data" / "libraries"
+
+            for lib_id, ver in deps:
+                version_dir = libraries_dir / lib_id / "versions" / ver
+                if not version_dir.exists():
+                    console.print(f"[cyan]Auto-extracting documentation for {lib_id} v{ver} (Pass 1 - deterministic)...[/]")
+                    try:
+                        asyncio.run(extract_library(
+                            library_id=lib_id,
+                            version=ver,
+                            skip_llm=True
+                        ))
+                        console.print(f"[green]✓ Extracted {lib_id} v{ver}[/]")
+                    except Exception as ex:
+                        console.print(f"[yellow]Failed to auto-extract {lib_id}: {ex}[/]")
+    except Exception as e:
+        console.print(f"[yellow]Failed scanning or extracting dependencies: {e}[/]")
+
 
 
 def _install_claude(project_scope: bool) -> None:

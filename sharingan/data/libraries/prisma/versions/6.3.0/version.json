@@ -1,0 +1,14 @@
+{
+  "id": "prisma@6.3.0",
+  "library_id": "prisma",
+  "semver": "6.3.0",
+  "is_latest": true,
+  "node_type": "version",
+  "stats": {
+    "total_nodes": 630,
+    "total_edges": 910,
+    "symbols": 123,
+    "guides": 505,
+    "configs": 0
+  }
+}

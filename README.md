@@ -88,29 +88,72 @@ sharingan status                # Show extraction statistics
 sharingan install               # Install AI assistant skill
 ```
 
-## For AI Assistant Plugin Developers
+## Model Context Protocol (MCP) Setup
 
-Sharingan exposes an **MCP server** for direct integration:
+Sharingan exposes a **Model Context Protocol (MCP)** server to connect your knowledge graph directly to AI coding assistants like Claude Desktop, Cursor, or Google Antigravity.
+
+### 1. Start the Server
+
+Sharingan supports both standard input/output (`stdio`) and network-based (`sse`) transports:
 
 ```bash
-# Start MCP server (stdio transport)
-python -m sharingan.serve
+# Start the default stdio server (best for local configurations)
+sharingan serve --transport stdio
 
-# Start MCP server (HTTP transport)
-python -m sharingan.serve --transport http --port 8080
+# Start the network-based SSE server (best for cross-device queries)
+sharingan serve --transport sse --port 8000
 ```
 
-### MCP Tools Available
+### 2. Register with Clients
+
+Add Sharingan to your AI assistant's configuration:
+
+#### 🤖 Claude Desktop / Claude Code
+Add to your `claude_desktop_config.json` (located at `~/Library/Application Support/Claude/claude_desktop_config.json` on macOS or `%APPDATA%\Claude\claude_desktop_config.json` on Windows):
+```json
+{
+  "mcpServers": {
+    "sharingan": {
+      "command": "sharingan",
+      "args": ["serve"]
+    }
+  }
+}
+```
+
+#### 📐 Google Antigravity
+Add to your `mcp_config.json` file inside the `.gemini/config` directory:
+```json
+{
+  "mcpServers": {
+    "sharingan": {
+      "command": "sharingan",
+      "args": ["serve"]
+    }
+  }
+}
+```
+
+#### 🚀 Cursor
+1. Go to **Settings > Features > MCP**.
+2. Click **+ Add New MCP Server**.
+3. Fill out the fields:
+   - **Name**: `sharingan`
+   - **Type**: `command` (or `sse` if using network transport)
+   - **Command/URL**: 
+     - For `command`: `sharingan serve`
+     - For `sse`: `http://localhost:8000/sse`
+
+### 3. MCP Tools Available
+
+Once registered, your AI assistant will dynamically call these tools to parse documentation:
 
 | Tool | Description |
 |:-----|:------------|
-| `resolve_library` | Find library by name |
-| `get_symbol` | Get full API docs for a symbol |
-| `search_docs` | Search guides and symbols |
-| `get_migration` | Get migration guide between versions |
-| `query_graph` | Free-form graph query |
-| `get_neighbors` | Get related nodes |
-| `shortest_path` | Find connection between symbols |
+| `list_libraries` | List all available libraries in the graph |
+| `search_symbols` | Search for API symbols (functions, classes, etc.) |
+| `get_symbol_details` | Get full detailed documentation for a symbol |
+| `get_neighbors` | Retrieve connected nodes and relations |
 
 ## Contributing
 

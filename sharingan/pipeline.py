@@ -76,7 +76,11 @@ async def extract_library(
 
     if not skip_llm:
         llm_backend = backend or detect_backend()
-        console.print(f"  LLM:     {llm_backend}")
+        if llm_backend == "none":
+            console.print("  LLM:     [yellow]None detected. Dynamically falling back to Pass 1 (deterministic) only.[/]")
+            skip_llm = True
+        else:
+            console.print(f"  LLM:     {llm_backend}")
     else:
         console.print("  LLM:     [yellow]Skipped (Pass 1 only)[/]")
 

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "fastapi@0.111.0::cluster::0",
+    "library_id": "fastapi",
+    "version_id": "fastapi@0.111.0",
+    "name": "Utility and Configuration",
+    "summary": "This cluster provides fundamental utility functions and guides related to system settings, environment variables, and advanced Python type handling.",
+    "node_count": 4,
+    "nodes": [
+      "fastapi@0.111.0::say_hi",
+      "fastapi@0.111.0::get_settings",
+      "fastapi@0.111.0::guides/docs/en/docs/advanced/settings.md",
+      "fastapi@0.111.0::guides/docs/en/docs/advanced/advanced-python-types.md"
+    ]
+  },
+  {
+    "id": "fastapi@0.111.0::cluster::1",
+    "library_id": "fastapi",
+    "version_id": "fastapi@0.111.0",
+    "name": "Burger Data Management",
+    "summary": "This cluster provides the core functionalities for retrieving, reading, and managing burger data, including sequential access and handling results.",
+    "node_count": 6,
+    "nodes": [
+      "fastapi@0.111.0::get_sequential_burgers",
+      "fastapi@0.111.0::get_burgers",
+      "fastapi@0.111.0::read_burgers",
+      "fastapi@0.111.0::read_results",
+      "fastapi@0.111.0::guides/docs/en/docs/async.md",
+      "fastapi@0.111.0::results"
+    ]
+  },
+  {
+    "id": "fastapi@0.111.0::cluster::2",
+    "library_id": "fastapi",
+    "version_id": "fastapi@0.111.0",
+    "name": "Application Deployment and Management",
+    "summary": "This cluster focuses on deploying and managing applications, specifically leveraging FastAPI within containerized environments like Docker, and handling the reading of application data or root objects.",
+    "node_count": 5,
+    "nodes": [
+      "fastapi@0.111.0::guides/docs/en/docs/tutorial/bigger-applications.md",
+      "fastapi@0.111.0::read_item",
+      "fastapi@0.111.0::guides/docs/en/docs/deployment/docker.md",
+      "fastapi@0.111.0::guides/docs/en/docs/index.md",
+      "fastapi@0.111.0::read_root"
+    ]
+  },
+  {
+    "id": "fastapi@0.111.0::cluster::3",
+    "library_id": "fastapi",
+    "version_id": "fastapi@0.111.0",
+    "name": "Core Entity Management",
+    "summary": "This cluster contains the fundamental classes and functions required for managing core entities within the system, including the main operational function, user definition, and feature definitions.",
+    "node_count": 3,
+    "nodes": [
+      "fastapi@0.111.0::main",
+      "fastapi@0.111.0::guides/docs/en/docs/features.md",
+      "fastapi@0.111.0::User"
+    ]
+  },
+  {
+    "id": "fastapi@0.111.0::cluster::4",
+    "library_id": "fastapi",
+    "version_id": "fastapi@0.111.0",
+    "name": "Item Management and Interaction",
+    "summary": "This cluster manages the creation, retrieval, deletion, and manipulation of items within the system. It includes classes, functions, and utilities for handling item data, ownership, and associated state.",
+    "node_count": 20,
+    "nodes": [
+      "fastapi@0.111.0::login",
+      "fastapi@0.111.0::FormData",
+      "fastapi@0.111.0::ItemV2",
+      "fastapi@0.111.0::create_item",
+      "fastapi@0.111.0::fake_answer_to_everything_ml_model",
+      "fastapi@0.111.0::lifespan",
+      "fastapi@0.111.0::get_item",
+      "fastapi@0.111.0::set_up_request_state_dependency",
+      "fastapi@0.111.0::Item",
+      "fastapi@0.111.0::Cookies",
+      "fastapi@0.111.0::guides/docs/en/docs/release-notes.md",
+      "fastapi@0.111.0::some_dependency",
+      "fastapi@0.111.0::OwnerError",
+      "fastapi@0.111.0::get_invalid_none",
+      "fastapi@0.111.0::asynccontextmanager",
+      "fastapi@0.111.0::CommonHeaders",
+      "fastapi@0.111.0::predict",
+      "fastapi@0.111.0::delete_item",
+      "fastapi@0.111.0::get_username",
+      "fastapi@0.111.0::FilterParams"
+    ]
+  }
+]

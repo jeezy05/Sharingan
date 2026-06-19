@@ -1,0 +1,3362 @@
+{
+  "apps/docs/content/docs/(index)/getting-started.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.272961+00:00",
+    "node_count": 1,
+    "sha256": "6d5f8b191f2aec232186d3dee4285c9b77cff6a2f253e3c1842e757917c28093"
+  },
+  "apps/docs/content/docs/(index)/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.272981+00:00",
+    "node_count": 1,
+    "sha256": "4dd98b974e5d26f9bf1af6e30147c6db3a2b67c3b067396d32bb74c86ad67cd3"
+  },
+  "apps/docs/content/docs/(index)/prisma-compute/deploy.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.272992+00:00",
+    "node_count": 1,
+    "sha256": "38cbf0aa02be0a57e7e9c711ededfd95ccbf12a13ca2d491802a49e23cc1729b"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/cockroachdb.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273003+00:00",
+    "node_count": 2,
+    "sha256": "3f335748b5b0a4fee8819ca189d573ec4144c52f0efb7cd7225f6c707d6db729"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/mongodb.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273020+00:00",
+    "node_count": 2,
+    "sha256": "ffd113eab11e22d775ee1b33eff96e1185578a85bbbed9a8f2a6f1a07bc836ab"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/mysql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273031+00:00",
+    "node_count": 2,
+    "sha256": "a6e4911974dae4fa09f2ed1de09a958161e8395e41c4e9e2f92eb6ac6e209e14"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/planetscale.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273041+00:00",
+    "node_count": 2,
+    "sha256": "cd1c95e10e2bdfc600f376ec3b09ff6ab02ef6c302ee0b429c151883ba35d893"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/postgresql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273052+00:00",
+    "node_count": 2,
+    "sha256": "38017b61df3eb8a61d1b4ad8cbc151b9233455fd7b2b212f761d62ffcd40a308"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/prisma-postgres.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273062+00:00",
+    "node_count": 2,
+    "sha256": "fa4066267ef0caa3b63091eea1eb0010bd9ef4f1bd263a1de8524b1df7100eef"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/sql-server.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273073+00:00",
+    "node_count": 2,
+    "sha256": "393461055b2893fc4bfedc84129666aae5a70288e9332214b4926c53bc7e1e36"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/sqlite.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273083+00:00",
+    "node_count": 2,
+    "sha256": "dfeac78c9b307c849fa551ba6b6a08bbe7e4861b997f6ffba32f0875782d7263"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/quickstart/cockroachdb.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273093+00:00",
+    "node_count": 2,
+    "sha256": "c8dbd70731bf8902cddc4b7922db27fc72c86149a3ab60fbe9329871061446e0"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/quickstart/mongodb.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273108+00:00",
+    "node_count": 2,
+    "sha256": "e78f556968d24b89cd84352895541684c9794e760915c5bb0554346f6512ac74"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/quickstart/mysql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273119+00:00",
+    "node_count": 2,
+    "sha256": "e65daeed824f66b1b8f0325c5c1a7e28413594b59a2874a19438efe11129b79d"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/quickstart/planetscale.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273131+00:00",
+    "node_count": 2,
+    "sha256": "2496211a866f2702b46d663b548f213fd4fea0f200df14b576c5183e5fe129c5"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/quickstart/postgresql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273141+00:00",
+    "node_count": 2,
+    "sha256": "886f09caeb1ee9c400f71c0d9f83dc65fa3cfc3621ea5b319fffa3e597390ae5"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/quickstart/prisma-postgres.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273152+00:00",
+    "node_count": 2,
+    "sha256": "a9c2edd6b3261143c95a35f8adee6e254ec2d6aa53adb01acd3e4c4c014e18d5"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/quickstart/sql-server.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273162+00:00",
+    "node_count": 2,
+    "sha256": "429dab8a5950d0b909cb735b061643554d45328b9125f743a33871d91eb9bbac"
+  },
+  "apps/docs/content/docs/(index)/prisma-orm/quickstart/sqlite.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273176+00:00",
+    "node_count": 2,
+    "sha256": "b8d2aff191efc6395059b74b80826d02b2fb9835bedeab070cedc37f7363fbde"
+  },
+  "apps/docs/content/docs/(index)/prisma-postgres/from-the-cli.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273194+00:00",
+    "node_count": 2,
+    "sha256": "bd8056b4a6f478bf69908823fc6990794c572ac4a4b03681adb184ed7f55a7b2"
+  },
+  "apps/docs/content/docs/(index)/prisma-postgres/import-from-existing-database-mysql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273207+00:00",
+    "node_count": 1,
+    "sha256": "86be206cb6440d834cb57d17866569135c35e347358cb8f0cf79fc13dee235a9"
+  },
+  "apps/docs/content/docs/(index)/prisma-postgres/import-from-existing-database-postgresql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273221+00:00",
+    "node_count": 1,
+    "sha256": "ea3bea8a5248c0cc4020ecb7a201be86915e1cfb8bea0bb32467c4e5ab9a5fc3"
+  },
+  "apps/docs/content/docs/(index)/prisma-postgres/quickstart/drizzle-orm.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273232+00:00",
+    "node_count": 2,
+    "sha256": "6fce9d5b708f060ee259d2446f71656db34d80e98125a74a882cb4512fc274aa"
+  },
+  "apps/docs/content/docs/(index)/prisma-postgres/quickstart/kysely.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273246+00:00",
+    "node_count": 6,
+    "sha256": "926b5d0b6cd402c242ad9bf2b7a314012549c76ef8859279ef4e2957373394c5"
+  },
+  "apps/docs/content/docs/(index)/prisma-postgres/quickstart/prisma-orm.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273256+00:00",
+    "node_count": 2,
+    "sha256": "62240e7da79846bfff25d1c1b9c7dd409846907f676fdcb8cf87a06761fa1777"
+  },
+  "apps/docs/content/docs/(index)/prisma-postgres/quickstart/typeorm.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273267+00:00",
+    "node_count": 2,
+    "sha256": "f8525172de917488f7fc0e3e4a896a62afd7d96ee02ba6bf92d51fd358f42291"
+  },
+  "apps/docs/content/docs/accelerate/caching.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273275+00:00",
+    "node_count": 0,
+    "sha256": "c8a404b482d69552ef364b781664e63a1857215a23d48d7514397d681dd8ff6a"
+  },
+  "apps/docs/content/docs/accelerate/compare.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273290+00:00",
+    "node_count": 1,
+    "sha256": "f863bff79a01833481ef62708f4dd012f93567e2e1b80ffdadf0969f634560c9"
+  },
+  "apps/docs/content/docs/accelerate/connection-pooling.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273298+00:00",
+    "node_count": 0,
+    "sha256": "3436e7dc25b85390c3cd21fe05b6e30ffb0f4795e5e5cb073d78d67fc94d579d"
+  },
+  "apps/docs/content/docs/accelerate/evaluating.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273311+00:00",
+    "node_count": 4,
+    "sha256": "303a4d96983b1b1d59838b892330b0a58c86649435ebfb4d427b46a3e3388da7"
+  },
+  "apps/docs/content/docs/accelerate/examples.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273319+00:00",
+    "node_count": 1,
+    "sha256": "1d00bea7f9c49d675e7cfb9de728a08834953822d9d66326ab766f7807d1ec4f"
+  },
+  "apps/docs/content/docs/accelerate/getting-started.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273333+00:00",
+    "node_count": 1,
+    "sha256": "593a7baca4e52bfdbbea7d4c04482c2da40fa8c0d680e6f05ba5f3af535f3ef8"
+  },
+  "apps/docs/content/docs/accelerate/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273342+00:00",
+    "node_count": 1,
+    "sha256": "da24fd4428cbac7c4f744fc2a4a02765e129ca8ea5dbf119b7c2e525ddc0bfe4"
+  },
+  "apps/docs/content/docs/accelerate/local-development.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273352+00:00",
+    "node_count": 1,
+    "sha256": "74d841b1439dd20607adce4905de2b9834667083a1034d50c70e13e73ad34c54"
+  },
+  "apps/docs/content/docs/accelerate/more/faq.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273369+00:00",
+    "node_count": 1,
+    "sha256": "ac1fceb208ec467fc429b7676121913ba7feb678cda3b2228244541bed99a784"
+  },
+  "apps/docs/content/docs/accelerate/more/feedback.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273377+00:00",
+    "node_count": 0,
+    "sha256": "f8a7bea92175edb2e4d52c7c2de0ec0dfb720e8e1f15f728cfe3925124d93824"
+  },
+  "apps/docs/content/docs/accelerate/more/known-limitations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273387+00:00",
+    "node_count": 1,
+    "sha256": "dea2210a569738701830192aa768e72fd225b146210c4f6a3180f79f02197f20"
+  },
+  "apps/docs/content/docs/accelerate/more/troubleshoot.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273403+00:00",
+    "node_count": 1,
+    "sha256": "751fc966a39de115937a19c063f94077bc19f4ab0420cbf05908a1aeb5a674cf"
+  },
+  "apps/docs/content/docs/accelerate/reference/api-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273418+00:00",
+    "node_count": 1,
+    "sha256": "00c9810a0b8e66423d6e3f2b254b46c52716b66e7d19defc8aa094dd3120a6ea"
+  },
+  "apps/docs/content/docs/accelerate/static-ip.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273426+00:00",
+    "node_count": 1,
+    "sha256": "79bbc0aaafcd934b2695609fcd3ed8fef569cbe887f3f83313fab242efe3a3ed"
+  },
+  "apps/docs/content/docs/ai/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273435+00:00",
+    "node_count": 1,
+    "sha256": "b20ac828b504b8ec12db4d72f18d2886085b38a38a17055fa5bb6b50a8263d8d"
+  },
+  "apps/docs/content/docs/ai/prompts/astro.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273449+00:00",
+    "node_count": 1,
+    "sha256": "decc54794c8ca23e65fa750fdde85b30f9039298b608999a90af7d749d69c951"
+  },
+  "apps/docs/content/docs/ai/prompts/nextjs.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273473+00:00",
+    "node_count": 1,
+    "sha256": "89ccc5e094fcf1d9dc7fd24bf386ff71e2924dca7a79062de2ec747159d790fa"
+  },
+  "apps/docs/content/docs/ai/prompts/nuxt.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273504+00:00",
+    "node_count": 1,
+    "sha256": "c1060ce216e3f059039690df8570288a3ac4e730cf5fb90857b342df5af273b9"
+  },
+  "apps/docs/content/docs/ai/prompts/prisma-7.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273522+00:00",
+    "node_count": 1,
+    "sha256": "487fb074949d20a73aea8ab24affd829d9b5f83bb7b2aca9c993d1dd45bdacf1"
+  },
+  "apps/docs/content/docs/ai/prompts/turborepo.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273540+00:00",
+    "node_count": 1,
+    "sha256": "a2c04865ac815bdbd27dc363bb4f86eb99132be537218c99a0ee11a58a3bab31"
+  },
+  "apps/docs/content/docs/ai/tools/chatgpt.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273550+00:00",
+    "node_count": 1,
+    "sha256": "32695d0761a608a0d42c86bcdaafa8b338c87fcf61fcfbd33d81560933b2c4e0"
+  },
+  "apps/docs/content/docs/ai/tools/codex.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273560+00:00",
+    "node_count": 1,
+    "sha256": "4c738bf68da608e769e559fd28d0a575af2a2604a94f6a3c3507fa5459e52ea1"
+  },
+  "apps/docs/content/docs/ai/tools/cursor.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273581+00:00",
+    "node_count": 2,
+    "sha256": "dd785fde8557f4f590d0097d0cc1bc6b500f8fa49679bcf5d529c13c44c64e47"
+  },
+  "apps/docs/content/docs/ai/tools/github-copilot.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273594+00:00",
+    "node_count": 1,
+    "sha256": "1315d12927e9c652de27555a25aa9a6a2a8cfdc05ef31503204820e5485f26c1"
+  },
+  "apps/docs/content/docs/ai/tools/mcp-server.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273606+00:00",
+    "node_count": 1,
+    "sha256": "78142cf65dc9c41e68fb20a67162f453dfe4d077980256995d1faa1901b4e537"
+  },
+  "apps/docs/content/docs/ai/tools/skills.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273614+00:00",
+    "node_count": 1,
+    "sha256": "1b0d04ce7968dae0d0e3d8456347332565d338aa0b08fe2e1d76a5551e5a8d4d"
+  },
+  "apps/docs/content/docs/ai/tools/tabnine.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273627+00:00",
+    "node_count": 9,
+    "sha256": "2bb7ab986ade8167bf4b46cc975b7d7e9442d586f2f94dbea011ddb952e82128"
+  },
+  "apps/docs/content/docs/ai/tools/windsurf.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273640+00:00",
+    "node_count": 2,
+    "sha256": "28a105dfa185aa674fd98db132008175de90fa6e1e490e2fc2c40f16e842d3fd"
+  },
+  "apps/docs/content/docs/ai/tutorials/linktree-clone.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273664+00:00",
+    "node_count": 1,
+    "sha256": "e746d41b93a4d128edbda7035538b61494d86f4427b2d996ee4dca643d9e0535"
+  },
+  "apps/docs/content/docs/ai/tutorials/typefully-clone.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273695+00:00",
+    "node_count": 2,
+    "sha256": "2536bbdf8d3ee6502ebef701eec26bb8354d58b30e034b2bb939c91640e204d2"
+  },
+  "apps/docs/content/docs/cli/console/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273702+00:00",
+    "node_count": 1,
+    "sha256": "bfb1beed64b6ae2ade5bf713a67acade0e490439ad7e980136a4fa55d7674316"
+  },
+  "apps/docs/content/docs/cli/console/status.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273709+00:00",
+    "node_count": 1,
+    "sha256": "848186a2700390dd6da57e9f1d8ce32f5b0dbc35bdcf2b1380de97e7426214ec"
+  },
+  "apps/docs/content/docs/cli/db/execute.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273718+00:00",
+    "node_count": 1,
+    "sha256": "95acf7de878cc3803c9697068a2463d8697c49d6f0ec06bc1a616e2c7cad1001"
+  },
+  "apps/docs/content/docs/cli/db/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273725+00:00",
+    "node_count": 1,
+    "sha256": "d9004298a374aa4e5e34d7bb2f0904c5965b6b69ede8ebd0dbbc612170b50c97"
+  },
+  "apps/docs/content/docs/cli/db/pull.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273736+00:00",
+    "node_count": 1,
+    "sha256": "0976deca3234df356660ea6248a12d96424f3c4f59967736948507664bdfebc0"
+  },
+  "apps/docs/content/docs/cli/db/push.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273744+00:00",
+    "node_count": 1,
+    "sha256": "88a01ad2869b7a79e11076b9f1560d40ce6330164f8955bd23251f5330a1c74b"
+  },
+  "apps/docs/content/docs/cli/db/seed.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273751+00:00",
+    "node_count": 1,
+    "sha256": "926322c57abc2c1bebb8fdea1f9b6242827b8dcaeba53ef502ba4ec406acccd4"
+  },
+  "apps/docs/content/docs/cli/debug.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273759+00:00",
+    "node_count": 1,
+    "sha256": "921eb27682dd5f02b3f5a51a57d588c92af614e9c4c4581a03578fc5b337f661"
+  },
+  "apps/docs/content/docs/cli/dev/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273768+00:00",
+    "node_count": 1,
+    "sha256": "ecc8ec8aed51895a7dcc14f1ba79c4b850710ad532780ec224e44d43fdc49d2c"
+  },
+  "apps/docs/content/docs/cli/dev/ls.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273775+00:00",
+    "node_count": 1,
+    "sha256": "8c11a2cb889545649b299a11efc7e11780fdb946c7a5b79c164d54bf74543a36"
+  },
+  "apps/docs/content/docs/cli/dev/rm.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273782+00:00",
+    "node_count": 1,
+    "sha256": "bfa1db54f5c1aff0001681478884a172b9ecc211148c46013e00e9a0eb674194"
+  },
+  "apps/docs/content/docs/cli/dev/start.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273789+00:00",
+    "node_count": 1,
+    "sha256": "248d33c4a527c0b8dee0b2abeaffeb3990b09541c6d81da77b96cfc3655a9ce2"
+  },
+  "apps/docs/content/docs/cli/dev/stop.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273796+00:00",
+    "node_count": 1,
+    "sha256": "f767e282133877ce2667a0ea67c5a42ddc9d931f7bb2d95ee92a96fa9bea43ff"
+  },
+  "apps/docs/content/docs/cli/format.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273804+00:00",
+    "node_count": 1,
+    "sha256": "b6d2d4e035260d3c10bf960f0e1f190ae82d91267770eb5cb826db43851b7935"
+  },
+  "apps/docs/content/docs/cli/generate.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273812+00:00",
+    "node_count": 1,
+    "sha256": "5577caa63bbf79d833ec0dea27757f1f17596b77afda72b289afbc8be9689765"
+  },
+  "apps/docs/content/docs/cli/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273820+00:00",
+    "node_count": 1,
+    "sha256": "d5004447e1a03959dcc07f062654c7ee1b3ed80ec67df0655f6045a3f5fb2c23"
+  },
+  "apps/docs/content/docs/cli/init.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273828+00:00",
+    "node_count": 1,
+    "sha256": "42d06ce1eca929e640b2051ec250cf12d3dd3553d18b880e9babf380c0c999f3"
+  },
+  "apps/docs/content/docs/cli/migrate/deploy.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273835+00:00",
+    "node_count": 1,
+    "sha256": "39ec1286fb72a11e96a2d1f50ad24d9cd88e4302069e197db4376ab554c495d1"
+  },
+  "apps/docs/content/docs/cli/migrate/dev.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273843+00:00",
+    "node_count": 1,
+    "sha256": "80355c688f798560ce0ff4c096747e2a0351826762b2adf1547ce998fbf965f5"
+  },
+  "apps/docs/content/docs/cli/migrate/diff.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273852+00:00",
+    "node_count": 1,
+    "sha256": "c64a0fa89df8068a9e1504a502f5fb24e6e06f660f9c998394bf22b3310948e6"
+  },
+  "apps/docs/content/docs/cli/migrate/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273860+00:00",
+    "node_count": 1,
+    "sha256": "339ca68c1fb1303e8c93b61ee5d60b4dd476554f20961b361936f954e59f86ed"
+  },
+  "apps/docs/content/docs/cli/migrate/reset.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273867+00:00",
+    "node_count": 1,
+    "sha256": "be479f8762d9054f924039ae05813be22c8714b193ecee230c5b3f69cb24f626"
+  },
+  "apps/docs/content/docs/cli/migrate/resolve.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273875+00:00",
+    "node_count": 1,
+    "sha256": "2a4e476429af29309c943d9c823829ed1118edb9c08ce0c833fd93391e7501b4"
+  },
+  "apps/docs/content/docs/cli/migrate/status.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273882+00:00",
+    "node_count": 1,
+    "sha256": "72cec13067b32d7389921795092ceda4922264a01038e43a812879ed37be11c9"
+  },
+  "apps/docs/content/docs/cli/studio.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273890+00:00",
+    "node_count": 1,
+    "sha256": "1f23fdb4b63206ef70dcb6304760b14ac50059df0ad05f3132dfdd0d0ab40a5a"
+  },
+  "apps/docs/content/docs/cli/validate.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273897+00:00",
+    "node_count": 1,
+    "sha256": "d197df8898b6ccb257a375bbb1b02238abe7c7eb3c35bfdcbb6c5c1b1f7c449c"
+  },
+  "apps/docs/content/docs/cli/version.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273904+00:00",
+    "node_count": 1,
+    "sha256": "03b7a250b79e62b29fac5029c7431d5999f173a4a66e92bf1cb9e00395765285"
+  },
+  "apps/docs/content/docs/compute/branching.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273911+00:00",
+    "node_count": 1,
+    "sha256": "00717ef76fe5b33ea8741588741a0330afbc8d00c47937cefe51d7cd26fdd7bf"
+  },
+  "apps/docs/content/docs/compute/cli-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273923+00:00",
+    "node_count": 1,
+    "sha256": "024cf19de55453222f8fcf4932c9620c47af1c2c2453bba70e3aee06edf36a59"
+  },
+  "apps/docs/content/docs/compute/configuration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273932+00:00",
+    "node_count": 1,
+    "sha256": "ca3f1dc27123efa189b9a65109126bcd66602e4f7dc60c48982557eeee2bf453"
+  },
+  "apps/docs/content/docs/compute/deployments.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273941+00:00",
+    "node_count": 1,
+    "sha256": "dbecb5fc792e916a6f097b5dc7d39443b08680f845f42682f179ea4840c03041"
+  },
+  "apps/docs/content/docs/compute/domains.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273948+00:00",
+    "node_count": 1,
+    "sha256": "db9688b2e9731dcb26c6a73623120b022c103b82295c161401ef02954be0a6a8"
+  },
+  "apps/docs/content/docs/compute/environment-variables.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273956+00:00",
+    "node_count": 1,
+    "sha256": "d69519f964feb52886fe2d049f73bc53ce4043e7d58fecd428989f20bf650f65"
+  },
+  "apps/docs/content/docs/compute/faq.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273965+00:00",
+    "node_count": 1,
+    "sha256": "06e4c026686e73790a4e4f954a5d26636a856570be85c844d2e1b1ad43e92412"
+  },
+  "apps/docs/content/docs/compute/getting-started.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273974+00:00",
+    "node_count": 1,
+    "sha256": "07d0bcaeb00d4e68eb205090e7ef18e0b84dc1987687e663f03898998de62501"
+  },
+  "apps/docs/content/docs/compute/github.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273983+00:00",
+    "node_count": 1,
+    "sha256": "6f1d92f328894b9e6a28dd2daea5ea9fb9e32f7227c316a81c0fa3181139fac8"
+  },
+  "apps/docs/content/docs/compute/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273991+00:00",
+    "node_count": 1,
+    "sha256": "1bc5418d113fa096d66f0982db34a36e30e0168bbe3c6c1a968308431e02676d"
+  },
+  "apps/docs/content/docs/compute/limitations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.273999+00:00",
+    "node_count": 1,
+    "sha256": "a3bb437dfb8b03580a707f5e199969d2671ee245fcb611fa483ff564d601f582"
+  },
+  "apps/docs/content/docs/compute/pricing.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274010+00:00",
+    "node_count": 1,
+    "sha256": "6368bc2abf89f1764e31fc8a5db440f0f027efe23eedc2694400389a4e066263"
+  },
+  "apps/docs/content/docs/console/concepts.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274021+00:00",
+    "node_count": 1,
+    "sha256": "273a1052859a255721cfd241e214321f12c68d20c70a415414e4370fed5951c1"
+  },
+  "apps/docs/content/docs/console/features/metrics.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274028+00:00",
+    "node_count": 1,
+    "sha256": "84916563987a6f22122388173b12373105c2ac3d92bc2d62cea286dd708d79b0"
+  },
+  "apps/docs/content/docs/console/getting-started.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274036+00:00",
+    "node_count": 1,
+    "sha256": "9a50ce842de053b03f55055e78c813b53b9768483f21401d75f8a1e17c269a5c"
+  },
+  "apps/docs/content/docs/console/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274044+00:00",
+    "node_count": 1,
+    "sha256": "35c5f28e4339eba752206e64ca8b7c397f953f99b9292ae060e136923710832a"
+  },
+  "apps/docs/content/docs/console/more/feature-maturity.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274051+00:00",
+    "node_count": 1,
+    "sha256": "0d7d140baaf70e43354de92f6ac71241b14f6689f7e2d95d517eb93c2583e12b"
+  },
+  "apps/docs/content/docs/console/more/support.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274059+00:00",
+    "node_count": 1,
+    "sha256": "37eba6268473d91b526e574352ac827e36bc27fce6f5c158a73b93c3fa16368f"
+  },
+  "apps/docs/content/docs/guides/authentication/authjs/nextjs.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274072+00:00",
+    "node_count": 3,
+    "sha256": "123384195862f83e7566dec0e5f4b8b70f843292b04ab5271a46bba860f14c6d"
+  },
+  "apps/docs/content/docs/guides/authentication/better-auth/astro.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274088+00:00",
+    "node_count": 1,
+    "sha256": "b0d609ea9c18dabef268911032bb8d7660c98fd9ad0d4b401175c62b9238561a"
+  },
+  "apps/docs/content/docs/guides/authentication/better-auth/nextjs.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274105+00:00",
+    "node_count": 9,
+    "sha256": "4b0b2db846c83ce74553a1327f4d875f3971d4474448ad77c306e1db583ddfe3"
+  },
+  "apps/docs/content/docs/guides/authentication/clerk/astro.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274117+00:00",
+    "node_count": 1,
+    "sha256": "58b2a722b9bde2df2a5765be6369888cb7b37ae006f177606a5f02429bc13f9b"
+  },
+  "apps/docs/content/docs/guides/authentication/clerk/nextjs.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274133+00:00",
+    "node_count": 8,
+    "sha256": "a4f34517bae3dc3d3f19657238b900a67c6a9ccc94756d1a2c06bfe739bf018e"
+  },
+  "apps/docs/content/docs/guides/database/data-migration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274143+00:00",
+    "node_count": 2,
+    "sha256": "04d5b769136ecdbac912418a5e2afbc5b99f770947b1a52228782c828f10d78a"
+  },
+  "apps/docs/content/docs/guides/database/multiple-databases.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274161+00:00",
+    "node_count": 2,
+    "sha256": "43dc5cd7d4c37421971b253de0d16675ab81a199091152cf864a5c73c841be1d"
+  },
+  "apps/docs/content/docs/guides/database/schema-changes.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274170+00:00",
+    "node_count": 1,
+    "sha256": "0ebbf4ffb2ccceb9e1b0b8b1319d4183c2da19efc0ca02a7c24886ec6b3803e0"
+  },
+  "apps/docs/content/docs/guides/deployment/bun-workspaces.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274181+00:00",
+    "node_count": 2,
+    "sha256": "4dc4e63f8fe872225e4dfea3a91692b59e125b8c8557039cccf7a7fab1b88ae9"
+  },
+  "apps/docs/content/docs/guides/deployment/cloudflare-d1.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274194+00:00",
+    "node_count": 1,
+    "sha256": "15257bb0d2c44e38daa04ae54f2fbc9b86b61350f393b1c2f416e76745831ba6"
+  },
+  "apps/docs/content/docs/guides/deployment/cloudflare-workers.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274209+00:00",
+    "node_count": 2,
+    "sha256": "0680707f984605780be8af7c915551496d9307488c81181d2e72a3071a09b7c5"
+  },
+  "apps/docs/content/docs/guides/deployment/docker.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274221+00:00",
+    "node_count": 1,
+    "sha256": "db8a7063f96b044667b731a981cf9bdef0c184e95fdf629567f377978464785d"
+  },
+  "apps/docs/content/docs/guides/deployment/pnpm-workspaces.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274235+00:00",
+    "node_count": 1,
+    "sha256": "45627c60dbcda187efba9af5497185f3fd094f02c3c08dc0c527e9cd4b814e4f"
+  },
+  "apps/docs/content/docs/guides/deployment/turborepo.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274246+00:00",
+    "node_count": 1,
+    "sha256": "c630bd65b6417cabf9926eab1608672112f31a7a1fe8c58217f944b677af0d7c"
+  },
+  "apps/docs/content/docs/guides/frameworks/astro.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274257+00:00",
+    "node_count": 5,
+    "sha256": "67c722dcf6db64e122146743cf82518e3b9edb8f32e9995ea5f1aec44bc6ed4f"
+  },
+  "apps/docs/content/docs/guides/frameworks/elysia.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274273+00:00",
+    "node_count": 2,
+    "sha256": "21ab32deda2b8fb9902b30de7360c6261410fc4f18e0c927175265f1115788b0"
+  },
+  "apps/docs/content/docs/guides/frameworks/hono.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274283+00:00",
+    "node_count": 4,
+    "sha256": "70ff157871ed3a4e3d98623aedcb2ee14896e6025c847e1034b140ee80b3d252"
+  },
+  "apps/docs/content/docs/guides/frameworks/nestjs.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274299+00:00",
+    "node_count": 5,
+    "sha256": "088e1ac5c05d2f41207cf3080b83df0b25b017f5d4a1887ab2780cb4328c5c92"
+  },
+  "apps/docs/content/docs/guides/frameworks/nextjs.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274313+00:00",
+    "node_count": 7,
+    "sha256": "76932b05d03f8fcb653b9d186c1360ad482659773ebae250495bc7ed89f283de"
+  },
+  "apps/docs/content/docs/guides/frameworks/nuxt.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274324+00:00",
+    "node_count": 1,
+    "sha256": "e7573cc0e6fcca9b7235cfac666f278738e102b643d2907d807921ee55da3369"
+  },
+  "apps/docs/content/docs/guides/frameworks/react-router-7.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274338+00:00",
+    "node_count": 9,
+    "sha256": "a31d9f430b72cdde40c8e73ae966cac044a885e590146a5744330c3420d901f4"
+  },
+  "apps/docs/content/docs/guides/frameworks/solid-start.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274349+00:00",
+    "node_count": 5,
+    "sha256": "f082042799efa645c6559cfca8d48626293a0fdfb1a04daaf7721eb46153157d"
+  },
+  "apps/docs/content/docs/guides/frameworks/sveltekit.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274362+00:00",
+    "node_count": 3,
+    "sha256": "eb8dff5b7e989d72e9683cd2a2fcea85d2e959ea410406147ff1c227876d68ec"
+  },
+  "apps/docs/content/docs/guides/frameworks/tanstack-start.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274374+00:00",
+    "node_count": 4,
+    "sha256": "1cb3243d565fc57766e354543cbfaa9c9dc0ee5a7e74942b345405fd872be683"
+  },
+  "apps/docs/content/docs/guides/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274381+00:00",
+    "node_count": 1,
+    "sha256": "e90a2adfc1caadec35e2be10a58b0be463f96705e52ad370a284a75836859a4d"
+  },
+  "apps/docs/content/docs/guides/integrations/ai-sdk.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274395+00:00",
+    "node_count": 9,
+    "sha256": "c8922eae8596c92c84579187e289a2e2b36efa68aa3aa0052644b0b412c29c7c"
+  },
+  "apps/docs/content/docs/guides/integrations/datadog.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274416+00:00",
+    "node_count": 2,
+    "sha256": "f70b80b86693f60e608d53620a570d47c3302f313b7101f42d93a708a244a39a"
+  },
+  "apps/docs/content/docs/guides/integrations/deno.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274426+00:00",
+    "node_count": 2,
+    "sha256": "f9825fe0524018e03886df1f67865a97475f0f6a6f1fd4fe1b6f535dcdcfb778"
+  },
+  "apps/docs/content/docs/guides/integrations/embed-studio.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274455+00:00",
+    "node_count": 9,
+    "sha256": "5b8031d71b645f99c6219d6f627c4b57ac42d35c1b3ef71d33c134d1dd91fd37"
+  },
+  "apps/docs/content/docs/guides/integrations/github-actions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274479+00:00",
+    "node_count": 1,
+    "sha256": "df8c23aaec90bea2a6bfd7e422723b29bb60ab33c2cac22cb008a996d33b5220"
+  },
+  "apps/docs/content/docs/guides/integrations/neon-accelerate.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274489+00:00",
+    "node_count": 1,
+    "sha256": "f471bd73296a541f2fed5ffce30d4ec2cb7223aeb1b36540bac3c895759ffeee"
+  },
+  "apps/docs/content/docs/guides/integrations/permit-io.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274512+00:00",
+    "node_count": 1,
+    "sha256": "80bfc6ac2dad1be892fb37e569156df3f9014282d5a4ea3cb40751c70dee2bea"
+  },
+  "apps/docs/content/docs/guides/integrations/pgfence.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274521+00:00",
+    "node_count": 1,
+    "sha256": "1232825862bc9570a6e444367215c5dbaab0c1fbb4a9643c6d58fd59a2b7ee0e"
+  },
+  "apps/docs/content/docs/guides/integrations/shopify.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274541+00:00",
+    "node_count": 12,
+    "sha256": "2dbb37639aeb14c96d0ea42fb4097bce1cdfec0b2e2248df2a2fc1d6ecbe7512"
+  },
+  "apps/docs/content/docs/guides/integrations/supabase-accelerate.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274551+00:00",
+    "node_count": 1,
+    "sha256": "24bfdf61c01e3672a933cc4ecb543be407db9fa97c74d9451ba39f5ef6e3c288"
+  },
+  "apps/docs/content/docs/guides/integrations/vercel-deployment.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274575+00:00",
+    "node_count": 3,
+    "sha256": "08e3f0848613135a2b723881f675db2b40c77ab119cb162c46efac0e8f960dae"
+  },
+  "apps/docs/content/docs/guides/making-guides.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274586+00:00",
+    "node_count": 1,
+    "sha256": "4fda46e0f2ae9b0e32902293ad3bba21a80c46e46993cae8d1d73eb024017b45"
+  },
+  "apps/docs/content/docs/guides/postgres/flyio.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274597+00:00",
+    "node_count": 1,
+    "sha256": "7ebbecfabcf2c22f0937cd2c25bb578c53098113a3f2002ce8edba9a90ca7a87"
+  },
+  "apps/docs/content/docs/guides/postgres/idx.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274605+00:00",
+    "node_count": 0,
+    "sha256": "19df3d3a47e5869892fed9c9de5a2fcf11c0832039eb0aceb23d89b8dc51d340"
+  },
+  "apps/docs/content/docs/guides/postgres/netlify.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274616+00:00",
+    "node_count": 2,
+    "sha256": "de05b914796092b028d81bc8a2fc700ec0b4f81c2306b4ed303c294e2aecd1a8"
+  },
+  "apps/docs/content/docs/guides/postgres/vercel.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274628+00:00",
+    "node_count": 1,
+    "sha256": "acaadfb9d06dc67f295d150bfce0290e0a52d1b265ff9e3fcb7927707ded1f68"
+  },
+  "apps/docs/content/docs/guides/postgres/viewing-data.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274641+00:00",
+    "node_count": 1,
+    "sha256": "1ff7d2767c3f2af90e465f16af5a5ea5eb3869df3df877057e9812c1d9d17320"
+  },
+  "apps/docs/content/docs/guides/postgres/vscode.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274651+00:00",
+    "node_count": 1,
+    "sha256": "34b29acf9afa11422402b3d42f81a98858757083f1472a44107255d9120c537f"
+  },
+  "apps/docs/content/docs/guides/runtimes/bun.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274662+00:00",
+    "node_count": 2,
+    "sha256": "cde3cc2b21d5ea60d48ba22b64846db859cbec434924c3f0926fd52cd6fffee0"
+  },
+  "apps/docs/content/docs/guides/runtimes/deno.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274672+00:00",
+    "node_count": 2,
+    "sha256": "8a205e5b868f3e2bb2d2adfd9b7ee668953ce32870a18fd6dad322a046526052"
+  },
+  "apps/docs/content/docs/guides/switch-to-prisma-orm/from-drizzle.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274686+00:00",
+    "node_count": 1,
+    "sha256": "27bc5216de14041bbebfcd704af81428e8dc2cc9839c57701eb27013a5601b3d"
+  },
+  "apps/docs/content/docs/guides/switch-to-prisma-orm/from-mongoose.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274696+00:00",
+    "node_count": 2,
+    "sha256": "29d507b4faab4ae0feb5668d646c4a00ba3c28b96573bd5f42b994ff65287c90"
+  },
+  "apps/docs/content/docs/guides/switch-to-prisma-orm/from-sql-orms.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274705+00:00",
+    "node_count": 1,
+    "sha256": "759e12880c1390acadb9e3aa5006c17074eaf3d982602cb3ee4259ab8c4aeee7"
+  },
+  "apps/docs/content/docs/guides/switch-to-prisma-postgres/from-neon.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274719+00:00",
+    "node_count": 1,
+    "sha256": "626b1b1499bed89d23841d7e86d87261b38b610fd3c8a32ce7df95e6e02d374f"
+  },
+  "apps/docs/content/docs/guides/switch-to-prisma-postgres/from-supabase.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274729+00:00",
+    "node_count": 1,
+    "sha256": "9af9353326bf894622ee8b2849e23014fa21cd1c745c6e6c6843307d460a7576"
+  },
+  "apps/docs/content/docs/guides/upgrade-prisma-orm/v1.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274739+00:00",
+    "node_count": 3,
+    "sha256": "ff3f41f0cdf1fb12852430834cfe52fb8860499ccbc6ba1a431ccc0565e01c0a"
+  },
+  "apps/docs/content/docs/guides/upgrade-prisma-orm/v3.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274749+00:00",
+    "node_count": 1,
+    "sha256": "59234389f1c2a094d4759b00d8f916614c3af422f964a00547da4d9a2bde5b2d"
+  },
+  "apps/docs/content/docs/guides/upgrade-prisma-orm/v4.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274759+00:00",
+    "node_count": 1,
+    "sha256": "3a2d539284575146f49293d4fa5986663da149f3f7b1b535944476f660c0b0c4"
+  },
+  "apps/docs/content/docs/guides/upgrade-prisma-orm/v5.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274770+00:00",
+    "node_count": 1,
+    "sha256": "eea4da86a1cd033e840d21c2102aff7d97b3231947417f61822c17f27783a39d"
+  },
+  "apps/docs/content/docs/guides/upgrade-prisma-orm/v6.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274784+00:00",
+    "node_count": 2,
+    "sha256": "1f35d81dc07f3fcd20d484feb672b6dddb7c2bd7e8ee0c0c43f6cbfe63e69eb5"
+  },
+  "apps/docs/content/docs/guides/upgrade-prisma-orm/v7.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274799+00:00",
+    "node_count": 2,
+    "sha256": "51d6f43d81f9bafb0a046b6cd878efda891536ab847e4d1a3ff24a57fc08ee29"
+  },
+  "apps/docs/content/docs/management-api/api-clients.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274813+00:00",
+    "node_count": 1,
+    "sha256": "85fcf59f7a8c4ddf3b6a39c2c234b696bcb2daf195a64898db893abde41328dd"
+  },
+  "apps/docs/content/docs/management-api/authentication.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274824+00:00",
+    "node_count": 1,
+    "sha256": "1de3f95bd4b8f4bc5ed2e252c2b78a177b1c1c79ba6d1bd4a41668e0c275c521"
+  },
+  "apps/docs/content/docs/management-api/endpoints/connections/delete-connections-by-id.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274831+00:00",
+    "node_count": 0,
+    "sha256": "f4338d7296378a0958345a156de0a17c130d78f0094c1f27e0c94ff41a9db3ad"
+  },
+  "apps/docs/content/docs/management-api/endpoints/connections/get-connections-by-id.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274838+00:00",
+    "node_count": 0,
+    "sha256": "5d64d7be0cdc024383f115f80b7fd92b5eb467c44009d3b910c3e292ed505e01"
+  },
+  "apps/docs/content/docs/management-api/endpoints/connections/get-connections.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274845+00:00",
+    "node_count": 0,
+    "sha256": "4be1fef9ca6faa7851030277d0eafdef84dea2f9716e8f48b11ac85cf6c0ad44"
+  },
+  "apps/docs/content/docs/management-api/endpoints/connections/post-connections-by-id-rotate.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274852+00:00",
+    "node_count": 0,
+    "sha256": "1d927e1fe9f49f66ae93ca6c9440b80fe78e4cb77242adb68049a604b8a90cd3"
+  },
+  "apps/docs/content/docs/management-api/endpoints/connections/post-connections.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274860+00:00",
+    "node_count": 0,
+    "sha256": "e731226c64a06540ab924c3fc5aa5b5bbe525168d4341d03c5cb43a83b25f7dc"
+  },
+  "apps/docs/content/docs/management-api/endpoints/database-backups/get-databases-by-database-id-backups.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274867+00:00",
+    "node_count": 0,
+    "sha256": "5e1d4da51bc4ccba278fcb5b9e9fa4a5defe0eb77effcc42dfc203b5f484affd"
+  },
+  "apps/docs/content/docs/management-api/endpoints/database-usage/get-databases-by-database-id-usage.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274874+00:00",
+    "node_count": 0,
+    "sha256": "c3196e731a75f9b31fca391b9ebfe376ba1dc70e7c8308adfab04ad359fa3d47"
+  },
+  "apps/docs/content/docs/management-api/endpoints/databases-connections/get-databases-by-database-id-connections.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274881+00:00",
+    "node_count": 0,
+    "sha256": "02fb6248f82b7928d4aa9fb0db17d65360a3d6f0c54514b83a9e4c8d0cd77c02"
+  },
+  "apps/docs/content/docs/management-api/endpoints/databases-connections/post-databases-by-database-id-connections.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274888+00:00",
+    "node_count": 0,
+    "sha256": "75ce4920039d9891dd467adc63860ce7e083036a6d1a593c37cfc5bad1ff4bfb"
+  },
+  "apps/docs/content/docs/management-api/endpoints/databases/delete-databases-by-database-id.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274895+00:00",
+    "node_count": 0,
+    "sha256": "242a816b9e414c543af0d336d1b3147facef22949f32647621c18c5d1afee770"
+  },
+  "apps/docs/content/docs/management-api/endpoints/databases/get-databases-by-database-id.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274902+00:00",
+    "node_count": 0,
+    "sha256": "be70512b26e8de0b41b5d4dbcf5ac38ed269807f365d76f2eb90b21915017d5f"
+  },
+  "apps/docs/content/docs/management-api/endpoints/databases/get-databases.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274909+00:00",
+    "node_count": 0,
+    "sha256": "9a71d254a97a82fb9b8e61534f46035181d731a1dacc737212a5edcf895579c3"
+  },
+  "apps/docs/content/docs/management-api/endpoints/databases/get-projects-by-project-id-databases.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274916+00:00",
+    "node_count": 0,
+    "sha256": "c58f4a00cf318dd2852abb42adf7e08ba336b67c4e0c064584311ec0b8ddff29"
+  },
+  "apps/docs/content/docs/management-api/endpoints/databases/patch-databases-by-database-id.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274924+00:00",
+    "node_count": 0,
+    "sha256": "513cbf0e6c829c9f76c99c4e1042b477b3e91d5d69bba6647d4f124613724990"
+  },
+  "apps/docs/content/docs/management-api/endpoints/databases/post-databases-by-target-database-id-restore.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274933+00:00",
+    "node_count": 0,
+    "sha256": "76d6a6ee46595d388834aaafe9f09f7ff97a0bed9efc4419ecf42a9dda35be65"
+  },
+  "apps/docs/content/docs/management-api/endpoints/databases/post-databases.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274941+00:00",
+    "node_count": 0,
+    "sha256": "4522e2f5e4f1298805da26fbe1dcda6e713116748ed8a182fbee19ebd25d227a"
+  },
+  "apps/docs/content/docs/management-api/endpoints/databases/post-projects-by-project-id-databases.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274948+00:00",
+    "node_count": 0,
+    "sha256": "1b0a8197a49573a6c85a5c015ca8a633f6e2464b5ebae85e30fc6adc9cd51c1d"
+  },
+  "apps/docs/content/docs/management-api/endpoints/integrations/delete-integrations-by-id.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274956+00:00",
+    "node_count": 0,
+    "sha256": "7b236ae599c6da839a082b4af62a0ee001159f2cef1c02049365ed3cfffe116c"
+  },
+  "apps/docs/content/docs/management-api/endpoints/integrations/delete-workspaces-by-workspace-id-integrations-by-client-id.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274964+00:00",
+    "node_count": 0,
+    "sha256": "40ac7feb3b579b5bb949a48910fa756e09a98705d2be0a2c5f28765796739853"
+  },
+  "apps/docs/content/docs/management-api/endpoints/integrations/get-integrations-by-id.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274971+00:00",
+    "node_count": 0,
+    "sha256": "3de9275717c7693449dd3a19d67fccb0640207b16f45e79a5b64715076a59d7c"
+  },
+  "apps/docs/content/docs/management-api/endpoints/integrations/get-integrations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274979+00:00",
+    "node_count": 0,
+    "sha256": "1c998d62fd00a55737a1c6aa1a5bd55a78257e4d5a13830bcd9ce344d485deb9"
+  },
+  "apps/docs/content/docs/management-api/endpoints/integrations/get-workspaces-by-workspace-id-integrations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274989+00:00",
+    "node_count": 0,
+    "sha256": "4a7c72ddc36bff30ca74a1ea0b8c804ffd4b12214530d96fe0f5f49209273c8f"
+  },
+  "apps/docs/content/docs/management-api/endpoints/misc/get-me.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.274998+00:00",
+    "node_count": 0,
+    "sha256": "1c8d589e520172ae27805266f2b309d0fb60cee3cb7d5d424650d56d3f377aae"
+  },
+  "apps/docs/content/docs/management-api/endpoints/misc/get-regions-accelerate.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275007+00:00",
+    "node_count": 0,
+    "sha256": "54cf85eaa55eab9a17cb99d2cf23a1b609302159b4bdc83639d13c66bc9e8d0d"
+  },
+  "apps/docs/content/docs/management-api/endpoints/misc/get-regions-postgres.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275015+00:00",
+    "node_count": 0,
+    "sha256": "8f3c041fdf25441245e2684b7013e36e84240d705b9b70a5703c20ecdc2fe890"
+  },
+  "apps/docs/content/docs/management-api/endpoints/projects/delete-projects-by-id.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275023+00:00",
+    "node_count": 0,
+    "sha256": "c69becc17ff57bb22bfd9c0e2b64000baaa99515404a73cbbfaf70812017f915"
+  },
+  "apps/docs/content/docs/management-api/endpoints/projects/get-projects-by-id.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275031+00:00",
+    "node_count": 0,
+    "sha256": "3e7461a5a0b44a257afe4bdd92e51316917198980d85dde95165fd26fbc550f0"
+  },
+  "apps/docs/content/docs/management-api/endpoints/projects/get-projects.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275038+00:00",
+    "node_count": 0,
+    "sha256": "04b858ff6f494a00832ada405de73d0666e365d511a6cfb48e2631e2d3e83c86"
+  },
+  "apps/docs/content/docs/management-api/endpoints/projects/patch-projects-by-id.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275046+00:00",
+    "node_count": 0,
+    "sha256": "4da8a24c1f6c7598ead16bdaa0e820fe40deea2d90c2dd6f71233768e8f29fbd"
+  },
+  "apps/docs/content/docs/management-api/endpoints/projects/post-projects-by-id-transfer.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275052+00:00",
+    "node_count": 0,
+    "sha256": "5a43828b98079ffe813bec11617ae9ed7b9f4e04b8d5fec2ce44db40c7efad7d"
+  },
+  "apps/docs/content/docs/management-api/endpoints/projects/post-projects.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275059+00:00",
+    "node_count": 0,
+    "sha256": "4eb1d89ba697f8753828267f6ffe3347147beaaad80c2453f728d9b90bdcea26"
+  },
+  "apps/docs/content/docs/management-api/endpoints/regions/get-regions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275066+00:00",
+    "node_count": 0,
+    "sha256": "65d4fbeb8237ae9a428ae842d151487a2cb60a959cbb4f8e7668bf3218f3347d"
+  },
+  "apps/docs/content/docs/management-api/endpoints/workspaces/get-workspaces-by-id.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275073+00:00",
+    "node_count": 0,
+    "sha256": "65e075371f21e3feab12cb95236abf0fd5a4d78636cdbb10cde5dee3d979f889"
+  },
+  "apps/docs/content/docs/management-api/endpoints/workspaces/get-workspaces.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275080+00:00",
+    "node_count": 0,
+    "sha256": "c7f6ba73666c38f0e9e1939732db2c7228912976e43f22b575d8dba14582fa64"
+  },
+  "apps/docs/content/docs/management-api/getting-started.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275089+00:00",
+    "node_count": 2,
+    "sha256": "34cc1d8e3fc35ed42620a792b16c072a7d7da8c6a15786387cd5b8d5d73abb83"
+  },
+  "apps/docs/content/docs/management-api/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275097+00:00",
+    "node_count": 1,
+    "sha256": "a6af2aff1f08589f9a79626d81d2160feedd8c13aabfe7e00148c8b0416d5036"
+  },
+  "apps/docs/content/docs/management-api/partner-integration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275112+00:00",
+    "node_count": 1,
+    "sha256": "e98275b0457ee0ad01f2bdd75d37ffe2af26d8fa728109f654ff33fa3127857b"
+  },
+  "apps/docs/content/docs/management-api/sdk.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275124+00:00",
+    "node_count": 7,
+    "sha256": "2867516bc9d1dca37ccafaf2ac0e4599703bc06e78a34a8ad0eefd3ded4cc151"
+  },
+  "apps/docs/content/docs/orm/core-concepts/api-patterns.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275133+00:00",
+    "node_count": 1,
+    "sha256": "a3acd3c80f275f1c25945851a4481fe7dbdff47175797b8c8663c5c38fcab770"
+  },
+  "apps/docs/content/docs/orm/core-concepts/data-modeling.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275145+00:00",
+    "node_count": 1,
+    "sha256": "e0298f1776fd49f58829da96ce246bf245901d2470b7513eb36bde83f46d6fe9"
+  },
+  "apps/docs/content/docs/orm/core-concepts/supported-databases/database-drivers.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275156+00:00",
+    "node_count": 1,
+    "sha256": "a5d7165b602ed1d8bd27808dfd29cd6b076ee6a604c6d25d023d093671e4c1b9"
+  },
+  "apps/docs/content/docs/orm/core-concepts/supported-databases/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275167+00:00",
+    "node_count": 1,
+    "sha256": "22f40e1d0ce5ae8fe3ebb55177d37e196e0562ce9ec05b74236ce2c79eed2ccd"
+  },
+  "apps/docs/content/docs/orm/core-concepts/supported-databases/mongodb.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275191+00:00",
+    "node_count": 1,
+    "sha256": "b90d7b70c9d286b56b696567391c51a7440b3972ebb631af9c7c1d3299657835"
+  },
+  "apps/docs/content/docs/orm/core-concepts/supported-databases/mysql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275203+00:00",
+    "node_count": 1,
+    "sha256": "70aab3f1cecdefdfdc16f9e8ce94e5677703dcdf1f71edd598ce10f2e375e9e1"
+  },
+  "apps/docs/content/docs/orm/core-concepts/supported-databases/postgresql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275215+00:00",
+    "node_count": 1,
+    "sha256": "4101a70902e3beb211ab918a8922c46365350ec1503dc201a61cd20a98e19d3e"
+  },
+  "apps/docs/content/docs/orm/core-concepts/supported-databases/sql-server.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275226+00:00",
+    "node_count": 1,
+    "sha256": "cf88979f9d1beb12057ac1bf39a189d097d414046962fb675111aab5904aef5b"
+  },
+  "apps/docs/content/docs/orm/core-concepts/supported-databases/sqlite.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275235+00:00",
+    "node_count": 1,
+    "sha256": "78b1c823eb0fe544e70956e7edafe4ad6380158a98963445baab013410bd79b9"
+  },
+  "apps/docs/content/docs/orm/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275244+00:00",
+    "node_count": 1,
+    "sha256": "44cdfd8cb1e0b686ec3303b39475f764d5d67c3f5e6ead27fbcbf360bc434e50"
+  },
+  "apps/docs/content/docs/orm/more/best-practices.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275260+00:00",
+    "node_count": 4,
+    "sha256": "89224e81b82d6517df61408fa125bd2152930b83fb113262241792039826331a"
+  },
+  "apps/docs/content/docs/orm/more/comparisons/prisma-and-drizzle.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275278+00:00",
+    "node_count": 1,
+    "sha256": "e352a6fc296f69b229efc709b38e29cd71ec428ae47a77cf72a78114c2d2f638"
+  },
+  "apps/docs/content/docs/orm/more/comparisons/prisma-and-mongoose.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275287+00:00",
+    "node_count": 1,
+    "sha256": "ea5d978c2739fd4410bc085aa67b5903e85acca2bb2675c6deb2bed769eff433"
+  },
+  "apps/docs/content/docs/orm/more/comparisons/prisma-and-sequelize.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275297+00:00",
+    "node_count": 1,
+    "sha256": "53856b28641422d4f6ee1f614c47ba5449181051ebd65cb0ca9771743308a2c3"
+  },
+  "apps/docs/content/docs/orm/more/comparisons/prisma-and-typeorm.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275320+00:00",
+    "node_count": 3,
+    "sha256": "79c09f54e7431f3ef5a24925dbc8d7bc213c413cd3631c18e645cd8be4c4bfe3"
+  },
+  "apps/docs/content/docs/orm/more/dev-environment/editor-setup.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275332+00:00",
+    "node_count": 1,
+    "sha256": "6961ce06af4b1697aa8c44832214f42794044c9b62addf34e937960720d1b7e6"
+  },
+  "apps/docs/content/docs/orm/more/dev-environment/environment-variables.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275343+00:00",
+    "node_count": 1,
+    "sha256": "6e0625b857066bec8fad8d691eda1342e0934f33b6a45eec76fbde823d03cbb8"
+  },
+  "apps/docs/content/docs/orm/more/dev-environment/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275350+00:00",
+    "node_count": 0,
+    "sha256": "2c2fffdcccc1cc65694a45ab53dbebd124b0ba886d77d174f786dc3d4c4b63df"
+  },
+  "apps/docs/content/docs/orm/more/releases.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275361+00:00",
+    "node_count": 1,
+    "sha256": "d2cb29280ac464c577d9351a17dbd494eba45baa54ed53772ca607935762d298"
+  },
+  "apps/docs/content/docs/orm/more/troubleshooting/bundler-issues.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275369+00:00",
+    "node_count": 1,
+    "sha256": "aedcf9eb32bd6f37ba557421f11d00ef7db3611b4c9ff5d632f84dc48efa1355"
+  },
+  "apps/docs/content/docs/orm/more/troubleshooting/check-constraints.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275377+00:00",
+    "node_count": 2,
+    "sha256": "5efb9bf2a6ffbef3252e1745fcb43c56a12ee0e943e030a5991f24b2c3c8b0e5"
+  },
+  "apps/docs/content/docs/orm/more/troubleshooting/graphql-autocompletion.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275386+00:00",
+    "node_count": 1,
+    "sha256": "8926fcf9ee9ff3ce40c9327157ff8529b18ff83fca0375b60febfb5acf271023"
+  },
+  "apps/docs/content/docs/orm/more/troubleshooting/many-to-many-relations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275395+00:00",
+    "node_count": 1,
+    "sha256": "bb27edd7070413fceb3187d2ef20fbd410396350c5e1886c36cf8304f535f6c9"
+  },
+  "apps/docs/content/docs/orm/more/troubleshooting/nextjs.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275405+00:00",
+    "node_count": 3,
+    "sha256": "9b895efb27af8a06ce5eacf390ac953c7436f9f838710cdd27cd629abebc6218"
+  },
+  "apps/docs/content/docs/orm/more/troubleshooting/nuxt.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275412+00:00",
+    "node_count": 0,
+    "sha256": "cb8af7267771f94ac58a568ba4b64eee7737d8677d01b2ed54b0976d11ffe24f"
+  },
+  "apps/docs/content/docs/orm/more/troubleshooting/raw-sql-comparisons.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275421+00:00",
+    "node_count": 1,
+    "sha256": "8e2b0b7c23086f1f4f6fc3457754ce2873e9bfabc9921ce948015dad24487104"
+  },
+  "apps/docs/content/docs/orm/more/troubleshooting/typescript-performance.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275428+00:00",
+    "node_count": 1,
+    "sha256": "8e14b675d17cff7d3893d193296ef7790809c09b65f5475783bfb8532f38b632"
+  },
+  "apps/docs/content/docs/orm/prisma-client/client-extensions/client.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275436+00:00",
+    "node_count": 2,
+    "sha256": "f123b60b25182b6c9b29699963d5ba4dd7d6d5a7f2ca965f9efc5bb3fa975a59"
+  },
+  "apps/docs/content/docs/orm/prisma-client/client-extensions/extension-examples.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275446+00:00",
+    "node_count": 1,
+    "sha256": "3f8a482fbbefd919d29102a34ac234cd71d316ee55cd3adce7740413d126dec6"
+  },
+  "apps/docs/content/docs/orm/prisma-client/client-extensions/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275460+00:00",
+    "node_count": 4,
+    "sha256": "381372f97a199d174bd60c9eff689415ec3196100078ae67fdd4296d86cea166"
+  },
+  "apps/docs/content/docs/orm/prisma-client/client-extensions/model.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275469+00:00",
+    "node_count": 1,
+    "sha256": "bf48474aba531ed2e4f3e82e18bac21643b9264ee7b3e5ee95e7f5fc270b713b"
+  },
+  "apps/docs/content/docs/orm/prisma-client/client-extensions/query.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275479+00:00",
+    "node_count": 1,
+    "sha256": "4e55847e8cc5c5b9fe2051cb94c735ab590cdeb36de2cd6ac76c0df1d3b4820d"
+  },
+  "apps/docs/content/docs/orm/prisma-client/client-extensions/result.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275490+00:00",
+    "node_count": 1,
+    "sha256": "cb68820235c399a655f2f7eb31acc6305c91cc9e605c70d09af5a7f947d74057"
+  },
+  "apps/docs/content/docs/orm/prisma-client/client-extensions/shared-extensions/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275499+00:00",
+    "node_count": 1,
+    "sha256": "7755c93984ee541bf9914ec074eee52deaeca4d82b46d1666e2aa31b6855aa56"
+  },
+  "apps/docs/content/docs/orm/prisma-client/client-extensions/shared-extensions/permit-rbac.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275511+00:00",
+    "node_count": 1,
+    "sha256": "503a4be95de267606464a9dc317f408b7be57a213b2c952305a7af0ccfa186c4"
+  },
+  "apps/docs/content/docs/orm/prisma-client/client-extensions/type-utilities.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275520+00:00",
+    "node_count": 3,
+    "sha256": "ca395380a25f6985c9827bbd837ba9f287fe6424ce83cf0d6966aa2abb0642ac"
+  },
+  "apps/docs/content/docs/orm/prisma-client/debugging-and-troubleshooting/debugging.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275528+00:00",
+    "node_count": 1,
+    "sha256": "c5f80d6d22a43419e66111b55e00591c0732162e5010976d183e5f34568dcd40"
+  },
+  "apps/docs/content/docs/orm/prisma-client/debugging-and-troubleshooting/handling-exceptions-and-errors.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275536+00:00",
+    "node_count": 1,
+    "sha256": "4dd03a74194fc326efdbd981047053e061f59e2797c6d958c262938314d133cb"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/caveats-when-deploying-to-aws-platforms.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275546+00:00",
+    "node_count": 1,
+    "sha256": "8d27cf1e6cfda5f5f5ae8a7e67684688ce75521eceac09f943a28434d7b26b6c"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/deploy-database-changes-with-prisma-migrate.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275557+00:00",
+    "node_count": 1,
+    "sha256": "320f6f3fcae3f1df1de6845b500700869408e67830d05b84d35d344042425ab7"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/deploy-migrations-from-a-local-environment.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275568+00:00",
+    "node_count": 1,
+    "sha256": "03976a1cd5d0e1a610a4d5dc38074a858172c01b9c7bfab8c2bfe7233d77c14c"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/deploy-prisma.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275577+00:00",
+    "node_count": 1,
+    "sha256": "d178522221cbaa92fffcbe3a7a6957d865d6cecb6ea2e296b0f41c643bd0815b"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/edge/deploy-to-cloudflare.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275592+00:00",
+    "node_count": 1,
+    "sha256": "9792e00d50129ad679a4966651744d1a92aa618e0f85837c6fdecc787c72c8b7"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/edge/deploy-to-deno-deploy.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275606+00:00",
+    "node_count": 1,
+    "sha256": "4fecc3b4bcd2391807857cf478cb2a5c0d9f19fbdd791e03122a8987cd30a324"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/edge/deploy-to-vercel.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275621+00:00",
+    "node_count": 2,
+    "sha256": "f2217b287d79aeac1c6a4bf35726076954bdd4267ca9ee1151073b6298f161f7"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/edge/overview.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275634+00:00",
+    "node_count": 1,
+    "sha256": "6b6b6ec14dcb991ef56a95a1a53d28b3a584114002716a442248786125bb08a9"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/serverless/deploy-to-aws-lambda.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275644+00:00",
+    "node_count": 1,
+    "sha256": "3d8681ba7af3843d8281be3fe0d7e926f3fd0986fc44452888058371d4eeb137"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/serverless/deploy-to-azure-functions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275652+00:00",
+    "node_count": 1,
+    "sha256": "b81b0aefde8ab154d29b7c7a5641ab002f448d661333095ff4dcb67e8e7a0098"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/serverless/deploy-to-netlify.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275661+00:00",
+    "node_count": 1,
+    "sha256": "b07ff86e8ce9ad4a45f005d9efc65c12941b4051064a6f7c4b66801fa8b2fb6d"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/serverless/deploy-to-vercel.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275671+00:00",
+    "node_count": 1,
+    "sha256": "ce16cf556c0a9c8bceeee2ab42f3a7fd95fc0c852bb046a714912f8156be1eae"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/traditional/deploy-to-flyio.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275681+00:00",
+    "node_count": 1,
+    "sha256": "e8e9ee2c88b1941887d12c31f5ed15bb5c5e69a677b9577c15ffcbef79de0b89"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/traditional/deploy-to-heroku.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275700+00:00",
+    "node_count": 1,
+    "sha256": "4f1cd2d43823fe03876c71b6254dfda9699161bc6b23b61ff2a3dc063b6a6b8c"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/traditional/deploy-to-koyeb.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275717+00:00",
+    "node_count": 1,
+    "sha256": "1cf1cf5d8d14b71c41817c29ab17db7c00a1649e91e64bcc477cc032ab2335d1"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/traditional/deploy-to-railway.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275726+00:00",
+    "node_count": 1,
+    "sha256": "8d38fdec1c05ba6edf49520b30cc22b0db43737be4bf8b93e5c92b728e690c5f"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/traditional/deploy-to-render.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275738+00:00",
+    "node_count": 1,
+    "sha256": "7dfbc83e2fc653f355b2eae1ed1bcf07591798fce5c4c466c00fde7df4e824ad"
+  },
+  "apps/docs/content/docs/orm/prisma-client/deployment/traditional/deploy-to-sevalla.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275749+00:00",
+    "node_count": 1,
+    "sha256": "3ef768e482a85468cb755940e80f71e49e536da0ae8f3077ef3d44cae1a5f0b4"
+  },
+  "apps/docs/content/docs/orm/prisma-client/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275758+00:00",
+    "node_count": 1,
+    "sha256": "3681705b974a3287af3d96365a06838000f15db20eeb7530daede8f54f6e4c1b"
+  },
+  "apps/docs/content/docs/orm/prisma-client/observability-and-logging/logging.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275766+00:00",
+    "node_count": 1,
+    "sha256": "b0d338fdbeab16931f5a39073260ac42e59823016a4025431fc9d0e0acf93665"
+  },
+  "apps/docs/content/docs/orm/prisma-client/observability-and-logging/opentelemetry-tracing.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275780+00:00",
+    "node_count": 1,
+    "sha256": "cd5a0b616815cf1c4574a331911f6495831a8508a0bb1474c72e43b8e0b9dd61"
+  },
+  "apps/docs/content/docs/orm/prisma-client/observability-and-logging/sql-comments.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275792+00:00",
+    "node_count": 4,
+    "sha256": "78d32865cc6ccdc322abc0d2a31f40838a3e2dc8e1a73c7d008550c8bc4f7aa9"
+  },
+  "apps/docs/content/docs/orm/prisma-client/queries/advanced/query-optimization-performance.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275808+00:00",
+    "node_count": 3,
+    "sha256": "d18777160778950e0e4301205879b33fea424df7592712946ad55014dc900015"
+  },
+  "apps/docs/content/docs/orm/prisma-client/queries/aggregation-grouping-summarizing.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275824+00:00",
+    "node_count": 1,
+    "sha256": "9752100fde6ac244e35a3f1fce274a07db90ea6a2dc732ce56180dfbd3f9fd7f"
+  },
+  "apps/docs/content/docs/orm/prisma-client/queries/crud.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275838+00:00",
+    "node_count": 1,
+    "sha256": "27dbd1c1fdb328659f3a9bb0902c92fc20785cebc2463ac773e70f96f4d2c83d"
+  },
+  "apps/docs/content/docs/orm/prisma-client/queries/excluding-fields.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275846+00:00",
+    "node_count": 1,
+    "sha256": "200414d10e85cb7d674f2041cacb6f0872c44dde2789532750789a364037c9aa"
+  },
+  "apps/docs/content/docs/orm/prisma-client/queries/filtering-and-sorting.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275854+00:00",
+    "node_count": 1,
+    "sha256": "746d76365c35e38afda6adf2effff9b148aa4d1af1cca8cd54f6616e94233fc4"
+  },
+  "apps/docs/content/docs/orm/prisma-client/queries/full-text-search.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275862+00:00",
+    "node_count": 1,
+    "sha256": "9bb8b9beade72ce11a3571dfecd8d56319b7c7fc8c75e1d7b93ddfe96ffdcb5c"
+  },
+  "apps/docs/content/docs/orm/prisma-client/queries/pagination.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275869+00:00",
+    "node_count": 1,
+    "sha256": "14602ec4c4c012ff1ebdbb0754d4bec643fb5ea2ab208e22dd48ab0270a82809"
+  },
+  "apps/docs/content/docs/orm/prisma-client/queries/relation-queries.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275894+00:00",
+    "node_count": 1,
+    "sha256": "f54683facea45caf272357b92659ffdf8da3fc7c98379522fc6e0dfa3a180099"
+  },
+  "apps/docs/content/docs/orm/prisma-client/queries/select-fields.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275901+00:00",
+    "node_count": 1,
+    "sha256": "a1784947759677e6f463b5d6942054284f40ea1f615031cae42fac0cc4fc4f61"
+  },
+  "apps/docs/content/docs/orm/prisma-client/queries/transactions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275933+00:00",
+    "node_count": 3,
+    "sha256": "65e1a590d6c1ba24097997a5b7e7de8247385030c521b70e4f3898100b5a5724"
+  },
+  "apps/docs/content/docs/orm/prisma-client/setup-and-configuration/custom-model-and-field-names.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275944+00:00",
+    "node_count": 1,
+    "sha256": "065aea627adf69043b7f886f311b1f6650f97e6beea845f49422fd24410d06d1"
+  },
+  "apps/docs/content/docs/orm/prisma-client/setup-and-configuration/database-polyfills.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275951+00:00",
+    "node_count": 0,
+    "sha256": "ea5aefc7934994b3befb30a20a82892fd08e689db62718779b089d3c47a2eee7"
+  },
+  "apps/docs/content/docs/orm/prisma-client/setup-and-configuration/databases-connections/connection-management.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275962+00:00",
+    "node_count": 2,
+    "sha256": "53306873e1c2046ed1df3fdfa0b30a7fb3d9db7224ad428b0bcddd1062d893a3"
+  },
+  "apps/docs/content/docs/orm/prisma-client/setup-and-configuration/databases-connections/connection-pool.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275971+00:00",
+    "node_count": 1,
+    "sha256": "159252982e8e60394a3afd7df6cc849bd5b98cc176f04b34ab59ddf30eb1816b"
+  },
+  "apps/docs/content/docs/orm/prisma-client/setup-and-configuration/databases-connections/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.275990+00:00",
+    "node_count": 3,
+    "sha256": "b6737c441d0b46bf32f82439c67d587546ba2eb7f1fcfbafa8ad2f554e4ee3d7"
+  },
+  "apps/docs/content/docs/orm/prisma-client/setup-and-configuration/databases-connections/pgbouncer.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276002+00:00",
+    "node_count": 1,
+    "sha256": "5ea08ab6ec8f01fb19f23e23aedfce6cc0adc080d55e30b84aa64ce754a90813"
+  },
+  "apps/docs/content/docs/orm/prisma-client/setup-and-configuration/error-formatting.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276012+00:00",
+    "node_count": 1,
+    "sha256": "311cf1853eed5189d72c43937fc8013672da71cca36f427c96782850705a1142"
+  },
+  "apps/docs/content/docs/orm/prisma-client/setup-and-configuration/generating-prisma-client.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276021+00:00",
+    "node_count": 1,
+    "sha256": "64f21d4099e97bd4734ad263d4040b7e9d2bcb46bcc54c1ca9fafb82705d4ec7"
+  },
+  "apps/docs/content/docs/orm/prisma-client/setup-and-configuration/introduction.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276031+00:00",
+    "node_count": 1,
+    "sha256": "250b394ff12df30aa16f92887f19866f8a2957c5e797811a786641ca1cc55783"
+  },
+  "apps/docs/content/docs/orm/prisma-client/setup-and-configuration/read-replicas.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276041+00:00",
+    "node_count": 1,
+    "sha256": "090126e99ec2ba0ae7fc5516e3b2ebf4ac0c50fa323fd9267a86a39f43f9a259"
+  },
+  "apps/docs/content/docs/orm/prisma-client/special-fields-and-types/composite-types.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276062+00:00",
+    "node_count": 1,
+    "sha256": "4767361ae6626730abfbaea89e1f51b483884293f71ddb6b0a348cc79da7c88d"
+  },
+  "apps/docs/content/docs/orm/prisma-client/special-fields-and-types/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276072+00:00",
+    "node_count": 1,
+    "sha256": "8f2f34c3522624f28b90b4ee8202f220a91ab6267e10ffe6d515e71072746845"
+  },
+  "apps/docs/content/docs/orm/prisma-client/special-fields-and-types/null-and-undefined.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276088+00:00",
+    "node_count": 1,
+    "sha256": "b8a27a2782d145c22bf63743cc86efd265d38429af0cde4cd9eb3f23476ac7ee"
+  },
+  "apps/docs/content/docs/orm/prisma-client/special-fields-and-types/working-with-composite-ids-and-constraints.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276098+00:00",
+    "node_count": 1,
+    "sha256": "02c51b479dfa0e4c92eeec344e0b3da4aa14b80c6c423d546b504bf0b16d8a55"
+  },
+  "apps/docs/content/docs/orm/prisma-client/special-fields-and-types/working-with-json-fields.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276115+00:00",
+    "node_count": 1,
+    "sha256": "a59b6a8ca2279fd5407edd446ad82a47af2ee84cf50399da873c5964f8cd1d0b"
+  },
+  "apps/docs/content/docs/orm/prisma-client/special-fields-and-types/working-with-scalar-lists-arrays.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276125+00:00",
+    "node_count": 1,
+    "sha256": "64da87c93e58c6a697ab4aaffbfeafdc1a57c3bb6b687cad640f45226b5f386b"
+  },
+  "apps/docs/content/docs/orm/prisma-client/testing/integration-testing.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276142+00:00",
+    "node_count": 1,
+    "sha256": "4486eca79f7fe70a0fc171848459f4b1bd8c29f794eec4e47d842775946b7a6c"
+  },
+  "apps/docs/content/docs/orm/prisma-client/testing/unit-testing.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276155+00:00",
+    "node_count": 5,
+    "sha256": "94bce7528a87745eac7d41e0921459d10b31649dc72fbb83250a13b5a3856b27"
+  },
+  "apps/docs/content/docs/orm/prisma-client/type-safety/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276167+00:00",
+    "node_count": 4,
+    "sha256": "b9688cb89fe6526b296bcc9efbc5b1af1905076cf95c4aa290fef6fbe4f1fd56"
+  },
+  "apps/docs/content/docs/orm/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276177+00:00",
+    "node_count": 6,
+    "sha256": "0aa1fb11099bd66a493b486a56119854233424db88a2d471763d227414ad1e08"
+  },
+  "apps/docs/content/docs/orm/prisma-client/type-safety/prisma-type-system.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276188+00:00",
+    "node_count": 1,
+    "sha256": "804a81d827cb3be32fc190d1950b07853b5ad8efe088da6a2562897dcce3e939"
+  },
+  "apps/docs/content/docs/orm/prisma-client/using-raw-sql/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276198+00:00",
+    "node_count": 1,
+    "sha256": "094a1b01661bc309372a156c529a1d56af11c481e65456348cf8217cb1eca7b2"
+  },
+  "apps/docs/content/docs/orm/prisma-client/using-raw-sql/raw-queries.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276227+00:00",
+    "node_count": 1,
+    "sha256": "9a00e42211387222ed3d206bf9d5399c41159956b56e9cd08d3afb040ccc8149"
+  },
+  "apps/docs/content/docs/orm/prisma-client/using-raw-sql/safeql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276239+00:00",
+    "node_count": 3,
+    "sha256": "cf2b243ebc27956c1a5eb2ca68f135297c1ed73eff9793fc3c62ea3d34a280e6"
+  },
+  "apps/docs/content/docs/orm/prisma-client/using-raw-sql/typedsql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276249+00:00",
+    "node_count": 1,
+    "sha256": "d9e9aef8a94c72f18059774721560376fb6d0d582265a65f12f7a77e4f07d109"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/getting-started.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276261+00:00",
+    "node_count": 1,
+    "sha256": "846c0b98704c34909dd65ed7b6f6640b9775d4e0e6f617997db27dc595f4d8ce"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276269+00:00",
+    "node_count": 1,
+    "sha256": "0877805fa32b531761482d918b1af977e61ae1ffec7070f9f25a0d2d20480175"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/understanding-prisma-migrate/limitations-and-known-issues.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276277+00:00",
+    "node_count": 1,
+    "sha256": "7b022c8b118728ee442e2b89bb8cd52bc30fb1398ceb073753045a5aa0441b0c"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/understanding-prisma-migrate/mental-model.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276290+00:00",
+    "node_count": 1,
+    "sha256": "04b689ba2561029c86fac108c0472a962e666dc3781f555a1cd3ef524f0c7de2"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/understanding-prisma-migrate/migration-histories.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276300+00:00",
+    "node_count": 1,
+    "sha256": "ea34949644d53f074c56fe067ad8959a424bb1db060e763b5a0cf71d8fdb40e4"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/understanding-prisma-migrate/shadow-database.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276310+00:00",
+    "node_count": 1,
+    "sha256": "aa40ab9022575e87a489991eadc48984172646e0f1ef253cea9a0ec926ab6d40"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/workflows/baselining.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276319+00:00",
+    "node_count": 1,
+    "sha256": "bffdc6c76f1c6ab42d71cb8ca2ad21a3c048e6b96ec15b66125090ee2f010b42"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/workflows/customizing-migrations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276333+00:00",
+    "node_count": 1,
+    "sha256": "d26a1918052da9ae77383421eecc8a5efc2d3a9572ccf06a94133348c19f3a59"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/workflows/development-and-production.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276347+00:00",
+    "node_count": 1,
+    "sha256": "30b9d1dd520d396b47bb0be201f661d1f401cf98948dbd72802a5c052f57f0da"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/workflows/generating-down-migrations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276358+00:00",
+    "node_count": 1,
+    "sha256": "71e92ae04a6db0d1e4eeb67db36d6177870038221715393c483d9a00734f8c2d"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/workflows/native-database-functions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276368+00:00",
+    "node_count": 1,
+    "sha256": "9e8e517ef46a2a481d76902c0eaa3274d47ce8e52b2fc35ca26b630b79962672"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/workflows/native-database-types.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276378+00:00",
+    "node_count": 1,
+    "sha256": "c61002c6644bb935b23951599c575ff0f5b86e79a813dc9a2d69992e091ff36f"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/workflows/patching-and-hotfixing.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276393+00:00",
+    "node_count": 1,
+    "sha256": "9940eac5304bea614d7b214f9929d39ae1b892c4990be80fdad4561bcb27ec64"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/workflows/prototyping-your-schema.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276406+00:00",
+    "node_count": 1,
+    "sha256": "c58ce79dab192e90cb831ffb28b72bebe38727d67a400d74bcc431ac7ea3ec02"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/workflows/seeding.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276419+00:00",
+    "node_count": 2,
+    "sha256": "0e329619d314ff37412a238c60c37486fdc10f88e54a2b4490ab2d31a6f8cdb8"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/workflows/squashing-migrations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276430+00:00",
+    "node_count": 1,
+    "sha256": "20693cb55f5df61b5c2f4abdf043c595723e00a1d177151bb509204d324f267d"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/workflows/troubleshooting.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276439+00:00",
+    "node_count": 1,
+    "sha256": "0f754e47403b5dce17461f8b93d054a051b2d05d7c30f28da7d81a6229cacc62"
+  },
+  "apps/docs/content/docs/orm/prisma-migrate/workflows/unsupported-database-features.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276447+00:00",
+    "node_count": 1,
+    "sha256": "3368161138afa9b0e08c1b5c3577044fcb7eebb86a995b601ccaa44dfd870ce1"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/database-mapping.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276461+00:00",
+    "node_count": 1,
+    "sha256": "370e2a9f479e7f4f61b37d770faa0ec7f72df10df760d07819ff9c567d0bc085"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/externally-managed-tables.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276477+00:00",
+    "node_count": 2,
+    "sha256": "3f8dfa43d979ef5245af1ae7472f0c2cd09fb7b69c15a9d958a2cc38af68f47c"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/indexes.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276507+00:00",
+    "node_count": 1,
+    "sha256": "d18e34c2c073237235c0b6e5d589fcf7d2487c9f90ba49f5e311f584e70fb4b7"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/models.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276521+00:00",
+    "node_count": 1,
+    "sha256": "23db18fd616e9d760057dcda66ae3dc76f2e379864a25495ba5260b9cdff1d21"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/multi-schema.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276530+00:00",
+    "node_count": 1,
+    "sha256": "0bc35559017b2bb2d5464ca67fb6cc693561f44f8164ac7c98e97bf40aed4450"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/relations/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276544+00:00",
+    "node_count": 1,
+    "sha256": "911709a49d8bf4fd97791ed28b5d627a836f9eb11ae64a91d35818f87acae8ab"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/relations/many-to-many-relations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276553+00:00",
+    "node_count": 1,
+    "sha256": "97c3da3e20b653024ea7a50bb5ee2d56f5ae2820fc9b2a3bf6b0b04fc8e1b10a"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/relations/one-to-many-relations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276561+00:00",
+    "node_count": 1,
+    "sha256": "2a83c1595546610d7103c15e2e5154b400d4136e6050678914df1f4c0691c368"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/relations/one-to-one-relations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276569+00:00",
+    "node_count": 1,
+    "sha256": "b2130e52b6e2d3e7313c414a9f8fccf98f774da6573f4a229d90d0979d1ac9db"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/relations/referential-actions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276588+00:00",
+    "node_count": 1,
+    "sha256": "1eb691017dc537729567c9b6157aa68622bd5c47e420fa6471416ae99a3c4f8f"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/relations/relation-mode.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276605+00:00",
+    "node_count": 1,
+    "sha256": "31df61b1b6055eb228a5139f61bf193b1cdad3eae94d93ab1523d9ef1f7630a9"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/relations/self-relations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276613+00:00",
+    "node_count": 1,
+    "sha256": "8d6b6ea4a9f35bd6d5f750becc37a4ac780432cae36776ba5f04cb280e1d77c4"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/relations/troubleshooting-relations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276623+00:00",
+    "node_count": 1,
+    "sha256": "6028abb1867c0e7d554cdb1de28d9dca2c6098a3b2383fe20c15f319722bdbf3"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/table-inheritance.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276635+00:00",
+    "node_count": 7,
+    "sha256": "4a8db549d308f40df3e0737f8186aa0e9e16e319856e7d973a10fc1be9727e5d"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/unsupported-database-features.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276643+00:00",
+    "node_count": 1,
+    "sha256": "eabe71f6d3773c09df07022404b4951e7224c6b7d50c842b095c3784f1cebaaf"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/data-model/views.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276655+00:00",
+    "node_count": 1,
+    "sha256": "2b7572d164a51f783641f3f8704215dc34e1b76f0f542e11f8228211794f77c2"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/introspection.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276672+00:00",
+    "node_count": 1,
+    "sha256": "68f0bbc645153246ea24e98ab7d8551aaddce6cfddac790652b15c7c1e8328d6"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/overview/data-sources.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276680+00:00",
+    "node_count": 1,
+    "sha256": "a8279a72a07b159aa2e3e5e69b7780792ad888130561abd48e932d8df251b955"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/overview/generators.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276701+00:00",
+    "node_count": 1,
+    "sha256": "38e810d2287967a5945e7b00046aeb9849bf894854b5d3031937aea04fb4d14f"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/overview/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276713+00:00",
+    "node_count": 1,
+    "sha256": "f0a4c4f3b6d89a06b168d96c64a9f3f8cc239d39b894f6682d553e74ffa7eb53"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/overview/location.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276727+00:00",
+    "node_count": 1,
+    "sha256": "e510bfd625badd84c2077aad406634a1ec519e25b0209a1335426f23086e19ba"
+  },
+  "apps/docs/content/docs/orm/prisma-schema/postgresql-extensions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276737+00:00",
+    "node_count": 1,
+    "sha256": "f83ef3721cf05f697ffbea7f21cccf57a86ffbdb87de66f936610e5339c288bc"
+  },
+  "apps/docs/content/docs/orm/reference/connection-urls.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276749+00:00",
+    "node_count": 1,
+    "sha256": "817d0ce15235af527ab9923f383722d26b0baa023a65d44a602eb39f00ead6fd"
+  },
+  "apps/docs/content/docs/orm/reference/database-features.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276767+00:00",
+    "node_count": 1,
+    "sha256": "fc95d6680bb1ce1999fe838f8813666c093ac2ca78c885dae4133113d71b86a9"
+  },
+  "apps/docs/content/docs/orm/reference/environment-variables-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276774+00:00",
+    "node_count": 1,
+    "sha256": "b973810a2967e0a267383a59d40d933b7d8d94db7c6d69f9e18cf42dda989b06"
+  },
+  "apps/docs/content/docs/orm/reference/error-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276792+00:00",
+    "node_count": 1,
+    "sha256": "d592a6cbc43e403bb6869d117befbd2727c7542c14553d9098550e07cb08ee56"
+  },
+  "apps/docs/content/docs/orm/reference/errors/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276800+00:00",
+    "node_count": 0,
+    "sha256": "62b2be0c13e909e8154f96762e4eb2285fcfdc803da01a194815234e2e22c56d"
+  },
+  "apps/docs/content/docs/orm/reference/preview-features/cli-preview-features.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276807+00:00",
+    "node_count": 1,
+    "sha256": "20b384650ad0fda6bf250a6043b81d9d5c72c074ed6b589d4096ec3b997ab776"
+  },
+  "apps/docs/content/docs/orm/reference/preview-features/client-preview-features.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276823+00:00",
+    "node_count": 1,
+    "sha256": "83dd38c86d68d0f53925e0a7c96addf0d856afc18b5c0a37a68978d68f5dad2c"
+  },
+  "apps/docs/content/docs/orm/reference/prisma-cli-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.276890+00:00",
+    "node_count": 1,
+    "sha256": "e0dc6b16fbeb69f77e744e42b8c80a4b4b0f025be49b5593f865e44a06bd1449"
+  },
+  "apps/docs/content/docs/orm/reference/prisma-client-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277000+00:00",
+    "node_count": 5,
+    "sha256": "d05921273a7f9ae546fd1bb84c725bcd69efb93762de593562e8abf6f700e5b5"
+  },
+  "apps/docs/content/docs/orm/reference/prisma-config-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277022+00:00",
+    "node_count": 2,
+    "sha256": "fd9e9ad5188a71c3ee2ba98f688f13c714e8f26f5186d596c49e2adfa3b3c212"
+  },
+  "apps/docs/content/docs/orm/reference/prisma-schema-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277101+00:00",
+    "node_count": 1,
+    "sha256": "a5120361bad092c8a07115402a2c5489b4892a6a683cf50ee5cf0327ab103974"
+  },
+  "apps/docs/content/docs/orm/reference/supported-databases.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277111+00:00",
+    "node_count": 1,
+    "sha256": "28264bc2b1746333eb653e5d8f7e82a86d26779ec1d1646fa54fe58e285e6aae"
+  },
+  "apps/docs/content/docs/orm/reference/system-requirements.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277120+00:00",
+    "node_count": 1,
+    "sha256": "65a3966d699b252fa07cde8f96058bec2240dd6aee18915d7963c2af6a470feb"
+  },
+  "apps/docs/content/docs/orm/v6/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277128+00:00",
+    "node_count": 0,
+    "sha256": "4fdf263a098ee661f973396b5313eadd8c6ab71caff98dbc89f30ccb8d4a3fb1"
+  },
+  "apps/docs/content/docs/orm/v6/more/ai-tools/chatgpt.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277136+00:00",
+    "node_count": 1,
+    "sha256": "9415f3d2b5bfa0cd94e3d7cef8f6441ed5937b843c8b0d2c6cdc79072ac123e8"
+  },
+  "apps/docs/content/docs/orm/v6/more/ai-tools/cursor.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277156+00:00",
+    "node_count": 2,
+    "sha256": "b271e5a00ebfc99044fb34bb4f7b01e06ae3851f4b71ab025d6e03cb23c22ffc"
+  },
+  "apps/docs/content/docs/orm/v6/more/ai-tools/github-copilot.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277168+00:00",
+    "node_count": 1,
+    "sha256": "ac0abd2ef4dedd7049e6b79c1c878c42fc0bb19ae06e4f9b8161c97c1176b8ec"
+  },
+  "apps/docs/content/docs/orm/v6/more/ai-tools/tabnine.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277181+00:00",
+    "node_count": 9,
+    "sha256": "dc3ae83e0c955c8b818c708ac6e91865a53fa5f649bcf2280ac32524922eb982"
+  },
+  "apps/docs/content/docs/orm/v6/more/ai-tools/windsurf.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277195+00:00",
+    "node_count": 2,
+    "sha256": "b1e6887f5d45c3b5d541350be29682a992b2bbbe8aa2c63683756dd070b1ca40"
+  },
+  "apps/docs/content/docs/orm/v6/more/comparisons/prisma-and-drizzle.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277218+00:00",
+    "node_count": 1,
+    "sha256": "93779b89f83429f7224ffe5eb9daec704c0807e69ea83bf15f1e14d9930aec14"
+  },
+  "apps/docs/content/docs/orm/v6/more/comparisons/prisma-and-mongoose.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277227+00:00",
+    "node_count": 1,
+    "sha256": "718ac00f318a5b0c3150022891f6f7b15d4c072bd41cf6d5152deaae69a92dcf"
+  },
+  "apps/docs/content/docs/orm/v6/more/comparisons/prisma-and-sequelize.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277237+00:00",
+    "node_count": 1,
+    "sha256": "fcc5a353463d0f535fc73fec2173c5c9fb6ebd9840f8486a40f1b5bec797aa8a"
+  },
+  "apps/docs/content/docs/orm/v6/more/comparisons/prisma-and-typeorm.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277265+00:00",
+    "node_count": 3,
+    "sha256": "f81e90cf2a988b3e4097451b6b44d1cc75298529d157f8216ba68b6dda3cc8c6"
+  },
+  "apps/docs/content/docs/orm/v6/more/dev-environment/editor-setup.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277276+00:00",
+    "node_count": 1,
+    "sha256": "9597eccb6509009519be52d85f33208bfb55bb8ff3133beac0a66844c9b1727a"
+  },
+  "apps/docs/content/docs/orm/v6/more/dev-environment/environment-variables.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277290+00:00",
+    "node_count": 1,
+    "sha256": "a428470256b4dc8923b783c43e8ee8ff89bd82036cc9d0bdebba0d627a93df5a"
+  },
+  "apps/docs/content/docs/orm/v6/more/internals/engines.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277311+00:00",
+    "node_count": 1,
+    "sha256": "1a485c466251016252ee2f5ea7df9f040907a486bb8b4a031f981b157dcde51a"
+  },
+  "apps/docs/content/docs/orm/v6/more/releases.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277323+00:00",
+    "node_count": 1,
+    "sha256": "f1a870bcc6293ae6af9dc74c41f6e205cd9e69c6c684e1c813da248f50ee681a"
+  },
+  "apps/docs/content/docs/orm/v6/more/troubleshooting/bundler-issues.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277331+00:00",
+    "node_count": 1,
+    "sha256": "ebfb6ca542294c963d90a15a2771c7ed8a0ac1cc28f5c4a3f23b9dba928a244a"
+  },
+  "apps/docs/content/docs/orm/v6/more/troubleshooting/check-constraints.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277340+00:00",
+    "node_count": 2,
+    "sha256": "13b7c0029816fe1ed8530d70ddc28623a03cf9b2e9542e3e931a854cf410f4b7"
+  },
+  "apps/docs/content/docs/orm/v6/more/troubleshooting/graphql-autocompletion.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277349+00:00",
+    "node_count": 1,
+    "sha256": "617ebfc70099d2520ebb3f6afc8b48440659c26ea3b77a4ac8cd12034118fbf5"
+  },
+  "apps/docs/content/docs/orm/v6/more/troubleshooting/many-to-many-relations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277358+00:00",
+    "node_count": 1,
+    "sha256": "508826fc31091b200566a173724046ada3b25f1759e9303167b37de00268ffa9"
+  },
+  "apps/docs/content/docs/orm/v6/more/troubleshooting/nextjs.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277368+00:00",
+    "node_count": 3,
+    "sha256": "3b0af8e258d41b4847e5cab078c18c257a23987bc09e53b70bc65a57e73a2515"
+  },
+  "apps/docs/content/docs/orm/v6/more/troubleshooting/nuxt.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277376+00:00",
+    "node_count": 0,
+    "sha256": "5e00b42009c22b110f2ace28a8f02b9f223e08a345298486ee72e111f9efb6f8"
+  },
+  "apps/docs/content/docs/orm/v6/more/troubleshooting/raw-sql-comparisons.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277384+00:00",
+    "node_count": 1,
+    "sha256": "f30de927f73e3ad488ead770a61ed1327c43f8e53588296fba6707b5c379e9b1"
+  },
+  "apps/docs/content/docs/orm/v6/more/troubleshooting/typescript-performance.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277393+00:00",
+    "node_count": 1,
+    "sha256": "fad15390a8a92ed4620ee20e64b1b230d60818a23472fdce3500941c4ac986e3"
+  },
+  "apps/docs/content/docs/orm/v6/more/upgrades/from-v1.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277404+00:00",
+    "node_count": 1,
+    "sha256": "2fc879c36a0bdbb64117c16f1bafe12c2162fefdae354e5983acd99688236cee"
+  },
+  "apps/docs/content/docs/orm/v6/more/upgrades/older-versions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277458+00:00",
+    "node_count": 1,
+    "sha256": "a6f4516919a65a5252e61c11519e63d21439e320817b3926e8edd824e4cdb1e3"
+  },
+  "apps/docs/content/docs/orm/v6/more/upgrades/preview-features.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277509+00:00",
+    "node_count": 0,
+    "sha256": "2951c8161a97f2a38619b5770d16cae972ff7b7c7422361afd56910688044570"
+  },
+  "apps/docs/content/docs/orm/v6/more/upgrades/to-v7.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277555+00:00",
+    "node_count": 2,
+    "sha256": "92110304f5de2347be0ecc1849ba4cb675e676ab6df01b4aa5f4a53f7b9e30a2"
+  },
+  "apps/docs/content/docs/orm/v6/overview/beyond-prisma-orm.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277607+00:00",
+    "node_count": 1,
+    "sha256": "62dd4f962c26551ffb747320481a190b7c2d6a2c4f64b720541f744a22741066"
+  },
+  "apps/docs/content/docs/orm/v6/overview/databases/cloudflare-d1.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277635+00:00",
+    "node_count": 1,
+    "sha256": "00ee242eb4844649374f579f414e5a5b5060a51d031dc846b0daa9a8e1de1e08"
+  },
+  "apps/docs/content/docs/orm/v6/overview/databases/cockroachdb.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277657+00:00",
+    "node_count": 1,
+    "sha256": "1ea934a28afbd68e8f4d0e4eb44322b0ae2b17913fda7c2e8934afd94a8553ec"
+  },
+  "apps/docs/content/docs/orm/v6/overview/databases/database-drivers.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277669+00:00",
+    "node_count": 1,
+    "sha256": "3bb4174fcf282a9e5ccc676f8da5d57d242ff7c1f58ee7fa6d8814a747adc5c8"
+  },
+  "apps/docs/content/docs/orm/v6/overview/databases/mongodb.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277694+00:00",
+    "node_count": 1,
+    "sha256": "2f4d70c91593fb0b2a6dcae4931b95acc7f79551d6ca5ff0e2e7b5076ae2eeba"
+  },
+  "apps/docs/content/docs/orm/v6/overview/databases/mysql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277719+00:00",
+    "node_count": 1,
+    "sha256": "bad183ee8a5a7206289d48432b55def25d0fb2c45a31618212e0acc6cb4afcfc"
+  },
+  "apps/docs/content/docs/orm/v6/overview/databases/neon.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277734+00:00",
+    "node_count": 1,
+    "sha256": "8b822fa22d5ba60a08e6ada452223f1b41968b8a758a25b39abdef7087107a5e"
+  },
+  "apps/docs/content/docs/orm/v6/overview/databases/planetscale.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277749+00:00",
+    "node_count": 1,
+    "sha256": "76e821629fa5672b14360f829ea5fdae3b9148e998cd1bc5fcc948dc8715a389"
+  },
+  "apps/docs/content/docs/orm/v6/overview/databases/postgresql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277788+00:00",
+    "node_count": 1,
+    "sha256": "775ff430be1564db14fe80a158093a536f11f0ac199a604303c35aeea41eb389"
+  },
+  "apps/docs/content/docs/orm/v6/overview/databases/sql-server/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277806+00:00",
+    "node_count": 1,
+    "sha256": "b91b92f0bdd2de90e0be8839ccafc1db6d5b4d9a9e1580d82abca5e358b9a904"
+  },
+  "apps/docs/content/docs/orm/v6/overview/databases/sql-server/sql-server-docker.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277817+00:00",
+    "node_count": 1,
+    "sha256": "921c69b4c79ebfb190ddbac9b04aa5534a54188e9f4ca4ca99d36989dba563dc"
+  },
+  "apps/docs/content/docs/orm/v6/overview/databases/sql-server/sql-server-local.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277825+00:00",
+    "node_count": 1,
+    "sha256": "8bb2adb72ba6fb83ce82c727067a2abace390e5b8d14fabf0ef5fa819d683c4d"
+  },
+  "apps/docs/content/docs/orm/v6/overview/databases/sqlite.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277835+00:00",
+    "node_count": 1,
+    "sha256": "b4b56400224415ce19b4be5fdeb81f10030fdaeeff5ce91413717e6d7983528e"
+  },
+  "apps/docs/content/docs/orm/v6/overview/databases/supabase.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277846+00:00",
+    "node_count": 1,
+    "sha256": "3521e312b11eb853e91c47acf1e7156de959e49f12428cf6d88638fc0c42ef99"
+  },
+  "apps/docs/content/docs/orm/v6/overview/databases/turso.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277856+00:00",
+    "node_count": 1,
+    "sha256": "aa4205396a302bdbd307529a37272f470e82a466ee59cbf971112ccc4a984eca"
+  },
+  "apps/docs/content/docs/orm/v6/overview/introduction/data-modeling.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277870+00:00",
+    "node_count": 1,
+    "sha256": "36ba11ab09a444659d4aa38e88b48c2849a2dd331f6ec34a2f37336320140ca3"
+  },
+  "apps/docs/content/docs/orm/v6/overview/introduction/should-you-use-prisma.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277882+00:00",
+    "node_count": 1,
+    "sha256": "030b0bdb0ddb3388e045678e40c6607189a8105b474b5595c4d055ae35494e48"
+  },
+  "apps/docs/content/docs/orm/v6/overview/introduction/what-is-prisma.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277893+00:00",
+    "node_count": 1,
+    "sha256": "0fdf77c88b91329a5ad9fe5578ae2f66cf0e1d73cae9b9ed53cb64b2bbf34416"
+  },
+  "apps/docs/content/docs/orm/v6/overview/introduction/why-prisma.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277905+00:00",
+    "node_count": 1,
+    "sha256": "0c910055a019d6ea4187f5b14bd553847a0490b809db427ec266b5a193ba9cca"
+  },
+  "apps/docs/content/docs/orm/v6/overview/prisma-in-your-stack/fullstack.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277916+00:00",
+    "node_count": 2,
+    "sha256": "83c8d7589635c648a9d2f2ec2858aa352ccaeb27d79c3b9c8bcf80a2789df7c7"
+  },
+  "apps/docs/content/docs/orm/v6/overview/prisma-in-your-stack/graphql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277926+00:00",
+    "node_count": 1,
+    "sha256": "25c36240e07e0bbe2ecd1c7cad0d4909c03d45272274799e478ea19b7b5b71c8"
+  },
+  "apps/docs/content/docs/orm/v6/overview/prisma-in-your-stack/is-prisma-an-orm.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277952+00:00",
+    "node_count": 3,
+    "sha256": "ba99b7cc2104c3eb3b67875d9f96edf0097785cb5ef1aef3030cab7f98e2c6c4"
+  },
+  "apps/docs/content/docs/orm/v6/overview/prisma-in-your-stack/rest.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277961+00:00",
+    "node_count": 1,
+    "sha256": "7d949fd139af1a5c2068108a21d400a98119a7d529b985e24daaf98de4edfe3f"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/client-extensions/client.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277969+00:00",
+    "node_count": 2,
+    "sha256": "fd2f39bedbe1eee0965a81ab7455ef3dd29d5e68e3c9521d7da2fc3b8c5d7bb1"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/client-extensions/extension-examples.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277981+00:00",
+    "node_count": 1,
+    "sha256": "d2624227b844d864ea0a3ebbfe1eed131f1d48af995d7336bc890b7ec7bdac06"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/client-extensions/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.277992+00:00",
+    "node_count": 4,
+    "sha256": "8540de77bc2cceee78135769d65cef5be7a8c84ecef40898e99bb4f916784fdf"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/client-extensions/model.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278001+00:00",
+    "node_count": 1,
+    "sha256": "fd63b69f800216c6b737ea2bd3c399bb826f6aa903d26525cf425bd7ff5bda6b"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/client-extensions/query.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278014+00:00",
+    "node_count": 1,
+    "sha256": "e819c326fcaa535d977b8f16e09158ca770842767c7a38311779ca4892223425"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/client-extensions/result.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278027+00:00",
+    "node_count": 1,
+    "sha256": "76571c08118268ec574ab9423326ea4dca2ee050409aeee79d669c8efe27038b"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/client-extensions/shared-extensions/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278040+00:00",
+    "node_count": 1,
+    "sha256": "23ed3cd4871109b1845ed774e2a78ebcbea084e7fca5f164ed8827ffdb42a064"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/client-extensions/shared-extensions/permit-rbac.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278056+00:00",
+    "node_count": 1,
+    "sha256": "e299bcaa06fe2a6e6202424a48611dc63afeb4b51aecf0eb12faa78ef9ca4905"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/client-extensions/type-utilities.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278067+00:00",
+    "node_count": 3,
+    "sha256": "bfb57764d7f07a96cb6719ef5dc7735e5dde8679effc4bd70f43773d58c357c2"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/debugging-and-troubleshooting/debugging.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278077+00:00",
+    "node_count": 1,
+    "sha256": "fb444f35a6077ca4001f23cac83d885865f15e1a6c6b8ca17a0a2d4c304a98ec"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/debugging-and-troubleshooting/handling-exceptions-and-errors.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278086+00:00",
+    "node_count": 1,
+    "sha256": "ba900a2c5c5c0c3ae42d48a9c2536381f60dfed12f4d648e486baa88ac27f637"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/debugging-and-troubleshooting/troubleshooting-binary-size-issues.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278095+00:00",
+    "node_count": 1,
+    "sha256": "c49bc946023d723ec1ac759adc9fcdc8c7bd14db9b76d7bc054a665b025340d9"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/caveats-when-deploying-to-aws-platforms.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278105+00:00",
+    "node_count": 1,
+    "sha256": "7915f41710a1adc5c67fc9482ebd56988fe843548f66e3ac83701be871bf0719"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/deploy-database-changes-with-prisma-migrate.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278116+00:00",
+    "node_count": 1,
+    "sha256": "52d3095b9e10cb240bc255bc69d647ac11c8fd03afc50d4d451541d6c05f08bb"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/deploy-migrations-from-a-local-environment.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278127+00:00",
+    "node_count": 1,
+    "sha256": "98ced5fe35635e391d7a2aec75ed17956a020da689ed956b56921639123349be"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/deploy-prisma.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278138+00:00",
+    "node_count": 1,
+    "sha256": "5952643c36f04438cbabb618d261053a79134efe10912ca60ca09a68b6d70cd1"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/deploy-to-a-different-os.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278146+00:00",
+    "node_count": 1,
+    "sha256": "7a3bf88f153955245a62b859cac1729b2e221d95ba08e26940d464e3d4efc3e8"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/deploy-to-cloudflare.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278162+00:00",
+    "node_count": 2,
+    "sha256": "5b356a3fd796d10ce5164baad1022faa63941802a8494bf2e91877dac4ee1093"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/deploy-to-deno-deploy.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278173+00:00",
+    "node_count": 2,
+    "sha256": "1cd12c704a084e03df46620200bc00366376a44fa4e7faabd31083f80422cf13"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/deploy-to-vercel.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278188+00:00",
+    "node_count": 2,
+    "sha256": "8c00e32123dc1d9fdf36a1abe5ec0aa38b14b230a80533e442998cd2b94105ad"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278199+00:00",
+    "node_count": 1,
+    "sha256": "97a0fac977d68488cba357fea562090d3f3482713106b26a3aee4c6fac222658"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/overview.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278214+00:00",
+    "node_count": 1,
+    "sha256": "ad6dd9d428d4a289f4bbfad2790afd0d6dc4be4998c31a83221b31503d3be0fa"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/module-bundlers.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278224+00:00",
+    "node_count": 1,
+    "sha256": "641a4233ea5606088e4cb8ce99f03fe603b5a274c9eb18451e548680efe9030e"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/serverless/deploy-to-aws-lambda.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278241+00:00",
+    "node_count": 1,
+    "sha256": "e59a9a69d52a1b7841c8e917ad6667637efba8851fbeb8bc9e0677e2682c23b0"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/serverless/deploy-to-azure-functions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278251+00:00",
+    "node_count": 1,
+    "sha256": "e42adea53d2b0e19ae0dcd839f6994a92e9271aad36bf18e1770fcd51181c578"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/serverless/deploy-to-netlify.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278260+00:00",
+    "node_count": 1,
+    "sha256": "aa84f51bde9232f2b5857738425b31b4a7b55a3820078a639b1e0f3a3e469cff"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/serverless/deploy-to-vercel.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278273+00:00",
+    "node_count": 1,
+    "sha256": "97ca291ad326f9c9333035df1af1dce646673cd33db16d6a0a6555cae3b6459a"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/serverless/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278282+00:00",
+    "node_count": 1,
+    "sha256": "b7f220cf61ef06a5d7e6fdf14791862bdfe0695015fa7ea7f07c6d32bd1a31bf"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/traditional/deploy-to-flyio.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278292+00:00",
+    "node_count": 1,
+    "sha256": "6706ed31cbf7d1cc727ea5ac882b61a8920dc281feb9499732e40ee1a8dbea7f"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/traditional/deploy-to-heroku.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278310+00:00",
+    "node_count": 1,
+    "sha256": "35665f6fe7daaf8d74364f9ad2e36eb43b1ad08b7684b800a0d71ee9ee40f83d"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/traditional/deploy-to-koyeb.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278327+00:00",
+    "node_count": 1,
+    "sha256": "26e2138073dacc615609680d25327ab82f27f5520837e5215d28a983519bef42"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/traditional/deploy-to-railway.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278339+00:00",
+    "node_count": 1,
+    "sha256": "50aa3285174fd820a1ac49b217e40d9f1006dd133226633910075d11204791d3"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/traditional/deploy-to-render.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278354+00:00",
+    "node_count": 1,
+    "sha256": "b3def5ec7bd0e3e2f518d1a85d6602334d71339c63e89ef8871b872f31cb9dfa"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/traditional/deploy-to-sevalla.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278367+00:00",
+    "node_count": 1,
+    "sha256": "52d63d2c57754b8a7a596a0eac35ad01312f2f5912ef380fd9a42fa916f00a95"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/deployment/traditional/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278376+00:00",
+    "node_count": 0,
+    "sha256": "acf238df636d5a2d3b755becde200f879ee3254fd5683f17126e4a20221522b9"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/observability-and-logging/logging.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278387+00:00",
+    "node_count": 1,
+    "sha256": "8a92f87183700c6b56fcda87ed0a8e2edf930cd136aaaebef6a30467d5f839c8"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/observability-and-logging/metrics.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278402+00:00",
+    "node_count": 1,
+    "sha256": "00b435f898711ab341487bf8962d961c1b71bbd01823a1d464f5ebc6749a16e9"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/observability-and-logging/opentelemetry-tracing.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278418+00:00",
+    "node_count": 1,
+    "sha256": "5a76e76a1a78a71f91919623aca1defc50685be30286b5a8d7e7f99171e724a5"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/observability-and-logging/sql-comments.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278431+00:00",
+    "node_count": 4,
+    "sha256": "f9227df1dda699cc34ebcaa7dbd3555022d6062edf1b4f2799fda0019d9e348f"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/queries/aggregation-grouping-summarizing.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278450+00:00",
+    "node_count": 1,
+    "sha256": "012adc104eeece1a9d064c072e60f3774be05fd8b56658add0a8d99965191206"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/queries/case-sensitivity.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278463+00:00",
+    "node_count": 1,
+    "sha256": "feff0b29013f269b9d300fdc3679cdf1ecf5cd667e29af6ed70b7378734c61bc"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/queries/computed-fields.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278477+00:00",
+    "node_count": 5,
+    "sha256": "d5f2b2f87825b8b8ff49d89123bad082ce209c1d3f10589178f25f2d4522cbdd"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/queries/crud.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278503+00:00",
+    "node_count": 2,
+    "sha256": "a99270f1aeec4571da13a5ef82e5e30db32382ddf51901149a9650e51282e144"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/queries/custom-models.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278516+00:00",
+    "node_count": 4,
+    "sha256": "9114c62545c87fd05c679dacb978af09b594a2c7a4a39c4d81b21c5c6f4d56af"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/queries/custom-validation.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278530+00:00",
+    "node_count": 4,
+    "sha256": "44f6c6fdb60c88df86b2955e8f53cb20d87f23a21ac069ecd13df4dfe76264a9"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/queries/excluding-fields.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278542+00:00",
+    "node_count": 1,
+    "sha256": "2b904eb05fbd5b0cf06e13504a615216568a7a3c6d7e23f1cf29a08651a9e275"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/queries/filtering-and-sorting.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278554+00:00",
+    "node_count": 1,
+    "sha256": "4f762ede01784bc360aceb42907be7e4e10af9e96e99741e22dbaacd0fad2f22"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/queries/full-text-search.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278567+00:00",
+    "node_count": 1,
+    "sha256": "00463bb3642d79c8720c7286b3eaf665455782cb0214420cbeeb76771cc3cf26"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/queries/pagination.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278579+00:00",
+    "node_count": 1,
+    "sha256": "6b3f050f8caad77c0eee53083dd011286817b076386cf4922ea7104e3504765d"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/queries/query-optimization-performance.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278599+00:00",
+    "node_count": 3,
+    "sha256": "f16fa1f9f101f0f8e8cb313412a0747de0ac913396c0e27790b4b92b7a266eef"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/queries/relation-queries.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278646+00:00",
+    "node_count": 1,
+    "sha256": "161e421fad0e0c56d9df9757e9a1cdd29cac978d360efe5be63a4b9ba3ae2369"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/queries/select-fields.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278659+00:00",
+    "node_count": 1,
+    "sha256": "557a7cb1b5fc406e3790961ca170c24dd90f87d0ebfd44b11c8e230ce9fe4c50"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/queries/transactions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278706+00:00",
+    "node_count": 3,
+    "sha256": "f614037d4d265205749f95a128882cf7db229128b74bfb80ea70a300bacce570"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/custom-model-and-field-names.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278717+00:00",
+    "node_count": 1,
+    "sha256": "61b48634892932d197f3339ef7d09ff34492a0afe2af3a036ccbc43d11ef3f2e"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/database-polyfills.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278725+00:00",
+    "node_count": 0,
+    "sha256": "78b3bcab1db6cd764f2a548d290ebe680deb3ecac5cfbfb3af23e1f59174bc2b"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/connection-management.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278734+00:00",
+    "node_count": 2,
+    "sha256": "b7255f9dbceb273d2ae8308e7fdbd187fa5026c37b01ca81bd0628f7a702ba83"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/connection-pool.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278746+00:00",
+    "node_count": 2,
+    "sha256": "0c015bc03eba4f63ba2126d58a0e12a07f2fc68501ecda45d2a2fc585868b995"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278771+00:00",
+    "node_count": 3,
+    "sha256": "9e7de9b5ae96cdf24c1738bcf6a353e16e2f3183f15f8a5c58bf88dc07600c6c"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/pgbouncer.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278785+00:00",
+    "node_count": 1,
+    "sha256": "9a66f9cb8d02412204cd188056df590e046ef1df1e68d763b14a10c838b778e3"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/error-formatting.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278795+00:00",
+    "node_count": 1,
+    "sha256": "711ba85cf465fe5e7128320f1fd2775839f35b54a29354c03bba3f377f835c23"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/generating-prisma-client.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278804+00:00",
+    "node_count": 1,
+    "sha256": "86ffa3100a95213aac2ee58ab4f4efdd3a32a187bedae2b9bf7309fd4dfa4608"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/instantiate-prisma-client.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278814+00:00",
+    "node_count": 1,
+    "sha256": "e4f78babca520e68938d6254ec81610022e805bf059431487c57b20c46c49672"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/introduction.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278825+00:00",
+    "node_count": 1,
+    "sha256": "1b977a6b9d8db349af740c0929be289e1c1074ebfb08af7fa4942c28ad1d9205"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/no-rust-engine.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278839+00:00",
+    "node_count": 2,
+    "sha256": "8c77919fe82e9ebbd2aa6352ca24d13385c6e550510d77f14ceb03396d0d1e59"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/read-replicas.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278850+00:00",
+    "node_count": 1,
+    "sha256": "578d403d0f71a55da62ae9095b37cb59902600309b972087204540f34e33e9e3"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/special-fields-and-types/composite-types.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278871+00:00",
+    "node_count": 1,
+    "sha256": "95fbd5d9ed625258ae17fbe014d370ecb0821c835054e2127c06021439b75ed0"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/special-fields-and-types/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278879+00:00",
+    "node_count": 1,
+    "sha256": "b54d444d72b42329cadd5070bf0df355ae5fcbd728a301e794410497e5a974c4"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/special-fields-and-types/null-and-undefined.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278893+00:00",
+    "node_count": 1,
+    "sha256": "f2161e2b73e58faf406b20a91f9f69eeb971d93d047f8268552eaa3b2cf9b7f0"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/special-fields-and-types/working-with-composite-ids-and-constraints.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278902+00:00",
+    "node_count": 1,
+    "sha256": "8aee0a0470ec5d1389dcee109cc7a9bca86f40e6f05b7653857ff44a66c60548"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/special-fields-and-types/working-with-json-fields.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278917+00:00",
+    "node_count": 1,
+    "sha256": "de6b7d0f10ec9b02bb4aef7d15ae043f5bf08c96f33e03aa26e01559f887b61f"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/special-fields-and-types/working-with-scalar-lists-arrays.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278928+00:00",
+    "node_count": 1,
+    "sha256": "6f09a4ea10ed679ff4516997b97de64b80ace11b6a4a3d6679ee0ad082a0d0cf"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/testing/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278936+00:00",
+    "node_count": 0,
+    "sha256": "3dc34e60d4f09bcbb56c99441240fab8f950763d6eb203274369a6a391dde11a"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/testing/integration-testing.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278953+00:00",
+    "node_count": 1,
+    "sha256": "c3d8343254e017e04a875a05408930a55973ca375f6f50c5ed1426db3400825f"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/testing/unit-testing.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278965+00:00",
+    "node_count": 5,
+    "sha256": "2219aff7ee92cdea685cd283f16f64b60ec64a36bdae49d9b154fe1423a86717"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/type-safety/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278976+00:00",
+    "node_count": 4,
+    "sha256": "2f4a07e051006d0be6e1b560d85bd6ed9d1feba786f0a45a2a95d46c0af43e19"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278985+00:00",
+    "node_count": 6,
+    "sha256": "0add998b6d95aa61d8ecefe32c4b09ff6d29739ed8d8afe54d5ab80678e7a044"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/type-safety/prisma-type-system.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.278996+00:00",
+    "node_count": 1,
+    "sha256": "b5aca98a6393116fe851ff2de6567f6e05eba4f837c9606e08ece5e6e6efce67"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/type-safety/prisma-validator.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279006+00:00",
+    "node_count": 1,
+    "sha256": "2381329e13abbcf86d45c5eb62fb8588a92dc8e35f2ded62c776626c2a256ed6"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/using-raw-sql/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279015+00:00",
+    "node_count": 1,
+    "sha256": "a1069890fa056e3ea77c654c0e53707669b7ed367ba54c1e0a1da659c0344025"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/using-raw-sql/raw-queries.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279043+00:00",
+    "node_count": 2,
+    "sha256": "11980bac5d5e91659949c97f267989e1a795c5305b044435d047bb580717e2fa"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/using-raw-sql/safeql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279054+00:00",
+    "node_count": 3,
+    "sha256": "c06dcd8aa9b30fe4775d82e2de842653a3bfb5e18cb737b335fecacde1bd39f0"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-client/using-raw-sql/typedsql.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279065+00:00",
+    "node_count": 1,
+    "sha256": "6acf543377d7ba17577b006b1a07c6a5753cafc76eb4add06354f984b8ffd537"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/getting-started.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279077+00:00",
+    "node_count": 1,
+    "sha256": "34a88725ee2089f63ac4bfa6474586c82a94bcdd24c5e591e2c05ab0655511a1"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/understanding-prisma-migrate/legacy-migrate.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279096+00:00",
+    "node_count": 1,
+    "sha256": "ef3e0ac832a3c7d540b2e6a989aaa9a58ea604d67a1a0c912f56310a5174e018"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/understanding-prisma-migrate/limitations-and-known-issues.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279104+00:00",
+    "node_count": 1,
+    "sha256": "e40f830e72ddb77d9de372b3b3c252b30139026027eb47a80b7b414c502f02ad"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/understanding-prisma-migrate/mental-model.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279119+00:00",
+    "node_count": 1,
+    "sha256": "551d7ddd11825cd93f82c2ad920e89036d7328e01b7ef0989938923b17d86fb6"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/understanding-prisma-migrate/migration-histories.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279129+00:00",
+    "node_count": 1,
+    "sha256": "3ef1f8817ff486e2a30d245a24f5f4b9380a522093b88ef794668a7948c0675f"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/understanding-prisma-migrate/overview.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279137+00:00",
+    "node_count": 1,
+    "sha256": "ed213a55d940673f3a89a4371acbaf5376ff713461569571933ac0eb4a5e1677"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/understanding-prisma-migrate/shadow-database.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279152+00:00",
+    "node_count": 1,
+    "sha256": "4e148abe9762e03f29ccc3706d0ff67fd38b896006fcadf3c3cd3a51fe5f74e0"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/workflows/baselining.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279162+00:00",
+    "node_count": 1,
+    "sha256": "7a0572cd3961468e17166ab038033b7aba5fca562df6b42f89bc27730a5cd05f"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/workflows/customizing-migrations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279174+00:00",
+    "node_count": 1,
+    "sha256": "394013cc06812558b2a45059d6c3a2d6530d0de5c08d83a4ba2d5292f62a40a4"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/workflows/data-migration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279181+00:00",
+    "node_count": 0,
+    "sha256": "89b8b1665a406e82cb66030eedbec575d8246a6f7267645ba38676ebc65a5121"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/workflows/development-and-production.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279191+00:00",
+    "node_count": 1,
+    "sha256": "dacda44fe2c4538e1cacf5cdccb140df8635c5b319972979c909782c21ea1f5d"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/workflows/generating-down-migrations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279201+00:00",
+    "node_count": 1,
+    "sha256": "998a8d977c4462cf169c1c726bd0260bec831b3c68962bded808acc21d6f49a7"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/workflows/native-database-functions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279210+00:00",
+    "node_count": 1,
+    "sha256": "50dde6574d0ea644a94a8a2269d7482ad0f1ebbb924b1d1525a492f2c56b1669"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/workflows/native-database-types.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279220+00:00",
+    "node_count": 1,
+    "sha256": "50876d909c3ea955c8c20e35b16ea5d90f428dc442b0ccd47c0d7d39e3ed6589"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/workflows/patching-and-hotfixing.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279235+00:00",
+    "node_count": 1,
+    "sha256": "d7f23a31bbad3753cd81c683cc31d7100e084f452b7a53eda075522a10de20a8"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/workflows/prototyping-your-schema.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279249+00:00",
+    "node_count": 1,
+    "sha256": "7d9381b00364a2c8b5bde9f9d68db36e4c7e177892230ff5ba903459ea5f4f1a"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/workflows/seeding.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279263+00:00",
+    "node_count": 3,
+    "sha256": "a4c6e8c48bf698755fcf31e1dd7625ae3cc89710376d76103fee278a19664d7e"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/workflows/squashing-migrations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279275+00:00",
+    "node_count": 1,
+    "sha256": "6852026bfc07363a83f36a80d43dfbdfcaba6f3cf12baefbabcd46a6cfb2d12b"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/workflows/team-development.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279283+00:00",
+    "node_count": 0,
+    "sha256": "b883a204292f9e07a2ca1ad748fbf7bf0327f6e0fc9f60f1bac69fc8e3107bd9"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/workflows/troubleshooting.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279292+00:00",
+    "node_count": 1,
+    "sha256": "aa5e2b365b21b576ac9655037f551e931c0ec67d28fe0038bfefd1b2efb4eddc"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-migrate/workflows/unsupported-database-features.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279300+00:00",
+    "node_count": 1,
+    "sha256": "3f89e03ae180611e0bef9f8d8e641ecf5849d8cc589af2afeb553aa5257f4d0e"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/database-mapping.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279311+00:00",
+    "node_count": 1,
+    "sha256": "da271e60cb87ee46922adb234bdc502d99b03952c17c2e157c19bea723e02146"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/externally-managed-tables.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279324+00:00",
+    "node_count": 2,
+    "sha256": "6a0ca739a7352aef3691e5a748991964f022b05ced2aefe50faa550625e52020"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/indexes.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279349+00:00",
+    "node_count": 1,
+    "sha256": "edd941a5a79459a52174c729df0bbb00e700cbc5c7b4314a79d59f01d1ab1ae2"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/models.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279379+00:00",
+    "node_count": 2,
+    "sha256": "1fe9dd16feabd6e8644bfe32cede87652d5a3db3e34ec161f0977087feafbad6"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/multi-schema.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279389+00:00",
+    "node_count": 1,
+    "sha256": "bb553e7f57dfbe3979f9de5b5084c0c66360b6ed86ded49ae01e0dd0e101251a"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279408+00:00",
+    "node_count": 1,
+    "sha256": "104d5c72dacb606bc256b00aadc4378c70687d465f6c9ed82da9dd42579b67b2"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/many-to-many-relations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279427+00:00",
+    "node_count": 1,
+    "sha256": "9e934a9ed86a83c1c9fca8ee7a6e5090bddb29b31087465c3ebf6774d35f86dd"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/one-to-many-relations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279436+00:00",
+    "node_count": 1,
+    "sha256": "507e09b85fba39d71610f8c914c26a3a11e020f9303219c5baf1cee8d9d33ab9"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/one-to-one-relations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279446+00:00",
+    "node_count": 1,
+    "sha256": "673dcdcb63694248954cfab6c293ddb60a97f8b678a803f7326c9bc3be98045c"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/referential-actions/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279466+00:00",
+    "node_count": 2,
+    "sha256": "37f2232e0549c11d044920a7555d3127b0dd785b982a3c97fa7701485fc0ae16"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/referential-actions/special-rules-for-referential-actions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279480+00:00",
+    "node_count": 1,
+    "sha256": "8260b2f055ae9162cc49a6d44e762c2339a4e8f3c217e402200082d7f2d981cc"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/relation-mode.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279496+00:00",
+    "node_count": 1,
+    "sha256": "0589603a5153479579664334a6d6f236722c52928685292d644b37bc22efbf88"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/self-relations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279507+00:00",
+    "node_count": 1,
+    "sha256": "87ceb95898e2f747bcf2c3505f07237251b1a6a3ed30a2a6f05391c73686b90c"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/troubleshooting-relations.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279517+00:00",
+    "node_count": 1,
+    "sha256": "29fca21c9f86e04269518d179def18d378e1471cead52dd5210c477543c88967"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/table-inheritance.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279528+00:00",
+    "node_count": 7,
+    "sha256": "93f3987c2893f8d3cabbaff88e5b558e212ac14052242d74c1a461697f2f24b5"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/unsupported-database-features.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279537+00:00",
+    "node_count": 1,
+    "sha256": "3bb6d8e5be7ead13e9af410e7eea08efc49640ae5c9d54b3c5027335b97b7194"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/data-model/views.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279548+00:00",
+    "node_count": 1,
+    "sha256": "20da6a42df0d092e20288a3a7c92d67244864a92ab271826a6b4efabbc45ad13"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/introspection.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279564+00:00",
+    "node_count": 1,
+    "sha256": "bd7c15fa85b00dda6a1a9a699cb3547f8d45ac67edbaade92517923788e8aa8f"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/overview/data-sources.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279572+00:00",
+    "node_count": 1,
+    "sha256": "730e0c5e91f70b94199a6eec32ff04873d97351dda2b53087b6c6a84dad4c47f"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/overview/generators.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279594+00:00",
+    "node_count": 2,
+    "sha256": "8ab93de93c6211fee68dc6851ebc4bd33a97c01ce6774c48e4b455839f2c06c2"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/overview/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279606+00:00",
+    "node_count": 1,
+    "sha256": "6dbc22e9fcf8616d793be37a83f6c4dd40838681f54cef844d6e9b4594d90df9"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/overview/location.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279616+00:00",
+    "node_count": 1,
+    "sha256": "a52c2e803d04873dd965281ff714fe4e1c895b04c1e210c5c56ab5b3e08f893f"
+  },
+  "apps/docs/content/docs/orm/v6/prisma-schema/postgresql-extensions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279624+00:00",
+    "node_count": 1,
+    "sha256": "871e992cbd72b5816328d90a4dadb443094b1c88eb142f97e7a9cd076b05fc1f"
+  },
+  "apps/docs/content/docs/orm/v6/reference/connection-urls.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279633+00:00",
+    "node_count": 1,
+    "sha256": "8040aefa9173473a6cb4955ab73b8f92a15b776fd128aa7b5b564cbc4e4a2e71"
+  },
+  "apps/docs/content/docs/orm/v6/reference/database-features.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279648+00:00",
+    "node_count": 1,
+    "sha256": "7828d875a409012fb8afd70d433c6214bb77f718c9693fdd69a5b3a134539492"
+  },
+  "apps/docs/content/docs/orm/v6/reference/environment-variables-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279659+00:00",
+    "node_count": 1,
+    "sha256": "333d2fb09d4e175390d012bf6e0c20d61bbdcc46ccc14e2c3664e9e371f641f7"
+  },
+  "apps/docs/content/docs/orm/v6/reference/error-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279672+00:00",
+    "node_count": 1,
+    "sha256": "e68e2793da44253da61adf15bd6d97e329d9de23e22d44123996ef5aabdf8efe"
+  },
+  "apps/docs/content/docs/orm/v6/reference/errors/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279680+00:00",
+    "node_count": 0,
+    "sha256": "4217956706bb0e026539896467f5ebeece21912299eb5042c347f576d9d796b2"
+  },
+  "apps/docs/content/docs/orm/v6/reference/preview-features/cli-preview-features.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279688+00:00",
+    "node_count": 1,
+    "sha256": "b749a701e3cca07088af640019f61c5ba96da28d05315a1f84b50715005b41d1"
+  },
+  "apps/docs/content/docs/orm/v6/reference/preview-features/client-preview-features.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279708+00:00",
+    "node_count": 1,
+    "sha256": "6ecb5f25bfad15aea82566eb6e9be461de3ab6dc8d20e77f82dfd4dc3da5be64"
+  },
+  "apps/docs/content/docs/orm/v6/reference/preview-features/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279717+00:00",
+    "node_count": 0,
+    "sha256": "c7a83489189f630237317b6a1a725f3632ee073df8a7fecc9015072af0eeb19b"
+  },
+  "apps/docs/content/docs/orm/v6/reference/prisma-cli-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279781+00:00",
+    "node_count": 1,
+    "sha256": "c02dec05a63b97fc8b0425ce609bc190490523c9869f4f05c8c13944bf867121"
+  },
+  "apps/docs/content/docs/orm/v6/reference/prisma-client-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279888+00:00",
+    "node_count": 5,
+    "sha256": "972692a0d9191b6d11ee06e3d4ace074c2afdc43c476c3affa2fadce60cc0c8b"
+  },
+  "apps/docs/content/docs/orm/v6/reference/prisma-config-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279909+00:00",
+    "node_count": 2,
+    "sha256": "7b485d6242b9cc8defc48e5a99506479317be51c0725a7ed586dff0dfe42a5f8"
+  },
+  "apps/docs/content/docs/orm/v6/reference/prisma-schema-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279983+00:00",
+    "node_count": 1,
+    "sha256": "ff6a66f0bc22293897b308a6ef2d288d06ddfe9b60a390cb72dc640f63b92f8d"
+  },
+  "apps/docs/content/docs/orm/v6/reference/supported-databases.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.279991+00:00",
+    "node_count": 1,
+    "sha256": "fb6dcfa56f18d51d3b5a29d370d9b71f20622c9ab1a86d005aaf6b103afd1ae8"
+  },
+  "apps/docs/content/docs/orm/v6/reference/system-requirements.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280000+00:00",
+    "node_count": 1,
+    "sha256": "e8709123e1c93a21d5378c5b6c56e779d5f184c9094f5982b0e8f0945b6475e1"
+  },
+  "apps/docs/content/docs/orm/v6/tools/prisma-cli.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280011+00:00",
+    "node_count": 1,
+    "sha256": "2c697c568d75e05ad76bb482d7bd57261b3d27ff0350e658319ea4cce0a714c9"
+  },
+  "apps/docs/content/docs/orm/v6/tools/prisma-studio.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280023+00:00",
+    "node_count": 1,
+    "sha256": "a4ec83d0325843820e703dbbd33994cee489efda56d7188e2dca9cdf91431a8d"
+  },
+  "apps/docs/content/docs/postgres/best-postgres-for-ai-apps.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280032+00:00",
+    "node_count": 1,
+    "sha256": "a27e6e4ef08d613feedb4b74d4a5a76ad8335e5aff9372ab33dbc10c1de4752b"
+  },
+  "apps/docs/content/docs/postgres/database/backups.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280041+00:00",
+    "node_count": 1,
+    "sha256": "3f6d144418027479feb4e6a1e98f79e8b7ed079bca82ab0e1cfac141490f1ebd"
+  },
+  "apps/docs/content/docs/postgres/database/connecting-to-your-database.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280052+00:00",
+    "node_count": 1,
+    "sha256": "25be90b74735471ed970086dbe0fe80690d4d43c2b18084950e35be2ee0d6cd0"
+  },
+  "apps/docs/content/docs/postgres/database/connection-pooling.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280062+00:00",
+    "node_count": 1,
+    "sha256": "699ec350db97f1a2f5775f8c0962cd7fd79e6f9e1beb543fdf112894f526f71a"
+  },
+  "apps/docs/content/docs/postgres/database/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280070+00:00",
+    "node_count": 0,
+    "sha256": "569d3b7bed5b274c69266affdd5033213814a3f986b0e3a141f71f8e629dce0a"
+  },
+  "apps/docs/content/docs/postgres/database/local-development.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280088+00:00",
+    "node_count": 2,
+    "sha256": "f43a5d75359a68826b81c69a411e7845d987ce1e0157685b0782c942aacc424f"
+  },
+  "apps/docs/content/docs/postgres/database/postgres-extensions.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280097+00:00",
+    "node_count": 1,
+    "sha256": "5bdfe9aa590f18aec2b8b2026cce6afb3962f0d73513ddd4f62dfa2cd62061ca"
+  },
+  "apps/docs/content/docs/postgres/database/query-insights.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280105+00:00",
+    "node_count": 1,
+    "sha256": "f293e2f4d261808986f7e889d092e37f8af10a787d9f3b31a199d030b951983f"
+  },
+  "apps/docs/content/docs/postgres/database/serverless-driver.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280118+00:00",
+    "node_count": 3,
+    "sha256": "583efe4a63b94e335a29598337924e4469e0a5a8afdf4512848808605c167d7b"
+  },
+  "apps/docs/content/docs/postgres/error-reference.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280129+00:00",
+    "node_count": 1,
+    "sha256": "5668ebd458d322e59aa3daa9a69c3aacd72b66e7d8a5f04c881c052208d3c14c"
+  },
+  "apps/docs/content/docs/postgres/faq.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280148+00:00",
+    "node_count": 1,
+    "sha256": "60354156bfceb2d8c3f94fbdb402d7eab9aaaba20fe3746fc9f302f261e66a05"
+  },
+  "apps/docs/content/docs/postgres/iac/alchemy.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280157+00:00",
+    "node_count": 1,
+    "sha256": "b59bbcf1d8fdcf876b1aa749222f92ee878cb3efae289589e3ece257c56a1583"
+  },
+  "apps/docs/content/docs/postgres/iac/pulumi.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280166+00:00",
+    "node_count": 1,
+    "sha256": "33fcaa81fcef7da3badf9fe19f0168daa57abdacf12930d544902342d5f882e0"
+  },
+  "apps/docs/content/docs/postgres/iac/terraform.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280175+00:00",
+    "node_count": 1,
+    "sha256": "79f3a7895db14abf2a31419914235ec4b2e373fa1488907ea61f7c128459ed1e"
+  },
+  "apps/docs/content/docs/postgres/import-from-existing-database.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280183+00:00",
+    "node_count": 0,
+    "sha256": "594660da09b11efd518242886737de84ebef8acb0d67daeee5cefaac6a755a54"
+  },
+  "apps/docs/content/docs/postgres/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280194+00:00",
+    "node_count": 1,
+    "sha256": "6adc4d4637af3c0b74f988e428aabb540033b81d938f683db3fb5eb52b6e8d30"
+  },
+  "apps/docs/content/docs/postgres/integrations/raycast.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280204+00:00",
+    "node_count": 1,
+    "sha256": "19b859685551aba2536f852a2da4262691844f51d2cd02b1ad551ef6bce3f880"
+  },
+  "apps/docs/content/docs/postgres/npx-create-db.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280218+00:00",
+    "node_count": 1,
+    "sha256": "8c0d6c15187eaba9d59aaf765225612fec5124c210e2e68747bef0c80156616d"
+  },
+  "apps/docs/content/docs/postgres/troubleshooting.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280228+00:00",
+    "node_count": 1,
+    "sha256": "f7ad0a2e02ddaa9e12dab26fb4dc7f79233efe9ea49f0e8525a676a91a6235d6"
+  },
+  "apps/docs/content/docs/query-insights/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280237+00:00",
+    "node_count": 1,
+    "sha256": "8e0c60771c12de1c065bcaa9f0f9ea8ab336f9482841714402a72c649038b0dd"
+  },
+  "apps/docs/content/docs/studio/getting-started.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280245+00:00",
+    "node_count": 1,
+    "sha256": "4a915e2ac2b86f6f98579799967e077e990e38e718998fe1dec017eba6d6cba0"
+  },
+  "apps/docs/content/docs/studio/index.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280252+00:00",
+    "node_count": 1,
+    "sha256": "83a609d4f8905ed9bb4d2d039fbffa3e6323d48595594521797697fe8be5148e"
+  },
+  "apps/docs/content/docs/studio/integrations/embedding.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280271+00:00",
+    "node_count": 3,
+    "sha256": "0953dc39ac51c89ceb386dff690e230f072c465a97d30a67fd5eb8ea3978b29b"
+  },
+  "apps/docs/content/docs/studio/integrations/vscode-integration.mdx": {
+    "edge_count": 0,
+    "last_extracted": "2026-06-17T17:17:13.280278+00:00",
+    "node_count": 0,
+    "sha256": "d8ecbafd0fc00cbfc75d6fdba238776d993d51bc731122ae0ddcdd5b07b8aced"
+  }
+}

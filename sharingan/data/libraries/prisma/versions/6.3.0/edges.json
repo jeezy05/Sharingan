@@ -1,0 +1,5462 @@
+[
+  {
+    "type": "HAS_VERSION",
+    "confidence": "EXTRACTED",
+    "source": "prisma",
+    "target": "prisma@6.3.0"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/getting-started.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-compute/deploy.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/cockroachdb.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/mongodb.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/mysql.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/planetscale.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/postgresql.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/prisma-postgres.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/sql-server.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/sqlite.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/cockroachdb.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/mongodb.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/mysql.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/planetscale.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/postgresql.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/prisma-postgres.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/sql-server.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/sqlite.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/from-the-cli.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/import-from-existing-database-mysql.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/import-from-existing-database-postgresql.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/drizzle-orm.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Database"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::UsersTable"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::parseConnectionString"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::is"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/kysely.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/prisma-orm.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/typeorm.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/compare.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::calculateStatistics"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::getPercentile"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/evaluating.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/examples.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/getting-started.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/local-development.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/more/faq.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/more/known-limitations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/more/troubleshoot.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/reference/api-reference.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/static-ip.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/prompts/astro.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/prompts/nextjs.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/prompts/nuxt.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/prompts/prisma-7.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/prompts/turborepo.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/chatgpt.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/codex.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/cursor.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/github-copilot.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/mcp-server.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/skills.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::GET"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::POST"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::PUT"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::DELETE"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::useState"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::useEffect"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::User"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/tabnine.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/windsurf.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tutorials/linktree-clone.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::testDatabase"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tutorials/typefully-clone.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/console/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/console/status.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/db/execute.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/db/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/db/pull.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/db/push.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/db/seed.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/debug.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/dev/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/dev/ls.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/dev/rm.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/dev/start.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/dev/stop.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/format.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/generate.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/init.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/migrate/deploy.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/migrate/dev.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/migrate/diff.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/migrate/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/migrate/reset.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/migrate/resolve.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/migrate/status.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/studio.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/validate.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/cli/version.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/compute/branching.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/compute/cli-reference.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/compute/configuration.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/compute/deployments.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/compute/domains.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/compute/environment-variables.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/compute/faq.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/compute/getting-started.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/compute/github.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/compute/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/compute/limitations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/compute/pricing.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/console/concepts.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/console/features/metrics.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/console/getting-started.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/console/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/console/more/feature-maturity.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/console/more/support.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::SignIn"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::SignOut"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/authjs/nextjs.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/better-auth/astro.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::SignUpPage"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::useRouter"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::handleSubmit"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::SignInPage"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::DashboardPage"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::useSession"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Home"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/better-auth/nextjs.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/clerk/astro.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::RootLayout"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Navbar"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::PostInputs"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::createPost"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/clerk/nextjs.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/database/data-migration.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/database/multiple-databases.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/database/schema-changes.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/deployment/bun-workspaces.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/deployment/cloudflare-d1.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Env"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/deployment/cloudflare-workers.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/deployment/docker.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/deployment/pnpm-workspaces.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/deployment/turborepo.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::ImportMetaEnv"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::ImportMeta"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::UserWithPosts"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/astro.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/elysia.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::withPrisma"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::ContextWithPrisma"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/hono.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::UserService"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::PostService"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::AppController"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::AppModule"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nestjs.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Posts"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Post"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::NewPost"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nextjs.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nuxt.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::meta"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::loader"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::action"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/react-router-7.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::App"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/solid-start.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::load"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/sveltekit.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::useLoaderData"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/tanstack-start.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/index.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::saveChat"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Page"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::useChat"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Chat"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/ai-sdk.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/datadog.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::handler"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/deno.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::OPTIONS"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::useMemo"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::StudioLoading"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::ClientOnlyStudio"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/embed-studio.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/github-actions.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/neon-accelerate.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/permit-io.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/pgfence.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::ProductNotesLayout"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::useNavigate"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::selectProduct"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::useRouteError"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::ErrorBoundary"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::ProductNotes"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::useActionData"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::useAppBridge"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/shopify.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/supabase-accelerate.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::deployApp"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::DeploymentService"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/vercel-deployment.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/making-guides.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/postgres/flyio.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/postgres/netlify.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/postgres/vercel.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/postgres/viewing-data.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/postgres/vscode.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/runtimes/bun.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/runtimes/deno.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/switch-to-prisma-orm/from-drizzle.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::UserController"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/switch-to-prisma-orm/from-mongoose.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/switch-to-prisma-orm/from-sql-orms.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/switch-to-prisma-postgres/from-neon.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/switch-to-prisma-postgres/from-supabase.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::getUser"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::login"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/upgrade-prisma-orm/v1.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/upgrade-prisma-orm/v3.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/upgrade-prisma-orm/v4.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/upgrade-prisma-orm/v5.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/upgrade-prisma-orm/v6.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/guides/upgrade-prisma-orm/v7.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/management-api/api-clients.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/management-api/authentication.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/management-api/getting-started.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/management-api/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/management-api/partner-integration.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Implement"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::to"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::TokenStorage"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Tokens"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Workspace"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Project"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/management-api/sdk.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/core-concepts/api-patterns.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/core-concepts/data-modeling.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/core-concepts/supported-databases/database-drivers.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/core-concepts/supported-databases/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/core-concepts/supported-databases/mongodb.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/core-concepts/supported-databases/mysql.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/core-concepts/supported-databases/postgresql.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/core-concepts/supported-databases/sql-server.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/core-concepts/supported-databases/sqlite.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/index.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::getAdminEmails"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::createUser"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/best-practices.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/comparisons/prisma-and-drizzle.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/comparisons/prisma-and-mongoose.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/comparisons/prisma-and-sequelize.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/comparisons/prisma-and-typeorm.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/dev-environment/editor-setup.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/dev-environment/environment-variables.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/releases.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/troubleshooting/bundler-issues.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/troubleshooting/check-constraints.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/troubleshooting/graphql-autocompletion.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/troubleshooting/many-to-many-relations.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::createPrismaClient"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::TenantConfig"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/troubleshooting/nextjs.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/troubleshooting/raw-sql-comparisons.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/troubleshooting/typescript-performance.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/client.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/extension-examples.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::ExtendedPrismaClient"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::ExtendedUser"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/model.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/query.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/result.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/shared-extensions/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/shared-extensions/permit-rbac.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::CacheStrategy"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/type-utilities.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/debugging-and-troubleshooting/debugging.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/debugging-and-troubleshooting/handling-exceptions-and-errors.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/caveats-when-deploying-to-aws-platforms.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/deploy-database-changes-with-prisma-migrate.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/deploy-migrations-from-a-local-environment.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/deploy-prisma.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/edge/deploy-to-cloudflare.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/edge/deploy-to-deno-deploy.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/edge/deploy-to-vercel.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/edge/overview.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/serverless/deploy-to-aws-lambda.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/serverless/deploy-to-azure-functions.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/serverless/deploy-to-netlify.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/serverless/deploy-to-vercel.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/traditional/deploy-to-flyio.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/traditional/deploy-to-heroku.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/traditional/deploy-to-koyeb.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/traditional/deploy-to-railway.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/traditional/deploy-to-render.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/traditional/deploy-to-sevalla.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/observability-and-logging/logging.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/observability-and-logging/opentelemetry-tracing.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::RequestContext"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::useGlobalInterceptors"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::QueryTagsInterceptor"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/observability-and-logging/sql-comments.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::getPosts"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::getUsers"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/advanced/query-optimization-performance.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/aggregation-grouping-summarizing.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/crud.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/excluding-fields.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/filtering-and-sorting.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/full-text-search.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/pagination.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/relation-queries.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/select-fields.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::transfer"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/transactions.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/setup-and-configuration/custom-model-and-field-names.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/setup-and-configuration/databases-connections/connection-management.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/setup-and-configuration/databases-connections/connection-pool.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/setup-and-configuration/databases-connections/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/setup-and-configuration/databases-connections/pgbouncer.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/setup-and-configuration/error-formatting.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/setup-and-configuration/generating-prisma-client.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/setup-and-configuration/introduction.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/setup-and-configuration/read-replicas.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/special-fields-and-types/composite-types.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/special-fields-and-types/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/special-fields-and-types/null-and-undefined.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/special-fields-and-types/working-with-composite-ids-and-constraints.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/special-fields-and-types/working-with-json-fields.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/special-fields-and-types/working-with-scalar-lists-arrays.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/testing/integration-testing.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::updateUsername"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::CreateUser"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::UpdateUser"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/testing/unit-testing.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::PostUncheckedCreateInput"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::PostCreateInput"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::UserCreateNestedOneWithoutPostsInput"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/type-safety/index.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::UserPersonalData"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::getUsersWithPosts"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::ThenArg"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::UsersWithPosts"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/type-safety/prisma-type-system.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/using-raw-sql/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/using-raw-sql/raw-queries.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::MyPointOfInterest"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::st_distancesphere"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/using-raw-sql/safeql.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/using-raw-sql/typedsql.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/getting-started.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/understanding-prisma-migrate/limitations-and-known-issues.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/understanding-prisma-migrate/mental-model.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/understanding-prisma-migrate/migration-histories.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/understanding-prisma-migrate/shadow-database.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/workflows/baselining.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/workflows/customizing-migrations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/workflows/development-and-production.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/workflows/generating-down-migrations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/workflows/native-database-functions.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/workflows/native-database-types.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/workflows/patching-and-hotfixing.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/workflows/prototyping-your-schema.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/workflows/seeding.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/workflows/squashing-migrations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/workflows/troubleshooting.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/workflows/unsupported-database-features.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/database-mapping.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::as"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/externally-managed-tables.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/indexes.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/models.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/multi-schema.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/relations/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/relations/many-to-many-relations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/relations/one-to-many-relations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/relations/one-to-one-relations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/relations/referential-actions.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/relations/relation-mode.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/relations/self-relations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/relations/troubleshooting-relations.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Activity"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Video"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Article"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::activityToArticle"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::toVideo"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::VideoWithActivity"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/table-inheritance.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/unsupported-database-features.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/views.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/introspection.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/overview/data-sources.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/overview/generators.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/overview/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/overview/location.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/postgresql-extensions.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/connection-urls.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/database-features.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/environment-variables-reference.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/error-reference.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/preview-features/cli-preview-features.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/preview-features/client-preview-features.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/prisma-cli-reference.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::QueryEvent"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::LogEvent"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::updateTwo"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/prisma-client-reference.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/prisma-config-reference.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/prisma-schema-reference.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/supported-databases.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/system-requirements.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/chatgpt.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/cursor.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/github-copilot.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/tabnine.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/windsurf.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/comparisons/prisma-and-drizzle.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/comparisons/prisma-and-mongoose.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/comparisons/prisma-and-sequelize.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/comparisons/prisma-and-typeorm.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/dev-environment/editor-setup.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/dev-environment/environment-variables.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/internals/engines.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/releases.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/troubleshooting/bundler-issues.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/troubleshooting/check-constraints.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/troubleshooting/graphql-autocompletion.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/troubleshooting/many-to-many-relations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/troubleshooting/nextjs.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/troubleshooting/raw-sql-comparisons.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/troubleshooting/typescript-performance.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/upgrades/from-v1.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/upgrades/older-versions.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/upgrades/to-v7.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/beyond-prisma-orm.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/databases/cloudflare-d1.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/databases/cockroachdb.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/databases/database-drivers.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/databases/mongodb.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/databases/mysql.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/databases/neon.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/databases/planetscale.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/databases/postgresql.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/databases/sql-server/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/databases/sql-server/sql-server-docker.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/databases/sql-server/sql-server-local.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/databases/sqlite.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/databases/supabase.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/databases/turso.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/introduction/data-modeling.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/introduction/should-you-use-prisma.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/introduction/what-is-prisma.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/introduction/why-prisma.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::handle"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/prisma-in-your-stack/fullstack.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/prisma-in-your-stack/graphql.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::UserRefactoring1604448000"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/prisma-in-your-stack/is-prisma-an-orm.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/prisma-in-your-stack/rest.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/client.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/extension-examples.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/model.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/query.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/result.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/shared-extensions/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/shared-extensions/permit-rbac.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/type-utilities.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/debugging-and-troubleshooting/debugging.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/debugging-and-troubleshooting/handling-exceptions-and-errors.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/debugging-and-troubleshooting/troubleshooting-binary-size-issues.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/caveats-when-deploying-to-aws-platforms.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/deploy-database-changes-with-prisma-migrate.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/deploy-migrations-from-a-local-environment.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/deploy-prisma.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/deploy-to-a-different-os.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/deploy-to-cloudflare.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/deploy-to-deno-deploy.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/deploy-to-vercel.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/overview.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/module-bundlers.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/serverless/deploy-to-aws-lambda.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/serverless/deploy-to-azure-functions.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/serverless/deploy-to-netlify.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/serverless/deploy-to-vercel.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/serverless/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/traditional/deploy-to-flyio.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/traditional/deploy-to-heroku.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/traditional/deploy-to-koyeb.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/traditional/deploy-to-railway.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/traditional/deploy-to-render.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/traditional/deploy-to-sevalla.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/observability-and-logging/logging.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/observability-and-logging/metrics.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/observability-and-logging/opentelemetry-tracing.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/observability-and-logging/sql-comments.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/aggregation-grouping-summarizing.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/case-sensitivity.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::computeFullName"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::FirstLastName"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::WithFullName"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/computed-fields.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/crud.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Users"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Signup"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/custom-models.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::signup"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/custom-validation.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/excluding-fields.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/filtering-and-sorting.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/full-text-search.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/pagination.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/query-optimization-performance.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/relation-queries.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/select-fields.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/transactions.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/custom-model-and-field-names.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/connection-management.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/connection-pool.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/pgbouncer.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/error-formatting.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/generating-prisma-client.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/instantiate-prisma-client.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/introduction.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/no-rust-engine.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/read-replicas.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/special-fields-and-types/composite-types.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/special-fields-and-types/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/special-fields-and-types/null-and-undefined.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/special-fields-and-types/working-with-composite-ids-and-constraints.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/special-fields-and-types/working-with-json-fields.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/special-fields-and-types/working-with-scalar-lists-arrays.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/testing/integration-testing.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/testing/unit-testing.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/type-safety/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/type-safety/prisma-type-system.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/type-safety/prisma-validator.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/using-raw-sql/index.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::length"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/using-raw-sql/raw-queries.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/using-raw-sql/safeql.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/using-raw-sql/typedsql.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/getting-started.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/understanding-prisma-migrate/legacy-migrate.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/understanding-prisma-migrate/limitations-and-known-issues.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/understanding-prisma-migrate/mental-model.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/understanding-prisma-migrate/migration-histories.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/understanding-prisma-migrate/overview.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/understanding-prisma-migrate/shadow-database.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/baselining.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/customizing-migrations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/development-and-production.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/generating-down-migrations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/native-database-functions.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/native-database-types.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/patching-and-hotfixing.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/prototyping-your-schema.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::rawSql"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/seeding.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/squashing-migrations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/troubleshooting.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/unsupported-database-features.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/database-mapping.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/externally-managed-tables.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/indexes.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/models.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/multi-schema.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/many-to-many-relations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/one-to-many-relations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/one-to-one-relations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/referential-actions/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/referential-actions/special-rules-for-referential-actions.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/relation-mode.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/self-relations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/troubleshooting-relations.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/table-inheritance.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/unsupported-database-features.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/views.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/introspection.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/overview/data-sources.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::types"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/overview/generators.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/overview/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/overview/location.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/postgresql-extensions.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/connection-urls.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/database-features.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/environment-variables-reference.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/error-reference.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/preview-features/cli-preview-features.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/preview-features/client-preview-features.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/prisma-cli-reference.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/prisma-client-reference.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/prisma-config-reference.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/prisma-schema-reference.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/supported-databases.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/system-requirements.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/tools/prisma-cli.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/tools/prisma-studio.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/best-postgres-for-ai-apps.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/database/backups.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/database/connecting-to-your-database.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/database/connection-pooling.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::startLocalPrisma"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/database/local-development.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/database/postgres-extensions.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/database/query-insights.mdx"
+  },
+  {
+    "type": "EXPORTS",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::Point"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/database/serverless-driver.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/error-reference.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/faq.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/iac/alchemy.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/iac/pulumi.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/iac/terraform.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/integrations/raycast.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/npx-create-db.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/troubleshooting.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/query-insights/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/studio/getting-started.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/studio/index.mdx"
+  },
+  {
+    "type": "HAS_GUIDE",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0",
+    "target": "prisma@6.3.0::guides/apps/docs/content/docs/studio/integrations/embedding.mdx"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/cockroachdb.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/mongodb.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/mysql.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/planetscale.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/postgresql.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/prisma-postgres.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/sql-server.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/add-to-existing-project/sqlite.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/cockroachdb.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/mongodb.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/mysql.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/planetscale.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/postgresql.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/prisma-postgres.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/sql-server.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-orm/quickstart/sqlite.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/from-the-cli.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/drizzle-orm.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/kysely.mdx",
+    "target": "prisma@6.3.0::Database"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/kysely.mdx",
+    "target": "prisma@6.3.0::UsersTable"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/kysely.mdx",
+    "target": "prisma@6.3.0::parseConnectionString"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/kysely.mdx",
+    "target": "prisma@6.3.0::is"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/kysely.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/prisma-orm.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/(index)/prisma-postgres/quickstart/typeorm.mdx",
+    "target": "prisma@6.3.0::parseConnectionString"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/evaluating.mdx",
+    "target": "prisma@6.3.0::calculateStatistics"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/evaluating.mdx",
+    "target": "prisma@6.3.0::getPercentile"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/accelerate/evaluating.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/cursor.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/tabnine.mdx",
+    "target": "prisma@6.3.0::GET"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/tabnine.mdx",
+    "target": "prisma@6.3.0::POST"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/tabnine.mdx",
+    "target": "prisma@6.3.0::PUT"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/tabnine.mdx",
+    "target": "prisma@6.3.0::DELETE"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/tabnine.mdx",
+    "target": "prisma@6.3.0::useState"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/tabnine.mdx",
+    "target": "prisma@6.3.0::useEffect"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/tabnine.mdx",
+    "target": "prisma@6.3.0::User"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/tabnine.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tools/windsurf.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/ai/tutorials/typefully-clone.mdx",
+    "target": "prisma@6.3.0::testDatabase"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/authjs/nextjs.mdx",
+    "target": "prisma@6.3.0::SignIn"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/authjs/nextjs.mdx",
+    "target": "prisma@6.3.0::SignOut"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/better-auth/nextjs.mdx",
+    "target": "prisma@6.3.0::SignUpPage"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/better-auth/nextjs.mdx",
+    "target": "prisma@6.3.0::useRouter"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/better-auth/nextjs.mdx",
+    "target": "prisma@6.3.0::handleSubmit"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/better-auth/nextjs.mdx",
+    "target": "prisma@6.3.0::SignInPage"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/better-auth/nextjs.mdx",
+    "target": "prisma@6.3.0::DashboardPage"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/better-auth/nextjs.mdx",
+    "target": "prisma@6.3.0::useSession"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/better-auth/nextjs.mdx",
+    "target": "prisma@6.3.0::useEffect"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/better-auth/nextjs.mdx",
+    "target": "prisma@6.3.0::Home"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/clerk/nextjs.mdx",
+    "target": "prisma@6.3.0::RootLayout"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/clerk/nextjs.mdx",
+    "target": "prisma@6.3.0::Navbar"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/clerk/nextjs.mdx",
+    "target": "prisma@6.3.0::POST"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/clerk/nextjs.mdx",
+    "target": "prisma@6.3.0::useState"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/clerk/nextjs.mdx",
+    "target": "prisma@6.3.0::PostInputs"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/clerk/nextjs.mdx",
+    "target": "prisma@6.3.0::createPost"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/authentication/clerk/nextjs.mdx",
+    "target": "prisma@6.3.0::Home"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/database/data-migration.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/database/multiple-databases.mdx",
+    "target": "prisma@6.3.0::Home"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/deployment/bun-workspaces.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/deployment/cloudflare-workers.mdx",
+    "target": "prisma@6.3.0::Env"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/astro.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/astro.mdx",
+    "target": "prisma@6.3.0::ImportMetaEnv"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/astro.mdx",
+    "target": "prisma@6.3.0::ImportMeta"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/astro.mdx",
+    "target": "prisma@6.3.0::UserWithPosts"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/elysia.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/hono.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/hono.mdx",
+    "target": "prisma@6.3.0::withPrisma"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/hono.mdx",
+    "target": "prisma@6.3.0::ContextWithPrisma"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nestjs.mdx",
+    "target": "prisma@6.3.0::UserService"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nestjs.mdx",
+    "target": "prisma@6.3.0::PostService"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nestjs.mdx",
+    "target": "prisma@6.3.0::AppController"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nestjs.mdx",
+    "target": "prisma@6.3.0::AppModule"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nextjs.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nextjs.mdx",
+    "target": "prisma@6.3.0::Home"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nextjs.mdx",
+    "target": "prisma@6.3.0::Posts"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nextjs.mdx",
+    "target": "prisma@6.3.0::Post"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nextjs.mdx",
+    "target": "prisma@6.3.0::NewPost"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/nextjs.mdx",
+    "target": "prisma@6.3.0::createPost"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/react-router-7.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/react-router-7.mdx",
+    "target": "prisma@6.3.0::Home"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/react-router-7.mdx",
+    "target": "prisma@6.3.0::meta"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/react-router-7.mdx",
+    "target": "prisma@6.3.0::loader"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/react-router-7.mdx",
+    "target": "prisma@6.3.0::Posts"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/react-router-7.mdx",
+    "target": "prisma@6.3.0::Post"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/react-router-7.mdx",
+    "target": "prisma@6.3.0::NewPost"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/react-router-7.mdx",
+    "target": "prisma@6.3.0::action"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/solid-start.mdx",
+    "target": "prisma@6.3.0::App"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/solid-start.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/solid-start.mdx",
+    "target": "prisma@6.3.0::GET"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/solid-start.mdx",
+    "target": "prisma@6.3.0::UserWithPosts"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/sveltekit.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/sveltekit.mdx",
+    "target": "prisma@6.3.0::load"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/tanstack-start.mdx",
+    "target": "prisma@6.3.0::Home"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/tanstack-start.mdx",
+    "target": "prisma@6.3.0::useLoaderData"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/frameworks/tanstack-start.mdx",
+    "target": "prisma@6.3.0::App"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/ai-sdk.mdx",
+    "target": "prisma@6.3.0::POST"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/ai-sdk.mdx",
+    "target": "prisma@6.3.0::saveChat"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/ai-sdk.mdx",
+    "target": "prisma@6.3.0::GET"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/ai-sdk.mdx",
+    "target": "prisma@6.3.0::Page"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/ai-sdk.mdx",
+    "target": "prisma@6.3.0::useState"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/ai-sdk.mdx",
+    "target": "prisma@6.3.0::useChat"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/ai-sdk.mdx",
+    "target": "prisma@6.3.0::Chat"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/ai-sdk.mdx",
+    "target": "prisma@6.3.0::useEffect"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/datadog.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/deno.mdx",
+    "target": "prisma@6.3.0::handler"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/embed-studio.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/embed-studio.mdx",
+    "target": "prisma@6.3.0::GET"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/embed-studio.mdx",
+    "target": "prisma@6.3.0::POST"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/embed-studio.mdx",
+    "target": "prisma@6.3.0::OPTIONS"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/embed-studio.mdx",
+    "target": "prisma@6.3.0::useMemo"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/embed-studio.mdx",
+    "target": "prisma@6.3.0::StudioLoading"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/embed-studio.mdx",
+    "target": "prisma@6.3.0::ClientOnlyStudio"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/embed-studio.mdx",
+    "target": "prisma@6.3.0::App"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/shopify.mdx",
+    "target": "prisma@6.3.0::ProductNotesLayout"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/shopify.mdx",
+    "target": "prisma@6.3.0::useNavigate"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/shopify.mdx",
+    "target": "prisma@6.3.0::selectProduct"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/shopify.mdx",
+    "target": "prisma@6.3.0::useLoaderData"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/shopify.mdx",
+    "target": "prisma@6.3.0::useRouteError"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/shopify.mdx",
+    "target": "prisma@6.3.0::App"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/shopify.mdx",
+    "target": "prisma@6.3.0::ErrorBoundary"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/shopify.mdx",
+    "target": "prisma@6.3.0::ProductNotes"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/shopify.mdx",
+    "target": "prisma@6.3.0::useActionData"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/shopify.mdx",
+    "target": "prisma@6.3.0::useAppBridge"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/shopify.mdx",
+    "target": "prisma@6.3.0::useEffect"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/vercel-deployment.mdx",
+    "target": "prisma@6.3.0::deployApp"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/integrations/vercel-deployment.mdx",
+    "target": "prisma@6.3.0::DeploymentService"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/postgres/netlify.mdx",
+    "target": "prisma@6.3.0::Page"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/runtimes/bun.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/runtimes/deno.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/switch-to-prisma-orm/from-mongoose.mdx",
+    "target": "prisma@6.3.0::UserController"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/upgrade-prisma-orm/v1.mdx",
+    "target": "prisma@6.3.0::getUser"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/upgrade-prisma-orm/v1.mdx",
+    "target": "prisma@6.3.0::login"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/upgrade-prisma-orm/v6.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/guides/upgrade-prisma-orm/v7.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/management-api/getting-started.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/management-api/sdk.mdx",
+    "target": "prisma@6.3.0::Implement"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/management-api/sdk.mdx",
+    "target": "prisma@6.3.0::to"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/management-api/sdk.mdx",
+    "target": "prisma@6.3.0::TokenStorage"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/management-api/sdk.mdx",
+    "target": "prisma@6.3.0::Tokens"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/management-api/sdk.mdx",
+    "target": "prisma@6.3.0::Workspace"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/management-api/sdk.mdx",
+    "target": "prisma@6.3.0::Project"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/best-practices.mdx",
+    "target": "prisma@6.3.0::getAdminEmails"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/best-practices.mdx",
+    "target": "prisma@6.3.0::createUser"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/best-practices.mdx",
+    "target": "prisma@6.3.0::handler"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/comparisons/prisma-and-typeorm.mdx",
+    "target": "prisma@6.3.0::User"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/comparisons/prisma-and-typeorm.mdx",
+    "target": "prisma@6.3.0::Post"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/troubleshooting/check-constraints.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/troubleshooting/nextjs.mdx",
+    "target": "prisma@6.3.0::createPrismaClient"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/more/troubleshooting/nextjs.mdx",
+    "target": "prisma@6.3.0::TenantConfig"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/client.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/index.mdx",
+    "target": "prisma@6.3.0::ExtendedPrismaClient"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/index.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/index.mdx",
+    "target": "prisma@6.3.0::ExtendedUser"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/type-utilities.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/client-extensions/type-utilities.mdx",
+    "target": "prisma@6.3.0::CacheStrategy"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/deployment/edge/deploy-to-vercel.mdx",
+    "target": "prisma@6.3.0::GET"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/observability-and-logging/sql-comments.mdx",
+    "target": "prisma@6.3.0::RequestContext"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/observability-and-logging/sql-comments.mdx",
+    "target": "prisma@6.3.0::useGlobalInterceptors"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/observability-and-logging/sql-comments.mdx",
+    "target": "prisma@6.3.0::QueryTagsInterceptor"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/advanced/query-optimization-performance.mdx",
+    "target": "prisma@6.3.0::getPosts"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/advanced/query-optimization-performance.mdx",
+    "target": "prisma@6.3.0::getUsers"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/transactions.mdx",
+    "target": "prisma@6.3.0::transfer"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/queries/transactions.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/setup-and-configuration/databases-connections/connection-management.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/setup-and-configuration/databases-connections/index.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/setup-and-configuration/databases-connections/index.mdx",
+    "target": "prisma@6.3.0::handler"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/testing/unit-testing.mdx",
+    "target": "prisma@6.3.0::createUser"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/testing/unit-testing.mdx",
+    "target": "prisma@6.3.0::updateUsername"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/testing/unit-testing.mdx",
+    "target": "prisma@6.3.0::CreateUser"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/testing/unit-testing.mdx",
+    "target": "prisma@6.3.0::UpdateUser"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/type-safety/index.mdx",
+    "target": "prisma@6.3.0::PostUncheckedCreateInput"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/type-safety/index.mdx",
+    "target": "prisma@6.3.0::PostCreateInput"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/type-safety/index.mdx",
+    "target": "prisma@6.3.0::UserCreateNestedOneWithoutPostsInput"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx",
+    "target": "prisma@6.3.0::UserWithPosts"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx",
+    "target": "prisma@6.3.0::UserPersonalData"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx",
+    "target": "prisma@6.3.0::getUsersWithPosts"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx",
+    "target": "prisma@6.3.0::ThenArg"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx",
+    "target": "prisma@6.3.0::UsersWithPosts"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/using-raw-sql/safeql.mdx",
+    "target": "prisma@6.3.0::MyPointOfInterest"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-client/using-raw-sql/safeql.mdx",
+    "target": "prisma@6.3.0::st_distancesphere"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-migrate/workflows/seeding.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/externally-managed-tables.mdx",
+    "target": "prisma@6.3.0::as"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/table-inheritance.mdx",
+    "target": "prisma@6.3.0::Activity"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/table-inheritance.mdx",
+    "target": "prisma@6.3.0::Video"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/table-inheritance.mdx",
+    "target": "prisma@6.3.0::Article"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/table-inheritance.mdx",
+    "target": "prisma@6.3.0::activityToArticle"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/table-inheritance.mdx",
+    "target": "prisma@6.3.0::toVideo"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/prisma-schema/data-model/table-inheritance.mdx",
+    "target": "prisma@6.3.0::VideoWithActivity"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/prisma-client-reference.mdx",
+    "target": "prisma@6.3.0::QueryEvent"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/prisma-client-reference.mdx",
+    "target": "prisma@6.3.0::LogEvent"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/prisma-client-reference.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/prisma-client-reference.mdx",
+    "target": "prisma@6.3.0::updateTwo"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/reference/prisma-config-reference.mdx",
+    "target": "prisma@6.3.0::Env"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/cursor.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/tabnine.mdx",
+    "target": "prisma@6.3.0::GET"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/tabnine.mdx",
+    "target": "prisma@6.3.0::POST"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/tabnine.mdx",
+    "target": "prisma@6.3.0::PUT"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/tabnine.mdx",
+    "target": "prisma@6.3.0::DELETE"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/tabnine.mdx",
+    "target": "prisma@6.3.0::useState"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/tabnine.mdx",
+    "target": "prisma@6.3.0::useEffect"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/tabnine.mdx",
+    "target": "prisma@6.3.0::User"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/tabnine.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/ai-tools/windsurf.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/comparisons/prisma-and-typeorm.mdx",
+    "target": "prisma@6.3.0::User"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/comparisons/prisma-and-typeorm.mdx",
+    "target": "prisma@6.3.0::Post"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/troubleshooting/check-constraints.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/troubleshooting/nextjs.mdx",
+    "target": "prisma@6.3.0::createPrismaClient"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/troubleshooting/nextjs.mdx",
+    "target": "prisma@6.3.0::TenantConfig"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/more/upgrades/to-v7.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/prisma-in-your-stack/fullstack.mdx",
+    "target": "prisma@6.3.0::handle"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/prisma-in-your-stack/is-prisma-an-orm.mdx",
+    "target": "prisma@6.3.0::User"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/overview/prisma-in-your-stack/is-prisma-an-orm.mdx",
+    "target": "prisma@6.3.0::UserRefactoring1604448000"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/client.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/index.mdx",
+    "target": "prisma@6.3.0::ExtendedPrismaClient"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/index.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/index.mdx",
+    "target": "prisma@6.3.0::ExtendedUser"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/type-utilities.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/client-extensions/type-utilities.mdx",
+    "target": "prisma@6.3.0::CacheStrategy"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/deploy-to-cloudflare.mdx",
+    "target": "prisma@6.3.0::Env"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/deploy-to-deno-deploy.mdx",
+    "target": "prisma@6.3.0::handler"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/deployment/edge/deploy-to-vercel.mdx",
+    "target": "prisma@6.3.0::GET"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/observability-and-logging/sql-comments.mdx",
+    "target": "prisma@6.3.0::RequestContext"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/observability-and-logging/sql-comments.mdx",
+    "target": "prisma@6.3.0::useGlobalInterceptors"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/observability-and-logging/sql-comments.mdx",
+    "target": "prisma@6.3.0::QueryTagsInterceptor"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/computed-fields.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/computed-fields.mdx",
+    "target": "prisma@6.3.0::computeFullName"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/computed-fields.mdx",
+    "target": "prisma@6.3.0::FirstLastName"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/computed-fields.mdx",
+    "target": "prisma@6.3.0::WithFullName"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/crud.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/custom-models.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/custom-models.mdx",
+    "target": "prisma@6.3.0::Users"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/custom-models.mdx",
+    "target": "prisma@6.3.0::Signup"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/custom-validation.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/custom-validation.mdx",
+    "target": "prisma@6.3.0::signup"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/custom-validation.mdx",
+    "target": "prisma@6.3.0::Signup"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/query-optimization-performance.mdx",
+    "target": "prisma@6.3.0::getPosts"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/query-optimization-performance.mdx",
+    "target": "prisma@6.3.0::getUsers"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/transactions.mdx",
+    "target": "prisma@6.3.0::transfer"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/queries/transactions.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/connection-management.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/connection-pool.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/index.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/databases-connections/index.mdx",
+    "target": "prisma@6.3.0::handler"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/setup-and-configuration/no-rust-engine.mdx",
+    "target": "prisma@6.3.0::Env"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/testing/unit-testing.mdx",
+    "target": "prisma@6.3.0::createUser"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/testing/unit-testing.mdx",
+    "target": "prisma@6.3.0::updateUsername"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/testing/unit-testing.mdx",
+    "target": "prisma@6.3.0::CreateUser"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/testing/unit-testing.mdx",
+    "target": "prisma@6.3.0::UpdateUser"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/type-safety/index.mdx",
+    "target": "prisma@6.3.0::PostUncheckedCreateInput"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/type-safety/index.mdx",
+    "target": "prisma@6.3.0::PostCreateInput"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/type-safety/index.mdx",
+    "target": "prisma@6.3.0::UserCreateNestedOneWithoutPostsInput"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx",
+    "target": "prisma@6.3.0::UserWithPosts"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx",
+    "target": "prisma@6.3.0::UserPersonalData"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx",
+    "target": "prisma@6.3.0::getUsersWithPosts"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx",
+    "target": "prisma@6.3.0::ThenArg"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/type-safety/operating-against-partial-structures-of-model-types.mdx",
+    "target": "prisma@6.3.0::UsersWithPosts"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/using-raw-sql/raw-queries.mdx",
+    "target": "prisma@6.3.0::length"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/using-raw-sql/safeql.mdx",
+    "target": "prisma@6.3.0::MyPointOfInterest"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-client/using-raw-sql/safeql.mdx",
+    "target": "prisma@6.3.0::st_distancesphere"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/seeding.mdx",
+    "target": "prisma@6.3.0::rawSql"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-migrate/workflows/seeding.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/externally-managed-tables.mdx",
+    "target": "prisma@6.3.0::as"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/models.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/relations/referential-actions/index.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/table-inheritance.mdx",
+    "target": "prisma@6.3.0::Activity"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/table-inheritance.mdx",
+    "target": "prisma@6.3.0::Video"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/table-inheritance.mdx",
+    "target": "prisma@6.3.0::Article"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/table-inheritance.mdx",
+    "target": "prisma@6.3.0::activityToArticle"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/table-inheritance.mdx",
+    "target": "prisma@6.3.0::toVideo"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/data-model/table-inheritance.mdx",
+    "target": "prisma@6.3.0::VideoWithActivity"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/prisma-schema/overview/generators.mdx",
+    "target": "prisma@6.3.0::types"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/prisma-client-reference.mdx",
+    "target": "prisma@6.3.0::QueryEvent"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/prisma-client-reference.mdx",
+    "target": "prisma@6.3.0::LogEvent"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/prisma-client-reference.mdx",
+    "target": "prisma@6.3.0::main"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/prisma-client-reference.mdx",
+    "target": "prisma@6.3.0::updateTwo"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/orm/v6/reference/prisma-config-reference.mdx",
+    "target": "prisma@6.3.0::Env"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/database/local-development.mdx",
+    "target": "prisma@6.3.0::startLocalPrisma"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/database/serverless-driver.mdx",
+    "target": "prisma@6.3.0::User"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/postgres/database/serverless-driver.mdx",
+    "target": "prisma@6.3.0::Point"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/studio/integrations/embedding.mdx",
+    "target": "prisma@6.3.0::useMemo"
+  },
+  {
+    "type": "REFERENCES",
+    "confidence": "EXTRACTED",
+    "source": "prisma@6.3.0::guides/apps/docs/content/docs/studio/integrations/embedding.mdx",
+    "target": "prisma@6.3.0::App"
+  }
+]

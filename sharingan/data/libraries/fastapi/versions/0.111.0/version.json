@@ -1,0 +1,14 @@
+{
+  "id": "fastapi@0.111.0",
+  "library_id": "fastapi",
+  "semver": "0.111.0",
+  "is_latest": true,
+  "node_type": "version",
+  "stats": {
+    "total_nodes": 173,
+    "total_edges": 213,
+    "symbols": 34,
+    "guides": 137,
+    "configs": 0
+  }
+}

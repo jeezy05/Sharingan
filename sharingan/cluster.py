@@ -74,6 +74,13 @@ async def label_cluster(
     backend: str | None = None,
 ) -> dict[str, Any]:
     """Use LLM to generate a name and summary for a cluster."""
+    if backend == "none" or (backend is None and detect_backend() == "none"):
+        return {
+            "name": f"Cluster ({len(cluster_nodes)} nodes)",
+            "summary": "Community of related API symbols.",
+            "nodes": cluster_nodes,
+        }
+
     items = []
     for node_id in cluster_nodes[:20]:  # limit to top 20 to save context
         data = G.nodes[node_id]
@@ -110,13 +117,13 @@ async def cluster_library(
     backend: str | None = None,
 ) -> None:
     """Run community detection and LLM labeling on an extracted library."""
-    from sharingan.serve import _get_libraries_dir
     from sharingan.build import json_to_graph
     
     lib_id = version_id.split("@")[0] if "@" in version_id else version_id
     ver = version_id.split("@")[1] if "@" in version_id else ""
     
-    version_dir = _get_libraries_dir() / lib_id / "versions" / ver
+    libraries_dir = Path(__file__).parent / "data" / "libraries"
+    version_dir = libraries_dir / lib_id / "versions" / ver
     graph_path = version_dir / "graph.json"
     
     if not graph_path.exists():

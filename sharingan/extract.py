@@ -69,14 +69,19 @@ def detect_backend() -> str:
         return "anthropic"
     if os.environ.get("OPENAI_API_KEY"):
         return "openai"
-    if os.environ.get("OLLAMA_BASE_URL") or os.environ.get("OLLAMA_MODEL"):
+    
+    # Check if ollama is running locally and has at least one model
+    base_url = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")
+    if os.environ.get("OLLAMA_MODEL"):
         return "ollama"
-    # Check if ollama is running locally
+        
     try:
         import httpx
-        resp = httpx.get("http://localhost:11434/api/tags", timeout=2.0)
+        resp = httpx.get(f"{base_url}/api/tags", timeout=2.0)
         if resp.status_code == 200:
-            return "ollama"
+            models = resp.json().get("models", [])
+            if models:
+                return "ollama"
     except Exception:
         pass
     return "none"
@@ -225,23 +230,48 @@ async def _call_ollama(prompt: str, system: str) -> str:
     import httpx
 
     base_url = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")
-    model = os.environ.get("OLLAMA_MODEL", "llama3.2")
+    model = os.environ.get("OLLAMA_MODEL")
+    if not model:
+        try:
+            resp = httpx.get(f"{base_url}/api/tags", timeout=2.0)
+            if resp.status_code == 200:
+                tags = resp.json()
+                models = tags.get("models", [])
+                if models:
+                    model = models[0]["name"]
+                    console.print(f"[cyan]Auto-detected local Ollama model: '{model}'[/]")
+        except Exception:
+            pass
+    if not model:
+        model = "llama3.2"
 
     async with httpx.AsyncClient(timeout=120.0) as client:
-        resp = await client.post(
-            f"{base_url}/api/chat",
-            json={
-                "model": model,
-                "messages": [
-                    {"role": "system", "content": system},
-                    {"role": "user", "content": prompt},
-                ],
-                "stream": False,
-                "format": "json",
-            },
-        )
-        resp.raise_for_status()
-        return resp.json()["message"]["content"]
+        try:
+            resp = await client.post(
+                f"{base_url}/api/chat",
+                json={
+                    "model": model,
+                    "messages": [
+                        {"role": "system", "content": system},
+                        {"role": "user", "content": prompt},
+                    ],
+                    "stream": False,
+                    "format": "json",
+                },
+            )
+            resp.raise_for_status()
+            return resp.json()["message"]["content"]
+        except httpx.HTTPStatusError as e:
+            if e.response.status_code == 404:
+                try:
+                    err_detail = e.response.json().get("error", "")
+                except Exception:
+                    err_detail = ""
+                raise RuntimeError(
+                    f"Ollama model '{model}' not found or API error: {err_detail or e}. "
+                    f"Please make sure you have pulled this model locally (e.g. run 'ollama pull {model}') or set OLLAMA_MODEL."
+                ) from e
+            raise e
 
 
 async def call_llm(prompt: str, system: str = SYSTEM_PROMPT, backend: str | None = None) -> str:

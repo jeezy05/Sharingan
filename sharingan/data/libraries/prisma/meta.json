@@ -1,0 +1,30 @@
+{
+  "id": "prisma",
+  "name": "Prisma",
+  "category": "orm",
+  "language": "typescript",
+  "repo_url": "https://github.com/prisma/web",
+  "docs_url": "https://www.prisma.io/docs",
+  "npm_package": "prisma",
+  "pypi_package": null,
+  "latest_version": "6.3.0",
+  "tracked_versions": [
+    "6.3.0",
+    "5.22.0",
+    "4.16.0"
+  ],
+  "tags": [
+    "orm",
+    "database",
+    "typescript",
+    "schema"
+  ],
+  "node_type": "library",
+  "docs_config": {
+    "type": "github_markdown",
+    "repo": "prisma/web",
+    "branch": "main",
+    "docs_path": "apps/docs/content",
+    "extra_paths": []
+  }
+}

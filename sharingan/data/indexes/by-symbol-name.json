@@ -21,6 +21,9 @@
   "ActiveLink": [
     "nextjs@15.3.2::ActiveLink"
   ],
+  "Activity": [
+    "prisma@6.3.0::Activity"
+  ],
   "AdapterOutputs": [
     "nextjs@15.3.2::AdapterOutputs"
   ],
@@ -71,7 +74,14 @@
   ],
   "App": [
     "nextjs@15.3.2::App",
+    "prisma@6.3.0::App",
     "react@19.1.0::App"
+  ],
+  "AppController": [
+    "prisma@6.3.0::AppController"
+  ],
+  "AppModule": [
+    "prisma@6.3.0::AppModule"
   ],
   "AppOwnProps": [
     "nextjs@15.3.2::AppOwnProps"
@@ -84,6 +94,9 @@
   ],
   "AppWithCallbackAfterRender": [
     "react@19.1.0::AppWithCallbackAfterRender"
+  ],
+  "Article": [
+    "prisma@6.3.0::Article"
   ],
   "ArtistPage": [
     "react@19.1.0::ArtistPage"
@@ -194,6 +207,9 @@
   "CacheHandler": [
     "nextjs@15.3.2::CacheHandler"
   ],
+  "CacheStrategy": [
+    "prisma@6.3.0::CacheStrategy"
+  ],
   "Cached": [
     "nextjs@15.3.2::Cached"
   ],
@@ -244,6 +260,7 @@
     "react@19.1.0::Chart"
   ],
   "Chat": [
+    "prisma@6.3.0::Chat",
     "react@19.1.0::Chat"
   ],
   "ChatIndicator": [
@@ -286,6 +303,9 @@
   "ClientOnly": [
     "nextjs@15.3.2::ClientOnly"
   ],
+  "ClientOnlyStudio": [
+    "prisma@6.3.0::ClientOnlyStudio"
+  ],
   "ClientRedirect": [
     "nextjs@15.3.2::ClientRedirect"
   ],
@@ -316,6 +336,7 @@
     "nextjs@15.3.2::CommentsSkeleton"
   ],
   "CommonHeaders": [
+    "fastapi@0.111.0::CommonHeaders",
     "fastapi@0.115.0::CommonHeaders"
   ],
   "ComplexDashboard": [
@@ -370,7 +391,11 @@
   "Content": [
     "nextjs@15.3.2::Content"
   ],
+  "ContextWithPrisma": [
+    "prisma@6.3.0::ContextWithPrisma"
+  ],
   "Cookies": [
+    "fastapi@0.111.0::Cookies",
     "fastapi@0.115.0::Cookies"
   ],
   "Copyright": [
@@ -393,6 +418,9 @@
   "CoursesPage": [
     "nextjs@15.3.2::CoursesPage"
   ],
+  "CreateUser": [
+    "prisma@6.3.0::CreateUser"
+  ],
   "Cup": [
     "react@19.1.0::Cup"
   ],
@@ -412,7 +440,8 @@
     "nextjs@15.3.2::CustomLinkProps"
   ],
   "DELETE": [
-    "nextjs@15.3.2::DELETE"
+    "nextjs@15.3.2::DELETE",
+    "prisma@6.3.0::DELETE"
   ],
   "Dashboard": [
     "nextjs@15.3.2::Dashboard",
@@ -422,7 +451,8 @@
     "nextjs@15.3.2::DashboardLayout"
   ],
   "DashboardPage": [
-    "nextjs@15.3.2::DashboardPage"
+    "nextjs@15.3.2::DashboardPage",
+    "prisma@6.3.0::DashboardPage"
   ],
   "DashboardStats": [
     "nextjs@15.3.2::DashboardStats"
@@ -439,6 +469,9 @@
   "DataViewer": [
     "react@19.1.0::DataViewer"
   ],
+  "Database": [
+    "prisma@6.3.0::Database"
+  ],
   "DebouncedButton": [
     "react@19.1.0::DebouncedButton"
   ],
@@ -447,6 +480,9 @@
   ],
   "DemoProfile": [
     "react@19.1.0::DemoProfile"
+  ],
+  "DeploymentService": [
+    "prisma@6.3.0::DeploymentService"
   ],
   "DesignButton": [
     "react@19.1.0::DesignButton"
@@ -505,10 +541,14 @@
   "Entry": [
     "nextjs@15.3.2::Entry"
   ],
+  "Env": [
+    "prisma@6.3.0::Env"
+  ],
   "Error": [
     "nextjs@15.3.2::Error"
   ],
   "ErrorBoundary": [
+    "prisma@6.3.0::ErrorBoundary",
     "react@19.1.0::ErrorBoundary"
   ],
   "ErrorBoundaryProps": [
@@ -560,6 +600,12 @@
   "ExtendedDocumentProps": [
     "nextjs@15.3.2::ExtendedDocumentProps"
   ],
+  "ExtendedPrismaClient": [
+    "prisma@6.3.0::ExtendedPrismaClient"
+  ],
+  "ExtendedUser": [
+    "prisma@6.3.0::ExtendedUser"
+  ],
   "FactoryComponent": [
     "react@19.1.0::FactoryComponent"
   ],
@@ -582,6 +628,7 @@
     "nextjs@15.3.2::Fill"
   ],
   "FilterParams": [
+    "fastapi@0.111.0::FilterParams",
     "fastapi@0.115.0::FilterParams"
   ],
   "FilterableList": [
@@ -592,6 +639,9 @@
   ],
   "FirstComponent": [
     "react@19.1.0::FirstComponent"
+  ],
+  "FirstLastName": [
+    "prisma@6.3.0::FirstLastName"
   ],
   "FocusFragment": [
     "react@19.1.0::FocusFragment"
@@ -613,6 +663,7 @@
     "react@19.1.0::Form"
   ],
   "FormData": [
+    "fastapi@0.111.0::FormData",
     "fastapi@0.115.0::FormData"
   ],
   "FormField": [
@@ -634,7 +685,8 @@
     "nextjs@15.3.2::Fuse"
   ],
   "GET": [
-    "nextjs@15.3.2::GET"
+    "nextjs@15.3.2::GET",
+    "prisma@6.3.0::GET"
   ],
   "Gallery": [
     "nextjs@15.3.2::Gallery",
@@ -685,6 +737,7 @@
   ],
   "Home": [
     "nextjs@15.3.2::Home",
+    "prisma@6.3.0::Home",
     "react@19.1.0::Home"
   ],
   "HomePage": [
@@ -709,6 +762,15 @@
   ],
   "ImageWithCaption": [
     "nextjs@15.3.2::ImageWithCaption"
+  ],
+  "Implement": [
+    "prisma@6.3.0::Implement"
+  ],
+  "ImportMeta": [
+    "prisma@6.3.0::ImportMeta"
+  ],
+  "ImportMetaEnv": [
+    "prisma@6.3.0::ImportMetaEnv"
   ],
   "Index": [
     "nextjs@15.3.2::Index"
@@ -742,6 +804,7 @@
     "nextjs@15.3.2::Inventory"
   ],
   "Item": [
+    "fastapi@0.111.0::Item",
     "fastapi@0.115.0::Item",
     "nextjs@15.3.2::Item",
     "react@19.1.0::Item"
@@ -750,6 +813,7 @@
     "react@19.1.0::ItemList"
   ],
   "ItemV2": [
+    "fastapi@0.111.0::ItemV2",
     "fastapi@0.115.0::ItemV2"
   ],
   "LatestPosts": [
@@ -796,6 +860,9 @@
   ],
   "LocaleSwitcher": [
     "nextjs@15.3.2::LocaleSwitcher"
+  ],
+  "LogEvent": [
+    "prisma@6.3.0::LogEvent"
   ],
   "Login": [
     "nextjs@15.3.2::Login"
@@ -927,17 +994,14 @@
   "MyPage": [
     "react@19.1.0::MyPage"
   ],
+  "MyPointOfInterest": [
+    "prisma@6.3.0::MyPointOfInterest"
+  ],
   "MyProviders": [
     "react@19.1.0::MyProviders"
   ],
   "MyReadable": [
     "nodejs@22.16.0::MyReadable"
-  ],
-  "MySchemaIn": [
-    "zod@3.24.4::MySchemaIn"
-  ],
-  "MySchemaOut": [
-    "zod@3.24.4::MySchemaOut"
   ],
   "MyStream": [
     "nodejs@22.16.0::MyStream"
@@ -967,6 +1031,9 @@
   "NavLinks": [
     "nextjs@15.3.2::NavLinks"
   ],
+  "Navbar": [
+    "prisma@6.3.0::Navbar"
+  ],
   "Navigation": [
     "react@19.1.0::Navigation"
   ],
@@ -986,6 +1053,7 @@
     "nextjs@15.3.2::NewItemPage"
   ],
   "NewPost": [
+    "prisma@6.3.0::NewPost",
     "react@19.1.0::NewPost"
   ],
   "NewTodo": [
@@ -1019,7 +1087,8 @@
     "react@19.1.0::Notes"
   ],
   "OPTIONS": [
-    "nextjs@15.3.2::OPTIONS"
+    "nextjs@15.3.2::OPTIONS",
+    "prisma@6.3.0::OPTIONS"
   ],
   "OptimizedComponent": [
     "react@19.1.0::OptimizedComponent"
@@ -1031,22 +1100,26 @@
     "react@19.1.0::Overview"
   ],
   "OwnerError": [
+    "fastapi@0.111.0::OwnerError",
     "fastapi@0.115.0::OwnerError"
   ],
   "PATCH": [
     "nextjs@15.3.2::PATCH"
   ],
   "POST": [
-    "nextjs@15.3.2::POST"
+    "nextjs@15.3.2::POST",
+    "prisma@6.3.0::POST"
   ],
   "PUT": [
-    "nextjs@15.3.2::PUT"
+    "nextjs@15.3.2::PUT",
+    "prisma@6.3.0::PUT"
   ],
   "PackingList": [
     "react@19.1.0::PackingList"
   ],
   "Page": [
     "nextjs@15.3.2::Page",
+    "prisma@6.3.0::Page",
     "react@19.1.0::Page"
   ],
   "PageWithStyles": [
@@ -1101,9 +1174,6 @@
   "PlayIcon": [
     "react@19.1.0::PlayIcon"
   ],
-  "Player": [
-    "zod@3.24.4::Player"
-  ],
   "Playground": [
     "react@19.1.0::Playground"
   ],
@@ -1113,18 +1183,28 @@
   "Poem": [
     "react@19.1.0::Poem"
   ],
+  "Point": [
+    "prisma@6.3.0::Point"
+  ],
   "PortalExample": [
     "react@19.1.0::PortalExample"
   ],
   "Post": [
     "nextjs@15.3.2::Post",
+    "prisma@6.3.0::Post",
     "react@19.1.0::Post"
   ],
   "PostBody": [
     "react@19.1.0::PostBody"
   ],
+  "PostCreateInput": [
+    "prisma@6.3.0::PostCreateInput"
+  ],
   "PostImage": [
     "nextjs@15.3.2::PostImage"
+  ],
+  "PostInputs": [
+    "prisma@6.3.0::PostInputs"
   ],
   "PostList": [
     "nextjs@15.3.2::PostList"
@@ -1132,14 +1212,21 @@
   "PostPage": [
     "nextjs@15.3.2::PostPage"
   ],
+  "PostService": [
+    "prisma@6.3.0::PostService"
+  ],
   "PostTitle": [
     "react@19.1.0::PostTitle"
+  ],
+  "PostUncheckedCreateInput": [
+    "prisma@6.3.0::PostUncheckedCreateInput"
   ],
   "Postponed": [
     "react@19.1.0::Postponed"
   ],
   "Posts": [
     "nextjs@15.3.2::Posts",
+    "prisma@6.3.0::Posts",
     "react@19.1.0::Posts"
   ],
   "PostsTab": [
@@ -1188,6 +1275,12 @@
     "nextjs@15.3.2::ProductList",
     "react@19.1.0::ProductList"
   ],
+  "ProductNotes": [
+    "prisma@6.3.0::ProductNotes"
+  ],
+  "ProductNotesLayout": [
+    "prisma@6.3.0::ProductNotesLayout"
+  ],
   "ProductPage": [
     "nextjs@15.3.2::ProductPage",
     "react@19.1.0::ProductPage"
@@ -1226,6 +1319,9 @@
   "ProfilePage": [
     "react@19.1.0::ProfilePage"
   ],
+  "Project": [
+    "prisma@6.3.0::Project"
+  ],
   "PromotionContent": [
     "nextjs@15.3.2::PromotionContent"
   ],
@@ -1238,6 +1334,12 @@
   ],
   "QuantityStepper": [
     "react@19.1.0::QuantityStepper"
+  ],
+  "QueryEvent": [
+    "prisma@6.3.0::QueryEvent"
+  ],
+  "QueryTagsInterceptor": [
+    "prisma@6.3.0::QueryTagsInterceptor"
   ],
   "ReadMore": [
     "nextjs@15.3.2::ReadMore"
@@ -1284,6 +1386,9 @@
   "ReportsPage": [
     "nextjs@15.3.2::ReportsPage"
   ],
+  "RequestContext": [
+    "prisma@6.3.0::RequestContext"
+  ],
   "RequestTracker": [
     "react@19.1.0::RequestTracker"
   ],
@@ -1303,7 +1408,8 @@
     "react@19.1.0::RichTextEditor"
   ],
   "RootLayout": [
-    "nextjs@15.3.2::RootLayout"
+    "nextjs@15.3.2::RootLayout",
+    "prisma@6.3.0::RootLayout"
   ],
   "Route": [
     "nextjs@15.3.2::Route"
@@ -1402,8 +1508,21 @@
   "SidebarContent": [
     "react@19.1.0::SidebarContent"
   ],
+  "SignIn": [
+    "prisma@6.3.0::SignIn"
+  ],
+  "SignInPage": [
+    "prisma@6.3.0::SignInPage"
+  ],
+  "SignOut": [
+    "prisma@6.3.0::SignOut"
+  ],
+  "SignUpPage": [
+    "prisma@6.3.0::SignUpPage"
+  ],
   "Signup": [
-    "nextjs@15.3.2::Signup"
+    "nextjs@15.3.2::Signup",
+    "prisma@6.3.0::Signup"
   ],
   "SignupForm": [
     "nextjs@15.3.2::SignupForm",
@@ -1470,6 +1589,9 @@
   "StringWritable": [
     "nodejs@22.16.0::StringWritable"
   ],
+  "StudioLoading": [
+    "prisma@6.3.0::StudioLoading"
+  ],
   "StyledComponentsRegistry": [
     "nextjs@15.3.2::StyledComponentsRegistry"
   ],
@@ -1531,6 +1653,9 @@
   "Template": [
     "nextjs@15.3.2::Template"
   ],
+  "TenantConfig": [
+    "prisma@6.3.0::TenantConfig"
+  ],
   "TestButton": [
     "react@19.1.0::TestButton"
   ],
@@ -1552,6 +1677,9 @@
   ],
   "ThemedButton": [
     "react@19.1.0::ThemedButton"
+  ],
+  "ThenArg": [
+    "prisma@6.3.0::ThenArg"
   ],
   "ThirdComponent": [
     "react@19.1.0::ThirdComponent"
@@ -1577,6 +1705,12 @@
   ],
   "Toggle": [
     "react@19.1.0::Toggle"
+  ],
+  "TokenStorage": [
+    "prisma@6.3.0::TokenStorage"
+  ],
+  "Tokens": [
+    "prisma@6.3.0::Tokens"
   ],
   "Toolbar": [
     "react@19.1.0::Toolbar"
@@ -1617,9 +1751,14 @@
   "UpdateName": [
     "react@19.1.0::UpdateName"
   ],
+  "UpdateUser": [
+    "prisma@6.3.0::UpdateUser"
+  ],
   "User": [
+    "fastapi@0.111.0::User",
     "fastapi@0.115.0::User",
-    "nextjs@15.3.2::User"
+    "nextjs@15.3.2::User",
+    "prisma@6.3.0::User"
   ],
   "UserCard": [
     "nextjs@15.3.2::UserCard",
@@ -1628,11 +1767,20 @@
   "UserContextType": [
     "nextjs@15.3.2::UserContextType"
   ],
+  "UserController": [
+    "prisma@6.3.0::UserController"
+  ],
+  "UserCreateNestedOneWithoutPostsInput": [
+    "prisma@6.3.0::UserCreateNestedOneWithoutPostsInput"
+  ],
   "UserGreeting": [
     "nextjs@15.3.2::UserGreeting"
   ],
   "UserNav": [
     "nextjs@15.3.2::UserNav"
+  ],
+  "UserPersonalData": [
+    "prisma@6.3.0::UserPersonalData"
   ],
   "UserPreferences": [
     "nextjs@15.3.2::UserPreferences"
@@ -1644,20 +1792,37 @@
   "UserProvider": [
     "nextjs@15.3.2::UserProvider"
   ],
+  "UserRefactoring1604448000": [
+    "prisma@6.3.0::UserRefactoring1604448000"
+  ],
   "UserScopedForm": [
     "nextjs@15.3.2::UserScopedForm"
+  ],
+  "UserService": [
+    "prisma@6.3.0::UserService"
+  ],
+  "UserWithPosts": [
+    "prisma@6.3.0::UserWithPosts"
   ],
   "UsernameForm": [
     "react@19.1.0::UsernameForm"
   ],
   "Users": [
-    "nextjs@15.3.2::Users"
+    "nextjs@15.3.2::Users",
+    "prisma@6.3.0::Users"
+  ],
+  "UsersTable": [
+    "prisma@6.3.0::UsersTable"
+  ],
+  "UsersWithPosts": [
+    "prisma@6.3.0::UsersWithPosts"
   ],
   "VacationCard": [
     "tailwindcss@4.1.0::VacationCard"
   ],
   "Video": [
     "nextjs@15.3.2::Video",
+    "prisma@6.3.0::Video",
     "react@19.1.0::Video"
   ],
   "VideoComponent": [
@@ -1682,6 +1847,9 @@
   "VideoTab": [
     "react@19.1.0::VideoTab"
   ],
+  "VideoWithActivity": [
+    "prisma@6.3.0::VideoWithActivity"
+  ],
   "ViewCount": [
     "nextjs@15.3.2::ViewCount"
   ],
@@ -1703,14 +1871,24 @@
   "WelcomePanel": [
     "react@19.1.0::WelcomePanel"
   ],
+  "WithFullName": [
+    "prisma@6.3.0::WithFullName"
+  ],
   "WithRouterProps": [
     "nextjs@15.3.2::WithRouterProps"
+  ],
+  "Workspace": [
+    "prisma@6.3.0::Workspace"
   ],
   "WriteStream": [
     "nodejs@22.16.0::WriteStream"
   ],
   "action": [
+    "prisma@6.3.0::action",
     "react@19.1.0::action"
+  ],
+  "activityToArticle": [
+    "prisma@6.3.0::activityToArticle"
   ],
   "add": [
     "nodejs@22.16.0::add"
@@ -1760,10 +1938,14 @@
   "arePropsEqual": [
     "react@19.1.0::arePropsEqual"
   ],
+  "as": [
+    "prisma@6.3.0::as"
+  ],
   "assertValidLocale": [
     "nextjs@15.3.2::assertValidLocale"
   ],
   "asynccontextmanager": [
+    "fastapi@0.111.0::asynccontextmanager",
     "fastapi@0.115.0::asynccontextmanager"
   ],
   "b": [
@@ -1783,6 +1965,9 @@
   ],
   "c": [
     "nodejs@22.16.0::c"
+  ],
+  "calculateStatistics": [
+    "prisma@6.3.0::calculateStatistics"
   ],
   "calculateTotal": [
     "react@19.1.0::calculateTotal"
@@ -1804,6 +1989,9 @@
   ],
   "cloudinaryLoader": [
     "nextjs@15.3.2::cloudinaryLoader"
+  ],
+  "computeFullName": [
+    "prisma@6.3.0::computeFullName"
   ],
   "connection": [
     "nextjs@15.3.2::connection"
@@ -1848,7 +2036,11 @@
     "react@19.1.0::createOptions"
   ],
   "createPost": [
-    "nextjs@15.3.2::createPost"
+    "nextjs@15.3.2::createPost",
+    "prisma@6.3.0::createPost"
+  ],
+  "createPrismaClient": [
+    "prisma@6.3.0::createPrismaClient"
   ],
   "createSession": [
     "nextjs@15.3.2::createSession"
@@ -1863,9 +2055,11 @@
     "react@19.1.0::createUnencryptedConnection"
   ],
   "createUser": [
-    "nextjs@15.3.2::createUser"
+    "nextjs@15.3.2::createUser",
+    "prisma@6.3.0::createUser"
   ],
   "create_item": [
+    "fastapi@0.111.0::create_item",
     "fastapi@0.115.0::create_item"
   ],
   "decrypt": [
@@ -1899,10 +2093,14 @@
     "nextjs@15.3.2::deleteUserAction"
   ],
   "delete_item": [
+    "fastapi@0.111.0::delete_item",
     "fastapi@0.115.0::delete_item"
   ],
   "deliverMessage": [
     "react@19.1.0::deliverMessage"
+  ],
+  "deployApp": [
+    "prisma@6.3.0::deployApp"
   ],
   "digest": [
     "nodejs@22.16.0::digest"
@@ -1944,6 +2142,7 @@
     "nextjs@15.3.2::extends"
   ],
   "fake_answer_to_everything_ml_model": [
+    "fastapi@0.111.0::fake_answer_to_everything_ml_model",
     "fastapi@0.115.0::fake_answer_to_everything_ml_model"
   ],
   "fastlyLoader": [
@@ -2065,6 +2264,9 @@
   "generateX25519Key": [
     "nodejs@22.16.0::generateX25519Key"
   ],
+  "getAdminEmails": [
+    "prisma@6.3.0::getAdminEmails"
+  ],
   "getAlbums": [
     "nextjs@15.3.2::getAlbums",
     "react@19.1.0::getAlbums"
@@ -2136,6 +2338,9 @@
   "getNavigation": [
     "nextjs@15.3.2::getNavigation"
   ],
+  "getPercentile": [
+    "prisma@6.3.0::getPercentile"
+  ],
   "getPlayer": [
     "react@19.1.0::getPlayer"
   ],
@@ -2150,6 +2355,7 @@
   ],
   "getPosts": [
     "nextjs@15.3.2::getPosts",
+    "prisma@6.3.0::getPosts",
     "react@19.1.0::getPosts"
   ],
   "getProduct": [
@@ -2229,6 +2435,7 @@
   ],
   "getUser": [
     "nextjs@15.3.2::getUser",
+    "prisma@6.3.0::getUser",
     "react@19.1.0::getUser"
   ],
   "getUserById": [
@@ -2238,7 +2445,11 @@
     "nextjs@15.3.2::getUserDetails"
   ],
   "getUsers": [
-    "nextjs@15.3.2::getUsers"
+    "nextjs@15.3.2::getUsers",
+    "prisma@6.3.0::getUsers"
+  ],
+  "getUsersWithPosts": [
+    "prisma@6.3.0::getUsersWithPosts"
   ],
   "getVisibleTodos": [
     "react@19.1.0::getVisibleTodos"
@@ -2247,21 +2458,27 @@
     "nextjs@15.3.2::getVisitorCount"
   ],
   "get_burgers": [
+    "fastapi@0.111.0::get_burgers",
     "fastapi@0.115.0::get_burgers"
   ],
   "get_invalid_none": [
+    "fastapi@0.111.0::get_invalid_none",
     "fastapi@0.115.0::get_invalid_none"
   ],
   "get_item": [
+    "fastapi@0.111.0::get_item",
     "fastapi@0.115.0::get_item"
   ],
   "get_sequential_burgers": [
+    "fastapi@0.111.0::get_sequential_burgers",
     "fastapi@0.115.0::get_sequential_burgers"
   ],
   "get_settings": [
+    "fastapi@0.111.0::get_settings",
     "fastapi@0.115.0::get_settings"
   ],
   "get_username": [
+    "fastapi@0.111.0::get_username",
     "fastapi@0.115.0::get_username"
   ],
   "getter": [
@@ -2272,6 +2489,9 @@
   ],
   "gumletLoader": [
     "nextjs@15.3.2::gumletLoader"
+  ],
+  "handle": [
+    "prisma@6.3.0::handle"
   ],
   "handleAdd": [
     "react@19.1.0::handleAdd"
@@ -2485,6 +2705,7 @@
   ],
   "handleSubmit": [
     "nextjs@15.3.2::handleSubmit",
+    "prisma@6.3.0::handleSubmit",
     "react@19.1.0::handleSubmit"
   ],
   "handleTextareaChange": [
@@ -2510,6 +2731,7 @@
   ],
   "handler": [
     "nextjs@15.3.2::handler",
+    "prisma@6.3.0::handler",
     "react@19.1.0::handler"
   ],
   "handler2": [
@@ -2559,7 +2781,8 @@
   ],
   "is": [
     "nextjs@15.3.2::is",
-    "nodejs@22.16.0::is"
+    "nodejs@22.16.0::is",
+    "prisma@6.3.0::is"
   ],
   "isCompilerEnabled": [
     "react@19.1.0::isCompilerEnabled"
@@ -2573,26 +2796,38 @@
   "jumpTo": [
     "react@19.1.0::jumpTo"
   ],
+  "length": [
+    "prisma@6.3.0::length"
+  ],
   "lifespan": [
+    "fastapi@0.111.0::lifespan",
     "fastapi@0.115.0::lifespan"
   ],
   "load": [
-    "nodejs@22.16.0::load"
+    "nodejs@22.16.0::load",
+    "prisma@6.3.0::load"
   ],
   "loadPosts": [
     "nextjs@15.3.2::loadPosts"
   ],
+  "loader": [
+    "prisma@6.3.0::loader"
+  ],
   "login": [
+    "fastapi@0.111.0::login",
     "fastapi@0.115.0::login",
+    "prisma@6.3.0::login",
     "react@19.1.0::login"
   ],
   "logout": [
     "nextjs@15.3.2::logout"
   ],
   "main": [
+    "fastapi@0.111.0::main",
     "fastapi@0.115.0::main",
     "nextjs@15.3.2::main",
     "nodejs@22.16.0::main",
+    "prisma@6.3.0::main",
     "react@19.1.0::main"
   ],
   "makeButton": [
@@ -2613,6 +2848,9 @@
   "messengerReducer": [
     "react@19.1.0::messengerReducer"
   ],
+  "meta": [
+    "prisma@6.3.0::meta"
+  ],
   "middleware": [
     "nextjs@15.3.2::middleware"
   ],
@@ -2630,6 +2868,7 @@
     "react@19.1.0::navigateBack"
   ],
   "needy_dependency": [
+    "fastapi@0.111.0::needy_dependency",
     "fastapi@0.115.0::needy_dependency"
   ],
   "newAPI": [
@@ -2696,6 +2935,9 @@
   "outerRemote": [
     "nextjs@15.3.2::outerRemote"
   ],
+  "parseConnectionString": [
+    "prisma@6.3.0::parseConnectionString"
+  ],
   "parseHeader": [
     "nodejs@22.16.0::parseHeader"
   ],
@@ -2715,6 +2957,7 @@
     "react@19.1.0::post"
   ],
   "predict": [
+    "fastapi@0.111.0::predict",
     "fastapi@0.115.0::predict"
   ],
   "print": [
@@ -2736,25 +2979,34 @@
     "nextjs@15.3.2::publish",
     "react@19.1.0::publish"
   ],
+  "rawSql": [
+    "prisma@6.3.0::rawSql"
+  ],
   "readSomeFile": [
     "nodejs@22.16.0::readSomeFile"
   ],
   "read_burgers": [
+    "fastapi@0.111.0::read_burgers",
     "fastapi@0.115.0::read_burgers"
   ],
   "read_item": [
+    "fastapi@0.111.0::read_item",
     "fastapi@0.115.0::read_item"
   ],
   "read_items": [
+    "fastapi@0.111.0::read_items",
     "fastapi@0.115.0::read_items"
   ],
   "read_results": [
+    "fastapi@0.111.0::read_results",
     "fastapi@0.115.0::read_results"
   ],
   "read_root": [
+    "fastapi@0.111.0::read_root",
     "fastapi@0.115.0::read_root"
   ],
   "read_url": [
+    "fastapi@0.111.0::read_url",
     "fastapi@0.115.0::read_url"
   ],
   "reducer": [
@@ -2788,6 +3040,7 @@
     "react@19.1.0::requestUsername"
   ],
   "results": [
+    "fastapi@0.111.0::results",
     "fastapi@0.115.0::results"
   ],
   "robots": [
@@ -2802,7 +3055,11 @@
   "save": [
     "react@19.1.0::save"
   ],
+  "saveChat": [
+    "prisma@6.3.0::saveChat"
+  ],
   "say_hi": [
+    "fastapi@0.111.0::say_hi",
     "fastapi@0.115.0::say_hi"
   ],
   "scrollToCat": [
@@ -2816,6 +3073,9 @@
   ],
   "seedPprEntries": [
     "nextjs@15.3.2::seedPprEntries"
+  ],
+  "selectProduct": [
+    "prisma@6.3.0::selectProduct"
   ],
   "selectTab": [
     "react@19.1.0::selectTab"
@@ -2854,6 +3114,7 @@
     "react@19.1.0::setState"
   ],
   "set_up_request_state_dependency": [
+    "fastapi@0.111.0::set_up_request_state_dependency",
     "fastapi@0.115.0::set_up_request_state_dependency"
   ],
   "setupCatList": [
@@ -2879,6 +3140,7 @@
   ],
   "signup": [
     "nextjs@15.3.2::signup",
+    "prisma@6.3.0::signup",
     "react@19.1.0::signup"
   ],
   "simpleDisplay": [
@@ -2898,19 +3160,27 @@
     "nodejs@22.16.0::someFunc"
   ],
   "some_dependency": [
+    "fastapi@0.111.0::some_dependency",
     "fastapi@0.115.0::some_dependency"
   ],
   "some_function": [
+    "fastapi@0.111.0::some_function",
     "fastapi@0.115.0::some_function"
   ],
   "speedy": [
     "nodejs@22.16.0::speedy"
+  ],
+  "st_distancesphere": [
+    "prisma@6.3.0::st_distancesphere"
   ],
   "start": [
     "react@19.1.0::start"
   ],
   "startFetching": [
     "react@19.1.0::startFetching"
+  ],
+  "startLocalPrisma": [
+    "prisma@6.3.0::startLocalPrisma"
   ],
   "startTransition": [
     "react@19.1.0::startTransition"
@@ -2949,6 +3219,9 @@
   "tasksReducer": [
     "react@19.1.0::tasksReducer"
   ],
+  "testDatabase": [
+    "prisma@6.3.0::testDatabase"
+  ],
   "testTypes": [
     "react@19.1.0::testTypes"
   ],
@@ -2959,10 +3232,20 @@
     "react@19.1.0::tick"
   ],
   "to": [
-    "nodejs@22.16.0::to"
+    "nodejs@22.16.0::to",
+    "prisma@6.3.0::to"
+  ],
+  "toVideo": [
+    "prisma@6.3.0::toVideo"
   ],
   "toggleLike": [
     "react@19.1.0::toggleLike"
+  ],
+  "transfer": [
+    "prisma@6.3.0::transfer"
+  ],
+  "types": [
+    "prisma@6.3.0::types"
   ],
   "unfollowUser": [
     "react@19.1.0::unfollowUser"
@@ -3018,6 +3301,9 @@
   "updateToggle": [
     "react@19.1.0::updateToggle"
   ],
+  "updateTwo": [
+    "prisma@6.3.0::updateTwo"
+  ],
   "updateUser": [
     "nextjs@15.3.2::updateUser"
   ],
@@ -3031,10 +3317,14 @@
     "nextjs@15.3.2::updateUserSafe"
   ],
   "updateUsername": [
-    "nextjs@15.3.2::updateUsername"
+    "nextjs@15.3.2::updateUsername",
+    "prisma@6.3.0::updateUsername"
   ],
   "urlBase64ToUint8Array": [
     "nextjs@15.3.2::urlBase64ToUint8Array"
+  ],
+  "useActionData": [
+    "prisma@6.3.0::useActionData"
   ],
   "useActionState": [
     "nextjs@15.3.2::useActionState",
@@ -3042,6 +3332,9 @@
   ],
   "useAnimationLoop": [
     "react@19.1.0::useAnimationLoop"
+  ],
+  "useAppBridge": [
+    "prisma@6.3.0::useAppBridge"
   ],
   "useAuth": [
     "react@19.1.0::useAuth"
@@ -3052,6 +3345,9 @@
   "useCallback": [
     "nextjs@15.3.2::useCallback",
     "react@19.1.0::useCallback"
+  ],
+  "useChat": [
+    "prisma@6.3.0::useChat"
   ],
   "useChatRoom": [
     "react@19.1.0::useChatRoom"
@@ -3083,6 +3379,7 @@
   ],
   "useEffect": [
     "nextjs@15.3.2::useEffect",
+    "prisma@6.3.0::useEffect",
     "react@19.1.0::useEffect"
   ],
   "useEffectEvent": [
@@ -3115,6 +3412,9 @@
   ],
   "useGetTheme": [
     "react@19.1.0::useGetTheme"
+  ],
+  "useGlobalInterceptors": [
+    "prisma@6.3.0::useGlobalInterceptors"
   ],
   "useIcon": [
     "react@19.1.0::useIcon"
@@ -3172,14 +3472,21 @@
   "useList": [
     "react@19.1.0::useList"
   ],
+  "useLoaderData": [
+    "prisma@6.3.0::useLoaderData"
+  ],
   "useMDXComponents": [
     "nextjs@15.3.2::useMDXComponents"
   ],
   "useMemo": [
+    "prisma@6.3.0::useMemo",
     "react@19.1.0::useMemo"
   ],
   "useMount": [
     "react@19.1.0::useMount"
+  ],
+  "useNavigate": [
+    "prisma@6.3.0::useNavigate"
   ],
   "useNavigationBlocker": [
     "nextjs@15.3.2::useNavigationBlocker"
@@ -3216,8 +3523,12 @@
   "useReportWebVitals": [
     "nextjs@15.3.2::useReportWebVitals"
   ],
+  "useRouteError": [
+    "prisma@6.3.0::useRouteError"
+  ],
   "useRouter": [
     "nextjs@15.3.2::useRouter",
+    "prisma@6.3.0::useRouter",
     "react@19.1.0::useRouter"
   ],
   "useSWR": [
@@ -3239,7 +3550,8 @@
     "nextjs@15.3.2::useServerInsertedHTML"
   ],
   "useSession": [
-    "nextjs@15.3.2::useSession"
+    "nextjs@15.3.2::useSession",
+    "prisma@6.3.0::useSession"
   ],
   "useSomeAPI": [
     "react@19.1.0::useSomeAPI"
@@ -3255,6 +3567,7 @@
   ],
   "useState": [
     "nextjs@15.3.2::useState",
+    "prisma@6.3.0::useState",
     "react@19.1.0::useState"
   ],
   "useSyncExternalStore": [
@@ -3308,6 +3621,9 @@
   ],
   "withMyInstrumentation": [
     "nextjs@15.3.2::withMyInstrumentation"
+  ],
+  "withPrisma": [
+    "prisma@6.3.0::withPrisma"
   ],
   "write": [
     "nodejs@22.16.0::write"

@@ -130,7 +130,7 @@ async def cluster_library(
         console.print(f"[red]Graph not found at {graph_path}[/]")
         return
         
-    with open(graph_path) as f:
+    with open(graph_path, encoding="utf-8") as f:
         graph_data = json.load(f)
         
     G = json_to_graph(graph_data)
@@ -162,7 +162,7 @@ async def cluster_library(
         
     # Export clusters
     out_path = version_dir / "clusters.json"
-    with open(out_path, "w") as f:
+    with open(out_path, "w", encoding="utf-8") as f:
         json.dump(clusters, f, indent=2)
         
     console.print(f"[green]✓ Saved {len(clusters)} clusters to {out_path}[/]")

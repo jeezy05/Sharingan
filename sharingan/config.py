@@ -115,5 +115,5 @@ def migrate_legacy_data() -> None:
                     pass
 
     # Mark as migrated
-    migration_marker.write_text("migrated")
+    migration_marker.write_text("migrated", encoding="utf-8")
     sys.stderr.write("✓ Data migrated to ~/.sharingan/\n")

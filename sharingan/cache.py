@@ -26,13 +26,13 @@ class CacheManifest:
     def _load(self) -> None:
         """Load existing manifest from disk."""
         if self.manifest_path.exists():
-            with open(self.manifest_path, "r") as f:
+            with open(self.manifest_path, "r", encoding="utf-8") as f:
                 self._manifest = json.load(f)
 
     def save(self) -> None:
         """Persist manifest to disk."""
         self.cache_dir.mkdir(parents=True, exist_ok=True)
-        with open(self.manifest_path, "w") as f:
+        with open(self.manifest_path, "w", encoding="utf-8") as f:
             json.dump(self._manifest, f, indent=2, sort_keys=True)
 
     @staticmethod

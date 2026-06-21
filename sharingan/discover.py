@@ -46,7 +46,7 @@ def load_registry(registry_path: Path | None = None) -> dict[str, Any]:
     if registry_path is None:
         from sharingan.config import get_registry_path
         registry_path = get_registry_path()
-    with open(registry_path, "r") as f:
+    with open(registry_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 

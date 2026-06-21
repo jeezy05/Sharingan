@@ -225,7 +225,7 @@ async def extract_library(
     # Save library meta
     meta_path = output_dir / "meta.json"
     meta_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(meta_path, "w") as f:
+    with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(lib_meta, f, indent=2)
 
     # Update cache

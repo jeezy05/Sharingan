@@ -308,7 +308,7 @@ def _install_claude() -> None:
     settings = {}
     if settings_path.exists():
         try:
-            with open(settings_path) as f:
+            with open(settings_path, encoding="utf-8") as f:
                 settings = json.load(f)
         except Exception:
             pass
@@ -322,7 +322,7 @@ def _install_claude() -> None:
     existing_hooks = settings["hooks"]["PreToolUse"]
     if not any("sharingan" in str(h).lower() for h in existing_hooks):
         existing_hooks.extend(PRETOOLUSE_HOOK["hooks"]["PreToolUse"])
-        with open(settings_path, "w") as f:
+        with open(settings_path, "w", encoding="utf-8") as f:
             json.dump(settings, f, indent=2)
         console.print(f"  → Updated {settings_path}")
 
@@ -342,14 +342,14 @@ def _install_codex() -> None:
     hooks = {}
     if hooks_path.exists():
         try:
-            with open(hooks_path) as f:
+            with open(hooks_path, encoding="utf-8") as f:
                 hooks = json.load(f)
         except Exception:
             pass
 
     if "PreToolUse" not in hooks:
         hooks.update(PRETOOLUSE_HOOK)
-        with open(hooks_path, "w") as f:
+        with open(hooks_path, "w", encoding="utf-8") as f:
             json.dump(hooks, f, indent=2)
         console.print(f"  → Updated {hooks_path}")
 
@@ -361,7 +361,7 @@ def _install_cursor() -> None:
     rules_dir.mkdir(parents=True, exist_ok=True)
 
     rule_path = rules_dir / "sharingan.mdc"
-    rule_path.write_text(get_cursor_rule(base))
+    rule_path.write_text(get_cursor_rule(base, encoding="utf-8"))
     console.print(f"  → Created {rule_path}")
 
 
@@ -379,7 +379,7 @@ def _install_antigravity() -> None:
     rules_dir.mkdir(parents=True, exist_ok=True)
 
     rule_path = rules_dir / "sharingan.md"
-    rule_path.write_text(get_skill_content(base))
+    rule_path.write_text(get_skill_content(base, encoding="utf-8"))
     console.print(f"  → Created {rule_path}")
 
 
@@ -404,14 +404,14 @@ def _write_skill_file(path: Path, content: str) -> None:
             # Write everything before the Sharingan section + new content
             before = existing[:start].rstrip()
             new_content = before + "\n\n" + content if before else content
-            path.write_text(new_content)
+            path.write_text(new_content, encoding="utf-8")
             console.print(f"  → Updated (replaced) {path}")
             return
         else:
             # Append to existing file
-            with open(path, "a") as f:
+            with open(path, "a", encoding="utf-8") as f:
                 f.write("\n\n" + content)
             console.print(f"  → Updated (appended) {path}")
     else:
-        path.write_text(content)
+        path.write_text(content, encoding="utf-8")
         console.print(f"  → Created {path}")

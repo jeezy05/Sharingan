@@ -167,7 +167,7 @@ def query(question: str, lib: str | None, version: str | None) -> None:
         console.print("[yellow]No indexes found. Run 'sharingan extract' first.[/]")
         sys.exit(1)
 
-    with open(symbol_index_path) as f:
+    with open(symbol_index_path, encoding="utf-8") as f:
         symbol_index = json.load(f)
 
     # Search for matching symbol names
@@ -203,7 +203,7 @@ def query(question: str, lib: str | None, version: str | None) -> None:
             get_libraries_dir() / lib_id / "versions" / ver / "symbols.json"
         )
         if symbols_path.exists():
-            with open(symbols_path) as f:
+            with open(symbols_path, encoding="utf-8") as f:
                 symbols = json.load(f)
             for sym in symbols:
                 if sym.get("id") == sym_id:
@@ -244,6 +244,83 @@ def install(platform: str | None, project: bool) -> None:
     from sharingan.skills import install_skill
 
     install_skill(platform)
+
+
+@main.command()
+def sync() -> None:
+    """Auto-detect project dependencies and extract missing libraries.
+
+    Scans package.json, pyproject.toml, and requirements.txt in the
+    current project, matches them against the Sharingan registry, and
+    auto-extracts any libraries that haven't been extracted yet.
+
+    Uses Pass 1 only (deterministic, free, no API key needed).
+
+    Examples:
+        cd my-nextjs-app && sharingan sync
+        cd my-fastapi-project && sharingan sync
+    """
+    import asyncio
+    from pathlib import Path
+    from sharingan.config import get_libraries_dir
+    from sharingan.dependencies import scan_project_dependencies
+
+    project_dir = Path.cwd()
+    console.print(f"[cyan]Scanning dependencies in {project_dir}...[/]")
+
+    try:
+        deps = scan_project_dependencies(project_dir)
+    except Exception as e:
+        console.print(f"[red]✗ Dependency scan failed: {e}[/]")
+        return
+
+    if not deps:
+        console.print("[yellow]No Sharingan-supported libraries found in project dependencies.[/]")
+        console.print("Tip: Run 'sharingan list' to see supported libraries.")
+        return
+
+    libraries_dir = get_libraries_dir()
+    already = []
+    missing = []
+
+    for lib_id, ver in deps:
+        version_dir = libraries_dir / lib_id / "versions" / ver
+        if version_dir.exists():
+            already.append((lib_id, ver))
+        else:
+            missing.append((lib_id, ver))
+
+    if already:
+        console.print(f"\n[green]Already extracted ({len(already)}):[/]")
+        for lib_id, ver in already:
+            console.print(f"  ✅ {lib_id} v{ver}")
+
+    if not missing:
+        console.print(f"\n[green]✓ All {len(already)} detected libraries are already extracted![/]")
+        return
+
+    console.print(f"\n[cyan]Need extraction ({len(missing)}):[/]")
+    for lib_id, ver in missing:
+        console.print(f"  ⬇️  {lib_id} v{ver}")
+
+    console.print()
+    for lib_id, ver in missing:
+        console.print(
+            f"[cyan]Extracting {lib_id} v{ver} "
+            f"(Pass 1 — deterministic, no API key needed)...[/]"
+        )
+        try:
+            from sharingan.pipeline import extract_library
+            asyncio.run(extract_library(
+                library_id=lib_id,
+                version=ver,
+                skip_llm=True,
+            ))
+            console.print(f"[green]  ✓ Extracted {lib_id} v{ver}[/]")
+        except Exception as ex:
+            console.print(f"[yellow]  ⚠ Failed to extract {lib_id}: {ex}[/]")
+
+    console.print(f"\n[green]✓ Sync complete![/]")
 
 
 @main.command()
@@ -317,7 +394,7 @@ def status() -> None:
             ]:
                 fpath = ver_dir / fname
                 if fpath.exists():
-                    with open(fpath) as f:
+                    with open(fpath, encoding="utf-8") as f:
                         data = json.load(f)
                     count = len(data)
                     if counter == "symbols":

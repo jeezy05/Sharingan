@@ -180,7 +180,7 @@ def export_graph(
 
     # Full graph
     graph_data = graph_to_json(G)
-    with open(output_dir / "graph.json", "w") as f:
+    with open(output_dir / "graph.json", "w", encoding="utf-8") as f:
         json.dump(graph_data, f, indent=2)
 
     # Split by node type
@@ -206,16 +206,16 @@ def export_graph(
         edge_data["target"] = target
         edges.append(edge_data)
 
-    with open(output_dir / "symbols.json", "w") as f:
+    with open(output_dir / "symbols.json", "w", encoding="utf-8") as f:
         json.dump(symbols, f, indent=2)
 
-    with open(output_dir / "guides.json", "w") as f:
+    with open(output_dir / "guides.json", "w", encoding="utf-8") as f:
         json.dump(guides, f, indent=2)
 
-    with open(output_dir / "config.json", "w") as f:
+    with open(output_dir / "config.json", "w", encoding="utf-8") as f:
         json.dump(configs, f, indent=2)
 
-    with open(output_dir / "edges.json", "w") as f:
+    with open(output_dir / "edges.json", "w", encoding="utf-8") as f:
         json.dump(edges, f, indent=2)
 
     # Version metadata
@@ -233,7 +233,7 @@ def export_graph(
             "configs": len(configs),
         },
     }
-    with open(output_dir / "version.json", "w") as f:
+    with open(output_dir / "version.json", "w", encoding="utf-8") as f:
         json.dump(version_data, f, indent=2)
 
     console.print(
@@ -270,7 +270,7 @@ def build_indexes(
         # Read library meta
         meta_path = lib_dir / "meta.json"
         if meta_path.exists():
-            with open(meta_path) as f:
+            with open(meta_path, encoding="utf-8") as f:
                 meta = json.load(f)
             lib_id = meta.get("id", lib_dir.name)
             category = meta.get("category", "")
@@ -291,7 +291,7 @@ def build_indexes(
                 continue
             symbols_path = ver_dir / "symbols.json"
             if symbols_path.exists():
-                with open(symbols_path) as f:
+                with open(symbols_path, encoding="utf-8") as f:
                     symbols = json.load(f)
                 for sym in symbols:
                     name = sym.get("name", "")
@@ -299,13 +299,13 @@ def build_indexes(
                     if name and sym_id:
                         by_symbol.setdefault(name, []).append(sym_id)
 
-    with open(indexes_dir / "by-symbol-name.json", "w") as f:
+    with open(indexes_dir / "by-symbol-name.json", "w", encoding="utf-8") as f:
         json.dump(by_symbol, f, indent=2, sort_keys=True)
 
-    with open(indexes_dir / "by-category.json", "w") as f:
+    with open(indexes_dir / "by-category.json", "w", encoding="utf-8") as f:
         json.dump(by_category, f, indent=2, sort_keys=True)
 
-    with open(indexes_dir / "by-language.json", "w") as f:
+    with open(indexes_dir / "by-language.json", "w", encoding="utf-8") as f:
         json.dump(by_language, f, indent=2, sort_keys=True)
 
     console.print(

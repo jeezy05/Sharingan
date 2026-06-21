@@ -21,7 +21,7 @@ def _get_registry() -> dict:
     registry_path = get_registry_path()
     if not registry_path.exists():
         return {}
-    with open(registry_path, "r") as f:
+    with open(registry_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -55,7 +55,7 @@ def parse_package_json(path: Path) -> Dict[str, str]:
     if not path.exists():
         return {}
     try:
-        with open(path, "r") as f:
+        with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
             deps = data.get("dependencies", {})
             dev_deps = data.get("devDependencies", {})
@@ -71,7 +71,7 @@ def parse_requirements_txt(path: Path) -> Dict[str, str]:
         return {}
     deps = {}
     try:
-        with open(path, "r") as f:
+        with open(path, "r", encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
                 if not line or line.startswith('#') or line.startswith('-'):

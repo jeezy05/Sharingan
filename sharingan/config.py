@@ -13,11 +13,8 @@ from __future__ import annotations
 import json
 import os
 import shutil
+import sys
 from pathlib import Path
-
-from rich.console import Console
-
-console = Console()
 
 # ─── DATA DIRECTORY RESOLUTION ────────────────────────────────────────
 
@@ -91,7 +88,7 @@ def migrate_legacy_data() -> None:
     if not old_libraries.exists() or not any(old_libraries.iterdir()):
         return
 
-    console.print("[cyan]Migrating Sharingan data to ~/.sharingan/ (one-time)...[/]")
+    sys.stderr.write("Migrating Sharingan data to ~/.sharingan/ (one-time)...\n")
 
     # Migrate libraries
     new_libraries = get_libraries_dir()
@@ -102,9 +99,9 @@ def migrate_legacy_data() -> None:
         if not dest.exists():
             try:
                 shutil.copytree(lib_dir, dest)
-                console.print(f"  → Migrated {lib_dir.name}")
+                sys.stderr.write(f"  → Migrated {lib_dir.name}\n")
             except Exception as e:
-                console.print(f"  [yellow]⚠ Failed to migrate {lib_dir.name}: {e}[/]")
+                sys.stderr.write(f"  ⚠ Failed to migrate {lib_dir.name}: {e}\n")
 
     # Migrate indexes
     if old_indexes.exists():
@@ -119,4 +116,4 @@ def migrate_legacy_data() -> None:
 
     # Mark as migrated
     migration_marker.write_text("migrated")
-    console.print("[green]✓ Data migrated to ~/.sharingan/[/]")
+    sys.stderr.write("✓ Data migrated to ~/.sharingan/\n")

@@ -8,15 +8,14 @@ Uses FastMCP to define tools and resources.
 from __future__ import annotations
 
 import json
+import logging
+import sys
 from pathlib import Path
 from typing import Any
 
 from fastmcp import FastMCP
-from rich.console import Console
 
 from sharingan.config import get_indexes_dir, get_libraries_dir, migrate_legacy_data
-
-console = Console()
 
 # Ensure legacy data is migrated
 migrate_legacy_data()
@@ -218,9 +217,14 @@ def get_neighbors(node_id: str) -> str:
 
 
 def start() -> None:
-    """Start the FastMCP server with stdio transport."""
-    console.print("[cyan]Starting Sharingan MCP Server (stdio)...[/]")
-    mcp.run(transport="stdio")
+    """Start the FastMCP server with stdio transport.
+
+    CRITICAL: For stdio transport, absolutely NOTHING except valid JSON-RPC
+    may be written to stdout. All status messages go to stderr.
+    """
+    sys.stderr.write("Starting Sharingan MCP Server (stdio)...\n")
+    logging.disable(logging.CRITICAL)
+    mcp.run(transport="stdio", show_banner=False)
 
 
 if __name__ == "__main__":

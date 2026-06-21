@@ -359,12 +359,16 @@ def serve(transport: str, port: int) -> None:
     """
     from sharingan.serve import mcp
     
+    import sys
+    import logging
     if transport == "stdio":
-        console.print("[cyan]Starting Sharingan MCP Server (stdio)...[/]")
-        mcp.run(transport="stdio")
+        sys.stderr.write("Starting Sharingan MCP Server (stdio)...\n")
+        # Critical: FastMCP logs INFO to stdout by default, which breaks MCP JSON-RPC protocol
+        logging.disable(logging.CRITICAL)
+        mcp.run(transport="stdio", show_banner=False)
     elif transport == "sse":
-        console.print(f"[cyan]Starting Sharingan MCP Server (sse on port {port})...[/]")
-        mcp.run(transport="sse", port=port)
+        sys.stderr.write(f"Starting Sharingan MCP Server (sse on port {port})...\n")
+        mcp.run(transport="sse", port=port, show_banner=False)
 
 
 if __name__ == "__main__":

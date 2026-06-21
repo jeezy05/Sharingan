@@ -121,7 +121,8 @@ def discover_all(
             sources.append(source)
         except (KeyError, ValueError) as e:
             # Log but don't fail on individual library errors
-            print(f"Warning: skipping {library_id}: {e}")
+            import sys
+            sys.stderr.write(f"Warning: skipping {library_id}: {e}\n")
     return sources
 
 

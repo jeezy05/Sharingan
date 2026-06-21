@@ -122,6 +122,35 @@ def search_symbols(query: str, library_id: str | None = None) -> str:
     return response + "\n".join(results)
 
 
+
+@mcp.tool()
+async def extract_library_docs(library_id: str, version: str | None = None) -> str:
+    """Extract documentation for a library on-the-fly if it is missing.
+    
+    Use this if you need documentation for a library but search_symbols returns nothing.
+    Args:
+        library_id: The ID of the library from the Sharingan registry (e.g., 'zod', 'fastapi').
+        version: Optional specific version (defaults to latest).
+    """
+    import asyncio
+    
+    cmd = ["sharingan", "extract", library_id, "--skip-llm"]
+    if version:
+        cmd.extend(["--version", version])
+        
+    process = await asyncio.create_subprocess_exec(
+        *cmd,
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE,
+    )
+    stdout, stderr = await process.communicate()
+    
+    if process.returncode == 0:
+        return f"Successfully extracted documentation for {library_id}. You can now use search_symbols to query it."
+    else:
+        return f"Failed to extract {library_id}. Exit code {process.returncode}.\nError:\n{stderr.decode()}"
+
+
 @mcp.tool()
 def get_symbol_details(symbol_id: str) -> str:
     """Get the full, detailed documentation for a specific API symbol using its exact ID.

@@ -37,6 +37,63 @@ def get_data_dir() -> Path:
     return p
 
 
+def get_cache_dir() -> Path:
+    """Get the ephemeral cache directory for downloaded Cloud graphs.
+
+    Priority:
+    1. macOS: ~/Library/Caches/sharingan
+    2. Windows: %LOCALAPPDATA%/sharingan/Cache
+    3. Linux: $XDG_CACHE_HOME/sharingan or ~/.cache/sharingan
+    """
+    if sys.platform == "darwin":
+        p = Path.home() / "Library/Caches/sharingan"
+    elif sys.platform == "win32":
+        local_app_data = os.environ.get("LOCALAPPDATA", str(Path.home() / "AppData/Local"))
+        p = Path(local_app_data) / "sharingan" / "Cache"
+    else:
+        xdg_cache = os.environ.get("XDG_CACHE_HOME", str(Path.home() / ".cache"))
+        p = Path(xdg_cache) / "sharingan"
+    p.mkdir(parents=True, exist_ok=True)
+    return p
+
+
+def clean_expired_cache(days: int = 3) -> None:
+    """Delete downloaded graphs that are older than `days`.
+    Runs silently in the background or during MCP startup.
+    """
+    import time
+    cache_dir = get_cache_dir()
+    if not cache_dir.exists():
+        return
+        
+    now = time.time()
+    max_age = days * 24 * 60 * 60
+    
+    # Libraries are cached under ~/.cache/sharingan/libraries/
+    libs_dir = cache_dir / "libraries"
+    if not libs_dir.exists():
+        return
+        
+    for lib_item in libs_dir.iterdir():
+        if not lib_item.is_dir():
+            continue
+        versions_dir = lib_item / "versions"
+        if not versions_dir.exists():
+            continue
+            
+        for ver_item in versions_dir.iterdir():
+            if not ver_item.is_dir():
+                continue
+            # Check modification time of the version directory
+            mtime = ver_item.stat().st_mtime
+            if now - mtime > max_age:
+                shutil.rmtree(ver_item, ignore_errors=True)
+                
+        # If the library dir is now empty, remove it too
+        if not any(versions_dir.iterdir()):
+            shutil.rmtree(lib_item, ignore_errors=True)
+
+
 def get_libraries_dir() -> Path:
     """Get the directory where extracted library knowledge graphs are stored."""
     p = get_data_dir() / "libraries"

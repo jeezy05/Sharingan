@@ -243,61 +243,59 @@ def export_graph(
     )
 
 
-def build_indexes(
-    libraries_dir: Path,
-    indexes_dir: Path,
-) -> None:
-    """Build global search indexes across all libraries.
+def build_indexes(libraries_dirs: list[Path], indexes_dir: Path) -> None:
+    """Build global search indexes across all extracted libraries."""
+    from rich.console import Console
 
-    Creates:
-    - by-symbol-name.json — symbol name → list of full IDs
-    - by-category.json — category → list of library IDs
-    - by-language.json — language → list of library IDs
-    """
+    console = Console(stderr=True)
+    console.print("[cyan]Building global search indexes...[/]")
+
     indexes_dir.mkdir(parents=True, exist_ok=True)
 
     by_symbol: dict[str, list[str]] = {}
     by_category: dict[str, list[str]] = {}
     by_language: dict[str, list[str]] = {}
 
-    if not libraries_dir.exists():
-        return
-
-    for lib_dir in sorted(libraries_dir.iterdir()):
-        if not lib_dir.is_dir():
+    for libs_dir in libraries_dirs:
+        if not libs_dir.exists():
             continue
 
-        # Read library meta
-        meta_path = lib_dir / "meta.json"
-        if meta_path.exists():
-            with open(meta_path, encoding="utf-8") as f:
-                meta = json.load(f)
-            lib_id = meta.get("id", lib_dir.name)
-            category = meta.get("category", "")
-            language = meta.get("language", "")
-
-            if category:
-                by_category.setdefault(category, []).append(lib_id)
-            if language:
-                by_language.setdefault(language, []).append(lib_id)
-
-        # Read symbols from all versions
-        versions_dir = lib_dir / "versions"
-        if not versions_dir.exists():
-            continue
-
-        for ver_dir in sorted(versions_dir.iterdir()):
-            if not ver_dir.is_dir():
+        for lib_dir in sorted(libs_dir.iterdir()):
+            if not lib_dir.is_dir():
                 continue
-            symbols_path = ver_dir / "symbols.json"
-            if symbols_path.exists():
-                with open(symbols_path, encoding="utf-8") as f:
-                    symbols = json.load(f)
-                for sym in symbols:
-                    name = sym.get("name", "")
-                    sym_id = sym.get("id", "")
-                    if name and sym_id:
-                        by_symbol.setdefault(name, []).append(sym_id)
+
+            # Read library meta
+            meta_path = lib_dir / "meta.json"
+            if meta_path.exists():
+                with open(meta_path, encoding="utf-8") as f:
+                    meta = json.load(f)
+                lib_id = meta.get("id", lib_dir.name)
+                category = meta.get("category", "")
+                language = meta.get("language", "")
+
+                if category:
+                    by_category.setdefault(category, []).append(lib_id)
+                if language:
+                    by_language.setdefault(language, []).append(lib_id)
+
+            # Read symbols from all versions
+            versions_dir = lib_dir / "versions"
+            if not versions_dir.exists():
+                continue
+
+            for ver_dir in sorted(versions_dir.iterdir()):
+                if not ver_dir.is_dir():
+                    continue
+
+                symbols_path = ver_dir / "symbols.json"
+                if symbols_path.exists():
+                    with open(symbols_path, encoding="utf-8") as f:
+                        symbols = json.load(f)
+                    for sym in symbols:
+                        name = sym.get("name", "")
+                        sym_id = sym.get("id", "")
+                        if name and sym_id:
+                            by_symbol.setdefault(name, []).append(sym_id)
 
     with open(indexes_dir / "by-symbol-name.json", "w", encoding="utf-8") as f:
         json.dump(by_symbol, f, indent=2, sort_keys=True)

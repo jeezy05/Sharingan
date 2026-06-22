@@ -15,7 +15,7 @@ from typing import Any
 
 from fastmcp import FastMCP
 
-from sharingan.config import get_indexes_dir, get_libraries_dir, migrate_legacy_data
+from sharingan.config import get_indexes_dir, get_libraries_dir, get_cache_dir, migrate_legacy_data
 
 # Ensure legacy data is migrated
 migrate_legacy_data()
@@ -35,18 +35,36 @@ def _load_json(path: Path) -> dict[str, Any] | list[Any] | None:
         return None
 
 
+def _find_library_dir(lib_id: str) -> Path | None:
+    # Check cache first
+    p = get_cache_dir() / "libraries" / lib_id
+    if p.exists(): return p
+    # Fallback to local extraction
+    p = get_libraries_dir() / lib_id
+    if p.exists(): return p
+    return None
+
+def _get_all_library_dirs() -> list[Path]:
+    dirs = []
+    if get_libraries_dir().exists():
+        dirs.extend([d for d in get_libraries_dir().iterdir() if d.is_dir()])
+    cache_libs = get_cache_dir() / "libraries"
+    if cache_libs.exists():
+        dirs.extend([d for d in cache_libs.iterdir() if d.is_dir()])
+    return dirs
+
 @mcp.tool()
 def list_libraries() -> str:
     """List all documentation libraries currently available in the Sharingan knowledge graph.
     
     Use this to see which libraries you can query.
     """
-    libraries_dir = get_libraries_dir()
-    if not libraries_dir.exists():
-        return "No libraries extracted yet. Please run 'sharingan extract <lib>' first."
+    dirs = _get_all_library_dirs()
+    if not dirs:
+        return "No libraries extracted yet. Please run \'sharingan extract <lib>\' first."
     
     results = []
-    for lib_dir in sorted(libraries_dir.iterdir()):
+    for lib_dir in sorted(dirs, key=lambda d: d.name):
         if not lib_dir.is_dir():
             continue
         meta = _load_json(lib_dir / "meta.json")
@@ -89,7 +107,6 @@ def search_symbols(query: str, library_id: str | None = None) -> str:
         return f"No symbols found matching '{query}'{lib_filter}."
 
     # Load and format the top 10 matching symbols
-    libraries_dir = get_libraries_dir()
     results = []
     
     for match in matches[:10]:
@@ -99,7 +116,8 @@ def search_symbols(query: str, library_id: str | None = None) -> str:
         lib_id = lib_ver.split("@")[0] if "@" in lib_ver else lib_ver
         ver = lib_ver.split("@")[1] if "@" in lib_ver else ""
 
-        symbols_path = libraries_dir / lib_id / "versions" / ver / "symbols.json"
+        lib_dir = _find_library_dir(lib_id)
+        symbols_path = lib_dir / "versions" / ver / "symbols.json" if lib_dir else Path("does_not_exist")
         symbols = _load_json(symbols_path)
         
         found = False
@@ -167,7 +185,8 @@ def get_symbol_details(symbol_id: str) -> str:
     ver = lib_ver.split("@")[1] if "@" in lib_ver else ""
 
     libraries_dir = get_libraries_dir()
-    symbols_path = libraries_dir / lib_id / "versions" / ver / "symbols.json"
+    lib_dir = _find_library_dir(lib_id)
+    symbols_path = lib_dir / "versions" / ver / "symbols.json" if lib_dir else Path("does_not_exist")
     symbols = _load_json(symbols_path)
     
     if not symbols or not isinstance(symbols, list):

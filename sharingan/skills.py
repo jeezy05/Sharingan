@@ -361,7 +361,7 @@ def _install_cursor() -> None:
     rules_dir.mkdir(parents=True, exist_ok=True)
 
     rule_path = rules_dir / "sharingan.mdc"
-    rule_path.write_text(get_cursor_rule(base, encoding="utf-8"))
+    rule_path.write_text(get_cursor_rule(base), encoding="utf-8")
     console.print(f"  → Created {rule_path}")
 
 
@@ -379,7 +379,7 @@ def _install_antigravity() -> None:
     rules_dir.mkdir(parents=True, exist_ok=True)
 
     rule_path = rules_dir / "sharingan.md"
-    rule_path.write_text(get_skill_content(base, encoding="utf-8"))
+    rule_path.write_text(get_skill_content(base), encoding="utf-8")
     console.print(f"  → Created {rule_path}")
 
 

@@ -20,7 +20,7 @@ import click
 from rich.console import Console
 from rich.table import Table
 
-from sharingan.config import get_data_dir, get_indexes_dir, get_libraries_dir
+from sharingan.config import get_data_dir, get_indexes_dir, get_libraries_dir, get_cache_dir
 
 console = Console()
 
@@ -38,15 +38,16 @@ def main() -> None:
 @main.command()
 @click.argument("library")
 @click.option("--version", "-v", default=None, help="Specific version to extract.")
-@click.option("--update", is_flag=True, help="Only re-extract changed pages.")
-@click.option("--skip-llm", is_flag=True, help="Skip Pass 2 (LLM extraction).")
+@click.option("--update", is_flag=True, help="Only re-extract changed pages (local only).")
+@click.option("--skip-llm", is_flag=True, help="Skip Pass 2 (LLM extraction) (local only).")
 @click.option(
     "--backend",
     type=click.Choice(["anthropic", "openai", "ollama"]),
     default=None,
-    help="LLM backend (auto-detected if not specified).",
+    help="LLM backend (local only).",
 )
-@click.option("--output", "-o", type=click.Path(), default=None, help="Output directory.")
+@click.option("--output", "-o", type=click.Path(), default=None, help="Output directory (local only).")
+@click.option("--local", "is_local", is_flag=True, help="Run the extraction locally instead of downloading from cloud.")
 def extract(
     library: str,
     version: str | None,
@@ -54,15 +55,35 @@ def extract(
     skip_llm: bool,
     backend: str | None,
     output: str | None,
+    is_local: bool,
 ) -> None:
     """Extract documentation for a library into the knowledge graph.
 
     Examples:
         sharingan extract zod
         sharingan extract nextjs --version 15.3.2
-        sharingan extract react --skip-llm
-        sharingan extract fastapi --backend ollama --update
+        sharingan extract react --local --skip-llm
     """
+    from sharingan.discover import discover_library
+    
+    # 1. Resolve version
+    try:
+        source = discover_library(library, version)
+        resolved_version = source.version
+    except KeyError as e:
+        console.print(f"[red]{e}[/]")
+        sys.exit(1)
+
+    if not is_local:
+        # Try cloud first
+        from sharingan.cloud import download_cloud_graph
+        success = asyncio.run(download_cloud_graph(library, resolved_version))
+        if success:
+            return
+        else:
+            console.print("[yellow]Falling back to local extraction...[/]")
+
+    # 2. Local fallback
     from sharingan.pipeline import extract_library
 
     output_path = Path(output) if output else None
@@ -70,7 +91,7 @@ def extract(
     result = asyncio.run(
         extract_library(
             library_id=library,
-            version=version,
+            version=version,  # pass original to let pipeline discover
             output_dir=output_path,
             update_only=update,
             skip_llm=skip_llm,
@@ -109,6 +130,14 @@ def list_libraries() -> None:
     console.print(table)
 
 
+
+def _find_library_dir(lib_id: str) -> Path | None:
+    p = get_cache_dir() / "libraries" / lib_id
+    if p.exists(): return p
+    p = get_libraries_dir() / lib_id
+    if p.exists(): return p
+    return None
+
 @main.command()
 @click.argument("library")
 def info(library: str) -> None:
@@ -130,7 +159,9 @@ def info(library: str) -> None:
     console.print(f"  Tags:      {', '.join(source.tags)}")
 
     # Check if already extracted
-    lib_dir = get_libraries_dir() / source.library_id
+    lib_dir = _find_library_dir(source.library_id)
+    if not lib_dir:
+        lib_dir = Path("does_not_exist")
     if lib_dir.exists():
         versions = []
         versions_dir = lib_dir / "versions"
@@ -199,9 +230,8 @@ def query(question: str, lib: str | None, version: str | None) -> None:
         lib_id = lib_ver.split("@")[0] if "@" in lib_ver else lib_ver
         ver = lib_ver.split("@")[1] if "@" in lib_ver else ""
 
-        symbols_path = (
-            get_libraries_dir() / lib_id / "versions" / ver / "symbols.json"
-        )
+        lib_dir = _find_library_dir(lib_id)
+        symbols_path = lib_dir / "versions" / ver / "symbols.json" if lib_dir else Path("does_not_exist")
         if symbols_path.exists():
             with open(symbols_path, encoding="utf-8") as f:
                 symbols = json.load(f)

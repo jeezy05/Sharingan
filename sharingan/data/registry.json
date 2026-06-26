@@ -301,6 +301,90 @@
           "Doc/reference"
         ]
       }
+    },
+    "pydantic-ai": {
+      "id": "pydantic-ai",
+      "name": "PydanticAI",
+      "category": "ai",
+      "language": "python",
+      "repo_url": "https://github.com/pydantic/pydantic-ai",
+      "docs_url": "https://ai.pydantic.dev",
+      "npm_package": null,
+      "pypi_package": "pydantic-ai",
+      "latest_version": "0.0.12",
+      "tracked_versions": [
+        "0.0.12"
+      ],
+      "tags": [
+        "ai",
+        "python",
+        "pydantic",
+        "llm"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "pydantic/pydantic-ai",
+        "branch": "main",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
+    },
+    "langchain": {
+      "id": "langchain",
+      "name": "LangChain",
+      "category": "ai",
+      "language": "python",
+      "repo_url": "https://github.com/langchain-ai/langchain",
+      "docs_url": "https://python.langchain.com",
+      "npm_package": null,
+      "pypi_package": "langchain",
+      "latest_version": "0.3.0",
+      "tracked_versions": [
+        "0.3.0"
+      ],
+      "tags": [
+        "ai",
+        "python",
+        "llm",
+        "agents"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "langchain-ai/langchain",
+        "branch": "master",
+        "docs_path": "docs/docs",
+        "extra_paths": []
+      }
+    },
+    "supabase": {
+      "id": "supabase",
+      "name": "Supabase",
+      "category": "backend",
+      "language": "typescript",
+      "repo_url": "https://github.com/supabase/supabase",
+      "docs_url": "https://supabase.com/docs",
+      "npm_package": "@supabase/supabase-js",
+      "pypi_package": "supabase",
+      "latest_version": "2.40.0",
+      "tracked_versions": [
+        "2.40.0"
+      ],
+      "tags": [
+        "backend",
+        "database",
+        "auth",
+        "postgres"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "supabase/supabase",
+        "branch": "master",
+        "docs_path": "apps/docs/content",
+        "extra_paths": []
+      }
     }
   }
 }

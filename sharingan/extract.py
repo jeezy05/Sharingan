@@ -76,7 +76,10 @@ def detect_backend() -> str:
     
     try:
         import httpx
-        resp = httpx.get(f"{base_url}/api/tags", timeout=2.0)
+        headers = {}
+        if os.environ.get("OLLAMA_API_KEY"):
+            headers["Authorization"] = f"Bearer {os.environ['OLLAMA_API_KEY']}"
+        resp = httpx.get(f"{base_url}/api/tags", headers=headers, timeout=2.0)
         if resp.status_code == 200:
             models = resp.json().get("models", [])
             model_names = [m.get("name", "") for m in models]
@@ -120,12 +123,14 @@ Output ONLY valid JSON matching this schema:
   "symbols": [
     {
       "name": "string",
-      "kind": "function|class|type|interface|hook|component|constant|decorator",
+      "kind": "function|class|type|interface|hook|component|constant|decorator|guide",
       "module_path": "string (import path)",
       "signature": "string (full signature)",
       "description": "string (1-3 sentences)",
       "parameters": [{"name": "string", "type": "string", "required": true, "description": "string"}],
       "return_type": "string",
+      "usage_example": "string (a short, idiomatic code snippet showing how to use the symbol)",
+      "tags": ["string (e.g. hook, component, server-only)"],
       "deprecated": false,
       "deprecated_by": "string|null"
     }
@@ -252,8 +257,13 @@ async def _call_ollama(prompt: str, system: str) -> str:
 
     async with httpx.AsyncClient(timeout=120.0) as client:
         try:
+            headers = {}
+            if os.environ.get("OLLAMA_API_KEY"):
+                headers["Authorization"] = f"Bearer {os.environ['OLLAMA_API_KEY']}"
+                
             resp = await client.post(
                 f"{base_url}/api/chat",
+                headers=headers,
                 json={
                     "model": model,
                     "messages": [
@@ -336,6 +346,9 @@ def _parse_llm_response(
 
     # Parse symbols into nodes
     for sym in data.get("symbols", []):
+        if not isinstance(sym, dict):
+            continue
+            
         name = sym.get("name", "")
         if not name:
             continue
@@ -367,9 +380,14 @@ def _parse_llm_response(
 
     # Parse relationships into edges
     for rel in data.get("relationships", []):
+        if not isinstance(rel, dict):
+            continue
+            
         source_name = rel.get("source", "")
         target_name = rel.get("target", "")
         if not source_name or not target_name:
+            continue
+        if not isinstance(source_name, str) or not isinstance(target_name, str):
             continue
         result.edges.append(
             ExtractedEdge(

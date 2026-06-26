@@ -183,7 +183,7 @@ async def extract_library(
                 end="",
             )
             try:
-                llm_result = await extract_page(parsed, version_id, backend)
+                llm_result = await extract_page(parsed, version_id, llm_backend)
                 merged = merge_pass1_pass2(
                     parsed, llm_result, version_id, source_url=parsed.source_url
                 )
@@ -242,7 +242,7 @@ async def extract_library(
     libraries_dir = get_libraries_dir()
     indexes_dir = get_indexes_dir()
     if libraries_dir.exists():
-        build_indexes(libraries_dir, indexes_dir)
+        build_indexes([libraries_dir], indexes_dir)
 
     # ── Summary ───────────────────────────────────────────────────────
     stats = {

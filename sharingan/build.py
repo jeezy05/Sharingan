@@ -297,6 +297,16 @@ def build_indexes(libraries_dirs: list[Path], indexes_dir: Path) -> None:
                         if name and sym_id:
                             by_symbol.setdefault(name, []).append(sym_id)
 
+                guides_path = ver_dir / "guides.json"
+                if guides_path.exists():
+                    with open(guides_path, encoding="utf-8") as f:
+                        guides = json.load(f)
+                    for guide in guides:
+                        name = guide.get("title", "")
+                        sym_id = guide.get("id", "")
+                        if name and sym_id:
+                            by_symbol.setdefault(name, []).append(sym_id)
+
     with open(indexes_dir / "by-symbol-name.json", "w", encoding="utf-8") as f:
         json.dump(by_symbol, f, indent=2, sort_keys=True)
 

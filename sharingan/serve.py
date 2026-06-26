@@ -15,7 +15,9 @@ from typing import Any
 
 from fastmcp import FastMCP
 
-from sharingan.config import get_indexes_dir, get_libraries_dir, get_cache_dir, migrate_legacy_data
+from sharingan.config import get_libraries_dir, get_cache_dir, migrate_legacy_data
+from sharingan.search import hybrid_graph_search, _find_library_dir, _load_json
+from sharingan.scanner import scan_project_dependencies
 
 # Ensure legacy data is migrated
 migrate_legacy_data()
@@ -24,45 +26,24 @@ migrate_legacy_data()
 mcp = FastMCP("Sharingan")
 
 
-
-def _load_json(path: Path) -> dict[str, Any] | list[Any] | None:
-    if not path.exists():
-        return None
-    try:
-        with open(path, encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return None
-
-
-def _find_library_dir(lib_id: str) -> Path | None:
-    # Check cache first
-    p = get_cache_dir() / "libraries" / lib_id
-    if p.exists(): return p
-    # Fallback to local extraction
-    p = get_libraries_dir() / lib_id
-    if p.exists(): return p
-    return None
-
 def _get_all_library_dirs() -> list[Path]:
     dirs = []
-    if get_libraries_dir().exists():
-        dirs.extend([d for d in get_libraries_dir().iterdir() if d.is_dir()])
-    cache_libs = get_cache_dir() / "libraries"
-    if cache_libs.exists():
-        dirs.extend([d for d in cache_libs.iterdir() if d.is_dir()])
+    for base in [get_libraries_dir(), get_cache_dir() / "libraries"]:
+        if base.exists():
+            dirs.extend([d for d in base.iterdir() if d.is_dir()])
     return dirs
+
 
 @mcp.tool()
 def list_libraries() -> str:
     """List all documentation libraries currently available in the Sharingan knowledge graph.
-    
+
     Use this to see which libraries you can query.
     """
     dirs = _get_all_library_dirs()
     if not dirs:
-        return "No libraries extracted yet. Please run \'sharingan extract <lib>\' first."
-    
+        return "No libraries extracted yet. Please run 'sharingan extract <lib>' first."
+
     results = []
     for lib_dir in sorted(dirs, key=lambda d: d.name):
         if not lib_dir.is_dir():
@@ -72,196 +53,65 @@ def list_libraries() -> str:
             name = meta.get("name", lib_dir.name)
             latest = meta.get("latest_version", "unknown")
             results.append(f"- {name} (ID: {lib_dir.name}, Latest: {latest})")
-    
+
     if not results:
         return "No libraries found."
     return "Libraries available in Sharingan:\n" + "\n".join(results)
 
 
 @mcp.tool()
-def search_symbols(query: str, library_id: str | None = None) -> str:
-    """Search for API symbols (functions, classes, types, components) across the knowledge graph.
-    
-    Args:
-        query: The symbol name or keyword to search for (e.g., 'useRouter', 'createServer').
-        library_id: (Optional) Filter results to a specific library (e.g., 'nextjs', 'nodejs').
+def ask_sharingan(query: str, library_id: str) -> str:
+    """MASTER TOOL: Get comprehensive documentation for a library.
+
+    If the user's project (package.json/pyproject.toml) uses a specific
+    framework, ALWAYS call this tool first to get the official rules
+    and syntax before attempting to write code for it.
+
+    For small libraries, this returns the entire documentation.
+    For large libraries, provide explicit keywords or symbol names
+    (e.g., 'AppRouter', 'middleware') to deterministically fetch
+    the exact API references and their related tutorials.
     """
-    indexes_dir = get_indexes_dir()
-    symbol_index_path = indexes_dir / "by-symbol-name.json"
-    
-    symbol_index = _load_json(symbol_index_path)
-    if not symbol_index or not isinstance(symbol_index, dict):
-        return "Indexes not found. Please run 'sharingan extract' first."
+    return hybrid_graph_search(query, library_id)
 
-    query_lower = query.lower()
-    matches = []
-    for name, ids in symbol_index.items():
-        if query_lower in name.lower():
-            for sym_id in ids:
-                if library_id and not sym_id.startswith(f"{library_id}@"):
-                    continue
-                matches.append({"name": name, "id": sym_id})
 
-    if not matches:
-        lib_filter = f" in library '{library_id}'" if library_id else ""
-        return f"No symbols found matching '{query}'{lib_filter}."
+@mcp.tool()
+def scan_dependencies(directory: str = ".") -> str:
+    """Scan the user's project directory to find which dependencies are available in Sharingan.
 
-    # Load and format the top 10 matching symbols
-    results = []
-    
-    for match in matches[:10]:
-        sym_id = match["id"]
-        parts = sym_id.split("::")
-        lib_ver = parts[0] if parts else ""
-        lib_id = lib_ver.split("@")[0] if "@" in lib_ver else lib_ver
-        ver = lib_ver.split("@")[1] if "@" in lib_ver else ""
-
-        lib_dir = _find_library_dir(lib_id)
-        symbols_path = lib_dir / "versions" / ver / "symbols.json" if lib_dir else Path("does_not_exist")
-        symbols = _load_json(symbols_path)
-        
-        found = False
-        if symbols and isinstance(symbols, list):
-            for sym in symbols:
-                if sym.get("id") == sym_id:
-                    results.append(
-                        f"## {sym.get('name')} ({sym.get('kind', 'symbol')})\n"
-                        f"**Library**: {lib_id} v{ver}\n"
-                        f"**Signature**: `{sym.get('signature', '')}`\n"
-                        f"**Description**: {sym.get('description', '')}\n"
-                    )
-                    found = True
-                    break
-        
-        if not found:
-            results.append(f"- {match['name']} ({sym_id})")
-
-    response = f"Found {len(matches)} results for '{query}'. Showing top 10:\n\n"
-    return response + "\n".join(results)
-
+    Call this tool FIRST whenever you start working on a new repository or project.
+    It will tell you exactly which libraries you can query via `ask_sharingan`, and
+    which ones you need to fall back to web search for.
+    """
+    return scan_project_dependencies(directory)
 
 
 @mcp.tool()
 async def extract_library_docs(library_id: str, version: str | None = None) -> str:
     """Extract documentation for a library on-the-fly if it is missing.
-    
-    Use this if you need documentation for a library but search_symbols returns nothing.
+
+    Use this if you need documentation for a library that is not yet extracted locally.
     Args:
         library_id: The ID of the library from the Sharingan registry (e.g., 'zod', 'fastapi').
         version: Optional specific version (defaults to latest).
     """
     import asyncio
-    
+
     cmd = ["sharingan", "extract", library_id, "--skip-llm"]
     if version:
         cmd.extend(["--version", version])
-        
+
     process = await asyncio.create_subprocess_exec(
         *cmd,
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE,
     )
     stdout, stderr = await process.communicate()
-    
+
     if process.returncode == 0:
-        return f"Successfully extracted documentation for {library_id}. You can now use search_symbols to query it."
+        return f"Successfully extracted documentation for {library_id}."
     else:
         return f"Failed to extract {library_id}. Exit code {process.returncode}.\nError:\n{stderr.decode()}"
-
-
-@mcp.tool()
-def get_symbol_details(symbol_id: str) -> str:
-    """Get the full, detailed documentation for a specific API symbol using its exact ID.
-    
-    Args:
-        symbol_id: The exact ID of the symbol (e.g., 'nextjs@15.3.2::next/router::useRouter').
-    """
-    parts = symbol_id.split("::")
-    if not parts:
-        return f"Invalid symbol ID format: {symbol_id}"
-        
-    lib_ver = parts[0]
-    lib_id = lib_ver.split("@")[0] if "@" in lib_ver else lib_ver
-    ver = lib_ver.split("@")[1] if "@" in lib_ver else ""
-
-    libraries_dir = get_libraries_dir()
-    lib_dir = _find_library_dir(lib_id)
-    symbols_path = lib_dir / "versions" / ver / "symbols.json" if lib_dir else Path("does_not_exist")
-    symbols = _load_json(symbols_path)
-    
-    if not symbols or not isinstance(symbols, list):
-        return f"Could not find library data for {lib_id} v{ver}"
-
-    for sym in symbols:
-        if sym.get("id") == symbol_id:
-            # Format the full symbol detail
-            out = [
-                f"# {sym.get('name')} ({sym.get('kind', 'symbol')})",
-                f"**Library**: {lib_id} v{ver}",
-                f"**Module**: {sym.get('module_path', '')}",
-                f"\n## Signature\n```typescript\n{sym.get('signature', '')}\n```",
-                f"\n## Description\n{sym.get('description', '')}",
-            ]
-            
-            params = sym.get("parameters", [])
-            if params:
-                out.append("\n## Parameters")
-                for p in params:
-                    req = "" if p.get("required", True) else "(Optional) "
-                    out.append(f"- **{p.get('name')}**: `{p.get('type', 'any')}` - {req}{p.get('description', '')}")
-                    
-            ret = sym.get("return_type", "")
-            if ret:
-                out.append(f"\n## Returns\n`{ret}`")
-                
-            dep = sym.get("deprecated")
-            if dep:
-                dep_by = sym.get("deprecated_by")
-                by_str = f" Use {dep_by} instead." if dep_by else ""
-                out.append(f"\n> ⚠️ **DEPRECATED**{by_str}")
-                
-            return "\n".join(out)
-
-    return f"Symbol {symbol_id} not found."
-
-
-@mcp.tool()
-def get_neighbors(node_id: str) -> str:
-    """Get all related symbols and guides connected to a specific node in the knowledge graph.
-    
-    Args:
-        node_id: The exact ID of the node (symbol or guide) to find relations for.
-    """
-    parts = node_id.split("::")
-    if not parts:
-        return f"Invalid node ID format: {node_id}"
-        
-    lib_ver = parts[0]
-    lib_id = lib_ver.split("@")[0] if "@" in lib_ver else lib_ver
-    ver = lib_ver.split("@")[1] if "@" in lib_ver else ""
-
-    libraries_dir = get_libraries_dir()
-    edges_path = libraries_dir / lib_id / "versions" / ver / "edges.json"
-    edges = _load_json(edges_path)
-    
-    if not edges or not isinstance(edges, list):
-        return f"Could not find edge data for {lib_id} v{ver}"
-
-    relations = []
-    for edge in edges:
-        source = edge.get("source")
-        target = edge.get("target")
-        edge_type = edge.get("type", "RELATED_TO")
-        
-        if source == node_id:
-            relations.append(f"- **{edge_type}** → {target}")
-        elif target == node_id:
-            relations.append(f"- ← **{edge_type}** from {source}")
-
-    if not relations:
-        return f"No known relationships found for {node_id}."
-        
-    return f"Relationships for {node_id}:\n\n" + "\n".join(relations)
 
 
 def start() -> None:

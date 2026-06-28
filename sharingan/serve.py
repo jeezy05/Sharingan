@@ -36,27 +36,32 @@ def _get_all_library_dirs() -> list[Path]:
 
 @mcp.tool()
 def list_libraries() -> str:
-    """List all documentation libraries currently available in the Sharingan knowledge graph.
+    """List all documentation libraries available in the Sharingan knowledge graph.
 
-    Use this to see which libraries you can query.
+    Use this to see which libraries you can query. If a library is listed as 
+    (Not Downloaded), you MUST use the `extract_library_docs` tool to fetch it 
+    from the cloud before querying it.
     """
-    dirs = _get_all_library_dirs()
-    if not dirs:
-        return "No libraries extracted yet. Please run 'sharingan extract <lib>' first."
-
+    from sharingan.discover import load_registry
+    
+    registry = load_registry()
+    available_libs = registry.get("libraries", {})
+    
+    # Get locally cached ones
+    local_dirs = {d.name: d for d in _get_all_library_dirs()}
+    
     results = []
-    for lib_dir in sorted(dirs, key=lambda d: d.name):
-        if not lib_dir.is_dir():
-            continue
-        meta = _load_json(lib_dir / "meta.json")
-        if meta and isinstance(meta, dict):
-            name = meta.get("name", lib_dir.name)
-            latest = meta.get("latest_version", "unknown")
-            results.append(f"- {name} (ID: {lib_dir.name}, Latest: {latest})")
-
+    for lib_id, info in sorted(available_libs.items()):
+        name = info.get("name", lib_id)
+        latest = info.get("latest_version", "unknown")
+        
+        status = "✅ Cached Locally" if lib_id in local_dirs else "☁️ Cloud (Requires extract_library_docs)"
+        results.append(f"- {name} (ID: {lib_id}, Latest: {latest}) - {status}")
+        
     if not results:
-        return "No libraries found."
-    return "Libraries available in Sharingan:\n" + "\n".join(results)
+        return "No libraries found in registry."
+        
+    return "Libraries available in Sharingan ecosystem:\n" + "\n".join(results)
 
 
 @mcp.tool()

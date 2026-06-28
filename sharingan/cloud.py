@@ -6,6 +6,7 @@ import httpx
 import shutil
 import tarfile
 from pathlib import Path
+import json
 from rich.console import Console
 
 from sharingan.config import get_cache_dir
@@ -55,6 +56,26 @@ async def download_cloud_graph(library_id: str, version: str) -> bool:
             
         # Clean up the tar file
         tar_path.unlink()
+        
+        # Synthesize meta.json in the parent directory so search.py can detect it
+        parent_dir = cache_dir.parent.parent
+        meta_path = parent_dir / "meta.json"
+        
+        # Load registry to get the proper name, or fallback to library_id
+        from sharingan.discover import load_registry
+        registry = load_registry()
+        lib_info = registry.get("libraries", {}).get(library_id, {})
+        display_name = lib_info.get("name", library_id)
+        
+        # If meta.json exists, update latest_version if this version is newer
+        # For simplicity, we'll just set it to this version if we just downloaded it
+        if not meta_path.exists():
+            with open(meta_path, "w", encoding="utf-8") as f:
+                json.dump({
+                    "id": library_id,
+                    "name": display_name,
+                    "latest_version": version
+                }, f, indent=2)
         
         # Rebuild indexes since we added a new library
         from sharingan.build import build_indexes

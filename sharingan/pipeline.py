@@ -230,10 +230,16 @@ async def extract_library(
 
     # Update cache
     for page, parsed in zip(pages_to_process, parsed_pages):
+        # Find the extraction result for this page
+        extraction = next((e for e in extractions if e.page_key == parsed.page_key), None)
+        
+        # If there was an LLM error, do not cache the page so it is retried next time
+        if extraction and getattr(extraction, "error", None):
+            console.print(f"[dim]Skipping cache for {page.key} due to extraction error.[/dim]")
+            continue
+            
         node_count = len([
-            e for e in extractions
-            if e.page_key == parsed.page_key
-            for _ in e.nodes
+            _ for _ in (extraction.nodes if extraction else [])
         ])
         cache.update_entry(page.key, page.content, node_count=node_count)
     cache.save()

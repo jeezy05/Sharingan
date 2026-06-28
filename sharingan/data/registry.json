@@ -385,6 +385,418 @@
         "docs_path": "apps/docs/content",
         "extra_paths": []
       }
+    },
+    "zarr": {
+      "id": "zarr",
+      "name": "Zarr",
+      "category": "scientific-computing",
+      "language": "python",
+      "repo_url": "https://github.com/zarr-developers/zarr-python",
+      "docs_url": "https://zarr.readthedocs.io/",
+      "npm_package": null,
+      "pypi_package": "zarr",
+      "latest_version": "3.2.1",
+      "tracked_versions": [
+        "3.2.1"
+      ],
+      "tags": [
+        "scientific",
+        "hpc",
+        "storage",
+        "arrays"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "zarr-developers/zarr-python",
+        "branch": "main",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
+    },
+    "taichi": {
+      "id": "taichi",
+      "name": "Taichi",
+      "category": "high-performance-compute",
+      "language": "python",
+      "repo_url": "https://github.com/taichi-dev/taichi",
+      "docs_url": "https://docs.taichi-lang.org/",
+      "npm_package": null,
+      "pypi_package": "taichi",
+      "latest_version": "1.7.4",
+      "tracked_versions": [
+        "1.7.4"
+      ],
+      "tags": [
+        "graphics",
+        "simulation",
+        "gpu",
+        "metal",
+        "cuda"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "taichi-dev/taichi",
+        "branch": "main",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
+    },
+    "warp": {
+      "id": "warp",
+      "name": "NVIDIA Warp",
+      "category": "high-performance-compute",
+      "language": "python",
+      "repo_url": "https://github.com/NVIDIA/warp",
+      "docs_url": "https://nvidia.github.io/warp/",
+      "npm_package": null,
+      "pypi_package": "warp-lang",
+      "latest_version": "1.0.2",
+      "tracked_versions": [
+        "1.0.2"
+      ],
+      "tags": [
+        "nvidia",
+        "gpu",
+        "simulation",
+        "physics"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "NVIDIA/warp",
+        "branch": "main",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
+    },
+    "pymc": {
+      "id": "pymc",
+      "name": "PyMC",
+      "category": "probabilistic",
+      "language": "python",
+      "repo_url": "https://github.com/pymc-devs/pymc",
+      "docs_url": "https://www.pymc.io/",
+      "npm_package": null,
+      "pypi_package": "pymc",
+      "latest_version": "6.0.1",
+      "tracked_versions": [
+        "6.0.1"
+      ],
+      "tags": [
+        "bayesian",
+        "statistics",
+        "inference"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "pymc-devs/pymc",
+        "branch": "main",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
+    },
+    "equinox": {
+      "id": "equinox",
+      "name": "Equinox",
+      "category": "jax-ecosystem",
+      "language": "python",
+      "repo_url": "https://github.com/patrick-kidger/equinox",
+      "docs_url": "https://docs.kidger.site/equinox/",
+      "npm_package": null,
+      "pypi_package": "equinox",
+      "latest_version": "0.13.8",
+      "tracked_versions": [
+        "0.13.8"
+      ],
+      "tags": [
+        "jax",
+        "neural-networks",
+        "deep-learning"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "patrick-kidger/equinox",
+        "branch": "main",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
+    },
+    "ibis": {
+      "id": "ibis",
+      "name": "Ibis",
+      "category": "modern-data-stack",
+      "language": "python",
+      "repo_url": "https://github.com/ibis-project/ibis",
+      "docs_url": "https://ibis-project.org/",
+      "npm_package": null,
+      "pypi_package": "ibis-framework",
+      "latest_version": "12.0.0",
+      "tracked_versions": [
+        "12.0.0"
+      ],
+      "tags": [
+        "dataframe",
+        "sql",
+        "analytics"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "ibis-project/ibis",
+        "branch": "main",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
+    },
+    "narwhals": {
+      "id": "narwhals",
+      "name": "Narwhals",
+      "category": "modern-data-stack",
+      "language": "python",
+      "repo_url": "https://github.com/narwhals-dev/narwhals",
+      "docs_url": "https://narwhals-dev.github.io/narwhals/",
+      "npm_package": null,
+      "pypi_package": "narwhals",
+      "latest_version": "2.22.1",
+      "tracked_versions": [
+        "2.22.1"
+      ],
+      "tags": [
+        "dataframe",
+        "compatibility",
+        "polars",
+        "pandas"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "narwhals-dev/narwhals",
+        "branch": "main",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
+    },
+    "marimo": {
+      "id": "marimo",
+      "name": "Marimo",
+      "category": "modern-data-stack",
+      "language": "python",
+      "repo_url": "https://github.com/marimo-team/marimo",
+      "docs_url": "https://docs.marimo.io/",
+      "npm_package": null,
+      "pypi_package": "marimo",
+      "latest_version": "0.23.11",
+      "tracked_versions": [
+        "0.23.11"
+      ],
+      "tags": [
+        "notebook",
+        "reactive",
+        "reproducible"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "html",
+        "base_url": "https://docs.marimo.io",
+        "docs_path": null,
+        "extra_paths": []
+      }
+    },
+    "pyomo": {
+      "id": "pyomo",
+      "name": "Pyomo",
+      "category": "optimization",
+      "language": "python",
+      "repo_url": "https://github.com/Pyomo/pyomo",
+      "docs_url": "https://pyomo.readthedocs.io/",
+      "npm_package": null,
+      "pypi_package": "Pyomo",
+      "latest_version": "6.10.1",
+      "tracked_versions": [
+        "6.10.1"
+      ],
+      "tags": [
+        "optimization",
+        "algebraic-modeling",
+        "linear-programming"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "Pyomo/pyomo",
+        "branch": "main",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
+    },
+    "simpy": {
+      "id": "simpy",
+      "name": "SimPy",
+      "category": "simulation",
+      "language": "python",
+      "repo_url": "https://github.com/simpy/simpy",
+      "docs_url": "https://simpy.readthedocs.io/",
+      "npm_package": null,
+      "pypi_package": "simpy",
+      "latest_version": "4.1.2",
+      "tracked_versions": [
+        "4.1.2"
+      ],
+      "tags": [
+        "discrete-event",
+        "simulation",
+        "logistics"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "simpy/simpy",
+        "branch": "main",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
+    },
+    "awkward": {
+      "id": "awkward",
+      "name": "Awkward Array",
+      "category": "array-computing",
+      "language": "python",
+      "repo_url": "https://github.com/scikit-hep/awkward",
+      "docs_url": "https://awkward-array.org/",
+      "npm_package": null,
+      "pypi_package": "awkward",
+      "latest_version": "2.9.1",
+      "tracked_versions": [
+        "2.9.1"
+      ],
+      "tags": [
+        "arrays",
+        "json",
+        "physics",
+        "hep"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "scikit-hep/awkward",
+        "branch": "main",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
+    },
+    "lonboard": {
+      "id": "lonboard",
+      "name": "Lonboard",
+      "category": "geospatial",
+      "language": "python",
+      "repo_url": "https://github.com/developmentseed/lonboard",
+      "docs_url": "https://developmentseed.org/lonboard/latest/",
+      "npm_package": null,
+      "pypi_package": "lonboard",
+      "latest_version": "0.16.0",
+      "tracked_versions": [
+        "0.16.0"
+      ],
+      "tags": [
+        "geospatial",
+        "gpu",
+        "visualization",
+        "maps"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "html",
+        "base_url": "https://developmentseed.org/lonboard/latest",
+        "docs_path": null,
+        "extra_paths": []
+      }
+    },
+    "quantlib": {
+      "id": "quantlib",
+      "name": "QuantLib-Python",
+      "category": "quantitative-finance",
+      "language": "python",
+      "repo_url": "https://github.com/lballabio/QuantLib",
+      "docs_url": "https://quantlib-python-docs.readthedocs.io/",
+      "npm_package": null,
+      "pypi_package": "QuantLib",
+      "latest_version": "1.42.1",
+      "tracked_versions": [
+        "1.42.1"
+      ],
+      "tags": [
+        "finance",
+        "derivatives",
+        "pricing"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "lballabio/QuantLib",
+        "branch": "main",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
+    },
+    "kfr": {
+      "id": "kfr",
+      "name": "Kfr",
+      "category": "audio-signal",
+      "language": "python",
+      "repo_url": "https://github.com/kfrlib/kfr",
+      "docs_url": "https://kfrlib.com/",
+      "npm_package": null,
+      "pypi_package": null,
+      "latest_version": "6.0.2",
+      "tracked_versions": [
+        "6.0.2"
+      ],
+      "tags": [
+        "dsp",
+        "audio",
+        "cpp",
+        "python"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "kfrlib/kfr",
+        "branch": "main",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
+    },
+    "scanpy": {
+      "id": "scanpy",
+      "name": "Scanpy / AnnData",
+      "category": "bioinformatics",
+      "language": "python",
+      "repo_url": "https://github.com/scverse/scanpy",
+      "docs_url": "https://scanpy.readthedocs.io/",
+      "npm_package": null,
+      "pypi_package": "scanpy",
+      "latest_version": "1.12.1",
+      "tracked_versions": [
+        "1.12.1"
+      ],
+      "tags": [
+        "bioinformatics",
+        "single-cell",
+        "genomics",
+        "rna-seq"
+      ],
+      "node_type": "library",
+      "docs_config": {
+        "type": "github_markdown",
+        "repo": "scverse/scanpy",
+        "branch": "main",
+        "docs_path": "docs",
+        "extra_paths": []
+      }
     }
   }
 }

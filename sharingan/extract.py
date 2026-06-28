@@ -65,6 +65,8 @@ def detect_backend() -> str:
 
     Priority: Anthropic → OpenAI → Ollama → None
     """
+    if os.environ.get("GEMINI_API_KEY"):
+        return "gemini"
     if os.environ.get("ANTHROPIC_API_KEY"):
         return "anthropic"
     if os.environ.get("OPENAI_API_KEY"):
@@ -153,7 +155,7 @@ def _build_extraction_prompt(parsed: ParsedPage) -> str:
     parts = [f"# Documentation Page: {parsed.title}\n"]
 
     if parsed.frontmatter:
-        parts.append(f"Frontmatter: {json.dumps(parsed.frontmatter)}\n")
+        parts.append(f"Frontmatter: {json.dumps(parsed.frontmatter, default=str)}\n")
 
     # Include heading structure
     if parsed.headings:
@@ -211,6 +213,36 @@ async def _call_anthropic(prompt: str, system: str) -> str:
         messages=[{"role": "user", "content": prompt}],
     )
     return message.content[0].text
+
+
+async def _call_gemini(prompt: str, system: str) -> str:
+    """Call Google Gemini API."""
+    try:
+        from google import genai
+        from google.genai import types
+    except ImportError:
+        raise ImportError("Install google-genai: pip install sharingan[google] or pip install google-genai")
+
+    # The client automatically picks up GEMINI_API_KEY from environment
+    client = genai.Client()
+    model = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+
+    # Use generate_content_async if using async, or standard generate_content if we want to run in thread
+    # For now, Google GenAI SDK supports async client or standard client block
+    import asyncio
+    
+    def _run_sync():
+        return client.models.generate_content(
+            model=model,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                system_instruction=system,
+                response_mime_type="application/json",
+            )
+        )
+        
+    response = await asyncio.to_thread(_run_sync)
+    return response.text or "{}"
 
 
 async def _call_openai(prompt: str, system: str) -> str:
@@ -303,7 +335,9 @@ async def call_llm(prompt: str, system: str = SYSTEM_PROMPT, backend: str | None
     if backend is None:
         backend = detect_backend()
 
-    if backend == "anthropic":
+    if backend == "gemini":
+        return await _call_gemini(prompt, system)
+    elif backend == "anthropic":
         return await _call_anthropic(prompt, system)
     elif backend == "openai":
         return await _call_openai(prompt, system)
@@ -311,7 +345,7 @@ async def call_llm(prompt: str, system: str = SYSTEM_PROMPT, backend: str | None
         return await _call_ollama(prompt, system)
     elif backend == "none":
         raise RuntimeError(
-            "No LLM backend available. Set ANTHROPIC_API_KEY, OPENAI_API_KEY, "
+            "No LLM backend available. Set GEMINI_API_KEY, ANTHROPIC_API_KEY, OPENAI_API_KEY, "
             "or start Ollama locally. Pass 2 (semantic extraction) requires an LLM."
         )
     else:

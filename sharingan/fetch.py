@@ -16,6 +16,8 @@ from pathlib import Path
 from typing import Any
 
 import httpx
+from bs4 import BeautifulSoup
+from markdownify import markdownify as md
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn
 
@@ -199,6 +201,128 @@ async def fetch_github_docs(
     return result
 
 
+async def _fetch_html_page(
+    client: httpx.AsyncClient,
+    url: str,
+    semaphore: asyncio.Semaphore,
+) -> FetchedPage | None:
+    """Fetch a single HTML page and convert to Markdown."""
+    async with semaphore:
+        try:
+            resp = await client.get(url, follow_redirects=True)
+            resp.raise_for_status()
+            
+            html_content = resp.text
+            soup = BeautifulSoup(html_content, "lxml")
+            
+            # Remove scripts, styles, and nav elements that pollute markdown
+            for tag in soup(["script", "style", "nav", "header", "footer"]):
+                tag.decompose()
+                
+            # Attempt to find the main content block if possible (MkDocs/Sphinx defaults)
+            main_content = soup.find("main") or soup.find("article") or soup.find(class_="md-content")
+            if not main_content:
+                main_content = soup.body if soup.body else soup
+                
+            # Convert HTML to Markdown
+            markdown_content = md(str(main_content), heading_style="ATX", escape_asterisks=False, escape_underscores=False)
+            
+            # Use URL path as key
+            from urllib.parse import urlparse
+            path = urlparse(url).path.strip("/")
+            key = path if path else "index"
+            if not key.endswith(".md"):
+                key += ".md"
+                
+            return FetchedPage(
+                key=key,
+                content=markdown_content,
+                source_url=url,
+                file_type="html"
+            )
+        except Exception:
+            return None
+
+
+async def fetch_html_docs(source: DocSource) -> FetchResult:
+    """Fetch HTML documentation from a live website.
+    
+    1. Looks for sitemap.xml
+    2. Downloads HTML pages
+    3. Converts to Markdown
+    """
+    result = FetchResult(library_id=source.library_id, version=source.version)
+    
+    if not source.base_url:
+        result.errors.append("No base_url provided for HTML source")
+        return result
+        
+    base_url = source.base_url.rstrip("/")
+    sitemap_url = f"{base_url}/sitemap.xml"
+    
+    with Progress(
+        SpinnerColumn(),
+        TextColumn("[progress.description]{task.description}"),
+        console=console,
+    ) as progress:
+        task = progress.add_task(f"[cyan]Fetching {source.library_name} sitemap...", total=None)
+        
+        async with httpx.AsyncClient(timeout=30.0, follow_redirects=True) as client:
+            try:
+                resp = await client.get(sitemap_url)
+                resp.raise_for_status()
+                
+                soup = BeautifulSoup(resp.text, "xml")
+                urls = []
+                for loc in soup.find_all("loc"):
+                    url = loc.text.strip()
+                    # Only fetch URLs that are actually under the base_url
+                    if url.startswith(base_url):
+                        urls.append(url)
+                        
+                if not urls:
+                    # Fallback to just the base URL if no sitemap entries
+                    urls = [base_url]
+                    
+            except Exception as e:
+                # If sitemap fails, just try the base url
+                urls = [base_url]
+                
+            progress.update(
+                task,
+                description=f"[cyan]Found {len(urls)} URLs in sitemap for {source.library_name}",
+            )
+            
+            # Limit to max 200 pages to avoid overwhelming the site/LLM
+            urls = urls[:200]
+            
+            progress.update(
+                task,
+                description=f"[cyan]Fetching {len(urls)} HTML pages for {source.library_name}...",
+            )
+            
+            semaphore = asyncio.Semaphore(MAX_CONCURRENT)
+            tasks = [
+                _fetch_html_page(client, url, semaphore)
+                for url in urls
+            ]
+            pages = await asyncio.gather(*tasks)
+            
+            for page in pages:
+                if page is not None and len(page.content.strip()) > 50:
+                    result.pages.append(page)
+                    
+            progress.update(
+                task,
+                description=(
+                    f"[green]✓ Fetched {len(result.pages)}/{len(urls)} pages "
+                    f"for {source.library_name}"
+                ),
+            )
+            
+    return result
+
+
 async def fetch_single_file(
     repo: str,
     branch: str,
@@ -229,14 +353,6 @@ async def fetch_docs(source: DocSource) -> FetchResult:
     if source.source_type in ("github_markdown", "github_rst"):
         return await fetch_github_docs(source)
     elif source.source_type == "html":
-        # HTML fetching (for PostgreSQL, etc.) — placeholder for now
-        console.print(
-            f"[yellow]HTML doc fetching not yet implemented for {source.library_name}[/]"
-        )
-        return FetchResult(
-            library_id=source.library_id,
-            version=source.version,
-            errors=["HTML doc fetching not yet implemented"],
-        )
+        return await fetch_html_docs(source)
     else:
         raise ValueError(f"Unknown source type: {source.source_type}")
